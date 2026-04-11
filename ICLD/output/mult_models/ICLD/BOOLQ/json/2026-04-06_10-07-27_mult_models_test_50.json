@@ -1,0 +1,629 @@
+{
+    "finish_date": "2026-04-06_10-07-27",
+    "integrate_models_name": [
+        "Llama3.1-8B-Instruct",
+        "gemma-2-9b-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "BOOLQ",
+    "all_cal_time": 723.3736958503723,
+    "all_correct_num": 43,
+    "all_generated_tokens_num_list": [
+        8247,
+        1688
+    ],
+    "all_ensemble_num": 1688,
+    "models_pred_answer_list": [
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "True",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "False",
+        "False",
+        "True",
+        "False",
+        "True",
+        "False",
+        "False",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "False",
+        "False",
+        "True",
+        "True",
+        "False",
+        "False",
+        "False",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "False",
+        "True",
+        "False"
+    ],
+    "question_correct_answer_list": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+    ],
+    "avg_cal_time": 14.47,
+    "avg_correct_num": 0.86,
+    "avg_generated_tokens_num_list": [
+        164.94,
+        33.76
+    ],
+    "avg_ensemble_num": 33.76,
+    "all_question_response_list": [
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 35,
+            "final_output_text": "Step 1: The show was renewed for a second and final series on 1 March 2 015.\nStep 2: The second and final series is set in 1935 and began airing on 13 March 2016.\nStep 3: Although initially planned by producers for five series, on 25 April 2016 it was announced that the show would not be renewed for a third series due to poor ratings and strong competition in its timeslot.\nStep 4: Based on the information provided, there is no mention of a third series being renewed or produced.\nStep 5: Therefore, the answer to the question is that there is no season 3 of Indian Summers.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                149,
+                35
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 15,
+            "final_output_text": "Step 1:  The question asks if Cal Ripken Jr. is in the Hall of Fame.\nStep 2:  The text states that in 2007, he was elected into the National Baseball Hall of Fame in his first year of eligibility. \nStep 3:  This indicates that he is indeed a member of the Hall of Fame.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                76,
+                15
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 6,
+            "final_output_text": "Cowpeas are known by the common names black-eyed pea, southern pea, yardlong bean, catjang, and crowder pea. This means that black-eyed pea is one of the common names for cowpeas. Therefore, cowpeas and black-eyed peas are the same thing. The answer is True",
+            "every_model_generate_token_num_list": [
+                63,
+                6
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 14,
+            "final_output_text": "The law of sines can be used on any triangle. This is because the law of sines is a general rule that applies to all triangles, regardless of their shape or size. It is a fundamental concept in trigonometry that relates the lengths of the sides of a triangle to the sines of its angles. Therefore, the law of sines can be used on any triangle, whether it is a right triangle, an obtuse triangle, or an acute triangle.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                99,
+                14
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 33,
+            "final_output_text": "Step 1:  The question asks whether an MLB game can end in a tie.\nStep 2:  According to the rules, if the score remains tied at the end of the regulation number of innings, play continues until the visiting team has scored more total runs than the home team at the end of a completed inning, or the home team scores the winning run in an uncompleted inning.\nStep 3:  This means that the game will continue until a winner is determined, either by the visiting team scoring more runs than the home team in a completed inning or by the home team scoring the winning run in an uncompleted inning.\nStep 4:  Therefore, based on the rules, an MLB game cannot end in a tie.\nStep 5:  The answer is False",
+            "every_model_generate_token_num_list": [
+                159,
+                33
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 79,
+            "final_output_text": "Step 1: The United Nations Convention on the Rights of the Child defines child as ``a human being below the age of 1\nStep 2: The age of 18 is the age limit for being a child according to the United Nations Convention on the Rights of the Child.\nStep 3: A 10 year old is below the age of 18.\nStep 4: Therefore, a 10 year old is a child according to the United Nations Convention on the Rights of the Child.\nStep 5: The definition of a child in the United Nations Convention on the Rights of the Child is ratified by 192 of 194 member countries.\nStep 6: Therefore, the definition of a child in the United Nations Convention on the Rights of the Child is widely accepted.\nStep 7: The definition of a child in the United Nations Convention on the Rights of the Child is the most commonly used definition of a child.\nStep 8: Therefore, a 10 year old is generally considered to be a child.\nStep 9: The question asks if a 10 year old is still a child.\nStep 1: The definition of a child in the United Nations Convention on the Rights of the Child is the most commonly used definition of a child.\nStep 2: A 10 year old is below the age of 18.\nStep 3: Therefore, a 10 year old is a child according to the most commonly used definition of a child.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                303,
+                79
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": false,
+            "ensemble_num": 10,
+            "final_output_text": "The king is the most important piece in chess, and it is usually the weakest piece in the game until a later phase, the endgame. However, the king can be captured by an opponent's piece if it is in check and the player cannot remove the threat of capture on the next move. This means that the king can be taken out of the game if it is in check and the player cannot escape the check. Therefore, the statement \"can you take out the king in chess\" is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                106,
+                10
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 219,
+            "final_output_text": "The red panda is the only living species of the genus Ailurus and the family Ailuridae. It has been previously placed in the raccoon and bear families, but the results of phylogenetic analysis provide strong support for its taxonomic classification in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weasel, raccoon and skunk families. Two subspecies are recognized. It is not closely related to the giant panda, which is a basal ursid.\nStep 1: The text states that the red panda is not closely related to the giant panda.\nStep 2: The text also states that the red panda is in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weaasel, raccoon and skunk families.\nStep 3: The text does not mention the red panda being related to the giant panda.\nStep 4: The text does not mention the red panda being in the same family as the giant panda.\nStep 5: The text does not mention the red panda being in the same superfamily as the giant panda.\nStep 6: The text does not mention the red panda being in the same order as the giant panda.\nStep 7: The text does not mention the red panda being in the same class as the giant panda.\nStep 8: The text does not mention the red panda being in the same phylum as the giant panda.\nStep 9: The text does not mention the red panda being in the same kingdom as the giant panda.\nStep 1: The text states that the red panda is not closely related to the giant panda.\nStep 2: The text also states that the red panda is in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weasel, raccoon and skunk families.\nStep 3: The text does not mention the red panda being related to the giant panda.\nStep 4: The text does not mention the red panda being in the same family as the giant panda.\nStep 5: The text does not mention the red panda being in the same superfamily as the giant panda.\nStep 6: The text does not mention the red panda being in the same order as the giant panda.\nStep 7: The text does not mention the red panda being in the same class as the giant panda.\nStep 8: The text does not mention the red panda being in the same phylum as the giant panda.\nStep 9: The text does not mention the red panda being in the same kingdom as the giant panda.\nStep 10: The text does not mention the red panda being in the same domain as the giant panda.\nStep 1: The text states that the red panda is not closely related to the giant panda.\nStep 2: The text also states that the red panda is in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weasel, raccoon and skunk families.\nStep 3: The text does not mention the red panda being related to the giant panda.\nStep 4: The text does not mention the red panda being in the same family as the giant panda.\nStep 5: The text does not mention the red panda being in the same superfamily as the giant panda.\nStep 6: The text does not mention the red panda being in the same order as the giant panda.\nStep 7: The text does not mention the red panda being in the same class as the giant panda.\nStep 8: The text does not mention the red panda being in the same phylum as the giant panda.\nStep 9: The text does not mention the red panda being in the same kingdom as the giant panda.\nStep 1: The text states that the red panda is not closely related to the giant panda.\nStep 2: The text also states that the red panda is in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weasel, raccoon and skunk families.\nStep 3: The text does not mention the red panda being related to the giant panda.\nStep 4: The text does not mention the red panda being in the same family as the giant panda.\nStep 5: The text does not mention the red panda being in the same superfamily as the giant panda.\nStep 6: The text does not mention the red panda being in the same order as the giant panda.\nStep 7: The text does not mention the red panda being in the same class as the giant panda.\nStep 8: The text does not mention the red panda being in the same phylum as the giant panda.\nStep 9: The text does not mention the red panda being in the same kingdom as the giant panda. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                1016,
+                219
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 22,
+            "final_output_text": "Step 1:  The question asks whether you are in the navy if you go to the naval academy.\nStep 2:  The text states that students at the naval academy are addressed as Midshipman, an official military rank and paygrade.\nStep 3:  It also states that midshipmen are actually in the United States Navy, starting from the moment that they raise their hands and affirm the oath of office at the swearing-in ceremony.\nStep 4:  Therefore, if you go to the naval academy, you are in the navy.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                117,
+                22
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 17,
+            "final_output_text": "Step 1:  The passage states that lead crystal glassware was formerly used to store and serve drinks, but due to the potential health risks of lead, this has become rare.\nStep 2:  This implies that the presence of lead in crystal glassware poses a health risk, which is the reason it is no longer commonly used for storing and serving drinks.\nStep 3:  Therefore, it can be concluded that drinking from lead crystal glasses is indeed dangerous due to the potential health risks associated with lead.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                108,
+                17
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 29,
+            "final_output_text": "Step 1: The question asks if there is a season 4 of Crazy Ex-Girlfriend.\nStep 2: The text states that the fourth and final season of Crazy Ex-Girlfriend was renewed on April 2, 2o18.\nStep 3: Since the fourth season was renewed, it means that there is a season 4 of Crazy Ex-Girlfriend.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                83,
+                29
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 18,
+            "final_output_text": "Step 1: The question asks if Lost in Space is based on a book.\nStep 2: The background information provided states that the first appearance of a space-faring Robinson family occurred in a comic book published by Gold Key Comics.\nStep 3: The background information does not mention a book as the source of the Robinson family.\nStep 4: Therefore, the answer to the question is False.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                86,
+                18
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 17,
+            "final_output_text": "Step 1:  The question asks if any NFL player has died on the field.\nStep 2:  The background information states that Charles Frederick \"Chuck\" Hughes was the only NFL player to die on the field during a game.\nStep 3:  Since the background information confirms that an NFL player has died on the field, the answer to the question is affirmative.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                80,
+                17
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 52,
+            "final_output_text": "The success of the song ``White Christmas'' eventually led to another film based on the song, White Christmas (1954), which starred Crosby, Danny Kaye, Rosemary Clooney, and Vera- Ellen. It was an extremely loose remake of Holiday Inn, with a plot again involving an inn, but otherwise different from the earlier film. Fred Astaire was offered the second lead in the new film, but after reading the script, he declined. The role was then offered to Donald O' Connor, but he was injured before filming began. Danny Kaye ultimately took the role.\nStep 1: The passage states that White Christmas (1954) was a remake of Holiday Inn.\nStep 2: A remake is a re-creation of a film, but not a sequel.\nStep 3: A sequel is a new film that continues the story of the original film.\nStep 4: Since White Christmas (1954) is a remake of Holiday Inn, it is not a sequel.\nStep 5: Therefore, the statement \"is white christmas a sequel to holiday inn\" is false.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                227,
+                52
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 41,
+            "final_output_text": "Step 1:  The question asks if it is possible to lose the ability to speak.\nStep 2:  Aphasia is an inability to comprehend and formulate language because of damage to specific brain regions.\nStep 3:  This damage is typically caused by a cerebral vascular accident (stroke), or head trauma; however, these are not the only possible causes.\nStep 4:  To be diagnosed with aphasia, a person's speech or language must be significantly impaired in one (or several) of the four communication modalities following acquired brain injury or have significant decline over a short time period (progressive aphasia).\nStep 5:  The four communication modalities are auditory comprehension, verbal expression, reading and writing, and functional communication.\nStep 6:  Verbal expression is one of the four communication modalities.\nStep 7:  If a person's verbal expression is significantly impaired, they will lose the ability to speak. \nThe answer is True",
+            "every_model_generate_token_num_list": [
+                197,
+                41
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 31,
+            "final_output_text": "Step 1: The question asks if Zendaya is in Spider-Man: Far From Home.\nStep 2: The background information states that the film stars Tom Holland as Peter Parker / Spider-Man, alongside Michael Keaton, Jon Favreau, Zendaya, Marisaisa Tomei, Jake Gyllenhaal, Cobie Smulders, and Samuel L. Jackson.\nStep 3: Since Zendaya is listed as one of the stars of the film, it can be concluded that she is indeed in Spider-Man: Far From Home.\nStep 4: Therefore, the answer to the question is True.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                127,
+                31
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 26,
+            "final_output_text": "Step 1:  The text states that Queen had a number one single in the United States, where it topped the Billboard Hot 1oo for four weeks.\nStep 2:  The text also states that the song \"Crazyrazy Little Thing Called Love\" topped the Australian ARIA Charts for seven consecutive weeks.\nStep 3:  The text does not mention any other number one hits for Queen.\nStep 4:  Therefore, Queen had at least one number one hit.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                102,
+                26
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 59,
+            "final_output_text": "Step 1: The text states that bumblebeeses are relatives of honeybeeses.\nStep 2: The text does not state that honeybees and bumblebeeses are the same.\nStep 3: The text describes the similarities and differences between honeybees and bumblebeeses.\nStep 4: The text does not state that honeybeeses and bumblebees are the same.\nStep 5: The text states that honeybees and bumblebees are different.\nStep 6: The text states that honeybeeses and bumblebees are relatives.\nStep 7: Relatives are not the same.\nStep 8: Therefore, honeybeeses and bumblebeeses are not the same. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                156,
+                59
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 11,
+            "final_output_text": "The text does not explicitly state that commercial aircraft do not fly over the North Pole. However, it does state that Norwegian Air Argentina is considering a trans-polar flight between South America and Asia, with a stop-over in Perth enroute Singapore. This implies that commercial aircraft can fly over the North Pole, but the text does not provide any information about whether they do so on a regular basis. Therefore, the statement that commercial aircraft fly over the North Pole is not necessarily false, but it is also not necessarily true. However, the text does provide information about a flight route that would take advantage of the strong winds circling Antarctica, which implies that commercial aircraft can fly over the South Pole, but not over the North Pole. This suggests that commercial aircraft do not fly over the North Pole. Therefore, the statement that commercial aircraft fly over the North Pole is likely to be false.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                182,
+                11
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 36,
+            "final_output_text": "Step 1: The final episode of the series shows Eric returning to Point Place for the New Year and he and Donna kiss. This suggests that they are reuniting and possibly rekindling their romance.\nStep 2: The fact that they kiss implies a romantic interest between them, which is a positive sign for their relationship.\nStep 3: The series ends with the implication that they end up together again, which suggests a long-term commitment, such as marriage.\nStep 4: However, the text does not explicitly state that they get married, but rather that they end up together again at the end of the series and the end of the 1970s.\nStep 5: Given the implication of a long-term commitment, it is reasonable to infer that they may get married, but the text does not provide explicit confirmation.\nStep 6: Therefore, the answer to the question is not explicitly stated, but based on the implication of a long-term commitment, it is possible to infer that they may get married.\nStep 7: However, since the text does not explicitly state that they get married, the most accurate answer would be False, as it is not explicitly confirmed.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                244,
+                36
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 34,
+            "final_output_text": "Step 1:  The question asks if leeks are in the same family as onions. To answer this, we need to look at the background information provided.\nStep 2:  The background information states that the genus Allium contains the onion, garlic, shallot, scallion, chive, and Chinese onion, in addition to the leek.\nStep 3:  Since the leekek is also part of the genus Allium, it shares a common ancestor with onions and other members of the genus. This means that leeks and onions are in the same family.\nStep 4:  Therefore, the statement that leeks are in the same family as onions is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                145,
+                34
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 9,
+            "final_output_text": "The songs in Mamma Mia! Here We Go Again are all by ABBA, but the film also includes some original songs written by the cast and crew. However, the majority of the songs in the film are by ABBA. Therefore, the statement that all the songs in Mamma Mia! Here We Go Again are by ABBA is not entirely accurate. The answer is False",
+            "every_model_generate_token_num_list": [
+                77,
+                9
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 19,
+            "final_output_text": "Step 1: Identify the company that owns Old Navy and Gap.\nThe company that owns Old Navy and Gap is Gap Inc.\n\nStep 2: Determine if the company that owns Old Navy and Gap is the same company.\nSince Gap Inc. owns both Old Navy and Gap, they are owned by the same company.\n\nStep 3: Determine the answer to the question.\nBased on the information provided, the answer to the question is that Old Navy and Gap are owned by the same company.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                103,
+                19
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 25,
+            "final_output_text": "Step 1:  The question asks if Nigeria has ever won the FIFA World Cup before.\nStep 2:  We know that Nigeria has appeared in the finals of the FIFA World Cup on six occasions.\nStep 3:  However, the information provided does not mention Nigeria winning the FIFA World Cup on any of those occasions.\nStep 4:  Therefore, based on the given information, we can conclude that Nigeria has not won the FIFA World Cup before.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                98,
+                25
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 29,
+            "final_output_text": "Step 1:  The question asks if all the members of Fleetwood Mac are still alive. To answer this, we need to consider the information provided about the deaths of former members of the band.\nStep 2:  The information states that Bob Brunning, Bob Weston, and Bob Welch, all former members of Fleetwood Mac, have passed away. This indicates that not all members of the band are still alive.\nStep 3:  The question does not specify which members of Fleetwood Mac are being referred to, but the information provided clearly states that some former members have died.\nStep 4:  Therefore, based on the information provided, the answer to the question is that not all members of Fleetwood Mac are still alive.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                155,
+                29
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 21,
+            "final_output_text": "Step 1: The question asks if there is a season 5 of Arrested Development.\nStep 2: The background information states that the fifth season of the television comedy series Arrested Development premiered on Netflix on May 29, 2o18.\nStep 3: Since the background information confirms the existence of a season 5, the answer to the question is affirmative.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                82,
+                21
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 16,
+            "final_output_text": "Step 1: The question asks if a person can have both male and female organs.\nStep 2: The background information states that some humans were historically termed true herma- phrodites if their gonadal tissue contained both testicular and ovarian tissue.\nStep 3: This indicates that it is possible for a person to have both male and female organs.\nStep 4: Therefore, the answer to the question is that a person can have both male and female organs.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                100,
+                16
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 6,
+            "final_output_text": "The question asks if there are any Montgomery Ward stores still open. The background information states that DMSI applied the brand to a new online and catalog-based retailing operation, with no physical stores, headquartered in Cedar Rapids, Iowa. This implies that the new Montgomery Ward operation is a catalog-based operation with no physical stores. Therefore, it is unlikely that there are any Montgomery Ward stores still open. The background information does not mention any physical stores still in operation. The answer is False",
+            "every_model_generate_token_num_list": [
+                97,
+                6
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 11,
+            "final_output_text": "Step 1: The passage states that India is the only neighbour of Sri Lanka, separated by the Palk Strait.\nStep 2: This implies that Sri Lanka is indeed a neighbouring country of India.\nStep 3: Therefore, the statement is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                56,
+                11
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 34,
+            "final_output_text": "Step 1:  The question asks whether precipitation and chance of rain are the same.\nStep 2:  The definition of precipitation is the occurrence of water in the form of rain, snow, sleets, or hail.\nStep 3:  The definition of chance of rain is the probability of precipitation occurring.\nStep 4:  Since precipitation is the occurrence of water in the form of rain, snow, sleets, or hail, and chance of rain is the probability of precipitation occurring, they are not the same.\nStep 5:  Therefore, the statement that precipitation and chance of rain are the same is false.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                132,
+                34
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 30,
+            "final_output_text": "Step 1: Philip Pullman made a statement about the possibility of sequels to The Golden Compass.\nStep 2: He stated that due to the disappointing sales in the United States, there would not be any sequels made.\nStep 3: This statement was made in 2011.\nStep 4: Since then, there have been no sequels made.\nStep 5: Therefore, based on Philip Pullman's statement, there will not be any more Golden Compass movies.\nStep 6: This means that the statement \"is there going to be another Golden Compass movie\" is False.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                126,
+                30
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 46,
+            "final_output_text": "The ninth and final season of One Tree Hill, an American television series created by Mark Schwahn for The WB Television Network. The series was officially renewed by The CW for a ninth season on May 1, 2, 2011; two days later, the network announced that the ninth season would serve as the series' final season. Premiering on January 11, 20, 12, the series aired its 13 episodes uninterrupted.\nStep 1: The ninth season of One Tree Hill was officially renewed by The CW for a ninth season on May 17, 2011.\nStep 2: The CW announced that the ninth season would serve as the series' final season.\nStep 3: The ninth season of One Tree Hill premiered on January 11, 2012, and aired its 13 episodes uninterrupted.\nStep 4: Since the ninth season was the final season, there will not be a season 10.\nStep 5: Therefore, the answer to the question \"will one tree hill return for season 1,0\" is False.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                225,
+                46
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 29,
+            "final_output_text": "Step 1:  The text describes the different types of chewy tidbits that can be found in bubble tea, including tapioca balls, green pearls, jelly, azuki bean or mung bean paste, aloeloe, egg pudding, and sago.\nStep 2:  The text specifically mentions that the tapioca balls are usually black due to the brown sugar mixed in with the tapioca.\nStep 3:  This implies that the black things in bubble tea are likely tapioca balls, which are edible.\nStep 4:  Therefore, it can be concluded that the black things in bubble tea are edible.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                131,
+                29
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 4,
+            "final_output_text": "The question asks whether there is a chip in the Apple Lightning cable. The text states that \"Official Lightning connectors contain an authentication chip.\" This means that the chip is indeed present in the official Apple Lightning cable. Therefore, the statement is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                53,
+                4
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 34,
+            "final_output_text": "Step 1: The question asks if Deep Blue Sea 2 came out in theaters.\nStep 2: The text states that Deep Blue Sea 2 was released the same week on VOD, implying that it was not released in theaters.\nStep 3: The text also states that Deep Blue Sea 2 debuted at #10 on the Microsoft Store VOD chart, which further supports the idea that it was not released in theaters. \nStep 4: The text also states that the only other non-theatrical release to appear in the top 1o of any VOD chart for the months of April and May 2o18 was Deep Blue Sea 2, which further supports the idea that it was not released in theaters.\nStep 5: Therefore, the answer to the question is that Deep Blue Sea 2 did not come out in theaters.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                179,
+                34
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 12,
+            "final_output_text": "The question asks if all World Cup matches were played in Russia. To answer this, we need to look at the information provided in the background. The background states that the 2018 FIFA World Cup was held in Russia, but it does not say that all World Cup matches were played in Russia. In fact, it mentions that it was the first World Cup to be held in Eastern Europe, implying that previous World Cups were held in other locations. Therefore, we can conclude that not all World Cup matches were played in Russia.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                110,
+                12
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 125,
+            "final_output_text": "Step 1: The text states that Salt Lake City is the capital and the most populous municipality of the U.S. state of Utah.\nStep 2: The text also states that Salt Lake City has an estimated population of 190,884 in 2,014.\nStep 3: The text also states that the Salt Lake City metropolitan area has a population of 1,153,340 (2014 estimate).\nStep 4: The text also states that the Salt Lake City--Ogden--Provo Combined Statistical Area has a population of 2,423,912 as of 2,014.\nStep 5: The text does not state that Salt Lake City is the biggest city in Utah.\nStep 6: The text only states that Salt Lake City is the most populous municipality in Utah.\nStep 7: The most populous municipality is not necessarily the biggest city.\nStep 8: The biggest city is the city with the largest land area.\nStep 9: The text does not provide information about the land area of Salt Lake City.\nStep 1: The text states that Salt Lake City is the capital and the most populous municipality of the U.S. state of Utah.\nStep 2: The text also states that Salt Lake City has an estimated population of 190,884 in 2,014. \nStep 3: The text also states that the Salt Lake City metropolitan area has a population of 1,153,3,4,0 (2014 estimate).\nStep 4: The text also states that the Salt Lake City--Ogden--Provo Combined Statistical Area has a population of 2,423,912 as of 2,014.\nStep 5: The text does not state that Salt Lake City is the biggest city in Utah.\nStep 6: The text only states that Salt Lake City is the most populous municipality in Utah.\nStep 7: The most populous municipality is not necessarily the biggest city.\nStep 8: The biggest city is the city with the largest land area.\nStep 9: The text does not provide information about the land area of Salt Lake City.\nStep 10: Therefore, the text does not support the statement that Salt Lake City is the biggest city in Utah.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                465,
+                125
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 47,
+            "final_output_text": "Step 1:  The question asks whether carbon can form polar covalent bonds with hydrogen. To answer this, we need to consider the properties of carbon and hydrogen atoms and their ability to form covalent bonds.\nStep 2:  Carbon has an electronegativity value of 2.55, while hydrogen has an electronegativity value of 2.2. The difference in electronegativity between these two atoms is 0.35.\nStep 3:  According to Pauling's scale, a difference in electronegativity of 0.4 or more is generally considered to indicate a polar covalentvalent bond. Since the difference between carbon and hydrogen is less than 0.4, we can conclude that the C--H bond is generally regarded as being non-polar.\nStep 4:  Therefore, based on the electronegativity difference between carbon and hydrogen, it is not possible for carbon to form polar covalent bonds with hydrogen.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                207,
+                47
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 14,
+            "final_output_text": "The song \"What a Wonderful World\" is not in the public domain because it is still under copyright. The publishing for this song is controlled by Memory Lane Music Group, Carlin Music Corp. and BMG Rights Management, which means that the song's creators, Bob Thiele and George David Weiss, or their heirs, still retain the rights to the song. Therefore, the song is not in the public domain.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                88,
+                14
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 36,
+            "final_output_text": "Step 1:  The text states that most people no longer break in the engines of their own vehicles after purchasing a car or motorcycle, because the process is done in production.\nStep 2:  This implies that breaking in a new car engine is not necessary.\nStep 3:  The text also mentions that the owner's manual may recommend gentle use at first, but this is not the same as breaking in the engine.\nStep 4:  Breaking in an engine is a specific process that involves driving the engine under certain conditions to ensure proper wear and tear.\nStep 5:  Since most people no longer break in their engines, it can be inferred that it is not necessary to break in a new car engine.\nStep 6:  Therefore, the statement \"do you have to break in new car engines\" is false.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                174,
+                36
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 35,
+            "final_output_text": "Step 1:  The question asks if King Louie died in the 2016 version of The Jungle Book.\nStep 2:  To answer this, we need to consider the events of the movie and the information provided in the background. \nStep 3:  The background mentions that during the credits, Louie is shown emerging from the rubble and performing \"I Wan'na Be like You\" with slightly modified lyrics.\nStep 4:  This implies that King Louie survived the events of the movie and is still alive at the end.\nStep 5:  Therefore, the statement that King Louie died in the 2016 version of The Jungle Book is false.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                144,
+                35
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 33,
+            "final_output_text": "Step 1: The question asks if Fear the Walking Dead is different than The Walking Dead. \nStep 2: The background information states that Fear the Walking Dead is a companion series and prequel to The Walking Dead. \nStep 3: A companion series is a series that is related to another series, but is not the same as the original series. \nStep 4: A prequel is a series that takes place before the events of the original series. \nStep 5: Since Fear the Walking Dead is a companion series and prequel to The Walking Dead, it is different from The Walking Dead. \n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                130,
+                33
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 17,
+            "final_output_text": "Step 1:  The question asks whether quartz cuvettes can be used in the visible range.\nStep 2:  According to the background information, glass, plastic, and quartz cuvettes are all suitable for measurements made at longer wavelengths, such as in the visible light range.\nStep 3:  This means that quartz cuvettes can indeed be used in the visible range.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                84,
+                17
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 39,
+            "final_output_text": "Step 1:  Diffraction is a phenomenon that occurs when a wave encounters an obstacle or a slit.\nStep 2:  Diffraction is exhibited when a wave encounters an obstacle or a slit that is comparable in size to its wavelength.\nStep 3:  Sound waves are a type of wave.\nStep 4:  Sound waves have a wavelength.\nStep 5:  Therefore, sound waves can encounter an obstacle or a slit that is comparable in size to their wavelength.\nStep 6:  Therefore, diffraction can occur with sound waves.\nStep 7:  Therefore, a diffraction effect is seen in sound waves.\nStep 8:  Therefore, the statement is True.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                146,
+                39
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 68,
+            "final_output_text": "The Supremacy Clause of the United States Constitution (Article VI, Clause 2) establishes that the Constitution, federal laws made pursuant to it, and treaties made under its authority, constitute the supreme law of the land. It provides that state courts are bound by the supreme law; in case of conflict between federal and state law, the federal law must be applied. Even state constitutions are subordinate to federal law. In essence, it is a conflict-of- laws rule specifying that certain federal acts take priority over any state acts that conflict with federal law. In this respect, the Supremacy Clause follows the lead of Article XIII of the Articles of Confederation, which provided that ``Every State shall abide by the determination of the United States in Congress Assembled, on all questions which by this confederation are submitted to them.'' A constitutional provision announcing the supremacy of federal law, the Supremacy Clause assumes the underlying priority of federal authority, at least when that authority is expressed in the Constitution itself. No matter what the federal government or the states might wish to do, they have to stay within the boundaries of the Constitution. This makes the Supremacy Clause the cornerstone of the whole American political structure.\n\nStep 1: The Supremacy Clause establishes that the Constitution, federal laws, and treaties are the supreme law of the land.\nStep 2: The Supremacy Clause provides that state courts are bound by the supreme law and that federal law must be applied in case of conflict between federal and state law.\nStep 3: The Supremacy Clause also states that even state constitutions are subordinate to federal law.\nStep 4: Therefore, a state constitution cannot override the US Constitution.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                347,
+                68
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 44,
+            "final_output_text": "Step 1:  The question asks whether a school can be both Division 1 and Division 2. To answer this, we need to consider the NCAA's rules regarding division classification.\nStep 2:  According to the NCAA, schools in Divisions II and III are allowed to classify one men's sport and one women's sport as Division I, provided that they were sponsoring those sports at Division I level prior to 2 011. This means that a school can have some sports classified as Division 1 and others as Division 2.\nStep 3:  Additionally, a lower-division school may compete as a Division I member in a given sport if the NCAA does not sponsor a championship in that sport for the school's own division. This further supports the idea that a school can have some sports classified as Division 1 and others as Division 2.\nStep 4:  Therefore, based on the NCAA's rules, it is possible for a school to be both Division 1 and Division 2, depending on the specific sports they offer and the NCAA's classification rules.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                225,
+                44
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 54,
+            "final_output_text": "Step 1:  The question asks whether a prince is the same as a duke. To answer this, we need to understand the different titles and their usage within the British royal family.\nStep 2:  According to the information provided, a British prince does not use a surname for everyday purposes. Instead, he is styled with a title such as \"Prince William of Wales\" for formal and ceremonial purposes.\nStep 3:  The key point here is that the title \"prince\" is used in conjunction with a territorial designation, such as \"of Wales.\" This is a specific way of addressing a member of the royal family, particularly the children of the Prince of Wales.\nStep 4:  On the other hand, a duke is a peerage title that is given to a member of the royal family or a noble. When a man is given a dukeness, he discards his territorial designation, such as \"of Wales.\"\nStep 5:  Therefore, based on the information provided, a prince and a duke are not the same. A prince is a title used in a specific context, while a duke is a peerage title that comes with its own set of rules and designations.\nStep 6:  In conclusion, the two titles are distinct and have different meanings within the British royal family.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                273,
+                54
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 27,
+            "final_output_text": "Step 1: The text states that the aircraft was nicknamed the Spruce Goose, although it was made almost entirely of birch.\nStep 2: The text also states that the aircraft was built from wood because of wartime restrictions on the use of aluminum and concerns about weight.\nStep 3: The text does not state that the aircraft was made entirely of wood, but rather that it was made almost entirely of birch.\nStep 4: The text does state that the aircraft was nicknamed the Spruce Goose, which implies that it was made of wood, but this is a nickname and not the actual material used.\nStep 5: Based on the information provided, the aircraft was not made entirely of wood, but rather almost entirely of birch.\nStep 6: Therefore, the statement that the Spruce Goose was made out of wood is not entirely accurate.\nStep 7: The answer is False",
+            "every_model_generate_token_num_list": [
+                183,
+                27
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 9,
+            "final_output_text": "The question is asking whether it is possible to make silk without killing the worm. The background information provides a specific example of a person, Kusuma Rajaiah, who has successfully implemented a method of making silk without killing the silkworm. This method involves letting the worms hatch and then using the cocoons once vacant. This indicates that it is indeed possible to make silk without killing the worm. Therefore, the answer to the question is that it is possible to make silk without killing the worm, which is a positive affirmation. Hence, the answer is True",
+            "every_model_generate_token_num_list": [
+                113,
+                9
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 11,
+            "final_output_text": "The Waterloo & City line is described as a line that runs between Waterloo and Bank with no intermediate stops. This is a fact that is not relevant to the question of whether the line runs on a Sunday. The line's primary traffic consists of commuters from south-west London, Surrey and Hampshire arriving at Waterloo main line station and travelling forward to the City of London financial district. This is also a fact that is not relevant to the question of whether the line runs on a Sunday. The line does not normally operate on Sundays. This is the relevant fact that answers the question. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                119,
+                11
+            ]
+        }
+    ]
+}

@@ -1,0 +1,630 @@
+{
+    "finish_date": "2026-03-28_16-15-09",
+    "integrate_models_name": [
+        "gemma-2-9b-it_multilingual",
+        "gemma-2-9b-it_math",
+        "gemma-2-9b-it_coding"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MULTILINGUAL",
+    "all_cal_time": 637.7976353168488,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        5582,
+        1127,
+        1127
+    ],
+    "models_pred_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "question_correct_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "avg_cal_time": 12.76,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        111.64,
+        22.54,
+        22.54
+    ],
+    "all_question_response_list": [
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The text is about the life and adventures of a Chilean revolutionary. He participated in the revolutions of 1851 and 1859, fighting on the rebel side. He was captured in both instances. After being confined to Magallanes for the last revolution, he led a rebellion on the ship \"Olga\" and sailed to Peru. An amnesty allowed him to return to Chile in 1862, where he participated in the war against Spain as a volunteer on the ship \"Dart\".",
+            "every_model_generate_token_num_list": [
+                104,
+                22,
+                22
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El artículo trata sobre la posible extensión de la vacuna contra el VPH a los niños de 12 a 13 años. Actualmente, la vacuna se ofrece a las niñas de 12 y 13 años para prevenir el cáncer de cuello uterino, pero se cree que el virus del papiloma humano (VPH) causa el 5 por ciento de todos los cánceres en todo el mundo, incluidos los que afectan a 2.000 hombres al año. Los expertos están considerando si también se debe ofrecer la vacuna a los niños para ayudar a prevenir estos cánceres. Los activistas argumentan que esto salvaría vidas, evitaría sufrimiento innecesario y ahorraría al NHS millones de libras en costos de tratamiento. La vacuna se ofrecería de forma voluntaria en las escuelas y costaría al servicio de salud hasta 22 millones de libras anuales. El VPH se transmite por contacto sexual y causa cáncer de cuello uterino en las mujeres, así como cáncer de garganta, ano y pene. Se espera que los expertos del Comité Conjunto de Vacunación e Inmunización tomen una decisión final el próximo mes.",
+            "every_model_generate_token_num_list": [
+                233,
+                38,
+                38
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "ADN est l’abréviation de \"acide désoxyribonucléique\".<eos>",
+            "every_model_generate_token_num_list": [
+                20,
+                3,
+                3
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Avantages:\n1. Durabilité: Les énergies renouvelables, comme l'énergie solaire et éolienne, sont des sources d'énergie qui se renouvellent naturellement et ne s'épuisent pas.\n2. Réduction des émissions de gaz à effet de serre: Les énergies renouvelables produisent peu ou pas de gaz à effet de serre, ce qui contribue à la lutte contre le changement climatique.\n3. Diversification de l'approvisionnement énergétique: L'utilisation d'énergies renouvelables permet de diversifier les sources d'énergie et de réduire la dépendance aux combustibles fossiles.\n4. Création d'emplois: Le secteur des énergies renouvelables crée des emplois dans la fabrication, l'installation et la maintenance des équipements.\n\nInconvénients:\n1. Intermittence: Certaines énergies renouvelables, comme l'énergie solaire et éolienne, sont intermittentes et dépendent des conditions météorologiques.\n2. Coûts initiaux élevés: L'installation de systèmes d'énergies renouvelables peut nécessiter des investissements initiaux importants.\n3. Emprise au sol: Certaines technologies, comme les panneaux solaires, nécessitent de grandes surfaces au sol.\n4. Impact sur les écosystèmes: L'implantation de certaines technologies, comme les éoliennes, peut avoir un impact sur les écosystèmes locaux.",
+            "every_model_generate_token_num_list": [
+                289,
+                36,
+                36
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Oui, les deux phrases expriment le même sens.",
+            "every_model_generate_token_num_list": [
+                12,
+                1,
+                1
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "No, estas oraciones no se parafrasean entre sí. ",
+            "every_model_generate_token_num_list": [
+                14,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "... donde gracias a su valentía y destreza militar, logró destacarse y obtener el grado de coronel.",
+            "every_model_generate_token_num_list": [
+                23,
+                13,
+                13
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La categoría corresponde a videojuegos. ",
+            "every_model_generate_token_num_list": [
+                8,
+                0,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Campeonato Mundial de Esquí Acrobático de 1986, en la prueba de acrobacias.",
+            "every_model_generate_token_num_list": [
+                23,
+                1,
+                1
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Zuerst, fülle den 5-Liter-Kanister vollständig.\n2. Dann, gieße Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n3. Danach, gieße das Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister zurück.\n4. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n5. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n6. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n7. Jetzt, fülle den 5-Liter-Kanister erneut vollständig.\n8. Gieße Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n9. Danach, gieße das Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister zurück.\n10. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n11. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n12. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n13. Jetzt, fülle den 5-Liter-Kanister erneut vollständig.\n14. Gieße Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n15. Danach, gieße das Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister zurück.\n16. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n17. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n18. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n19. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n20. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n21. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n22. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n23. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n24. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n25. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n26. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n27. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n28. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n29. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n30. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n31. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n32. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n33. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n34. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n35. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n36. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister zurück.\n37. Jetzt, fülle den 3-Liter-Kanister erneut vollständig.\n38. Gieße Wasser aus dem 3-Liter-Kanister in den 5-Liter-Kanister, bis dieser voll ist.\n39. Danach, gieße das Wasser aus dem 5-Liter-Kanister in den ",
+            "every_model_generate_token_num_list": [
+                1024,
+                34,
+                34
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El stalemate o punto muerto es una situación en el ajedrez en la que el jugador que está en turno no está en jaque y no tiene ningún movimiento legal. Esto resulta en un empate.",
+            "every_model_generate_token_num_list": [
+                39,
+                8,
+                8
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The miniseries covers the rise to power of Napoleon, from his humble beginnings to his imperial reign. It depicts his military campaigns, both triumphant and disastrous, from the Battle of Arcole in 1796 to the final defeat at Waterloo in 1815. The series also explores Napoleon's personal life, his relationships with his family and his lovers, and the political intrigues of the time.\n\nThe miniseries is a lavish production, with stunning costumes, sets, and special effects. It is a visual feast that brings the Napoleonic era to life. The performances are also excellent, with each actor portraying their character with depth and nuance.\n\nThe miniseries is a must-see for anyone interested in history, particularly the Napoleonic era. It is a comprehensive and engaging portrayal of one of the most fascinating figures in history.",
+            "every_model_generate_token_num_list": [
+                170,
+                53,
+                53
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Manque de mise en forme : un CV mal formaté est difficile à lire et peut donner une mauvaise impression.\n2. Manque de personnalisation : un CV générique ne se démarque pas et ne montre pas que le demandeur est intéressé par le poste.\n3. Trop de détails : un CV trop long peut être ennuyeux et ne pas mettre en valeur les compétences les plus pertinentes.\n4. Erreurs grammaticales et orthographiques : des erreurs de grammaire et d’orthographe peuvent donner une mauvaise impression et montrer un manque d’attention aux détails.\n5. Absence de mots-clés : un CV sans mots-clés pertinents peut ne pas être remarqué par les systèmes de suivi des candidatures.\n6. Manque de mise en avant des compétences clés : un CV qui ne met pas en avant les compétences clés peut ne pas être remarqué par les recruteurs.\n7. Absence de lien vers le portfolio : un portfolio peut montrer les compétences et les réalisations du demandeur d’emploi, mais il est souvent oublié.\n8. Absence de lettre de motivation : une lettre de motivation personnalisée peut montrer l’intérêt du demandeur pour le poste et l’entreprise.\n9. Manque de suivi : après avoir envoyé le CV, il est important de faire un suivi pour montrer l’intérêt du demandeur pour le poste.\n10. Ne pas adapter le CV à chaque poste : un CV qui n’est pas adapté à chaque poste peut ne pas mettre en valeur les compétences les plus pertinentes.",
+            "every_model_generate_token_num_list": [
+                321,
+                91,
+                91
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El planeta más grande del sistema solar es Júpiter.",
+            "every_model_generate_token_num_list": [
+                13,
+                0,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Quién fue el primer presidente de los Estados Unidos? George Washington fue el primer presidente de los Estados Unidos.",
+            "every_model_generate_token_num_list": [
+                23,
+                5,
+                5
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The story of \"The Blue Bird\" is a classic tale written by Maurice Maeterlinck in 1908. It tells the story of two children, Mytyl and Tyltyl, who are given the task of finding the legendary Blue Bird, which is said to bring happiness to those who possess it.\n\nTheir journey takes them through various fantastical lands and encounters with magical creatures, including the Cat-King, the Fairy of the Snows, and the Princess of the Moon. Along the way, they learn valuable lessons about love, friendship, and the importance of cherishing the simple things in life.\n\nThe Blue Bird itself is a symbol of hope and happiness, and its elusive nature represents the challenges and rewards of pursuing one's dreams. The story of \"The Blue Bird\" has been adapted into numerous plays, films, and ballets, and its themes continue to resonate with audiences of all ages.",
+            "every_model_generate_token_num_list": [
+                188,
+                52,
+                52
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El tercer sol en la mitología azteca fue Chalchiuhtlicue.<eos>",
+            "every_model_generate_token_num_list": [
+                18,
+                3,
+                3
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál es la canción más larga en el álbum Off The Wall de Michael Jackson? Don't Stop 'Til You Get Enough. ",
+            "every_model_generate_token_num_list": [
+                29,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The project was chosen over the other candidate, a joint bid from the cities of Stockholm and Åre in Sweden.",
+            "every_model_generate_token_num_list": [
+                24,
+                14,
+                14
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La primera estación de tren de Reading se abrió el 1 de septiembre de 1840.",
+            "every_model_generate_token_num_list": [
+                22,
+                7,
+                7
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El tema principal de esta pregunta es sobre películas.<eos>",
+            "every_model_generate_token_num_list": [
+                11,
+                3,
+                3
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "TGIF - это аббревиатура, которая расшифровывается как \"Thank God It's Friday\" (рус. \"Спасибо Богу, что настал пятница\"). ",
+            "every_model_generate_token_num_list": [
+                38,
+                5,
+                5
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The instrument used to measure the speed of the wind is called an anemometer.",
+            "every_model_generate_token_num_list": [
+                18,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Yue Minjun, né en 1962, est un artiste contemporain chinois. Il est connu pour ses peintures et sculptures qui explorent les thèmes de la société de masse, de la culture populaire et de l'identité nationale. Son style distinctif est caractérisé par des couleurs vives et des formes simplifiées, souvent représentant des scènes de la vie quotidienne.\n\nYue Minjun est né à Tianjin, en Chine, en 1962. Il a étudié la peinture à l'Académie des beaux-arts de Tianjin, où il a obtenu son diplôme en 1985. Après avoir obtenu son diplôme, il a travaillé comme enseignant à l'Académie des beaux-arts de Tianjin, tout en poursuivant sa carrière d'artiste.\n\nL'œuvre de Yue Minjun a été exposée dans le monde entier, notamment au Musée d'art moderne de New York, au Centre national d'art de Washington, D.C., et au Musée d'art de Shanghai. Il a également participé à des expositions collectives importantes, telles que la Biennale de Venise en 2003 et la Triennale de Milan en 2003.\n\nL'une des séries les plus célèbres de Yue Minjun est « The Big Head Series ». Cette série de peintures représente des portraits de personnes avec de grandes têtes et des corps minuscules. Les portraits sont souvent peints avec des expressions faciales neutres ou légèrement souriantes, ce qui contribue à l'exploration de Yue Minjun sur l'identité nationale et la société de masse.\n\nLes œuvres de Yue Minjun sont caractérisées par des couleurs vives et des formes simplifiées. Il utilise souvent des couleurs vives et des formes géométriques pour créer des compositions dynamiques et accrocheuses. Ses peintures et sculptures explorent les thèmes de la société de masse, de la culture populaire et de l'identité nationale, remettant en question les normes et les attentes sociales.\n\nYue Minjun est un artiste contemporain chinois influent qui a contribué de manière significative à la scène artistique internationale. Son exploration des thèmes de la société de masse, de la culture populaire et de l'identité nationale, ainsi que son style distinctif, ont fait de lui une figure importante dans l'art contemporain.",
+            "every_model_generate_token_num_list": [
+                466,
+                133,
+                133
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "\"¿Cuándo fue sometida a los estados para su ratificación la 27a enmienda a la Constitución de los Estados Unidos?\"",
+            "every_model_generate_token_num_list": [
+                29,
+                5,
+                5
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál fue el primer juego de rol de acción en 3D?\n\nThe Legend of Zelda: Ocarina of Time fue el primer juego de rol de acción en 3D.",
+            "every_model_generate_token_num_list": [
+                39,
+                10,
+                10
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Ganache ist eine französische Süßspeise, die aus Schokolade und Sahne besteht.",
+            "every_model_generate_token_num_list": [
+                18,
+                4,
+                4
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La categoría de esta pregunta es \"Deportes\"<eos>",
+            "every_model_generate_token_num_list": [
+                10,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La cultura cristiano occidental es tan relevante en nuestros tiempos porque ha influenciado profundamente la historia, la política, la economía, la filosofía, la literatura, el arte y la moral de Occidente. Sus valores, creencias y tradiciones se han transmitido a través de las generaciones y siguen siendo relevantes en la actualidad.",
+            "every_model_generate_token_num_list": [
+                62,
+                26,
+                26
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Второй мировой войны, в 1943 году, в битве на Курской дуге, советские войска разгромили немецкие войска, остановив их наступление на Москву.",
+            "every_model_generate_token_num_list": [
+                40,
+                9,
+                9
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El océano más grande es el océano Pacífico.",
+            "every_model_generate_token_num_list": [
+                10,
+                0,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The most important event in the text was the 2011-12 season. During this season, Reja led the SS Lazio to qualify for the UEFA Europa League. ",
+            "every_model_generate_token_num_list": [
+                39,
+                6,
+                6
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La persona de más edad que ha ganado un premio Grammy es la cantante y compositora estadounidense Ella Fitzgerald. Ella Fitzgerald ganó su primer Grammy en 1959 y su último Grammy en 1968. Ella Fitzgerald fue una de las cantantes de jazz más importantes del siglo XX.<eos>",
+            "every_model_generate_token_num_list": [
+                60,
+                18,
+                18
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The modern political landscape is characterized by several key trends and challenges.\n\n1. Globalization and Interconnectedness: The world is becoming increasingly interconnected, with global issues such as climate change, pandemics, and economic interdependence requiring international cooperation.\n\n2. Rise of Populism and Nationalism: In many countries, there has been a rise in populist and nationalist sentiments, often fueled by economic anxieties and cultural concerns.\n\n3. Technological Disruption: Rapid technological advancements, particularly in areas like artificial intelligence and data analytics, are transforming political campaigns, communication, and governance.\n\n4. Social and Cultural Change: Shifting demographics, evolving social norms, and increasing diversity are posing new challenges and opportunities for political leaders.\n\n5. Environmental Concerns: Climate change and environmental degradation are becoming increasingly pressing issues, demanding urgent political action.\n\n6. Cybersecurity Threats: The digital realm is increasingly vulnerable to cyberattacks and misinformation, posing a threat to democratic processes and national security.\n\n7. Economic Inequality: The gap between the rich and poor is widening in many countries, leading to social unrest and political instability.\n\n8. Political Polarization: In many countries, political discourse has become increasingly polarized, making it difficult to find common ground and solve complex problems.\n\n9. Erosion of Trust in Institutions: Public trust in government and other institutions has declined in recent years, leading to a sense of disillusionment and cynicism.\n\n10. The Future of Democracy: The rise of authoritarianism and the spread of misinformation are posing a challenge to democratic values and institutions.\n\nThese trends and challenges require political leaders to adapt and find innovative solutions to address the complex issues facing the world today.",
+            "every_model_generate_token_num_list": [
+                332,
+                84,
+                84
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál es la película más taquillera de todos los tiempos?\n\nLa película más taquillera de todos los tiempos es \"Avatar\" (2009), dirigida por James Cameron.<eos>",
+            "every_model_generate_token_num_list": [
+                41,
+                11,
+                11
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "\"¿Dónde está la UWA en el ranking mundial de universidades?\"",
+            "every_model_generate_token_num_list": [
+                14,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Capitulación del gobierno nazi en 1945.",
+            "every_model_generate_token_num_list": [
+                14,
+                0,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Le phénomène de l'effet de serre est causé par l'accumulation de gaz à effet de serre dans l'atmosphère, principalement en raison des activités humaines. Les principaux gaz à effet de serre sont le dioxyde de carbone (CO2), le méthane (CH4) et l'oxyde nitreux (N2O). Ces gaz piégeant la chaleur du soleil, ils provoquent le réchauffement de la planète.\n\nLes conséquences du changement climatique sont multiples et graves, notamment la fonte des glaciers, la montée du niveau de la mer, les événements climatiques extrêmes, la perte de biodiversité et les impacts sur les écosystèmes.\n\nPour atténuer ces problèmes, des mesures doivent être prises pour réduire les émissions de gaz à effet de serre, notamment en adoptant des sources d'énergie renouvelables, en améliorant l'efficacité énergétique, en protégeant les forêts et en promouvant des modes de transport durables.\n\nDe plus, des mesures d'adaptation sont nécessaires pour faire face aux impacts du changement climatique, notamment en renforçant les infrastructures, en développant des systèmes d'alerte précoce et en promouvant la résilience des communautés.\n\nLa coopération internationale est essentielle pour lutter contre le changement climatique, car il s'agit d'un problème global qui nécessite des efforts conjoints. Les accords internationaux, tels que l'Accord de Paris, visent à limiter le réchauffement climatique en dessous de 2 degrés Celsius par rapport aux niveaux préindustriels.\n\nEn conclusion, le phénomène de l'effet de serre et le changement climatique sont des problèmes majeurs qui menacent la planète. Des mesures urgentes et coordonnées sont nécessaires pour atténuer ces problèmes et assurer un avenir durable.",
+            "every_model_generate_token_num_list": [
+                361,
+                62,
+                62
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El algoritmo de bubble sort, también conocido como \"burbuja\" o \"ordenamiento por burbuja\", es un algoritmo de ordenamiento simple que funciona comparando adyacentes elementos de una lista y \"burbujeando\" los elementos más grandes hacia el final de la lista.\n\nEl algoritmo de bubble sort funciona de la siguiente manera:\n\n1. Compara los primeros dos elementos de la lista. Si el primer elemento es mayor que el segundo, los intercambia.\n\n2. Compara el segundo elemento con el tercero, y así sucesivamente, hasta llegar al final de la lista.\n\n3. Repite los pasos 1 y 2 hasta que la lista esté ordenada.\n\nEn cada pasada, el mayor elemento \"burbujeante\" hacia su posición final. De ahí el nombre \"bubble sort\".\n\nEjemplo:\n\nSi tenemos la lista [5, 1, 4, 2, 8], el algoritmo de bubble sort la ordenaría de la siguiente manera:\n\n1. Compara 5 y 1, 5 > 1, así que los intercambia: [1, 5, 4, 2, 8]\n2. Compara 5 y 4, 5 > 4, así que los intercambia: [1, 4, 5, 2, 8]\n3. Compara 5 y 2, 5 > 2, así que los intercambia: [1, 4, 2, 5, 8]\n4. Compara 5 y 8, 5 < 8, así que no los intercambia.\n\nLa lista [1, 4, 2, 5, 8] está ordenada.\n\nEl algoritmo de bubble sort es simple de implementar, pero no es muy eficiente para grandes conjuntos de datos. Su complejidad temporal es O(n^2), donde n es el número de elementos en la lista.",
+            "every_model_generate_token_num_list": [
+                406,
+                68,
+                68
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El tema principal de esta pregunta es la muerte de una de las esposas de Enrique VIII. ",
+            "every_model_generate_token_num_list": [
+                21,
+                4,
+                4
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Tamara de Lempicka, née en 1898, était une artiste peintre polonaise naturalisée française. Elle est célèbre pour ses portraits et nus au style Art Déco, caractérisés par des lignes épurées, des couleurs vives et une composition symétrique.\n\nLempicka a étudié l'art à Paris et a commencé sa carrière en peignant des portraits de la haute société. Elle a ensuite développé son propre style distinctif, influencé par l'Art Déco et le cubisme, qui a rapidement gagné en popularité. Ses œuvres, souvent mettant en scène des femmes fortes et indépendantes, ont été exposées dans le monde entier et ont contribué à définir l'esthétique de l'Art Déco.\n\nLempicka a également été une figure controversée en raison de son style de vie flamboyant et de ses relations avec des personnalités influentes. Elle a été mariée à un homme d'affaires polonais, mais a eu de nombreuses relations amoureuses avec des hommes et des femmes.\n\nLempicka a continué à peindre jusqu'à sa mort en 1980, laissant derrière elle un héritage artistique important. Ses œuvres sont aujourd'hui exposées dans de nombreuses collections d'art, et son style Art Déco continue d'influencer les artistes contemporains.",
+            "every_model_generate_token_num_list": [
+                275,
+                90,
+                90
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "De 1987, donde jugó los cuatro partidos jugados por Argentina en el torneo.",
+            "every_model_generate_token_num_list": [
+                21,
+                5,
+                5
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The color that attracts the eye first is the color that is most different from the other colors. This is because the eye is naturally drawn to the most contrasting element in a scene. This is a basic principle of visual perception known as the \"law of contrast.\" The color that is most different from the others will stand out and be the first to catch the eye.<eos>",
+            "every_model_generate_token_num_list": [
+                74,
+                29,
+                29
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The question of whether the universe will have an end is a complex one that has been pondered by scientists and philosophers for centuries. The answer depends on the prevailing cosmological model and the ultimate fate of the universe.\n\nAccording to the Big Bang theory, the universe originated from an extremely hot and dense state, and has been expanding ever since. The ultimate fate of the universe depends on the balance between the expansion and the gravitational pull of matter.\n\nIf the expansion continues indefinitely, the universe will continue to cool and become increasingly dark and empty, a scenario known as the \"Big Freeze\" or \"Heat Death.\" In this case, the universe would not have a definitive end, but rather would continue to exist in a state of cold and dark equilibrium.\n\nHowever, if the expansion eventually slows down and reverses, the universe could collapse back into a singularity, a state similar to the initial Big Bang, in a scenario known as the \"Big Crunch.\" In this case, the universe would have a definitive end, followed by a possible new beginning.\n\nAnother possibility is that the universe will reach a state of equilibrium, where the expansion and gravitational pull balance each other out, resulting in a \"Big Rip\" or \"Big Bounce.\" In these scenarios, the universe would undergo a period of rapid expansion or contraction, followed by a return to a state of equilibrium.\n\nIt's important to note that these are just theoretical models, and the actual fate of the universe remains an open question. However, these models provide us with a framework for understanding the possible end states of the universe.<eos>",
+            "every_model_generate_token_num_list": [
+                317,
+                92,
+                92
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Cuba's economy is a socialist economy with a centrally planned system. The government controls most of the means of production and distribution. However, in recent years, Cuba has been implementing some market-oriented reforms.",
+            "every_model_generate_token_num_list": [
+                43,
+                22,
+                22
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "\"Окно в Европу\" - это выражение, которое используется для обозначения чего-либо, что открывает доступ к чему-либо другому. В частности, оно может относиться к Калининградской области России, которая является единственной областью России, имеющей выход к Балтийскому морю и граничащей с Европой.",
+            "every_model_generate_token_num_list": [
+                71,
+                11,
+                11
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The Stockholm Syndrome is a psychological response where hostages develop positive feelings towards their captors, sometimes even defending them. A famous example is the 1973 Norrmalmstorg robbery in Stockholm, Sweden, where four bank employees held hostage for six days developed positive feelings towards their captors.<eos>",
+            "every_model_generate_token_num_list": [
+                61,
+                12,
+                12
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The result of the Lublin Union was the creation of the Polish-Lithuanian Commonwealth.",
+            "every_model_generate_token_num_list": [
+                18,
+                5,
+                5
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Pablo Neruda\n2. Gabriela Mistral",
+            "every_model_generate_token_num_list": [
+                12,
+                2,
+                2
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Lee Ufan est un artiste sud-coréen né en 1936. Il est connu pour ses œuvres minimalistes et conceptuelles qui explorent les relations entre l'art, la nature et la société. Ses séries « Relatum » et « From Line » sont des exemples de son travail.",
+            "every_model_generate_token_num_list": [
+                64,
+                20,
+                20
+            ]
+        }
+    ]
+}

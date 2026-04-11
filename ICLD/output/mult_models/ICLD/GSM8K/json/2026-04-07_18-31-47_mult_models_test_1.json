@@ -1,0 +1,41 @@
+{
+    "finish_date": "2026-04-07_18-31-47",
+    "integrate_models_name": [
+        "Llama3.1-8B-Instruct",
+        "gemma2-9B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "GSM8K",
+    "all_cal_time": 17.649673461914062,
+    "all_correct_num": 1,
+    "all_generated_tokens_num_list": [
+        234,
+        27
+    ],
+    "all_ensemble_num": 27,
+    "models_pred_answer_list": [
+        4000.0
+    ],
+    "question_correct_answer_list": [
+        4000.0
+    ],
+    "avg_cal_time": 17.65,
+    "avg_correct_num": 1.0,
+    "avg_generated_tokens_num_list": [
+        234.0,
+        27.0
+    ],
+    "avg_ensemble_num": 27.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": 4000.0,
+            "correct_answer": 4000.0,
+            "ensemble_num": 27,
+            "final_output_text": "To find out how many pineapples John can harvest within a year, we need to follow these steps:\n\n1. **Calculate the total number of pineapples:** John has 10 hectares of pineapple field, and each hectare has 100 pineapples. So, the total number of pineapples is 10 hectares * 100 pineapples/hectare = 1000 pineapples.\n\n2. **Determine the number of harvests per year:** John can harvest his pineapples every 3 months. There are 12 months in a year, so he can harvest 12 / 3 = 4 times a year.\n\n3. **Calculate the total number of pineapples harvested per year:** Since John harvests harvest 1,000 pineapples per harvest, and he harvests harvest 4 times a year, the total number of pineapples harvested per year is 1,000 pineapples/harvest * 4 harvests/year = 4,000 pineapples/year.\n\nTherefore, John can harvest **4,000** pineapples within a year.\n\n\\boxed{4000}",
+            "every_model_generate_token_num_list": [
+                234,
+                27
+            ]
+        }
+    ]
+}

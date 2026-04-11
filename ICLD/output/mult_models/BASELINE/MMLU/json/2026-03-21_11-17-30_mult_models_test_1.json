@@ -1,0 +1,138 @@
+{
+    "finish_date": "2026-03-21_11-17-30",
+    "integrate_models_name": [
+        "gemma-2-9b_multilingual",
+        "gemma-2-9b-it_math",
+        "gemma-2-9b-it_coding"
+    ],
+    "integrate_method": "BASELINE",
+    "dataset_name": "MMLU",
+    "all_cal_time": 5.859382390975952,
+    "all_correct_num": 1,
+    "all_generated_tokens_num_list": [
+        24,
+        24,
+        24
+    ],
+    "models_pred_answer_list": [
+        "B"
+    ],
+    "question_correct_answer_list": [
+        "B"
+    ],
+    "avg_cal_time": 5.86,
+    "avg_correct_num": 1.0,
+    "avg_generated_tokens_num_list": [
+        24.0,
+        24.0,
+        24.0
+    ],
+    "main_model_selection_counts": [
+        1,
+        0,
+        0
+    ],
+    "all_stage1_nums": 0,
+    "all_stage2_nums": 0,
+    "all_ensemble_nums": 0,
+    "avg_stage1_nums": 0.0,
+    "avg_stage2_nums": 0.0,
+    "avg_ensemble_nums": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "final_output_text": "E. The set of all functions from the real numbers to the real numbers under addition. \n\nThe answer is B",
+            "every_model_output_text": [
+                "E. The set of all functions from the real numbers to the real numbers under addition. \n\nThe answer is B",
+                "E. The set of all functions from the real numbers to the real numbers under addition. \n\nThe answer is B",
+                "E. The set of all functions from the real numbers to the real numbers under addition. \n\nThe answer is B"
+            ],
+            "every_model_generate_token_num_list": [
+                24,
+                24,
+                24
+            ],
+            "every_model_generate_token_time_list": [
+                [
+                    0.42,
+                    0.077,
+                    0.074,
+                    0.073,
+                    0.073,
+                    0.072,
+                    0.071,
+                    0.067,
+                    0.067,
+                    0.07,
+                    0.072,
+                    0.067,
+                    0.075,
+                    0.077,
+                    0.071,
+                    0.071,
+                    0.07,
+                    0.075,
+                    0.072,
+                    0.071,
+                    0.073,
+                    0.067,
+                    0.068,
+                    0.073
+                ],
+                [
+                    0.153,
+                    0.082,
+                    0.072,
+                    0.072,
+                    0.069,
+                    0.069,
+                    0.071,
+                    0.076,
+                    0.074,
+                    0.074,
+                    0.071,
+                    0.08,
+                    0.069,
+                    0.077,
+                    0.075,
+                    0.07,
+                    0.077,
+                    0.074,
+                    0.072,
+                    0.077,
+                    0.072,
+                    0.073,
+                    0.075,
+                    0.069
+                ],
+                [
+                    0.151,
+                    0.072,
+                    0.069,
+                    0.075,
+                    0.069,
+                    0.069,
+                    0.073,
+                    0.069,
+                    0.069,
+                    0.069,
+                    0.074,
+                    0.069,
+                    0.069,
+                    0.078,
+                    0.07,
+                    0.07,
+                    0.07,
+                    0.073,
+                    0.073,
+                    0.069,
+                    0.075,
+                    0.075,
+                    0.07,
+                    0.077
+                ]
+            ]
+        }
+    ]
+}

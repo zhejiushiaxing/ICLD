@@ -1,0 +1,259 @@
+{
+"results": [
+{
+"id": 0,
+"score": 1,
+"reason": "The response provides a Swift-style translation of the PySpark flow, which is consistent with the reference’s loose illustrative translation."
+},
+{
+"id": 1,
+"score": 0,
+"reason": "The response reverses and inserts, but it does not correctly handle the empty-list edge case when position is beyond 0."
+},
+{
+"id": 2,
+"score": 0,
+"reason": "The response is incomplete and does not provide a usable pandas solution for extracting times, averaging them, and filling missing values."
+},
+{
+"id": 3,
+"score": 1,
+"reason": "The response provides a thread-safe C++ class with private data, public methods, a constructor/destructor, and a copy constructor, matching the core requirements."
+},
+{
+"id": 4,
+"score": 0,
+"reason": "The response is empty."
+},
+{
+"id": 5,
+"score": 0,
+"reason": "The response omits domain activity checks, TLD validation, concurrency, and robust email syntax handling, so it does not solve the requested task."
+},
+{
+"id": 6,
+"score": 0,
+"reason": "The response is only a vague sketch and placeholder code; it does not meaningfully implement the requested P2P live-feed and Hashgraph application."
+},
+{
+"id": 7,
+"score": 0,
+"reason": "The response is only a one-line restatement and does not provide an algorithm, evaluation, or report."
+},
+{
+"id": 8,
+"score": 1,
+"reason": "The response correctly states that WKWebView cannot capture the entire content in one pass and that stitching is required."
+},
+{
+"id": 9,
+"score": 0,
+"reason": "The response does not generate random names via a Markov chain; it invents unrelated state transitions between A, B, and C."
+},
+{
+"id": 10,
+"score": 0,
+"reason": "The response gives a simplistic Python filter instead of the requested database-style query and does not explicitly return the required name/date/total fields."
+},
+{
+"id": 11,
+"score": 0,
+"reason": "The response is empty."
+},
+{
+"id": 12,
+"score": 0,
+"reason": "The response says yes, but the proposed repeated command-line launch does not match the reference workaround and is not a reliable solution."
+},
+{
+"id": 13,
+"score": 1,
+"reason": "The response gives a correct balanced-brackets stack solution, which is functionally consistent with the reference answer."
+},
+{
+"id": 14,
+"score": 0,
+"reason": "The response fades in and fades out immediately without a delay callback, so it does not implement the requested timing behavior."
+},
+{
+"id": 15,
+"score": 0,
+"reason": "The response is repetitive, truncated, and includes incorrect extra logic; it does not match the simple correct answer that no adaptation is needed."
+},
+{
+"id": 16,
+"score": 0,
+"reason": "The response does not fix the actual problem and ignores the requested spiral rotation, non-mutation, and step-handling requirements."
+},
+{
+"id": 17,
+"score": 0,
+"reason": "The response attempts a Perl translation, but key parts are incorrect, especially the subsequence DP structure and return behavior."
+},
+{
+"id": 18,
+"score": 1,
+"reason": "The response gives the correctly sorted tuple in descending order."
+},
+{
+"id": 19,
+"score": 0,
+"reason": "The response only gives SQL, misses the direct answer, and the SQL syntax/quoting is not reliably correct for the given column names."
+},
+{
+"id": 20,
+"score": 0,
+"reason": "The response gives an absolute no, while the reference answer discusses browser file APIs and related client-side workarounds."
+},
+{
+"id": 21,
+"score": 0,
+"reason": "The response is empty."
+},
+{
+"id": 22,
+"score": 0,
+"reason": "The response identifies the bug but does not actually provide the corrected full code requested by the prompt."
+},
+{
+"id": 23,
+"score": 0,
+"reason": "The response removes the requested numpy-based improvements and input validation, so it does not match the intended solution."
+},
+{
+"id": 24,
+"score": 1,
+"reason": "The response is semantically aligned with the reference: subgroup analysis can be valid but must be interpreted cautiously due to bias and confounding risks."
+},
+{
+"id": 25,
+"score": 1,
+"reason": "The response correctly implements Armstrong number detection in the same way as the reference answer."
+},
+{
+"id": 26,
+"score": 1,
+"reason": "The response correctly solves the loan equations and reaches the same result as the reference answer."
+},
+{
+"id": 27,
+"score": 0,
+"reason": "The response changes the schema assumptions and uses a minimum-age filter that is not equivalent to the reference query logic."
+},
+{
+"id": 28,
+"score": 1,
+"reason": "The response correctly computes the parallelogram area as 60*sqrt(3) square centimeters."
+},
+{
+"id": 29,
+"score": 0,
+"reason": "The response does not provide the direct answer and the SQL is malformed for the given column names."
+},
+{
+"id": 30,
+"score": 1,
+"reason": "The response correctly generates a random number from 1 to 10 and checks whether it is prime."
+},
+{
+"id": 31,
+"score": 0,
+"reason": "The response does not correctly implement the specified behaviors for separators, uppercase logic, and mixed-character counting."
+},
+{
+"id": 32,
+"score": 1,
+"reason": "The response provides correct Java code for computing and printing the area of a circle with radius 7."
+},
+{
+"id": 33,
+"score": 0,
+"reason": "The response only gives the dataset link and does not perform preprocessing, modeling, evaluation, or statistical comparison."
+},
+{
+"id": 34,
+"score": 0,
+"reason": "The response repeats the original leaf-string logic and does not handle the added no-repeating-consecutive-characters constraint."
+},
+{
+"id": 35,
+"score": 0,
+"reason": "The response still returns only a count, mishandles frequencies, and does not implement the required richer output correctly."
+},
+{
+"id": 36,
+"score": 1,
+"reason": "The response gives a valid JSON object containing the requested person information, with a semantically acceptable key for the name field."
+},
+{
+"id": 37,
+"score": 1,
+"reason": "The response provides a valid SQL query that matches the requested counting logic, even with a slightly different assumed schema."
+},
+{
+"id": 38,
+"score": 0,
+"reason": "The response is empty."
+},
+{
+"id": 39,
+"score": 0,
+"reason": "The response is irrelevant and does not solve the team-without-conflicts optimization problem."
+},
+{
+"id": 40,
+"score": 0,
+"reason": "The response is incomplete/truncated and does not provide a coherent parallax implementation matching the reference solution."
+},
+{
+"id": 41,
+"score": 0,
+"reason": "The response focuses on VNC/X11 rather than installing and switching among multiple desktop environments while optimizing resources."
+},
+{
+"id": 42,
+"score": 0,
+"reason": "The response ignores the key observation that even integers above 2 are never prime and instead processes all primes below one million."
+},
+{
+"id": 43,
+"score": 0,
+"reason": "The response is empty."
+},
+{
+"id": 44,
+"score": 0,
+"reason": "The response does not persist state across runs and only generates non-repeating numbers within one execution, so it misses the core requirement."
+},
+{
+"id": 45,
+"score": 1,
+"reason": "The response correctly finds and prints all prime numbers less than 100 in JavaScript."
+},
+{
+"id": 46,
+"score": 0,
+"reason": "The response uses a timer-based switcher and stops after more than 1000 switches, so it does not cleanly satisfy the stated behavior."
+},
+{
+"id": 47,
+"score": 0,
+"reason": "The response uses an arbitrary threshold of 5 instead of the reference median-based classification, so the categorization is wrong."
+},
+{
+"id": 48,
+"score": 0,
+"reason": "The response multiplies values by object keys instead of numeric indices and gives the wrong expected result."
+},
+{
+"id": 49,
+"score": 0,
+"reason": "The response misstates the gravity ranking algorithm as simple age-plus-popularity, which is not the reference scoring formula."
+}
+],
+"summary": {
+"correct_count": 14,
+"total_count": 50,
+"accuracy": 0.28
+}
+}

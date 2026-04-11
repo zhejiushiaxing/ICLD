@@ -1,0 +1,630 @@
+{
+    "finish_date": "2026-03-28_17-21-06",
+    "integrate_models_name": [
+        "gemma-2-9b-it_multilingual",
+        "gemma-2-9b-it_math",
+        "gemma-2-9b-it_coding"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MATHEVAL",
+    "all_cal_time": 943.7221431732178,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        910,
+        910,
+        9721
+    ],
+    "models_pred_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "question_correct_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "avg_cal_time": 18.87,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        18.2,
+        18.2,
+        194.42
+    ],
+    "all_question_response_list": [
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let's denote the number of cherry sodas as C and the number of orange pops as O. We know that:\n\nC + O = 24 (total number of cans)\n\nAnd we also know that:\n\nO = 2C (twice as many cans of orange pop as cherry soda)\n\nNow we can substitute O from the second equation into the first one:\n\nC + 2C = 24\n3C = 24\nC = 24 / 3\nC = 8\n\nSo, there are 8 cherry sodas.\nThe answer is 8.",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                129
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The positive integer factors of 18 are 1, 2, 3, 6, 9, and 18.\nThe sum of these factors is 1 + 2 + 3 + 6 + 9 + 18 = 39.\nThe answer is 39.",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                68
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "In the first anthill, there are 100 ants.\nIn the second anthill, there are 20% fewer ants than in the first anthill. So, there are 100 - 20% of 100 = 80 ants in the second anthill.\nIn the third anthill, there are 20% fewer ants than in the second anthill. So, there are 80 - 20% of 80 = 64 ants in the third anthill.\nThe answer is 64.",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                123
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: If Nadia walked 18 kilometers, which was twice as far as Hannah walked, then Hannah walked 18/2 = 9 kilometers.\nStep 2: To find the total distance the two girls walked, we add the distance Hannah walked to the distance Nadia walked. This gives us 9 + 18 = 27 kilometers.\nStep 3: The final answer is 2",
+            "every_model_generate_token_num_list": [
+                10,
+                10,
+                87
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Find the number of polar bears.\nThe zoo has twice as many polar bears as penguins, so they have 21 * 2 = 42 polar bears.\n\nStep 2: Find the total number of animals.\nTo find the total number of animals, add the number of penguins and polar bears. So, they have 21 + 42 = 63 animals.\n\nThe answer is 63.",
+            "every_model_generate_token_num_list": [
+                12,
+                12,
+                95
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let the three positive integers be a, b, and c. We know that:\n\na = 12k1 + 7\nb = 12k2 + 9\nc = 12k3 + 10\n\nwhere k1, k2, and k3 are integers.\n\nThe sum of the three integers is:\n\na + b + c = 12k1 + 7 + 12k2 + 9 + 12k3 + 10 = 12(k1 + k2 + k3) + 26\n\nWhen this sum is divided by 12, the remainder is 26 mod 12, which is 2.\n\nSo, the remainder when the sum of the three integers is divided by 12 is 2.\n\nThe answer is 2.",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                183
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Determine the amount of money that Peter still needs to save.\nHe needs $5,000 and has $2,900, so he still needs $5,000 - $2,900 = $2,100.\n\nStep 2: Determine how many months it will take for Peter to save up the remaining amount.\nHe saves $700 each month, so it will take him $2,100 / $700 = 3 months.\n\nThe answer is 3.",
+            "every_model_generate_token_num_list": [
+                12,
+                12,
+                119
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The distance between the two given points is 8 units. Since the equilateral triangle has all sides of equal length, the distance from the third vertex to either of the other two vertices is also 8 units.\n\nThe third vertex lies on the line y = 5, so its x-coordinate must be 8 units away from both 0 and 8. This means the x-coordinate of the third vertex is 8 + 8 = 16.\n\nThe y-coordinate of the third vertex is the same as the y-coordinate of the other two vertices, which is 5.\n\nTherefore, the third vertex is at (16, 5).\n\nThe answer is 5.",
+            "every_model_generate_token_num_list": [
+                29,
+                29,
+                146
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "On the first day, Craig made 40 pizzas.\nHeather made four times as many pizzas as Craig, so she made 4 * 40 = 160 pizzas.\n\nOn the second day, Craig made 60 more pizzas than his first day, so he made 40 + 60 = 100 pizzas.\n\nHeather made 20 fewer pizzas than Craig's number on the second day, so she made 100 - 20 = 80 pizzas.\n\nThe total number of pizzas Craig made in the two days is 40 + 100 = 140 pizzas.\n\nThe total number of pizzas Heather made in the two days is 160 + 80 = 240 pizzas.\n\nTogether, they made 140 + 240 = 380 pizzas in the two days.\n\nThe answer is 380.",
+            "every_model_generate_token_num_list": [
+                12,
+                12,
+                200
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Find the total number of marbles.\n12 (marbles from Chris) + 28 (marbles from Ryan) = 40 marbles in total.\n\nStep 2: Calculate how many marbles each person takes away.\n1/4 of 40 marbles = 10 marbles each.\n\nStep 3: Calculate the total number of marbles taken away.\n10 (marbles taken by Chris) + 10 (marbles taken by Ryan) = 20 marbles taken away.\n\nStep 4: Calculate the number of marbles remaining in the pile.\n40 (total marbles) - 20 (marbles taken away) = 20 marbles remaining in the pile.\n\nThe answer is 20.",
+            "every_model_generate_token_num_list": [
+                19,
+                19,
+                162
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The shaded area is the area of the square minus the area of the four circles.\nThe area of the square is side length squared, so it is 20^2 = 400 square inches.\nThe area of each circle is pi times radius squared, so it is pi * 1^2 = pi square inches.\nSince there are four circles, the total area of the circles is 4 * pi = 4pi square inches.\nThe shaded area is the area of the square minus the area of the circles, so it is 400 - 4pi square inches.\nThe answer is 400 - 4pi.",
+            "every_model_generate_token_num_list": [
+                16,
+                16,
+                140
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Tyler gives away a third of his CDs to his friend.\n21 / 3 = 7 CDs\n\nStep 2: Tyler has 21 - 7 = 14 CDs left.\nStep 3: Tyler buys 8 new CDs.\n14 + 8 = 22 CDs\n\nThe answer is 22",
+            "every_model_generate_token_num_list": [
+                10,
+                10,
+                77
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. First, we need to convert the total time Elvis spent in the studio into minutes. Since there are 60 minutes in an hour, 5 hours is equal to 5*60 = <<5*60=300>>300 minutes.\n2. Next, we need to subtract the time spent recording and editing the songs from the total time. Recording took 12 minutes per song, so for 10 songs it took 12*10 = <<12*10=120>>120 minutes. Editing took 30 minutes. Therefore, the total time spent recording and editing is 120 + 30 = <<120+30=150>>150 minutes.\n3. Now we can find the time Elvis spent writing by subtracting the time spent recording and editing from the total time in the studio. This gives us 300 - 150 = <<300-150=150>>150 minutes.\n4. Finally, since each song took the same amount of time to write, we can find the time spent writing each song by dividing the total writing time by the number of songs. This gives us 150 / 10 = <<150/10=15>>15 minutes.\nThe answer is 15.",
+            "every_model_generate_token_num_list": [
+                26,
+                26,
+                295
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "First, we can simplify the left side of the equation by expanding the factorials:\n\n$x! = x * (x-1) * (x-2) * (x-3) * (x-4) * ... * 2 * 1$\n\n$(x-3)! = (x-3) * (x-4) * ... * 2 * 1$\n\nSo, $x! - (x-3)! = x * (x-1) * (x-2) * (x-3) * (x-4) * ... * 2 * 1 - (x-3) * (x-4) * ... * 2 * 1$\n\nWe can factor out $(x-3) * (x-4) * ... * 2 * 1$ from the second term:\n\n$x! - (x-3)! = x * (x-1) * (x-2) * (x-3) * (x-4) * ... * 2 * 1 - (x-3) * (x-4) * ... * 2 * 1 * (1)$\n\n$x! - (x-3)! = (x-3) * (x-4) * ... * 2 * 1 * (x * (x-1) - 1)$\n\n$x! - (x-3)! = (x-3)! * (x * (x-1) - 1)$\n\nNow, we can substitute this back into the original equation:\n\n$(x-3)! * (x * (x-1) - 1) \\div 23 = 1$\n\nMultiply both sides by 23:\n\n$(x-3)! * (x * (x-1) - 1) = 23$\n\nSince $x$ is a positive integer, we can start checking values of $x$ to see which one satisfies the equation.\n\nIf $x = 1$, then $(x-3)! = -2$ and $x * (x-1) - 1 = 0$, so the equation is not satisfied.\n\nIf $x = 2$, then $(x-3)! = -1$ and $x * (x-1) - 1 = 1$, so the equation is not satisfied.\n\nIf $x = 3$, then $(x-3)! = 0$ and $x * (x-1) - 1 = 2$, so the equation is not satisfied.\n\nIf $x = 4$, then $(x-3)! = 6$ and $x * (x-1) - 1 = 5$, so the equation is not satisfied.\n\nIf $x = 5$, then $(x-3)! = 120$ and $x * (x-1) - 1 = 24$, so the equation is satisfied.\n\nTherefore, the solution to the equation is $x = 5$.\n\nThe answer is 5.",
+            "every_model_generate_token_num_list": [
+                43,
+                43,
+                651
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. First, convert the total time from seconds to minutes. There are 60 seconds in a minute, so 510 seconds is equal to 510/60 = 8.5 minutes.\n2. The first video is 2 minutes long, and the second video is 4 minutes and 30 seconds, which is equal to 4.5 minutes. So the total time spent on the first two videos is 2 + 4.5 = 6.5 minutes.\n3. The total time spent on the last two videos is the total time minus the time spent on the first two videos. So it is 8.5 - 6.5 = 2 minutes.\n4. Since the last two videos are equal in length, each video is half of the total time spent on the last two videos. So each video is 2/2 = 1 minute long.\n5. Convert the length of each video from minutes to seconds. There are 60 seconds in a minute, so 1 minute is equal to 60 seconds.\n6. Therefore, each of the last two videos is 60 seconds long.\n\nThe answer is 60.",
+            "every_model_generate_token_num_list": [
+                25,
+                25,
+                255
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The minimum value of a quadratic function $y = ax^2 + bx + c$ occurs at $x = -\\frac{b}{2a}$.\n\nIn this case, $a = 3$, $b = 6$, and $c = 9$. So, the minimum value of $y$ occurs at $x = -\\frac{6}{2*3} = -1$.\n\nSubstituting $x = -1$ into the equation $y = 3x^2 + 6x + 9$, we get $y = 3*(-1)^2 + 6*(-1) + 9 = 3 - 6 + 9 = 6$.\n\nSo, the minimum value of $y$ is 6.\n\nThe answer is 6.",
+            "every_model_generate_token_num_list": [
+                12,
+                12,
+                166
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The area of the rectangle is given by $A = length \\times width$. The area of the square is given by $A = side^2$.\n\nThe area of the two identical isosceles triangles cut off from the square is given by $2 \\times \\frac{1}{2} \\times base \\times height = base \\times height$.\n\nThe total area cut off is $200 \\text{ m}^2$, so $base \\times height = 200 \\text{ m}^2$.\n\nThe base of the triangle is equal to the width of the rectangle, and the height of the triangle is equal to the length of the rectangle.\n\nTherefore, $width \\times height = 200 \\text{ m}^2$.\n\nThe length of $PR$ is equal to the width of the rectangle, so $PR = \\sqrt{200} = 2\\sqrt{50} = 2 \\times 5\\sqrt{2} = 10\\sqrt{2} \\text{ m}$.\n\nThe answer is $10\\sqrt{2}$.",
+            "every_model_generate_token_num_list": [
+                41,
+                41,
+                233
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The sum of the four numbers is 4*4 = 16.\nThe difference between the largest and smallest of these numbers is as large as possible when the smallest number is 1 and the largest number is 3.\nThe sum of the other two numbers is 16 - 1 - 3 = 12.\nThe average of the other two numbers is 12/2 = 6.\nThe answer is 6.",
+            "every_model_generate_token_num_list": [
+                9,
+                9,
+                96
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "To solve the inequality $\\frac{7}{9} > \\frac{x}{13}$, we can follow these steps:\n\n1. Multiply both sides of the inequality by 13 to get rid of the fraction on the right side. This gives us $13 * \\frac{7}{9} > x$.\n\n2. Simplify the left side of the inequality: $\\frac{91}{9} > x$.\n\n3. To find the greatest integer $x$ that satisfies this inequality, we need to find the largest integer less than $\\frac{91}{9}$.\n\n4. Since $\\frac{91}{9}$ is approximately 10.11, the largest integer less than $\\frac{91}{9}$ is 10.\n\nTherefore, the greatest integer $x$ for which $\\frac{7}{9} > \\frac{x}{13}$ is 10.\n\nThe answer is 10.",
+            "every_model_generate_token_num_list": [
+                24,
+                24,
+                202
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Calculate the total number of pamphlets Mike printed before his break.\nMike printed at a rate of 600 pamphlets per hour for 9 hours, so he printed 600*9 = <<600*9=5400>>5400 pamphlets.\n\nStep 2: Calculate the total number of pamphlets Mike printed after his break.\nMike printed at a rate of 600/3 = <<600/3=200>>200 pamphlets per hour for 2 hours, so he printed 200*2 = <<200*2=400>>400 pamphlets.\n\nStep 3: Calculate the total number of pamphlets Leo printed.\nLeo worked for 9/3 = <<9/3=3>>3 hours and printed at a rate of 600*2 = <<600*2=1200>>1200 pamphlets per hour, so he printed 1200*3 = <<1200*3=3600>>3600 pamphlets.\n\nStep 4: Calculate the total number of pamphlets printed by both Mike and Leo.\nThe total number of pamphlets printed is 5400 + 400 + 3600 = <<5400+400+3600=9400>>9400 pamphlets.\n\nThe answer is 9400.",
+            "every_model_generate_token_num_list": [
+                14,
+                14,
+                317
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: To give each friend at least one marble, Lisa needs to give 10 marbles (1 for each friend).\nStep 2: She already has 34 marbles.\nStep 3: To find the minimum number of additional marbles she needs, subtract the number of marbles she already has from the number of marbles she needs to give.\nStep 4: The Python code to solve this problem is as follows:\n\n```python\ndef minimum_additional_marbles(total_friends, marbles_per_friend, total_marbles):\n    total_marbles_needed = total_friends * marbles_per_friend\n    additional_marbles_needed = total_marbles_needed - total_marbles\n    return additional_marbles_needed\n\ntotal_friends = 10\nmarbles_per_friend = 1\ntotal_marbles = 34\n\nadditional_marbles = minimum_additional_marbles(total_friends, marbles_per_friend, total_marbles)\nprint(\"The answer is\", additional_marbles)\n```\n\nStep 5: The output of the code is 2.\nStep 6: The minimum number of additional marbles Lisa needs is 2.",
+            "every_model_generate_token_num_list": [
+                36,
+                36,
+                265
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1:\nJanice's homework takes 30 minutes.\nStep 2:\nCleaning her room takes half as long as her homework, so it takes 30/2 = 15 minutes.\nStep 3:\nWalking the dog takes 5 minutes more than making homework, so it takes 30 + 5 = 35 minutes.\nStep 4:\nTaking out the trash takes 1/6 of the time it takes her to do the homework, so it takes 30/6 = 5 minutes.\nStep 5:\nIn total, Janice needs to spend 30 + 15 + 35 + 5 = 85 minutes on her chores.\nStep 6:\nSince the movie starts in 2 hours, or 120 minutes, Janice has 120 - 85 = 35 minutes left before the movie starts.\nThe answer is 35",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                205
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "First, we can rewrite the second equation as $9x-6y=-b$. Then we can multiply the first equation by 3 and the second equation by 2 to get:\n\n\\begin{align*}\n18x-12y&=3a,\\\\\n18x-12y&=-2b.\n\\end{align*}\n\nSubtracting the second equation from the first gives $3a+2b=0$, so $a=-\\frac{2}{3}b$. Therefore, $\\frac{a}{b}=-\\frac{2}{3}$.\n\nThe answer is -2/3.",
+            "every_model_generate_token_num_list": [
+                10,
+                10,
+                132
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. First, we need to find the discounted price of a shirt. A 20% discount on a $50 shirt means that the discount is $50 * 20/100 = $10.\n2. Therefore, the sale price of a shirt is $50 - $10 = $40.\n3. Marlene wants to buy half a dozen shirts, which is 6 shirts.\n4. The total cost of the shirts is 6 * $40 = $240.\n5. The answer is $240.",
+            "every_model_generate_token_num_list": [
+                16,
+                16,
+                124
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The function $f(x, y) = |x^2 - xy|$ is continuous on the closed interval $[0, 1] \\times \\mathbb{R}$. Therefore, the maximum value of $f(x, y)$ on this interval occurs at one of the endpoints of the interval or at a critical point of $f(x, y)$.\n\nThe endpoints of the interval are $(0, y)$ and $(1, y)$, and the critical points of $f(x, y)$ are the solutions to the equation $f'(x, y) = 0$.\n\nWe have\n\\[f'(x, y) = \\frac{\\partial f}{\\partial x} = 2x - y\\]\nand\n\\[f'(x, y) = \\frac{\\partial f}{\\partial y} = -x.\\]\n\nSetting $f'(x, y) = 0$, we get the system of equations\n\\begin{align*}\n2x - y &= 0, \\\\\n-x &= 0.\n\\end{align*}\n\nThe solution to this system is $x = 0$, $y = 0$.\n\nTherefore, the maximum value of $f(x, y)$ on the interval $[0, 1] \\times \\mathbb{R}$ occurs at $(0, 0)$ and is equal to $f(0, 0) = |0^2 - 0 \\cdot 0| = 0$.\n\nThus, the minimum value of $f(x, y)$ on the interval $[0, 1] \\times \\mathbb{R}$ is also 0, which occurs at $(0, 0)$.\n\nThe answer is 0.",
+            "every_model_generate_token_num_list": [
+                41,
+                41,
+                360
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "First, we need to find the total number of gingerbread cookies that have red hats. This is equal to the number of cookies that have only red hats plus the number that have both red hats and blue boots. We know that 6 cookies have only red hats and 3 have both red hats and blue boots. Therefore, the total number of cookies with red hats is 6 + 3 = 9.\n\nNext, we need to find the total number of gingerbread cookies. This is equal to the number of cookies that have only red hats plus the number that have only blue boots plus the number that have both red hats and blue boots. We know that 6 cookies have only red hats, 9 have only blue boots, and 3 have both red hats and blue boots. Therefore, the total number of cookies is 6 + 9 + 3 = 18.\n\nFinally, we can find the percentage of gingerbread cookies that have red hats by dividing the number of cookies with red hats by the total number of cookies and multiplying by 100. This gives us (9 / 18) * 100 = 50%.\n\nTherefore, 50% of the gingerbread cookies have red hats.\n\nThe answer is 50.",
+            "every_model_generate_token_num_list": [
+                21,
+                21,
+                262
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Since $a$ varies inversely with $b^2$, we can write this relationship as $a = \\frac{k}{b^2}$, where $k$ is a constant.\n\nStep 2: We are given that $a = 9$ when $b = 2$. Substituting these values into the equation, we get $9 = \\frac{k}{2^2}$, which simplifies to $9 = \\frac{k}{4}$.\n\nStep 3: Solving for $k$, we multiply both sides of the equation by 4 to get $k = 9 * 4 = 36$.\n\nStep 4: Now that we know $k = 36$, we can find the value of $a$ when $b = 3$ by substituting $b = 3$ into the equation $a = \\frac{k}{b^2}$: $a = \\frac{36}{3^2} = \\frac{36}{9} = 4$.\n\nThe answer is 4.",
+            "every_model_generate_token_num_list": [
+                20,
+                20,
+                223
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. First, we need to find the total number of slices. Since each pizza is cut into eight slices and there are three pizzas, the total number of slices is 8 * 3 = 24.\n2. Next, we need to divide the total number of slices by the number of people to find out how many slices each person gets. So, 24 slices divided by 12 people equals 2 slices per person.\n3. Therefore, each person will get 2 slices.\nThe answer is 2<eos>",
+            "every_model_generate_token_num_list": [
+                20,
+                20,
+                112
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "LaDonna picked up 25 cans.\nPrikya picked up twice as many cans as LaDonna, so she picked up 2*25 = 50 cans.\nTogether, LaDonna and Prikya picked up 25 + 50 = 75 cans.\nYoki picked up the rest of the cans, so he picked up 85 - 75 = 10 cans.\nThe answer is 10.",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                99
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side. Therefore, for the triangle to be valid, we must have $11 + 15 > k$, $11 + k > 15$, and $15 + k > 11$.\n\nThe first inequality gives $k < 26$, the second gives $k > -4$, and the third gives $k > -4$. Therefore, the valid values for $k$ are $-4 < k < 26$.\n\nAn obtuse triangle is a triangle in which the square of the length of the longest side is greater than the sum of the squares of the lengths of the other two sides. Therefore, we must have $k^2 > 11^2 + 15^2 = 346$.\n\nThe smallest integer $k$ that satisfies this inequality is $k = \\sqrt{346} \\approx 18.6$, so the smallest integer $k$ that works is $k = 19$. The largest integer $k$ that works is $k = 25$, since $26^2 = 676 > 346$ and $25^2 = 625 < 346$.\n\nTherefore, the possible values for $k$ are $19, 20, 21, 22, 23, 24, 25$, for a total of $\\boxed{7}$ values.",
+            "every_model_generate_token_num_list": [
+                35,
+                35,
+                331
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The original volume of the box is 15 cm * 10 cm * 8 cm = 1200 cubic cm.\nThe volume of the cube removed from each corner is 3 cm * 3 cm * 3 cm = 27 cubic cm.\nSince there are 4 corners, the total volume removed is 4 * 27 cubic cm = 108 cubic cm.\nThe percent of the original volume removed is (108 cubic cm / 1200 cubic cm) * 100% = 9%.\nThe answer is 9.",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                129
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "To solve the problem, we substitute -1 for x in the function f(x) = x^2 - 2x.\n\nf(-1) = (-1)^2 - 2(-1)\n      = 1 + 2\n      = 3\n\nThe answer is 3.",
+            "every_model_generate_token_num_list": [
+                7,
+                7,
+                64
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "In the first week, the corn plant grew 2 inches.\nIn the second week, it grew twice as much as the first week, so it grew 2*2 = 4 inches.\nIn the third week, it grew four times as much as the second week, so it grew 4*4 = 16 inches.\nTo find the total height of the corn plant, we add up the growth in each week: 2 + 4 + 16 = 22 inches.\nThe answer is 22.",
+            "every_model_generate_token_num_list": [
+                9,
+                9,
+                115
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than the length of the third side. Therefore, we have the following inequalities:\n\n$\\log_{10}12 + \\log_{10}75 > \\log_{10}n$\n\n$\\log_{10}12 + \\log_{10}n > \\log_{10}75$\n\n$\\log_{10}75 + \\log_{10}n > \\log_{10}12$\n\nUsing the properties of logarithms, we can simplify these inequalities:\n\n$1 + \\log_{10}(12*75) > \\log_{10}n$\n\n$1 + \\log_{10}(12*n) > \\log_{10}75$\n\n$1 + \\log_{10}(75*n) > \\log_{10}12$\n\nSolving these inequalities, we get:\n\n$n < 10^2$\n\n$n < 10^1$\n\n$n < 10^2$\n\nTherefore, the possible values for $n$ are the integers from 1 to 100. There are 100 such integers, so the answer is 100.\n\nThe answer is 100",
+            "every_model_generate_token_num_list": [
+                23,
+                23,
+                291
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The total time for one cycle of the traffic light is 30 seconds (green) + 3 seconds (yellow) + 30 seconds (red) = 63 seconds.\nThe probability that the color changes while Leah is watching is the total time that the color is changing divided by the total time for one cycle.\nThe color is changing for 3 seconds (yellow) + 3 seconds (red) = 6 seconds.\nSo, the probability is 6 seconds / 63 seconds = 2/21.\nThe answer is 2/21.",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                124
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "On the first day, the Hugos traveled 200 miles.\nOn the second day, they traveled 3/4 * 200 = <<3/4*200=150>>150 miles.\nOn the third day, they traveled 1/2 * (200 + 150) = <<1/2*(200+150)=175>>175 miles.\nIn total, they traveled 200 + 150 + 175 = <<200+150+175=525>>525 miles.\nThe answer is 525.",
+            "every_model_generate_token_num_list": [
+                4,
+                4,
+                150
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The medians of a triangle intersect at the centroid, which divides each median in a 2:1 ratio. Therefore, $BD = 2/3*BE = 2/3*20 = 40/3$ and $CD = 1/3*BE = 1/3*20 = 20/3$.\n\nThe area of a triangle can be found using the formula $1/2*base*height$. In this case, the base is $BC = BD + CD = 40/3 + 20/3 = 60/3 = 20$ and the height is $AD = 15$.\n\nSo, the area of $\\triangle ABC$ is $1/2*20*15 = 150$.\n\nThe answer is 150.",
+            "every_model_generate_token_num_list": [
+                22,
+                22,
+                179
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: To give each friend at least one marble, Lisa needs to give 10 marbles (1 for each friend).\nStep 2: She already has 34 marbles.\nStep 3: To find the minimum number of additional marbles she needs, subtract the number of marbles she already has from the number of marbles she needs to give.\nStep 4: The Python code to solve this problem is as follows:\n\n```python\ndef minimum_additional_marbles(total_friends, marbles_per_friend, total_marbles):\n    total_marbles_needed = total_friends * marbles_per_friend\n    additional_marbles_needed = total_marbles_needed - total_marbles\n    return additional_marbles_needed\n\ntotal_friends = 10\nmarbles_per_friend = 1\ntotal_marbles = 34\n\nadditional_marbles = minimum_additional_marbles(total_friends, marbles_per_friend, total_marbles)\nprint(\"The answer is\", additional_marbles)\n```\n\nStep 5: The output of the code is 2.\nStep 6: The minimum number of additional marbles Lisa needs is 2.",
+            "every_model_generate_token_num_list": [
+                36,
+                36,
+                265
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let's denote the number of dresses Ana has as \"a\" and the number of dresses Lisa has as \"l\".\n\nFrom the problem, we know that:\nl = a + 18 (Lisa has 18 more dresses than Ana)\nl + a = 48 (The number of their dresses combined is 48)\n\nWe can substitute the first equation into the second equation to solve for \"a\":\na + 18 + a = 48\n2a = 48 - 18\n2a = 30\na = 30 / 2\na = 15\n\nSo, Ana has 15 dresses.\n\nThe answer is 15.",
+            "every_model_generate_token_num_list": [
+                16,
+                16,
+                154
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. The total number of chairs was 40, and each chair had a capacity of 2 people. Therefore, the total capacity of the room was 40 * 2 = 80 people.\n2. It was stated that 2/5 of the chairs were not occupied. This means that 2/5 * 40 = 16 chairs were empty.\n3. The number of occupied chairs was 40 - 16 = 24.\n4. Since each occupied chair had 2 people, the number of board members who attended the meeting was 24 * 2 = 48.\n5. Therefore, the answer is 48.\nThe answer is 48",
+            "every_model_generate_token_num_list": [
+                17,
+                17,
+                154
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let's denote the number of hardcover volumes Theresa bought as $h$ and the number of paperback volumes as $p$. We know that $h + p = 10$ (since she bought a copy of each of the ten volumes). We also know that $25h + 15p = 220$ (since the total cost was $220).\n\nWe can solve this system of equations step by step:\n\n1. Solve the first equation for $p$: $p = 10 - h$.\n2. Substitute this into the second equation: $25h + 15(10 - h) = 220$.\n3. Simplify and solve for $h$: $25h + 150 - 15h = 220$, $10h = 70$, $h = 7$.\n\nSo, Theresa bought 7 hardcover volumes.\n\nThe answer is 7.",
+            "every_model_generate_token_num_list": [
+                19,
+                19,
+                205
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Robi's savings pattern can be described as a geometric sequence where the first term (a) is $2 and the common ratio (r) is 2. The formula for the sum of a finite geometric sequence is S = a(1-r^n) / (1-r), where n is the number of terms.\n\nIn this case, n is 6 (since we want to find the total savings after 6 months), a is $2, and r is 2.\n\nSubstituting these values into the formula, we get:\n\nS = 2(1-2^6) / (1-2)\nS = 2(1-64) / (-1)\nS = 2(-63) / (-1)\nS = 126\n\nTherefore, Robi's total savings after 6 months will be $126.\n\nThe answer is 126.",
+            "every_model_generate_token_num_list": [
+                22,
+                22,
+                197
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let's break down the problem step by step:\n\n1. \"x is doubled\" means we multiply x by 2.\n2. \"Increased by 3\" means we add 3 to the result of step 1.\n3. \"Then divided by 5\" means we divide the result of step 2 by 5.\n4. The result of step 3 is 11.\n\nSo, we can write the problem as an equation:\n\n(2x + 3) / 5 = 11\n\nNow, let's solve for x:\n\n1. Multiply both sides of the equation by 5: 2x + 3 = 55\n2. Subtract 3 from both sides of the equation: 2x = 52\n3. Divide both sides of the equation by 2: x = 26\n\nThe answer is 26.",
+            "every_model_generate_token_num_list": [
+                25,
+                25,
+                193
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Jose collected 14 fewer rocks than Joshua, so Jose collected 80 - 14 = <<80-14=66>>66 rocks.\nStep 2: Albert collected 20 more rocks than Jose, so Albert collected 66 + 20 = <<66+20=86>>86 rocks.\nStep 3: Albert collected 86 - 80 = <<86-80=6>>6 more rocks than Joshua.\nThe answer is 6<eos>",
+            "every_model_generate_token_num_list": [
+                5,
+                5,
+                116
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. First, we need to find out how many toothbrushes Dr. Banks gave away in each month.\n2. In January, he gave away 53 toothbrushes.\n3. In February, he gave away 67 toothbrushes.\n4. In March, he gave away 46 toothbrushes.\n5. In April and May, he gave away the remaining toothbrushes, half each month.\n6. The total number of toothbrushes given away in January, February, and March is 53 + 67 + 46 = 166 toothbrushes.\n7. This means that in April and May, he gave away 330 - 166 = 164 toothbrushes.\n8. Since he gave away half of the remaining toothbrushes in each month, in April he gave away 164/2 = 82 toothbrushes and in May he gave away 82 toothbrushes.\n9. Therefore, the busiest month is February with 67 toothbrushes given away and the slowest month is March with 46 toothbrushes given away.\n10. The difference between the busiest and slowest month is 67 - 46 = 21 toothbrushes.\nThe answer is 21",
+            "every_model_generate_token_num_list": [
+                23,
+                23,
+                270
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Let's denote the number of letters in Bobbie's last name as B, in Jamie's last name as J, and in Samantha's last name as S.\n\nFrom the problem, we know that:\nB = 2J - 2\nS = B - 3\n\nSubstituting the first equation into the second equation, we get:\nS = 2J - 2 - 3\nS = 2J - 5\n\nWe also know that Jamie's full name is Jamie Grey, so J = 4 (the number of letters in \"Grey\").\n\nSubstituting J = 4 into the equation for S, we get:\nS = 2*4 - 5\nS = 8 - 5\nS = 3\n\nSo, Samantha's last name has 3 letters.\n\nThe answer is 3.",
+            "every_model_generate_token_num_list": [
+                19,
+                19,
+                183
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Nori had 4 boxes of crayons with 8 crayons in each box. So, she had 4*8 = 32 crayons in total.\n2. She gave 5 crayons to Mae.\n3. She has 15 crayons left.\n4. So, she gave 32 - 15 = 17 crayons to Lea.\n5. She gave Lea 17 - 5 = 12 more crayons than Mae.\nThe answer is 12.",
+            "every_model_generate_token_num_list": [
+                8,
+                8,
+                108
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Cars have 4 tires each, so 15 cars have 15*4 = 60 tires.\n2. Bicycles have 2 tires each, so 3 bicycles have 3*2 = 6 tires.\n3. Pickup trucks also have 4 tires each, so 8 pickup trucks have 8*4 = 32 tires.\n4. A tricycle has 3 tires.\n5. Adding up all these tires, we get 60 + 6 + 32 + 3 = 101 tires in total.\nThe answer is 101.",
+            "every_model_generate_token_num_list": [
+                12,
+                12,
+                132
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "First, we can simplify the expression inside the floor function:\n\n\\[\\dfrac {2005^3}{2003 \\cdot 2004} - \\dfrac {2003^3}{2004 \\cdot 2005} = \\dfrac{2005^4 - 2003^4}{2003 \\cdot 2004 \\cdot 2005}.\\]\n\nWe can factor the numerator as a difference of squares:\n\n\\[2005^4 - 2003^4 = (2005^2 + 2003^2)(2005^2 - 2003^2).\\]\n\nWe can further factor the second term as a difference of squares:\n\n\\[(2005^2 + 2003^2)(2005^2 - 2003^2) = (2005^2 + 2003^2)(2005 + 2003)(2005 - 2003).\\]\n\nSimplifying, we get\n\n\\[\\dfrac {2005^3}{2003 \\cdot 2004} - \\dfrac {2003^3}{2004 \\cdot 2005} = \\dfrac{(2005 + 2003)(2005 - 2003)}{2003 \\cdot 2004}.\\]\n\nThis simplifies to\n\n\\[\\dfrac {2005^3}{2003 \\cdot 2004} - \\dfrac {2003^3}{2004 \\cdot 2005} = \\dfrac{2 \\cdot 2004}{2003 \\cdot 2004} = \\dfrac{2}{2003}.\\]\n\nTherefore,\n\n\\[\\left\\lfloor \\dfrac {2005^3}{2003 \\cdot 2004} - \\dfrac {2003^3}{2004 \\cdot 2005} \\right\\rfloor = \\left\\lfloor \\dfrac{2}{2003} \\right\\rfloor = 0.\\]\n\nThe answer is 0.",
+            "every_model_generate_token_num_list": [
+                21,
+                21,
+                512
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Step 1: Calculate the number of books sold at $2.50 each.\nTwo-fifths of Lovely's books were sold at $2.50 each. Since we know that Lovely had 10 books, we can calculate the number of books sold at this price by multiplying 10 by 2/5.\n\n(2/5) * 10 = 4 books\n\nStep 2: Calculate the number of books sold at $2 each.\nThe rest of Lovely's books were sold at $2 each. To find the number of these books, we subtract the number of books sold at $2.50 each from the total number of books.\n\n10 - 4 = 6 books\n\nStep 3: Calculate the total earnings from the books sold at $2.50 each.\nMultiply the number of books sold at $2.50 each by the price to find the total earnings from these books.\n\n4 * 2.50 = $10\n\nStep 4: Calculate the total earnings from the books sold at $2 each.\nMultiply the number of books sold at $2 each by the price to find the total earnings from these books.\n\n6 * 2 = $12\n\nStep 5: Calculate the total earnings.\nAdd the total earnings from the books sold at $2.50 each and the books sold at $2 each to find the total earnings.\n\n10 + 12 = $22\n\nThe answer is 22.",
+            "every_model_generate_token_num_list": [
+                29,
+                29,
+                323
+            ]
+        }
+    ]
+}

@@ -1,0 +1,629 @@
+{
+    "finish_date": "2026-04-06_21-20-21",
+    "integrate_models_name": [
+        "Llama3.1-8B-Instruct",
+        "gemma2-9B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "BOOLQ",
+    "all_cal_time": 470.1887059211731,
+    "all_correct_num": 45,
+    "all_generated_tokens_num_list": [
+        4747,
+        1382
+    ],
+    "all_ensemble_num": 1382,
+    "models_pred_answer_list": [
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "True",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "False",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "False",
+        "False",
+        "True",
+        "True",
+        "False",
+        "False",
+        "True",
+        "False",
+        "False",
+        "False",
+        "False",
+        "True",
+        "True",
+        "True",
+        "False",
+        "True",
+        "False",
+        "True",
+        "True",
+        "False"
+    ],
+    "question_correct_answer_list": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false
+    ],
+    "avg_cal_time": 9.4,
+    "avg_correct_num": 0.9,
+    "avg_generated_tokens_num_list": [
+        94.94,
+        27.64
+    ],
+    "avg_ensemble_num": 27.64,
+    "all_question_response_list": [
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 26,
+            "final_output_text": "The show was renewed for a second and final series on 1 March 2015. The second and final series is set in 1935 and began airing on 13 March 2016. Although initially planned by producers for five series, on 25 April 2016 it was announced that the show would not be renewed for a third series due to poor ratings and strong competition in its timeslot.\nStep 1: The text states that the second series is the final series.\nStep 2: It also states that the show was not renewed for a third series. \nStep 3: Therefore, there is no season 3 of Indian Summers.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                137,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 20,
+            "final_output_text": "Step 1: \nThe text states that Calvin Edwin Ripken Jr. was elected into the National Baseball Hall of Fame in 2007, in his first year of eligibility.\nStep 2: \nBeing elected into the Hall of Fame means that he is in the Hall of Fame.\nStep 3: \nTherefore, the statement \"is cal ripken jr in the hall of fame\" is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                87,
+                20
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 17,
+            "final_output_text": "The passage states that cultivated cowpeas are known by the common names black-eyed pea, southern pea, yardlong bean, catjang, and crowder pea. This means that black-eyed pea is one of the many names for cowpeas. \n\nTherefore, cowpeas and black eyed peas are the same thing. The answer is True",
+            "every_model_generate_token_num_list": [
+                70,
+                17
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 18,
+            "final_output_text": "The law of sines can be used on any triangle because it relates the lengths of the sides of a triangle to the sines of its angles. This relationship holds true for all types of triangles, regardless of their shape or size. Therefore, the law of sines can be applied to any triangle. \n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                66,
+                18
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 26,
+            "final_output_text": "The passage states that if the score remains tied at the end of the regulation number of complete innings, play shall continue until one of two conditions is met. The first condition is that the visiting team scores more total runs than the home team at the end of a completed inning. The second condition is that the home team scores the winning run in an uncompleted inning. This means that a tie is not possible, as the game will continue until one team is ahead. Therefore, the answer is False",
+            "every_model_generate_token_num_list": [
+                99,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 26,
+            "final_output_text": "Step 1: The question asks whether a 10 year old is still a child. \nStep 2: We need to consider the legal definition of a child. \nStep 3: The United Nations Convention on the Rights of the Child defines a child as a human being below the age of 18 years. \nStep 4: Since the 10 year old is below the age of 18, they are a child according to this definition. \nStep 5:  Therefore, the answer is True",
+            "every_model_generate_token_num_list": [
+                104,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": false,
+            "ensemble_num": 51,
+            "final_output_text": "The question asks if you can take out the king in chess. \n\nStep 1: \nThe king is the most important piece in chess, and the object of the game is to checkmate the opponent's king. This means that the king can be captured, but only if it is in a position where it cannot escape capture.\n\nStep 2: \nIf a player's king is captured, it is called checkmate, and the game is over. This means that the king can be taken out of the game, but only by checkmating it.\n\nStep 3: \nTherefore, the answer to the question is True, because you can take out the king in chess by checkmating it.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                149,
+                51
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 20,
+            "final_output_text": "The red panda is the only living species of the genus Ailurus and the family Ailuridae. It has been previously placed in the raccoon and bear families, but the results of phylogenetic analysis provide strong support for its taxonomic classification in its own family, Ailuridae, which is part of the superfamily Musteloidea, along with the weasel, raccoon and skunk families. Two subspecies are recognized. It is not closely related to the giant panda, which is a basal ursid.\nThe text explicitly states that the red panda is \"not closely related to the giant panda.\" This means that the two are not closely related, and therefore, the statement that a red panda is related to a panda is false.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                158,
+                20
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 24,
+            "final_output_text": "The passage states that \"Students at the naval academy are addressed as Midshipman, an official military rank and paygrade.\" This indicates that they are part of the military. \n\nThe passage further states that \"As midshipmen are actually in the United States Navy, starting from the moment that they raise their hands and affirm the oath of office at the swearing-in ceremony...\" This explicitly confirms that attending the naval academy means being in the navy. \n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                95,
+                24
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 18,
+            "final_output_text": "The passage states that lead crystal glassware was formerly used to store and serve drinks, but due to the potential health risks of lead, this has become rare. This implies that lead crystal glassware is not safe to use for drinking. Therefore, it is dangerous to drink from lead crystal glasses. The answer is True",
+            "every_model_generate_token_num_list": [
+                63,
+                18
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 30,
+            "final_output_text": "1. The provided text states that the fourth and final season of Crazy Ex-Girlfriend was renewed on April 2, 2018.\n2. It also mentions that the season comprises 18 episodes and stars Rachel Bloom as Rebecca Bunch.\n3. This information clearly indicates that a season 4 of Crazy Ex-Girlfriend exists.\n4. Therefore, the statement \"is there a season 4 of crazy ex girlfriend\" is True.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                94,
+                30
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 26,
+            "final_output_text": "The provided background information describes the origin of the Space Family Robinson in a comic book. \n\nIt does not mention a book as the source material for the story.  Therefore, we can't conclude that \"Lost in Space\" is based on a book. \n\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                59,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 22,
+            "final_output_text": "1. The text states that Chuck Hughes was the only NFL player to die on the field during a game.\n2. This means that there is at least one NFL player who died on the field. \n3. Therefore, the statement \"has any NFL player died on the field\" is true.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                64,
+                22
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 25,
+            "final_output_text": "The passage states that White Christmas (1954) was an extremely loose remake of Holiday Inn. \n\nA remake is a new version of a film, but it is not a sequel. A sequel is a film that continues the story of the original film. Therefore, White Christmas is not a sequel to Holiday Inn.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                68,
+                25
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 28,
+            "final_output_text": "The question asks if it is possible to lose the ability to speak.  The background information states that aphasia is an inability to comprehend and formulate language due to brain damage.  This damage can be caused by a stroke or head trauma, both of which can affect the brain regions responsible for speech.  Therefore, it is possible to lose the ability to speak due to brain damage. \n\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                83,
+                28
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 12,
+            "final_output_text": "The question asks if Zendaya is in Spider-Man: Far From Home. The background information states that the film stars Tom Holland as Peter Parker / Spider-Man, alongside Michael Keaton, Jon Favreau, Zendaya, Marisa Tomei, Jake Gyllenhaal, Cobie Smulders, and Samuel L. Jackson. \n\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                73,
+                12
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 25,
+            "final_output_text": "Step 1: \nThe passage states that Queen' s single \"Crazy Little Thing Called Love\" topped the Billboard Hot 100 for four weeks. This indicates that the song reached number one on the Billboard Hot 100 chart.\n\nStep 2: \nReaching number one position on the Billboard Hot 100 chart is the definition of a number one hit. Therefore, Queen did have a number one hit.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                87,
+                25
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 46,
+            "final_output_text": "Step 1: The passage states that bumbleumblebees are relatives of honeybees.\nStep 2: The passage also states that bumbleumblebees and honeybees both feed on nectar and pollen.\nStep 3: However, the passage does not state that honeybees and bumblebees are the same. \nStep 4: The passage highlights differences between the two, such as the way they gather nectar and the fact that bumbleumblebees are important agricultural pollinators.\nStep 5: Therefore, based on the information provided, we can conclude that honeybees and bumblebees are not the same.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                138,
+                46
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": false,
+            "ensemble_num": 33,
+            "final_output_text": "The passage discusses the possibility of a flight route between Buenos Aires and Perth, which would take advantage of strong winds circling Antarctica. It mentions that this route would not fly over the South Pole, but rather around it. This implies that flying over the North Pole is a possibility, as the passage does not mention any restrictions on flying over the North Pole. Therefore, it can be inferred that commercial aircraft do fly over the North Pole.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                91,
+                33
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 34,
+            "final_output_text": "The final episode of the series shows Eric returning to Point Place for the New Year and he and Donna kiss. This implies that they are rekindling their romance. \n\nHowever, the series does not explicitly state that they get married. \n\nTherefore, we cannot definitively say whether they end up married or not. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                70,
+                34
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 43,
+            "final_output_text": "The leek is a cultivar, a cultivar of Allium ampeloprasum, the broadleaf wild leek. The edible part of the plant is a bundle of leaf sheaths that is sometimes erroneously called a stem or stalk. The genus Allium also contains the onion, garlic, shallot, scallion, chive, and Chinese onion.\nStep 1: \nThe passage states that the genus Allium contains the onion, garlic, shallot, scallion, chive, and Chinese onion. This means that these plants are all part of the same genus, Al-lium.\nStep 2: \nThe passage also states that the leek is a cultivar of Allium ampeloprasum, the broadleaf wild leek. This means that the leek is also part of the genus Allium.\nStep 3: \nSince both the leekek and the onion are part of the same genus, Allium, they are in the same family.\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                206,
+                43
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 13,
+            "final_output_text": "The songs in the movie are based on the music of ABBA, as stated in the background information. \n\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                27,
+                13
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 19,
+            "final_output_text": "The passage states that Gap Inc. operates five primary divisions: Gap (the namesake banner), Banana Republic, Old Navy, Intermix, Weddington Way, and Athleta. \n\nSince Old Navy is listed as one of the divisions of Gap Inc., it can be concluded that Old Navy is owned by the same company as Gap. \n\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                76,
+                19
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 15,
+            "final_output_text": "The passage states that Nigeria have appeared in the finals of the FIFA World Cup on six occasions, but it does not say that they have won the tournament. \n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                37,
+                15
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 15,
+            "final_output_text": "The passage states that Bob Brunning, Bob Weston, and Bob Welch have all died. \nThis means that not all members of Fleetwood Mac are still alive. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                39,
+                15
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 18,
+            "final_output_text": "The question asks if there is a season 5 of Arrested Development. The background information states that the fifth season premiered on Netflix on May 29, 2018. This means that a season 5 does exist. Therefore, the answer is True",
+            "every_model_generate_token_num_list": [
+                51,
+                18
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 58,
+            "final_output_text": "The question asks if a person can have both male and female organs. \n\nThe provided text explains that historically, individuals with both testicularicular and ovarian tissue were termed \"true hermaphrodites.\" This implies that such individuals do possess both male and female gonadal tissue.\n\nThe text also mentions that the term \"pseudhermaphrodites\" referred to individuals whose external appearance differed from the sex expected from their internal gonads. This suggests that some individuals may have had internal gonads that were either male or female, but their external appearance did not align with those gonads.\n\nTherefore, based on the information provided, it is possible for a person to have both male and female organs, although the terminology used to describe such individuals has evolved over time. \n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                158,
+                58
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 19,
+            "final_output_text": "The passage states that DMSI applied the brand to a new online and catalog-based retailing operation, with no physical stores, headquartered in Cedar Rapids, Iowa. This implies that the new Montgomery Ward operation is a purely online and catalog-based business, with no physical stores. Therefore, it can be concluded that there are no Montgomery Ward stores still open. The answer is False",
+            "every_model_generate_token_num_list": [
+                75,
+                19
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 17,
+            "final_output_text": "The question asks whether Sri Lanka is a neighbouring country of India. The provided background states that \"India is the only neighbour of Sri Lanka, separated by the Palk Strait.\" This directly confirms that Sri Lanka is indeed a neighbour of India. Therefore, the answer is True",
+            "every_model_generate_token_num_list": [
+                54,
+                17
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 50,
+            "final_output_text": "The question asks whether precipitation is the same as the chance of rain. To answer this, we need to understand the definitions of both terms.\n\n* **Precipitation** refers to any form of water - liquid or solid - falling from clouds and reaching the ground. This includes rain, snow, sleet, and hail.\n* **Chance of rain**, or probability of precipitation (POP), is a forecast that describes the likelihood of precipitation occurring within a specified time and location.\n\nTherefore, precipitation is a type of weather event, while the chance of rain is a prediction about the likelihood of that event occurring.\n\nThey are not the same thing, as precipitation is a specific weather phenomenon, whereas the chance of rain is a forecast about the probability of that phenomenon occurring.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                157,
+                50
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 23,
+            "final_output_text": "Step 1: Philip Pullman stated that there would not be any sequels made due to the first film's disappointing sales in the United States.\nStep 2: This statement implies that there will not be another Golden Compass movie. \nStep 3: Therefore, based on Pullman Pullman's statement, the likelihood of another Golden Compass movie is low.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                76,
+                23
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 31,
+            "final_output_text": "The ninth season of One Tree Hill was confirmed to be the final season of the series. \nThe CW network announced that the ninth season would be the last. \nThe series aired its 13 episodes uninterrupted. \nThere is no indication that the show will return for a 10th season. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                65,
+                31
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 26,
+            "final_output_text": "The question asks if you can eat the black things in bubble tea. \n\nThe passage states that tapiocaoca balls (boba) are the prevailing chewy tidbits in bubble tea, and they are usually black due to the brown sugar mixed in with the tapioca.  This implies that the black things in bubble tea are tapioca balls, which are edible.\n\nTherefore, the answer is True",
+            "every_model_generate_token_num_list": [
+                80,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 24,
+            "final_output_text": "The question asks whether there is a chip in the Apple Lightning cable.  The background information states that \"Official Lightning connectors contain an authentication chip.\" \n\nSince the Lightning cable is a connector, it is reasonable to infer that the authentication chip is located within the connector. \n\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                60,
+                24
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 46,
+            "final_output_text": "The question asks if Deep Blue Sea 2 came out in theaters. To answer this, we need to look at the provided information. \n\nThe text states that Deep Blue Sea 2 was released on VODOD (Video On Demand) the same week as another movie, and it debuted at #10 on the Microsoft Store VOD chart. This indicates that Deep Blue Sea 2 was not released in theaters, as it was released directly to VOD. \n\nThe text also mentions that Deep Blue Sea 2 was the only non-theatrical release to appear in the top 10 of any VOD chart for the months of April and May 2018. This further supports the idea that Deep Blue Sea 2 was not released in theaters.\n\nTherefore, based on the information provided, we can conclude that Deep Blue Sea 2 did not come out in theaters.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                179,
+                46
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 32,
+            "final_output_text": "The question asks if all World Cup matches were played in Russia. To answer this, we need to look at the provided background information. The background states that the 2018 FIFA World Cup took place in Russia from 14 June to 15 July 2018. This means that all the matches for the 2018 World Cup were indeed played in Russia. However, the question does not specify which World Cup it is referring to.\n\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                93,
+                32
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 15,
+            "final_output_text": "The text states that Salt Lake City is the \"most populous municipality of the U.S. state of Utah.\" This means that it is the city with the largest population in Utah. Therefore, Salt Lake City is the biggest city in Utah.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                52,
+                15
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 31,
+            "final_output_text": "The electronegativity difference between carbon and hydrogen is 0.35. \n\nA bond is considered polar when the electronegativity difference between the two atoms is greater than 0.4. \n\nSince the electronegativity difference between carbon and hydrogen is less than 0.4, the C--H bond is considered non-polar. \n\nTherefore, carbon cannot form polar covalent bonds with hydrogen.  The answer is False",
+            "every_model_generate_token_num_list": [
+                94,
+                31
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 14,
+            "final_output_text": "The song \"What a Wonderful World\" is copyrighted, and the publishing rights are controlled by several companies. This means that the song is not in the public domain. Therefore, the answer is False",
+            "every_model_generate_token_num_list": [
+                39,
+                14
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": true,
+            "ensemble_num": 58,
+            "final_output_text": "The passage states that \"it is still common, even today, to find that an owner's manual recommends gentle use at first (often specified as the first 500 or 1000 kilometres or miles).\" This implies that while the process of breaking in an engine is still done, it is not a requirement for the owner to do it. The passage also states that \"it is usually only normal use without excessive demands that is specified, as opposed to light/limited use.\" This further implies that the owner does not need to do anything special to break in the engine, just drive it normally. The passage also states that \"people no longer break in the engines of their own vehicles after purchasing a car or motorcycle, because the process is done in production.\" This implies that the engine is already broken in before the owner even purchases the vehicle. Therefore, the owner does not need to break in the engine.\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                185,
+                58
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 38,
+            "final_output_text": "1. The movie credits show Louieie emerging from the rubble, which implies that he survived the events of the movie.\n2. The movie credits also show Louie performing a song, which further suggests that he is alive and well. \n3. There is no indication in the credits that Louie died. \n4. Therefore, based on the information provided, it can be concluded that Louie Louie did not die in the Jungle Book 2016. \n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                97,
+                38
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 56,
+            "final_output_text": "The prompt asks whether Fear the Walking Dead is different than The Walking Dead. To determine this, we need to examine the provided background information.\n\nThe background states that Fear the Walking Dead is a \"companion series and prequel\" to The Walking Dead. This means that Fear the Walking Dead is connected to The Walking Dead but exists in a different time period and likely has different characters and storylines.\n\nTherefore, based on the definition of a companion series and prequel, Fear the Walking Dead is indeed different from The Walking Dead. This difference is not just in the characters and storylines but also in the time period in which the events take place.\n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                135,
+                56
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 15,
+            "final_output_text": "The question asks if a quartz cuvette can be used in the visible range. The background information states that glass, plastic, and quartz cuvettes are all suitable for measurements made at longer wavelengths, such as in the visible light range. This means that quartz cuvettestes can indeed be used in the visible range.  The answer is True",
+            "every_model_generate_token_num_list": [
+                69,
+                15
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 27,
+            "final_output_text": "Dif 1: \nThe question asks whether a diffraction effect is seen in sound waves. \n\nStep 2: \nWe know that diffraction is a phenomenon that occurs when a wave encounters an obstacle or a slit. It is defined as the bending of waves around the corners of an obstacle or aperture into the region of geometrical shadow of the obstacle.\n\nStep 3: \nSound waves are a type of wave. \n\nStep 4: \nTherefore, sound waves can exhibit diffractionraction. \n\nThe answer is True",
+            "every_model_generate_token_num_list": [
+                110,
+                27
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 26,
+            "final_output_text": "The Supremacy Clause of the United States Constitution explicitly states that the Constitution, federal laws, and treaties are the supreme law of the land. This means that any state laws or constitutionsutions that conflict with federal law must be set aside. Therefore, a state constitution cannot override the US Constitution. This is because the Supremacy Clause establishes a hierarchy of laws, with federal law taking precedence over state law. As a result, any provision in a state constitution that conflicts with the US Constitution would be invalid.\n\nThe answer is False",
+            "every_model_generate_token_num_list": [
+                106,
+                26
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 20,
+            "final_output_text": "The passage states that schools in Divisions II and III are allowed to classify one men's sport and one women's sport as Division I, provided that they were sponsoring said sports at Division I level prior to 2011. This means that a school can have some sports classified as Division I and others as Division II. Therefore, a school can be both Division 1 and 2. \nThe answer is True",
+            "every_model_generate_token_num_list": [
+                83,
+                20
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 34,
+            "final_output_text": "The passage states that Prince William was given his dukedom. This implies that a duke is a separate title from a prince. Furthermore, the passage explains that when a man is given a peerage of his own, such as a dukedom, he discards his territorial designation. This suggests that a duke is a higher rank than a prince, and that a prince can become a duke.  Therefore, a prince is not the same as a duke. The answer is False",
+            "every_model_generate_token_num_list": [
+                95,
+                34
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 18,
+            "final_output_text": "The question asks if the Spruce Goose was made out of wood. The provided background states that the aircraft was nicknamed the Spruce Goose, but it was made almost entirely of birch. Birch is a type of wood. Therefore, the Spruceuce Goose was indeed made out of wood. \nThe answer is True",
+            "every_model_generate_token_num_list": [
+                63,
+                18
+            ]
+        },
+        {
+            "pred_answer": "True",
+            "correct_answer": true,
+            "ensemble_num": 32,
+            "final_output_text": "The passage states that Kusuma Rajaajaiah, a government officer from India's Andhra Pradesh state, applied the theories behind the Ahimsa way of life to the making of silk and found that it was possible to create silk without killing the creatures that created it. Traditional silk manufacturing methods involve boiling the cocoons of the silkworm and then sorting out the threads to be used later in production. Rajaiah's idea involves a gentler method, specifically letting the worms hatch and then using the cocoons once vacant. He started deploying this process in the year 1992 and has hence been supported by a larger community of people interested in the welfare and rights of animals and non-humans.\nBased on the above background, answer the True/False question:can you make silk without killing the worm. \nInstructions:\n1. Provide a step-by-step explanation of your reasoning.\n2. The very last line must be exactly: The answer is X. (X is True or False)\nBegin your explanation below:\nThe passage explicitly states that Rajaajaiah found a way to make silk without killing the worms. This is supported by the description of his method, which involves letting the worms hatch before using the cocoons. This means that the worms are not killed in the process of silk production. Therefore, the answer is True",
+            "every_model_generate_token_num_list": [
+                268,
+                32
+            ]
+        },
+        {
+            "pred_answer": "False",
+            "correct_answer": false,
+            "ensemble_num": 22,
+            "final_output_text": "The Waterloo & City line is described as not normally operating on Sundays. This means that it does not run on Sundays, unless there are exceptional circumstances. Therefore, the statement \"does the Waterloo and City line run on a Sunday\" is False, because it does not normally operate on Sundays. \nThe answer is False",
+            "every_model_generate_token_num_list": [
+                63,
+                22
+            ]
+        }
+    ]
+}

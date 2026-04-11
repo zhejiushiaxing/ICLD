@@ -1,0 +1,630 @@
+{
+    "finish_date": "2026-03-28_17-02-00",
+    "integrate_models_name": [
+        "gemma-2-9b-it_multilingual",
+        "gemma-2-9b-it_math",
+        "gemma-2-9b-it_coding"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MULTILINGUAL",
+    "all_cal_time": 860.4385862350464,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        1607,
+        1607,
+        7286
+    ],
+    "models_pred_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "question_correct_answer_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "avg_cal_time": 17.21,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        32.14,
+        32.14,
+        145.72
+    ],
+    "all_question_response_list": [
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The text is about the life of a Chilean revolutionary who participated in the revolutions of 1851 and 1859. He was imprisoned in both instances. After being confined to Magallanes for the last revolution, he led a mutiny on the ship \"Olga\" and sailed to Peru. An amnesty allowed him to return to Chile in 1862 and participate in the war against Spain as a volunteer on the ship \"Dart\".",
+            "every_model_generate_token_num_list": [
+                18,
+                18,
+                93
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The article discusses the potential benefits of extending the HPV vaccine program to include boys in addition to girls. Currently, the vaccine is offered to girls aged 12 and 13 to protect them against cervical cancer. However, the virus is believed to cause 5% of all cancers worldwide, including those affecting 2,000 men annually. Experts are considering whether to offer the vaccine to boys aged 12 to 13 as well.\n\nThe article highlights the potential savings to the NHS in treatment costs and the reduction in suffering that could result from this decision. It also mentions the cost of the program, which is estimated at up to 22 million pounds annually. The HPV virus is transmitted through sexual contact and can cause cervical cancer in women, as well as cancers of the throat, anus, and penis.\n\nThe article concludes with a call to action for parents to support the extension of the HPV vaccine program to include boys. It argues that if parents knew that both their sons and daughters could be protected from the virus that causes 5% of all cancers, most would likely agree to the extension.",
+            "every_model_generate_token_num_list": [
+                57,
+                57,
+                228
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "ADN est l'abréviation de \"acide désoxyribonucléique\".<eos>",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                20
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Avantages:\n\n1. Durabilité: Les énergies renouvelables, comme l'énergie solaire, l'éolienne, et l'hydroélectrique, sont des sources d'énergie qui se renouvellent naturellement et ne se tariront pas dans un avenir prévisible.\n\n2. Réduction des émissions de gaz à effet de serre: L'utilisation des énergies renouvelables contribue à réduire les émissions de gaz à effet de serre, qui sont responsables du changement climatique.\n\n3. Diversification des sources d'énergie: L'utilisation des énergies renouvelables permet de diversifier les sources d'énergie, réduisant la dépendance aux combustibles fossiles.\n\n4. Création d'emplois: Le secteur des énergies renouvelables est en croissance et crée de nouveaux emplois dans le monde entier.\n\n5. Réduction de la pollution: Les énergies renouvelables, comme l'énergie solaire et l'éolienne, ne produisent pas de pollution atmosphérique.\n\nInconvénients:\n\n1. Intermittence: Certaines énergies renouvelables, comme l'énergie solaire et l'éolienne, sont intermittentes, c'est-à-dire qu'elles ne produisent pas d'énergie de manière constante.\n\n2. Coût initial: Le coût initial de mise en place des énergies renouvelables peut être élevé.\n\n3. Emprise au sol: Certaines technologies, comme les panneaux solaires, nécessitent de grandes surfaces au sol.\n\n4. Impact sur la faune: L'éolienne peut avoir un impact sur la faune, notamment les oiseaux et les chauves-souris.\n\n5. Stockage de l'énergie: Le stockage de l'énergie produite par les énergies renouvelables peut être un défi.<eos>",
+            "every_model_generate_token_num_list": [
+                58,
+                58,
+                365
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Yes, the two phrases express the same meaning.<eos>",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                11
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "No, estas oraciones no se parafrasean entre sí. \n\nLa primera oración menciona que la biografía se ha publicado en Gran Bretaña, EE. UU., Hungría, Polonia y China. \n\nLa segunda oración menciona que la biografía se ha publicado en Reino Unido, Estados Unidos (St Martin's 2013), Polonia (Swiat Ksiazki, 2013), Hungría y China. \n\nAunque ambas oraciones hablan sobre la publicación de la biografía en los mismos países, la diferencia en la secuencia de los países mencionados y la inclusión de nombres específicos de editoriales y años de publicación en la segunda oración, hacen que estas oraciones no sean parafrases de sí mismas.",
+            "every_model_generate_token_num_list": [
+                32,
+                32,
+                149
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The answer is:\n\n\"En 1820, tras la independencia de la Nueva Granada, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Píojó y en la Batalla de Pasto. En 1821, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Tacuarí y en la Batalla de Pichincha. En 1822, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Junín y en la Batalla de Ayacucho. En 1823, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1824, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Maipú y en la Batalla de Ayacucho. En 1825, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1826, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1827, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1828, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1829, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1830, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1831, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1832, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1833, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1834, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1835, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1836, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1837, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1838, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1839, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1840, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1841, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1842, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1843, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1844, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1845, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1846, se unió a la expedición de Bolívar hacia el sur, participando en la Batalla de Valdivia y en la Batalla de Tacna. En 1847, se unió a la expedición de Santander hacia el sur, participando en la Batalla de Valdivia y en la Batalla",
+            "every_model_generate_token_num_list": [
+                52,
+                52,
+                1024
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "La pregunta corresponde a la categoría de videojuegos.",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                10
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Campeonato Mundial de Esquí Acrobático de 1993, en la prueba de acrobacias.<eos>",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                23
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Zuerst, fülle den 5-Liter-Kanister vollständig.\n2. Dann, schütte Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n3. Es verbleibt dann 2 Liter Wasser im 5-Liter-Kanister.\n4. Leere den 3-Liter-Kanister.\n5. Schütte die 2 Liter Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister.\n6. Fülle den 5-Liter-Kanister erneut vollständig.\n7. Schütte Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n8. Es verbleibt dann 1 Liter Wasser im 5-Liter-Kanister.\n9. Leere den 3-Liter-Kanister.\n10. Schütte die 1 Liter Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister.\n11. Fülle den 5-Liter-Kanister erneut vollständig.\n12. Schütte Wasser aus dem 5-Liter-Kanister in den 3-Liter-Kanister, bis dieser voll ist.\n13. Es verbleibt dann 4 Liter Wasser im 5-Liter-Kanister.\n\nSo, mit geschicktem Umschütten, kann man 4 Liter Wasser abmessen.",
+            "every_model_generate_token_num_list": [
+                23,
+                23,
+                316
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "In chess, a stalemate is a situation where the player whose turn it is to move has no legal moves left, but the game is not yet over. This can happen when the player's pieces are all blocked by their own pawns or other pieces, or when the opponent's pieces are all blocking the player's pieces. A stalemate is considered a draw.",
+            "every_model_generate_token_num_list": [
+                16,
+                16,
+                75
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "...hasta Waterloo (1815), y la vida personal de Napoleón, incluyendo su matrimonio con Joséphine de Beauharnais y su relación con la emperatriz María Luisa de Austria.<eos>",
+            "every_model_generate_token_num_list": [
+                8,
+                8,
+                41
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Manque de mise en page et d'organisation : Un CV mal organisé et sans mise en page peut donner une mauvaise impression. Il est important de bien structurer le CV et de l'organiser de manière logique.\n\n2. Manque de personnalisation : Un CV générique qui n'est pas adapté à l'offre d'emploi peut ne pas être remarqué. Il est important de personnaliser le CV en fonction de l'offre d'emploi et de mettre en avant les compétences et expériences pertinentes.\n\n3. Trop de détails : Un CV trop long et détaillé peut rebuter les recruteurs. Il est important de rester concis et de ne pas inclure d'informations non pertinentes.\n\n4. Manque de mots-clés : Un CV sans mots-clés pertinents peut ne pas être repéré par les systèmes de suivi des candidatures. Il est important d'intégrer des mots-clés pertinents dans le CV.\n\n5. Erreurs grammaticales et orthographiques : Des erreurs grammaticales et orthographiques peuvent donner une mauvaise impression. Il est important de relire et de corriger le CV avant de l'envoyer.\n\n6. Manque de mise en valeur des compétences : Un CV qui ne met pas en valeur les compétences et expériences pertinentes peut ne pas être retenu. Il est important de mettre en avant les compétences et expériences qui correspondent aux exigences de l'offre d'emploi.\n\n7. Absence de lettre de motivation : Une lettre de motivation personnalisée peut aider à se démarquer. Il est important de joindre une lettre de motivation à chaque candidature.\n\n8. Non-respect des instructions : Ne pas respecter les instructions de la fiche de poste peut donner une mauvaise impression. Il est important de suivre attentivement les instructions.\n\n9. Manque de professionnalisme : Un CV non professionnel peut ne pas être retenu. Il est important de choisir un format professionnel et de ne pas inclure d'informations non professionnelles.\n\n10. Manque de mise en avant des réalisations : Un CV qui ne met pas en avant les réalisations peut ne pas être retenu. Il est important de quantifier et de mettre en avant les réalisations.<eos>",
+            "every_model_generate_token_num_list": [
+                99,
+                99,
+                449
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The largest planet in the solar system is Jupiter.",
+            "every_model_generate_token_num_list": [
+                0,
+                0,
+                11
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Quién fue el primer presidente de los Estados Unidos?\n\nThe first president of the United States was George Washington.",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                24
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The story of \"The Blue Bird\" is a classic tale written by the Belgian author Maurice Maeterlinck in 1908. It tells the story of a young girl named Mytyl and her brother Tyltyl, who are given a magical blue bird by their fairy godmother. The bird is said to be able to grant any wish, but it can only be kept for one day.\n\nMytyl and Tyltyl embark on a journey to find the blue bird's nest, encountering various characters and obstacles along the way. They meet a cat, a dog, a firefly, and a number of other creatures, all of whom offer them help and advice.\n\nThe journey takes them through a variety of landscapes, including a forest, a desert, and a mountain. They also visit the kingdom of the Fairies and the land of the Dead.\n\nThroughout their journey, Mytyl and Tyltyl learn about the importance of love, friendship, and the beauty of the natural world. They also learn that true happiness comes from within, not from material possessions or magical creatures.\n\nIn the end, Mytyl and Tyltyl return home with the blue bird, but they realize that they have already found the true treasure: the love and support of each other and the beauty of the world around them.\n\nThe story of \"The Blue Bird\" is a timeless tale that continues to resonate with readers of all ages. It is a story about the power of imagination, the importance of family and friendship, and the beauty and wonder of the natural world.",
+            "every_model_generate_token_num_list": [
+                98,
+                98,
+                316
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "In Aztec mythology, the third sun was named Chalchiuhtlicue. She was the goddess of water, rain, and fertility. She was also the wife of the god of the underworld, Mictlantecuhtli.<eos>",
+            "every_model_generate_token_num_list": [
+                14,
+                14,
+                48
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál es el nombre del grupo musical que lanzó el álbum \"Thriller\" en 1982?\n\nThe answer is: Michael Jackson.",
+            "every_model_generate_token_num_list": [
+                9,
+                9,
+                31
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The project was selected over the other two bids, which were from the Swedish city of Östersund and the Canadian city of Calgary. The Italian bid was praised for its strong infrastructure and its ability to host a variety of winter sports. The selection of Milan and Cortina d'Ampezzo as the host cities was a significant victory for Italy, as it will be the first time the country hosts the Winter Olympics since 1956. The cities of Milan and Cortina d'Ampezzo are located in the Lombardy region of Italy, and they are both known for their beautiful scenery and their love of winter sports. The selection of these cities as the host cities for the 2026 Winter Olympics is expected to boost the economy of the region and to promote tourism.<eos>",
+            "every_model_generate_token_num_list": [
+                57,
+                57,
+                161
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The first train station in Reading was opened on 1st July 1840.<eos>",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                20
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The main theme of this question is about an actress who worked in the movie \"Suicide Squad\" and studied at Somerset College.",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                26
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "TGIF is an acronym that stands for \"Thank God It's Friday\". It is a phrase used to express relief and happiness that the work week is over and the weekend has begun. \n\nIn Russian, it can be translated as: \"Спасибо Богу, что настал пятница\" or \"Слава Богу, что наступила пятница\".<eos>",
+            "every_model_generate_token_num_list": [
+                15,
+                15,
+                72
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "To measure the speed of the wind, you can use an instrument called an anemometer.",
+            "every_model_generate_token_num_list": [
+                2,
+                2,
+                20
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Yue Minjun, né en 1962, est un artiste chinois contemporain. Il est connu pour ses peintures expressionnistes qui mettent en scène des personnages ordinaires dans des situations banales. Son style est caractérisé par des couleurs vives et des coups de pinceau énergiques.\n\nYue Minjun a étudié à l'Académie des beaux-arts de Pékin, où il a été exposé à l'art occidental. Il a commencé à peindre dans le style expressionniste après avoir vu des œuvres de Van Gogh et de Munch. Son œuvre la plus célèbre est \"The Executioner's Song\", une peinture à grande échelle qui représente un homme exécuté sur une scène publique.\n\nL'artiste a également peint des portraits de lui-même et de ses amis, souvent dans des poses et des expressions similaires à celles des personnages de la \"The Executioner's Song\". Ces portraits sont caractérisés par des visages rouges et des yeux noirs, et ils reflètent l'influence de l'art expressionniste sur Yue Minjun.\n\nYue Minjun a exposé ses œuvres dans de nombreux musées et galeries à travers le monde, notamment au Musée d'art moderne de New York et au Centre national d'art de Washington, D.C. Son travail a été salué pour sa capacité à capturer l'essence de l'expérience humaine dans des situations ordinaires.",
+            "every_model_generate_token_num_list": [
+                87,
+                87,
+                285
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The question is asking for the 27th Amendment to the United States Constitution, which was submitted to the states for ratification in 1789 and was adopted in 1992.",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                42
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál es el videojuego más vendido de todos los tiempos?\n\nEl videojuego más vendido de todos los tiempos es Super Mario Bros. con 48.45 millones de copias vendidas.",
+            "every_model_generate_token_num_list": [
+                5,
+                5,
+                42
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Ganache is a type of chocolate confectionery made from chocolate and cream. It is often used as a filling for chocolates, truffles, or cakes. Ganache can also be used as a glaze or topping for desserts.<eos>",
+            "every_model_generate_token_num_list": [
+                16,
+                16,
+                45
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The category of this question is \"Basketball\".",
+            "every_model_generate_token_num_list": [
+                3,
+                3,
+                10
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The relevance of the Christian Western culture in our times can be attributed to several factors.\n\n1. Historical Influence: The Christian West has a long and profound influence on Western civilization. Its values, beliefs, and practices have shaped the development of Western societies, from their political systems to their art and literature.\n\n2. Cultural Impact: The Christian West has produced many influential works of art, literature, music, and philosophy that continue to be relevant and influential today. These works have shaped the cultural landscape of the West and beyond.\n\n3. Moral and Ethical Framework: The Christian West has provided a moral and ethical framework for many societies. Its teachings on love, compassion, forgiveness, and justice continue to be relevant in contemporary society.\n\n4. Social Institutions: The Christian West has established many social institutions, such as hospitals, universities, and charities, which continue to serve important functions in modern society.\n\n5. Global Reach: The Christian West has a global reach, with Christianity being one of the world's largest religions. Its influence can be seen in many parts of the world, including in the development of non-Western societies.\n\n6. Ongoing Dialogue: The Christian West continues to engage in dialogue with other cultures and religions, making it a relevant force in contemporary global affairs.\n\n7. Adaptation and Evolution: The Christian West has shown a capacity to adapt and evolve over time, incorporating new ideas and perspectives while retaining its core values. This makes it a dynamic and relevant force in contemporary society.\n\n8. Personal and Spiritual Significance: For many individuals, Christianity provides a source of personal and spiritual meaning and purpose. This makes the Christian West relevant to their lives and experiences.\n\n9. Political Influence: The Christian West has a significant political influence, with many political leaders and movements drawing inspiration from Christian values and beliefs.\n\n10. Economic Influence: The Christian West has also had a significant economic influence, with many businesses and economic systems being shaped by Christian values and principles.\n\nIn conclusion, the Christian West remains relevant in our times due to its historical influence, cultural impact, moral and ethical framework, social institutions, global reach, ongoing dialogue, adaptation and evolution, personal and spiritual significance, political influence, and economic influence.",
+            "every_model_generate_token_num_list": [
+                123,
+                123,
+                452
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "During the time of\nThe answer is:\nDuring the time of the French Revolution, the guillotine was used as a method of execution.<eos>",
+            "every_model_generate_token_num_list": [
+                13,
+                13,
+                30
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The largest ocean is the Pacific Ocean.",
+            "every_model_generate_token_num_list": [
+                2,
+                2,
+                9
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The most important event in the text is the resignation of Reja from the Lazio bench in May 2012.<eos>",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                26
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The oldest person to win a Grammy Award is likely to be a person who has been active in the music industry for a long time. One such person is Quincy Jones, who has won 28 Grammy Awards. He was born on March 30, 1933, and is currently 89 years old.<eos>",
+            "every_model_generate_token_num_list": [
+                21,
+                21,
+                68
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "1. Globalisation: The world is becoming increasingly interconnected, which presents both opportunities and challenges for modern politics. On one hand, it allows for greater cooperation and understanding between different cultures and nations. On the other hand, it can lead to increased competition for resources and influence, as well as the spread of global issues such as climate change and pandemics.\n\n2. Technological Advancements: Rapid technological advancements, particularly in areas like artificial intelligence and cybersecurity, are transforming the political landscape. These advancements can enhance political processes and citizen engagement, but they also raise concerns about privacy, data security, and the potential for misuse.\n\n3. Populism and Nationalism: The rise of populist and nationalist movements is a significant trend in modern politics. These movements often appeal to people's fears and frustrations, and can lead to increased polarization and division within societies.\n\n4. Climate Change: The global climate crisis is a major challenge for modern politics. It requires international cooperation and significant policy changes to address, and its impacts are already being felt around the world.\n\n5. Inequality: The gap between the rich and poor is widening in many countries, leading to social and economic instability. This issue requires political solutions to ensure a more equitable distribution of resources and opportunities.\n\n6. Migration: The movement of people across borders is a complex issue with both economic and political implications. It can lead to cultural enrichment and economic growth, but it can also create tensions and divisions within societies.\n\n7. Cybersecurity: The increasing interconnectedness of the world makes nations more vulnerable to cyber attacks. This requires governments to invest in cybersecurity measures and cooperate with each other to combat cyber threats.\n\n8. The Future of Democracy: The rise of authoritarianism and the erosion of democratic norms are threats to the future of democracy. It is a challenge for modern politics to uphold and strengthen democratic institutions and values.\n\n9. The Role of Social Media: Social media platforms have become powerful tools for political mobilization and communication. However, they can also be used to spread misinformation and propaganda, posing a challenge to the integrity of political processes.\n\n10. The Changing Global Order: The world is moving away from a unipolar order dominated by the United States towards a more multipolar order. This shift presents both opportunities and challenges for modern politics, as it requires countries to adapt to a more complex and interconnected global landscape.",
+            "every_model_generate_token_num_list": [
+                133,
+                133,
+                478
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cuál es el nombre del actor que interpretó a Jack Dawson en la película Titanic?\n\nEl nombre del actor que interpretó a Jack Dawson en la película Titanic es Leonardo DiCaprio.",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                38
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "¿Cómo se clasifica internacionalmente la Universidad de Australia Occidental?\n\nLa Universidad de Australia Occidental (UWA) se clasifica internacionalmente en el puesto 73 según el ranking mundial de universidades QS del 2011.",
+            "every_model_generate_token_num_list": [
+                5,
+                5,
+                49
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Capitulación del club de vela en 1945.<eos>",
+            "every_model_generate_token_num_list": [
+                6,
+                6,
+                15
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The greenhouse effect is a natural process that warms the Earth's surface. However, human activities are enhancing this effect, leading to global warming and climate change. The main causes and consequences of this phenomenon are as follows:\n\nCauses:\n1. Burning of Fossil Fuels: The combustion of coal, oil, and gas releases greenhouse gases like carbon dioxide (CO2) into the atmosphere.\n2. Deforestation: Trees absorb CO2 from the atmosphere. When forests are cleared, this CO2 is released, contributing to the greenhouse effect.\n3. Industrial Processes: Certain industrial processes, such as cement production, release greenhouse gases.\n4. Agriculture: Livestock farming and rice cultivation release methane, a potent greenhouse gas.\n\nConsequences:\n1. Global Warming: The enhanced greenhouse effect leads to an increase in the Earth's average temperature.\n2. Sea Level Rise: As global temperatures rise, glaciers and ice sheets melt, adding more water to the oceans and causing sea levels to rise.\n3. Extreme Weather Events: Climate change can lead to more frequent and intense heat waves, droughts, floods, and storms.\n4. Ocean Acidification: The absorption of CO2 by the oceans leads to a decrease in pH, making the water more acidic.\n\nMeasures to Attenuate These Problems:\n1. Transition to Renewable Energy: Replacing fossil fuels with renewable energy sources like solar, wind, and hydro power can reduce greenhouse gas emissions.\n2. Energy Efficiency: Improving energy efficiency in buildings, transportation, and industry can reduce energy consumption and emissions.\n3. Reforestation and Afforestation: Planting trees can help absorb CO2 from the atmosphere.\n4. Sustainable Agriculture: Practices like crop rotation, no-till farming, and reducing livestock emissions can help mitigate agriculture's impact on climate change.\n5. Carbon Capture and Storage: Technologies that capture CO2 from power plants and industrial processes and store it underground can help reduce emissions.\n6. International Cooperation: Global cooperation is essential to address climate change, as it is a global problem.\n\nBy taking these measures, we can help mitigate the effects of climate change and protect the planet for future generations.",
+            "every_model_generate_token_num_list": [
+                81,
+                81,
+                442
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "El algoritmo de Bubble Sort, también conocido como \"Burbuja\" o \"Burbuja Básica\", es un algoritmo de ordenamiento simple y eficiente para pequeñas cantidades de datos. \n\nEl algoritmo de Bubble Sort funciona comparando cada par de elementos adyacentes en una lista y, si están en el orden incorrecto, intercambiándolos. Este proceso se repite hasta que la lista está ordenada.\n\nAquí es una descripción paso a paso de cómo funciona el algoritmo de Bubble Sort:\n\n1. Compara el primer y el segundo elemento de la lista. Si el primer elemento es mayor que el segundo, los intercambia.\n\n2. Compara el segundo y el tercer elemento. Si el segundo elemento es mayor que el tercero, los intercambia.\n\n3. Continúa comparando y intercambiando elementos adyacentes hasta llegar al final de la lista.\n\n4. Repite los pasos 1-3 para la lista ordenada hasta que no se necesiten más intercambios.\n\n5. La lista está ahora ordenada.\n\nEl algoritmo de Bubble Sort tiene una complejidad de O(n^2), donde n es el número de elementos en la lista. Esto significa que el tiempo que tarda en ordenar la lista aumenta cuadráticamente con el número de elementos. Por lo tanto, el Bubble Sort no es eficiente para grandes cantidades de datos.\n\nA pesar de su complejidad, el Bubble Sort tiene algunas ventajas. Es simple de entender y implementar, y puede ser eficiente para pequeñas cantidades de datos o cuando se necesita una solución rápida y sencilla.<eos>",
+            "every_model_generate_token_num_list": [
+                82,
+                82,
+                320
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The main theme of this question is the death of a wife during childbirth in the reign of King Henry VIII.",
+            "every_model_generate_token_num_list": [
+                5,
+                5,
+                23
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Tamara de Lempicka was a Polish painter known for her Art Deco style. She was born in 1898 and died in 1980. She was known for her portraits and nudes, which often featured strong, independent women. Her paintings are characterized by their bold lines, vibrant colors, and geometric shapes. She was a prominent figure in the Art Deco movement, which was a popular style in the 1920s and 1930s.<eos>",
+            "every_model_generate_token_num_list": [
+                23,
+                23,
+                101
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "... de 1987, donde Argentina se consagró campeón.<eos>",
+            "every_model_generate_token_num_list": [
+                5,
+                5,
+                16
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The color that attracts the eye first is usually the brightest color in the scene. This is because the human eye is most sensitive to bright colors, and they tend to stand out more in a scene. For example, if you are in a room with various colored objects, your eye will likely be drawn to the object with the brightest color first. This is because the brain prioritizes processing information that is most salient, and bright colors are highly salient due to their contrast with the surrounding environment.<eos>",
+            "every_model_generate_token_num_list": [
+                37,
+                37,
+                99
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The question of whether the universe will have an end is a complex one that has been pondered by scientists and philosophers for centuries. The answer depends on the prevailing cosmological model, which in turn depends on the interpretation of various observations and theoretical frameworks.\n\nAccording to the Big Bang theory, the universe began from an extremely hot and dense state, and has been expanding ever since. The ultimate fate of the universe depends on the balance between the expansion and the gravitational pull of matter.\n\nIf the expansion continues indefinitely, the universe will continue to cool and become increasingly dark and empty, a scenario known as the \"Big Freeze\" or \"Heat Death\". This is the most widely accepted scenario based on current observations and understanding of physics.\n\nHowever, there are other possibilities. If the expansion slows down and eventually reverses, the universe will collapse back into a singularity, a state of infinite density and temperature, in a scenario known as the \"Big Crunch\".\n\nAnother possibility is the \"Big Rip\", where the expansion accelerates so rapidly that it tears apart all structures in the universe, from galaxies to atoms.\n\nIt's important to note that these are just theoretical scenarios. The actual fate of the universe may be different, and our understanding of cosmology is still evolving.\n\nIn conclusion, while the question of whether the universe will have an end is a profound one, the answer remains uncertain. The most likely scenario based on current evidence is the \"Big Freeze\", but other possibilities exist. As our understanding of the universe develops, so too will our understanding of its ultimate fate.",
+            "every_model_generate_token_num_list": [
+                100,
+                100,
+                314
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Cuba tiene un sistema económico mixto, que combina elementos del socialismo y del capitalismo.\nEl gobierno cubano controla la mayoría de los sectores económicos, pero también permite la existencia de pequeñas empresas privadas.\nLa economía cubana se basa principalmente en la agricultura, la industria y el turismo.\nEl país ha estado bajo un embargo económico de Estados Unidos desde 1962, lo que ha limitado su crecimiento económico.\nEn 2021, el gobierno cubano comenzó a implementar reformas para modernizar la economía, como la apertura de nuevos negocios y la autorización de la venta de viviendas.\nSin embargo, la economía cubana sigue enfrentando desafíos, como la falta de inversión extranjera y la escasez de alimentos y productos básicos.<eos>",
+            "every_model_generate_token_num_list": [
+                52,
+                52,
+                149
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "\"Окно в Европу\" is a Russian phrase that literally translates to \"Window to Europe\". It is a metaphor used to describe the role of the Baltic Sea port city of Kaliningrad, Russia.\n\nKaliningrad is the only Russian exclave (a piece of territory separated from the main body of the country) that borders the European Union. It is located between Poland and Lithuania, both of which are EU members.\n\nThe term \"Окно в Европу\" is often used to highlight the strategic importance of Kaliningrad as a gateway for Russia to Europe. It allows for cultural exchange, trade, and travel between Russia and the EU.\n\nHowever, the term can also be used in a more political context, as it reflects the complex relationship between Russia and Europe. Kaliningrad's location makes it a sensitive area, as it is a reminder of Russia's historical and cultural ties to Europe, but also its geopolitical isolation.<eos>",
+            "every_model_generate_token_num_list": [
+                58,
+                58,
+                194
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Stockholm Syndrome is a psychological response to a traumatic event, such as kidnapping or hostage-taking, where the victim develops positive feelings towards their captor. It is named after a bank robbery in Stockholm, Sweden, in 1973.\n\nThe most famous example of Stockholm Syndrome is the case of Patty Hearst. In 1974, Hearst, the granddaughter of publishing magnate William Randolph Hearst, was kidnapped by a radical left-wing group called the Symbionese Liberation Army (SLA). After several months of captivity, Hearst joined the SLA and participated in their criminal activities. She even adopted the name \"Tania\" and became a spokesperson for the group.\n\nHearst's case is often cited as a classic example of Stockholm Syndrome because she developed a strong emotional bond with her captors and even defended them in public. After her capture, she was tried and convicted of bank robbery and other crimes, but her sentence was later commuted by President Jimmy Carter.\n\nThe case of Patty Hearst is a well-known example of Stockholm Syndrome, but it is important to note that this syndrome is not always so dramatic. It can manifest in a variety of ways and can have long-lasting psychological effects on victims.",
+            "every_model_generate_token_num_list": [
+                77,
+                77,
+                248
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The result of the Lublin Union was the creation of a new state, the Polish-Lithuanian Commonwealth, which was a union of two sovereign states, Poland and Lithuania. The union was formed in 1569 and lasted until 1795. The Lublin Union was a significant event in the history of both Poland and Lithuania, as it marked the beginning of a period of relative peace and prosperity for both countries. The union also had a profound impact on the political landscape of Eastern Europe, as it created a powerful new state that was a major player in the region's affairs.",
+            "every_model_generate_token_num_list": [
+                36,
+                36,
+                121
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "The only Chilean poet who has won the Nobel Prize in Literature is Pablo Neruda. He won the award in 1971.",
+            "every_model_generate_token_num_list": [
+                7,
+                7,
+                29
+            ]
+        },
+        {
+            "pred_answer": 0,
+            "correct_answer": 0,
+            "final_output_text": "Lee Ufan est un artiste sud-coréen né en 1936. Il est connu pour ses œuvres minimalistes et conceptuelles qui explorent la relation entre l'homme et la nature. Ses œuvres sont souvent des assemblages de matériaux naturels, tels que des roches, du bois et des feuilles, avec des formes géométriques simples. Ufan a joué un rôle important dans l'évolution de l'art sud-coréen et a contribué à l'établissement de la scène artistique contemporaine de la Corée.<eos>",
+            "every_model_generate_token_num_list": [
+                33,
+                33,
+                108
+            ]
+        }
+    ]
+}

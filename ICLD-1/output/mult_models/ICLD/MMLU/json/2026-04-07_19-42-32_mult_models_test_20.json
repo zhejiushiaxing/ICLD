@@ -1,0 +1,269 @@
+{
+    "finish_date": "2026-04-07_19-42-32",
+    "integrate_models_name": [
+        "Llama3.1-8B-Instruct",
+        "gemma2-9B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MMLU",
+    "all_cal_time": 545.4611279964447,
+    "all_correct_num": 13,
+    "all_generated_tokens_num_list": [
+        5680,
+        1572
+    ],
+    "all_ensemble_num": 1572,
+    "models_pred_answer_list": [
+        "D",
+        "D",
+        "A",
+        "C",
+        "C",
+        "D",
+        "C",
+        "B",
+        "C",
+        "C",
+        "B",
+        "A",
+        "C",
+        "B",
+        "C",
+        "B",
+        "B",
+        "B",
+        "B",
+        "A"
+    ],
+    "question_correct_answer_list": [
+        "B",
+        "C",
+        "A",
+        "C",
+        "C",
+        "C",
+        "D",
+        "B",
+        "C",
+        "C",
+        "D",
+        "D",
+        "C",
+        "B",
+        "C",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B"
+    ],
+    "avg_cal_time": 27.27,
+    "avg_correct_num": 0.65,
+    "avg_generated_tokens_num_list": [
+        284.0,
+        78.6
+    ],
+    "avg_ensemble_num": 78.6,
+    "all_question_response_list": [
+        {
+            "pred_answer": "D",
+            "correct_answer": "B",
+            "ensemble_num": 57,
+            "final_output_text": "To determine which of the given options is NOT a group, we need to recall the four properties that define a group:\n\n1. Closure: The operation applied to any two elements in the set must result in another element within the same set.\n2. Associativity: The order in which the operation is performed on three elements does not affect the result.\n3. Identity element: There exists an element in the set that, when combined with any other element using the operation, leaves that element unchanged.\n4. Inverse element: For each element in the set, there exists another element that, when combined with the first element using the operation, results in the identity element.\n\nLet's examine each option: \n\nA. The integers under addition: This set satisfies all four group properties. The sum of any two integers is an integer, addition is associative, 0 is the identity element, and the inverse of each integer is its negative.\n\nB. The nonzero integers under multiplication: This set satisfies all four group properties. The product of any two nonzero integers is a nonzero integer, multiplication is associative, 1 is the identity element, and the inverse of each nonzero integer is its reciprocal.\n\nC. The nonzero real numbers under multiplication: This set satisfies all four group properties. The product of any two nonzero real numbers is a nonzero real number, multiplication is associative, 1 is the identity element, and the inverse of each nonzero real number is its reciprocal.\n\nD. The complex numbers under addition: This set satisfies all four group properties. The sum of any two complex numbers is a complex number, addition is associative, 0 is the identity element, and the inverse of each complex number is its negative.\n\nHowever, the complex numbers under addition do not form a group under multiplication. The product of two complex numbers is not necessarily a complex number (for example, the product of a complex number and its conjugate is a real number), so closure is not satisfied.\n\nThe answer is D",
+            "every_model_generate_token_num_list": [
+                399,
+                57
+            ]
+        },
+        {
+            "pred_answer": "D",
+            "correct_answer": "C",
+            "ensemble_num": 93,
+            "final_output_text": "To determine which of Erikson's stages is associated with regrets and a lack of fulfillment at the end of life, we need to understand the core conflict of each stage. \n\n1. **Intimacy versus isolation (A)**: This stage occurs during young adulthood, where individuals focus on forming close relationships and building intimacy. While this stage is crucial for a fulfilling life, it doesn't directly relate to regrets at the end of life.\n\n2. **Identity versus role confusion (B)**: This stage occurs during adolescence, where individuals explore their identities and roles in society. Like intimacy, this stage is important for personal development but doesn't directly address the feeling of regret at the end of life.\n\n3. **Integrity versus despair (C)**: This stage is the final stage in Erikson's theory, occurring in late adulthood. It involves reflecting on one's life, accepting its accomplishments, and finding meaning in experiences.  Regret and a sense of unfulfilled life are hallmarks of an unsuccessful resolution of this stage.\n\n4. **Generativity versus stagnation (D)**: This stage occurs in middle adulthood, where individuals focus on contributing to society and leaving a lasting legacy. While important, this stage doesn't directly relate to the specific feeling of regret and lack of fulfillment at the end of life.\n\nConsidering the descriptions, the stage most closely associated with regrets and a lack of fulfillment at the end of life is integrity versus despair.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                294,
+                93
+            ]
+        },
+        {
+            "pred_answer": "A",
+            "correct_answer": "A",
+            "ensemble_num": 89,
+            "final_output_text": "To determine the correct answer, let's break down each option and its relevance to the new product development process.\n\n* **Test marketing**: This involves testing a new product with a sample of customers or launching it in a specific geographical area to gauge customer reactions before a national launch. This aligns perfectly with the description provided in the question.\n* **Focused marketing**: This refers to targeting a specific niche or segment of the market with a product or service. While it's a marketing strategy, it doesn't directly relate to the pre-launch testing of a new product.\n* **Live marketing**: This involves using live events, experiences, or demonstrations to promote a product or service. It's a marketing tactic, but not a stage in the new product development process. \n* **Generic marketing**: This term is not commonly used in the context of new product development. It might refer to a general or non-specific marketing approach, but it doesn't describe a stage in the product development process.\n\nConsidering the definitions and the question's description, the most suitable answer is the one that directly involves testing a new product with a sample of customers or launching it in a specific area before a national launch.\n\nThe answer is A",
+            "every_model_generate_token_num_list": [
+                240,
+                89
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 57,
+            "final_output_text": "Here's the step-by-step explanation:\n\n1. **Understanding the Impact of Consumer Confidence**: When consumer confidence increases, people feel more optimistic about the future and are more likely to spend money. This leads to an increase in aggregate demand, as consumers are willing to buy more goods and services.\n\n2. **Aggregate Demand and Supply**:   In a market economy, the equilibrium price level and quantity of output are determined by the intersection of aggregate demand and aggregate supply curves. The aggregate demand curve slopes downward, indicating that as the price level increases, the quantity demanded decreases, and vice versa.\n\n3. **Upward Sloping Aggregate Supply Curve**: An upward sloping aggregate supply curve indicates that as the price level increases, producers are willing to supply more goods and services, and vice versa.\n\n4. **Effect of Increased Consumer Confidence on Aggregate Demand**: With increased consumer confidence, the aggregate demand curve shifts to the right, as consumers are willing to buy more goods and services at each price level.\n\n5. **New Equilibrium**: The new equilibrium is found at the intersection of the shifted aggregate demand curve and the original aggregate supply curve. Since the aggregate demand curve has shifted to the right, the new equilibrium will have a higher price level and a higher quantity of output.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                257,
+                57
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 89,
+            "final_output_text": "To determine the correct answer, let's break down each option and analyze its relevance to emic approaches in multicultural counseling training.\n\n* **Etic approaches** in multicultural counseling focus on universal principles and theories that apply across cultures. In contrast, **emic approaches** focus on understanding the unique cultural perspectives and experiences of individuals. Emic approaches emphasize the importance of understanding the world from the client's cultural perspective.\n\nNow, let's examine the options: \n\nA. **Difficulty in gaining knowledge regarding a large number of cultural groups**: While this might be a challenge, it's not the primary basis for advocating emic approaches. Emic approaches aim to understand the specific cultural context of each individual, not just to gain knowledge about multiple cultures.\n\nB. **The presence of many members of a particular cultural group in the training program's catchment area**: This might influence the practical application of emic approaches, but it's not the fundamental reason for advocating emic approaches in multicultural counseling training.\n\nC. **The need to focus on personal and cultural meaning for each individual client**: This is the core principle behind emic approaches. Emic approaches recognize that each individual's cultural background shapes their experiences, beliefs, and values. By focusing on the personal and cultural meaning for each client, counselors can provide more effective and culturally sensitive support.\n\nD. **The need to view culturally different groups in similar ways**: This contradicts the opposite of emic approaches, which emphasize understanding the unique perspectives and experiences of each cultural group.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                307,
+                89
+            ]
+        },
+        {
+            "pred_answer": "D",
+            "correct_answer": "C",
+            "ensemble_num": 110,
+            "final_output_text": "To determine which relative an individual is most likely to share a common HLA haplolotype with, we need to understand what HLA haplolotype is and how it is inherited.\n\nHLA (Human Leukocyte Antigen) haplotype refers to a specific combination of genes that are inherited together on the same chromosome.  \n\n*  Each person inherits two HLA of haploLA genes, one from each parent.\n*  These genes are located on chromosome 6, and they are inherited in an autosomal dominant manner.\n*  Siblings inheritence is autosomal dominant, meaning they are not sex-linked, and each parent contributes one allele to their offspring.\n\nConsidering these facts, let's evaluate the options: \n\n*  **Father (A):** A father contributes one HLALA haplolotype to his offspring, but the offspring can inherit either of the father's two haploLA haplotypes, not both. Therefore, the probability of sharing a common HLA haplotype with the father is 50%.\n*   **Mother (B):** Similar to the father, a mother contributes one HLA haplotype to her offspring, and the offspring can inherit either of the mother's two HLA haplotypes. Therefore, the probability of sharing a common HLA haplotype with the mother is 50%.\n*   **Sister (C):** A sister shares 50% of her genes with her sibling, including HLA haplotypes. Since a sister inherits one haploLA haplotype from each parent, she has a 50% chance of inheriting the same HLA haplotype as her sibling.\n*   **Son (D):** A son inherits one HLA haplotype from his mother and one from his father. The probability of sharing a common HLA haplotype with his son is 50%, just like with the father and mother.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                389,
+                110
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "D",
+            "ensemble_num": 105,
+            "final_output_text": "To find the optimal angle for the cannon to launch the ball, we need to consider the horizontal and vertical components of the projectile motion. The goal is to maximize the range of the ball, which is the horizontal distance it travels before hitting the ground.\n\n**Step 1: Understand the Components of Velocity**\nThe muzzle velocity of the cannon is 50 m/s, and it is launched at an angle θ from the horizontal. We can break down this velocity into two components:\n- Horizontal velocity (v_x): v_x = v * cos(θ)\n- Vertical velocity (v_y): v_y = v * sin(θ)\n\n**Step 2: Calculate the Time of Flight**\nThe time it takes for the ball to reach the ground is determined by the vertical motion. We can use the equation for the vertical displacement: y = v_y * t - 0.5 * g * t^2, where g is the acceleration due to gravity (approximately 9.8 m/s^2). Since the ball lands on the ground, the vertical displacement (y) is 0. Solving for the time (t) will give us the time of flight.\n\n**Step 3: Find the Horizontal Distance**\nThe horizontal distance (R) traveled by the ball is given by: R = v_x * t. We can substitute the expression for v_x from Step 1 and the expression for t from Step 2 to get R in terms of θ.\n\n**Step 4: Maximize the Range**\nTo find the maximum range, we need to find the angle θ that maximizes the expression for R. This can be done by taking the derivative of R with respect to θ, setting it equal to 0, and solving for θ.\n\n**Step 5: Solve for θ**\nAfter performing the calculations, we will find the optimal angle θ that maximizesizes the range of the ball.\n\nThe optimal angle for the cannon to launch the ball is 45°.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                403,
+                105
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 78,
+            "final_output_text": "To determine how excess reserves in the banking system will increase, let's break down each option: \n\n* **Option A: the reserve ratio is increased**.  The reserve ratio is the percentage of deposits that banks are required to hold in reserve. If the reserve ratio is increased, banks will be required to hold a larger percentage of their deposits in reserve. This means they will have less money available to lend out, which will decrease the money supply and potentially decrease excess reserves. Therefore, this option does not lead to an increase in excess reserves.\n\n* **Option B: the checking deposits increase**. When checking deposits increase, banks have more money to lend out. This can lead to an increase in the money supply and potentially an increase in excess reserves, as banks may not immediately lend out all of the new deposits.\n\n* **Option C: the discount rate is increased**. The discount rate is the interest rate at which banks can borrow money from the central bank. If the discount rate is increased, it becomes more expensive for banks to borrow money. This can discourage banks from borrowing and may lead to a decrease in the money supply, potentially decreasing excess reserves. Therefore, this option does not lead to an increase in excess reserves.\n\n* **Option D: the Fed sells Treasury securities to commercial banks**. When the Fed sells Treasury securities to commercial banks, it takes money out of the banking system. This reduces the amount of money banks have available to lend out, which can decrease the money supply and potentially decrease excess reserves. Therefore, this option does not lead to an increase in excess reserves.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                326,
+                78
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 81,
+            "final_output_text": "To determine the correct answer, let's break down the potential side effects of chlorpromazine and analyze each option.\n\nStep 1: Understand Chlorpromazine\nChlorpromazine is a first-generation anti-psychotic medication primarily used to treat schizophrenia and other psychoses. It works by blocking dopamine receptors in the brain, which helps to reduce psychotic symptoms.\n\nStep 2: Analyzeze Option A - Acute Hypertensive Crisis\nAcute hypertensive crisis is a sudden and severe increase in blood pressure. While some antipsychotic medications can cause hypertension, chlorpromazine is not typically associated with acute hypertensive crisis as a primary concern.\n\nStep 3: Analyze Option B - Profound Anterograde Amnesia\nAnteraphobia is a fear of forgetting. However, profound anterograde amnesia (inability to form new memories) is more commonly associated with other medications, such as benzo used in the treatment of anxiety disorders. It is not a primary concern with chlorpromazine.\n\nStep 4: Analyze Option C - Tardive Dyskinesia\nTardive dyskinesia is a side effect of long-term use of anti-psychotic medications, including chlorpromazine. It involves involuntary, repetitive body movements, often of the face, lips, and tongue. This is a well-documented risk associated with prolonged use of first-generation antipsychotics.\n\nStep 5: Analyze Option D - Renal Toxicity\nWhile some medications can cause renal toxicity, chlorpromazine is not primarily known for this side effect.\n\nStep 6: Conclusion\nBased on the analysis, the primary concern about the long-term use of chlorpromazine is the development of tardive dyskinesia.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                360,
+                81
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 119,
+            "final_output_text": "To determine which scenario is morally wrong, we need to analyze each situation based on ordinary moral standards in the US as of 2020.\n\n**Scenario 1: Helping a friend after a breakup**\n\n* **Step 1:**  Helping this scenario, the main character is helping a friend in need. The friend is going through a difficult time after a breakup, and the main character is providing support. This action is generally considered a positive and morally good deed.\n* **Step 2:**  There is no indication that the main character is doing anything harmful or unethical in this scenario. They are simply being a supportive friend.\n* **Conclusion:**   Based on these points, helping a friend after a breakup is not morally wrong. It aligns with common moral values of empathy and kindness.\n\n**Scenario 2: Skinny-dipping in a community pool**\n\n* **Step 1:**   In this scenario, the main character is engaging in a private act (skinny-dipping) in a public space (community pool) without permission. This is a violation of the rules and expectations of the community pool.\n* **Step 2:**  Skinny-dipping in a public pool is generally considered a breach of social norms and could be seen as indecent invasion of privacy for other pool users.\n* **Step 3:**  Depending on the specific rules of the community pool, skinny-dipping might also be against the law.\n\n**Conclusion:**   Based on these points, skinny-dipping in a community pool while everyone is at the poolside is morally wrong as it violates social norms and potentially the law.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                327,
+                119
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "D",
+            "ensemble_num": 110,
+            "final_output_text": "To determine if a stream cipher can have perfect secrecy, we need to understand what perfect secrecy means and how stream ciphers work.\n\n1. **Perfect Secrecy:** A cipher has perfect secrecy if it is impossible to distinguish the ciphertext from random noise, even with unlimited computational power and knowledge of the encryption algorithm. This means that the ciphertext should reveal no information about the plaintext.\n\n2. **Stream Ciphers:** Stream ciphers encrypt data one bit or byte at a time using a key stream. The key stream is generated by a pseudorandom number generator (PRNG) or a true random number generator (TRNG). The plaintext is XORed with the key stream to produce the ciphertext.\n\n3. **Key Length and Message Length:** The key length in a stream cipher is typically shorter than the message length. This is because the key stream is generated repeatedly to match the length of the message.\n\n4. **The Problem with Stream Ciphers and Perfect Secrecy:** The key length being shorter than the message length is a significant issue for achieving perfect secrecy. If the key stream is not truly random and has a limited length, it can be repeated or predictable, allowing an attacker to potentially decrypt the message.\n\n5. **PRG Security:** Even if the PRG is \"secure,\" meaning it generates a seemingly random key stream, the inherent limitations of a finite key length make it impossible to achieve perfect secrecy. An attacker with enough computational power could potentially find patterns in the key stream and break the encryption.\n\nTherefore, stream ciphers, due to their inherent limitations, cannot achieve perfect secrecy.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                325,
+                110
+            ]
+        },
+        {
+            "pred_answer": "A",
+            "correct_answer": "D",
+            "ensemble_num": 84,
+            "final_output_text": "To determine the most likely diagnosis, let's analyze the patient's symptoms and the given information step by step:\n\n1. **Symptomsphasia and right-sided hemiparesis**: These symptoms strongly suggest a neurological issue, likely affecting the brain. Aphasia is a language disorder caused by brain damage, and hemiiparesis (weakness on one side of the body) is a common symptom of stroke or other brain injuries.\n\n2. **Development of urinary incontinence**: This symptom can be related to the neurological issue affecting the brain. The brain controls the bladder through the nervous system, and damage to the brain can disrupt this control.\n\n3. **No evidence of urinary tract infection**: This rules out a common cause of urinary incontinence, which is an infection.\n\n4. **No prior history of urinary pathology**: This suggests that the urinary incontinence is likely a new symptom related to the recent brain injury, rather than a pre-existing condition.\n\nConsidering the above points, the most likely diagnosis is **autonomic neurogenic bladder**. Autonomic neurogenic bladder occurs when there is damage to the autonomic nervous system, which controls involuntary functions such as bladder control. This type of bladder dysfunction is often associated with brain injuries or strokes, which can disrupt the normal communication between the brain and the bladder.\n\nThe answer is A",
+            "every_model_generate_token_num_list": [
+                269,
+                84
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 93,
+            "final_output_text": "To determine the correct answer, let's break down the concept of the reproductive number of a virus.\n\n1. **Understanding the Reproductiveroductive Number**: The reproductive number, often denoted as R0 (R naughtught), is a crucial metric in epidemiology. It represents the average number of secondary cases generated by a single infected individual in a population where everyone is susceptible to the virus. This means it estimates how contagious a virus is. \n\n2. **Analyzingzing the Options**:\n   - **A. How virulent the infection will be**: Virulence refers to the severity of the disease caused by a virus. While related to the impact of a virus, it does not directly measure how easily the virus spreads. So, option A is incorrect.\n   - **B. How many people will die**: The reproductive number does not directly predict the number of deaths. It focuses on the spread of the virus, not the severity of the illness or mortality rate. Therefore, option B is incorrect.\n   - **C. How many contacts will be infected from one case**: This is the core definition of the reproductive number. It quantifies the average number of new infections caused by a single infected individual. This makes option C a strong candidate. \n   - **D. How long the 'incubation period' will be**: The incubation period is the time between exposure to the virus and the onset of symptoms. It is a separate factor from the reproductive number, which focuses on transmission. So, option D is incorrect.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                312,
+                93
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 31,
+            "final_output_text": "To determine the year the Great Depression began, we need to consider historical events. \n\nStep 1: The Great Depression is widely recognized as a global economic downturn that lasted for over a decade.\nStep 2: A significant event that marked the beginning of the Great Depression was the stock market crash of 1929.\nStep 3: This crash, also known as Black Tuesday, occurred on October 29, 1929, and had a devastating impact on the global economy.\nStep 4: Therefore, the year 1929 is commonly associated with the start of the Great Depression.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                123,
+                31
+            ]
+        },
+        {
+            "pred_answer": "C",
+            "correct_answer": "C",
+            "ensemble_num": 50,
+            "final_output_text": "To determine the relationship between the vapor pressure of a liquid and the heat of vaporization, we need to consider the factors that influence this relationship. \n\n* The **Rydberg equation** is used to calculate the wavelengths of light emitted or absorbed by hydrogen atoms, not related to vapor pressure or heat of vaporization.\n* The **Gibbs free energy equation** relates the change in Gibbs free energy to the enthalpy in enthalpy, entropy, and temperature, but it does not directly express the relationship between vapor pressure and heat of vaporization.\n* The **Clausius-Clapeyron equation** specifically describes the relationship between the vapor pressure of a liquid and its temperature, taking into account the heat of vaporization. It is derived from the principles of thermodynamics and is commonly used to determine the heat of vaporization from experimental vapor pressure data.\n* The **Arrhenius equation** is used to describe the temperature dependence of reaction rates, not the relationship between vapor pressure and heat of vaporization.\n\nConsidering the above, the equation that directly relates the vapor pressure of a liquid to its heat of vaporization is the Clausius-Clapeyron equation.\n\nThe answer is C",
+            "every_model_generate_token_num_list": [
+                241,
+                50
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 24,
+            "final_output_text": "To determine the country of origin of the disco band ABBA, we need to consider the band members' nationalitiesities. \n\nStep 1: Identify the band members of ABBA. The members of ABBA are Agnetha Fältskog, Björn Ulvaeus, Benny Andersson, and Anni-Frid Lyngstad.\n\nStep 2: Determine the nationality of each band member. \n- Agnetha Fältskog is Swedish.\n- Björn Ulvaeus is Swedish.\n- Benny Andersson is Swedish.\n- Anni-Frid Lyngstad is Swedish.\n\nStep 3:  Since all four members are Swedish, the country of origin of ABBA can be concluded. \n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                155,
+                24
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 92,
+            "final_output_text": "To determine which scenario is morally wrong, we need to consider the actions and their potential impact on others. \n\nStep 1: **Scenario 1** - Not getting out of the pool before peeing. This action can contaminate the water, making it unsanitary for others who may use the pool after. It can also be considered disrespectful to others who may be sensitive to the smell or have health concerns.\n\nStep 2: **Scenario 2** - Testing a laser pointer by aiming it at a wall. This action is generally considered harmless and is a common way to test the functionality of a laser pointer. It does not directly harm anyone or cause any significant disturbance.\n\nStep 3: **Comparing the scenarios**: Scenario 1 has the potential to negatively impact others, while Scenario 2 does not. \n\nStep 4: **Moraling moral standards**: In the US as of 2020, most people would consider it morally wrong to contaminate a public pool with urine, as it can be a health hazard and disrespectful to others. On the other hand, testing a laser pointer on a wall is generally not considered morally wrong.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                235,
+                92
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 45,
+            "final_output_text": "To solve the division problem 123 / 8, we can use long division or estimation. \n\nFirst, let's estimate the quotient. 8 goes into 100 twelve times (8 * 12 = 96), and 123 is close to 100. So, we know the quotient will be around 12.\n\nNow, let's perform the long division:\n\n```\n  _______\n8 | 123\n  - 96\n  ----\n    27\n     - 24\n    ----\n      3\n```\n\nSince 8 goes into 27 three times (8 * 3 = 24), we subtract 24 from 27, leaving a remainder of 3.\n\nTherefore, the answer is 15 remainder 3.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                162,
+                45
+            ]
+        },
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 73,
+            "final_output_text": "To determine the primary goal of Gestalt for a Gestalt therapist, let's break down the key principles of Gestalt therapy: \n\n1. **Focus on the present moment**: Gestalt therapy emphasizes the importance of being fully present and aware of one's thoughts, feelings, and sensations in the current moment. This is in contrast to dwelling on the past or worrying about the future.\n\n2. **Holistic approach**: Gestalt therapy views the individual as a whole, interconnected system, rather than a collection of separate parts. This means that the therapist considers the client's physical, emotional, and social experiences as interconnected and influencing one another.\n\n3. **Self-awareness and self-acceptanceization**: The goal of Gestalt therapy is to help clients become more aware of their thoughts, feelings, and behaviors, and to accept and integrate their whole selves, including their strengths and weaknesses.\n\nConsidering these principles, the primary goal of treatment for a Gestalt therapist is to help the client **integrate the various aspects of the self**. This aligns with the holistic approach, emphasizing the interconnectedness of different parts of the self, and the focus on self-awareness and self-acceptanceization.\n\nThe answer is B",
+            "every_model_generate_token_num_list": [
+                241,
+                73
+            ]
+        },
+        {
+            "pred_answer": "A",
+            "correct_answer": "B",
+            "ensemble_num": 92,
+            "final_output_text": "To determine the outcome of the suit, we need to understand the Rule in Shelley's Case and its application to this scenario.\n\n1. The Rule in Shelley's Case is a common law doctrine that states when a grantor conveys conveys property to a person \"to him and his heirs,\" the grantee takes a fee simple determinable (a life estate) and the remainder interest is merged in the grant. However, if the grantor conveys the property to a person \"to him and his heirs\" with the remainder to another, the grantee takes a fee simple absolute.\n\n2. In this case, the grantor conveyed the property to the son \"for life, remainder after (the son's) death to his heirs.\" This language indicates that the son has a life estate, and his heirs have a contingent remainder.\n\n3. The son then entered into a real estate agreement to sell the property to his friend, agreeing to convey the premises in fee simple absolute. However, the son cannot convey a fee simple absolute because his interest is only a life estate.\n\n4. The Rule in Shelley's Case does not apply here because the grantoror did not use the language \"to him and his heirs\" in the original conveyance. Instead, the language used was \"for life, remainder after (the son's) death to his heirs,\" which creates a life estate in the son and a contingent remainder in his heirs.\n\n5. Therefore, the son cannot convey a fee simple absolute, and his friend is correct in refusing to perform the contract.\n\nThe answer is A",
+            "every_model_generate_token_num_list": [
+                315,
+                92
+            ]
+        }
+    ]
+}
