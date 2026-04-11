@@ -53,7 +53,7 @@ def main():
     
     test_cfg['dataset_name'] = "MMLU" # 选择数据集的名称 [MMLU GSM8K MATH500 NQ BOOLQ ARC-C HUMANEVAL MULTILINGUAL MATHEVAL CODINGEVAL] 
     test_cfg['integrate_method'] = "ICLD" # 模型集成方法 [BASELINE DEEPEN GAC UNITE ICLD]
-    test_cfg['dataset_path'] = "/data3/zzc/projects/ZJX/code/ICLD/dataset/MMLU/all/test-00000-of-00001.parquet" # MMLU
+    test_cfg['dataset_path'] = "/data3/zzc/projects/ZJX/code/ICLD/dataset/MMLU/test-00000-of-00001.parquet" # MMLU
     # test_cfg['dataset_path'] = "/data3/zzc/projects/ZJX/code/ICLD/dataset/GSM8K/test-00000-of-00001.parquet" # GSM8K
     # test_cfg['dataset_path'] = "/mnt/Data/ZJX/code/ICLD/dataset/MATH500/test.parquet" # MATH500
     # test_cfg['dataset_path'] = "/mnt/Data/ZJX/code/ICLD/dataset/NQ/train-00000-of-00001.parquet" # NQ
