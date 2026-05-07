@@ -1,0 +1,90 @@
+﻿id,question,answer,response
+0,Find the roots of $(x - 3)^3 + (x -7)^3 = (2x - 10)^3.$,"3, 5, 7","Let's start by simplifying the given equation:
+
+\[
+(x - 3)^3 + (x - 7)^3 = (2x - 10)^3
+\]
+
+First, we can expand the terms on the left-hand side and the right-hand side. However, a more efficient approach is to recognize that the equation can be simplified by a substitution. Let's set $y = x - 5$. This substitution is chosen because it centers the terms around 5, which is the midpoint of 3 and 7.
+
+Rewriting the equation in terms of $y$:
+
+\[
+(y + 2)^3 + (y - 2)^3 = (2y)^3
+\]
+
+Now, we expand each term:
+
+\[
+(y + 2)^3 = y^3 + 3y^2 \cdot 2 + 3y \cdot 2^2 + 2^3 = y^3 + 6y^2 + 12y + 8
+\]
+
+\[
+(y - 2)^3 = y^3 - 3y^2 \cdot 2 + 3y \cdot 2^2 - 2^3 = y^3 - 6y^2 + 12y - 8
+\]
+
+\[
+(2y)^3 = 8y^3
+\]
+
+Substituting these back into the equation:
+
+\[
+(y^3 + 6y^2 + 12y + 8) + (y^3 - 6y^2 + 12y - 8) = 8y^3
+\]
+
+Combine like terms:
+
+\[
+2y^3 + 24y = 8y^3
+\]
+
+Rearrange the equation to isolate terms involving $y$ on one side:
+
+\[
+2y^3 + 24y - 8y^3 = 0
+\]
+
+\[
+-6y^3 + 24y = 0
+\]
+
+Factor out the common term $-6y$:
+
+\[
+-6y(y^2 - 4) = 0
+\]
+
+This gives us two factors to solve for $y$:
+
+\[
+-6y = 0 \quad \text{or} \quad y^2 - 4 = 0
+\]
+
+Solving these:
+
+\[
+y = 0 \quad \text{or} \quad y^2 = 4
+\]
+
+\[
+y = 0 \quad \text{or} \quad y = \pm 2
+\]
+
+Recall that $y = x - 5$. Therefore, we solve for $x$:
+
+\[
+x - 5 = 0 \quad \text{or} \quad x - 5 = 2 \quad \text{or} \quad x - 5 = -2
+\]
+
+\[
+x = 5 \quad \text{or} \quad x = 7 \quad \text{or} \quad x = 3
+\]
+
+The roots of the equation are:
+
+\[
+x = 3, 5, 7
+\]
+
+The answer is 3,5,7"

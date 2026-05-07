@@ -1,0 +1,6 @@
+﻿id,question,answer,response
+0,Compute $99^2+99+1$ in your head.,9901,"To compute $99^2+99+1$ in my head, I will first recognize that $99$ is just $100-1$. This allows me to use the difference of squares formula, which states that $(a-b)^2 = a^2 - 2ab + b^2$. 
+
+Applying this formula to $99^2$, I can rewrite it as $(100-1)^2 = 100^2 - 2*100*1 + 1^2$. This simplifies to $10000 - 200 + 1$.
+
+Now, I can simplify this expression further by combining the constants: $10000 - 200 + 1 = 9$."

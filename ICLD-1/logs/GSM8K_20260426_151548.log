@@ -1,0 +1,2649 @@
+初始化ModelInfer
+100
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   1%|          | 4/398 [00:00<00:10, 39.28it/s]Loading weights:   9%|▉         | 37/398 [00:00<00:01, 201.29it/s]Loading weights:  18%|█▊        | 70/398 [00:00<00:01, 257.52it/s]Loading weights:  26%|██▌       | 103/398 [00:00<00:01, 282.62it/s]Loading weights:  34%|███▍      | 136/398 [00:00<00:00, 294.94it/s]Loading weights:  42%|████▏     | 169/398 [00:00<00:00, 299.67it/s]Loading weights:  51%|█████     | 201/398 [00:00<00:00, 303.70it/s]Loading weights:  59%|█████▉    | 234/398 [00:00<00:00, 304.58it/s]Loading weights:  67%|██████▋   | 267/398 [00:00<00:00, 307.68it/s]Loading weights:  75%|███████▍  | 298/398 [00:01<00:00, 307.71it/s]Loading weights:  83%|████████▎ | 329/398 [00:01<00:00, 305.50it/s]Loading weights:  90%|█████████ | 360/398 [00:01<00:00, 305.11it/s]Loading weights:  98%|█████████▊| 391/398 [00:01<00:00, 303.99it/s]Loading weights: 100%|██████████| 398/398 [00:01<00:00, 293.29it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:33,  7.61it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:02, 110.55it/s]Loading weights:  18%|█▊        | 45/254 [00:00<00:01, 159.29it/s]Loading weights:  26%|██▋       | 67/254 [00:00<00:01, 181.17it/s]Loading weights:  35%|███▌      | 90/254 [00:00<00:00, 197.44it/s]Loading weights:  44%|████▍     | 112/254 [00:00<00:00, 204.56it/s]Loading weights:  54%|█████▎    | 136/254 [00:00<00:00, 215.45it/s]Loading weights:  62%|██████▏   | 158/254 [00:00<00:00, 211.39it/s]Loading weights:  72%|███████▏  | 183/254 [00:00<00:00, 222.19it/s]Loading weights:  81%|████████  | 206/254 [00:01<00:00, 221.63it/s]Loading weights:  90%|█████████ | 229/254 [00:01<00:00, 221.66it/s]Loading weights: 100%|█████████▉| 253/254 [00:01<00:00, 97.79it/s] Loading weights: 100%|██████████| 254/254 [00:01<00:00, 148.94it/s]
+开始推理，共 100 条样本...
+处理样本:   0%|          | 0/100 [00:00<?, ?it/s]处理样本:   1%|          | 1/100 [02:36<4:18:31, 156.69s/it]处理样本:   2%|▏         | 2/100 [04:21<3:25:44, 125.97s/it]处理样本:   3%|▎         | 3/100 [06:22<3:20:35, 124.07s/it]#############################################################
+final_output_text: We are given the following information:
+
+- Alexandra raises $430.
+- Kim raises $320 more than Alexandra.
+
+So, Kim's amount = $430 + $320 = $750.
+
+- Sarah raises $300.
+- Maryam raises $400 more than Sarah.
+
+So, Maryam's amount = $300 + $400 = $700.
+
+Now, let's add up all the amounts:
+
+Alexandra: $430  
+Kim: $750  
+Sarah: $300  
+Maryam: $700  
+
+Total = 430 + 750 + 300 + 700
+
+Step-by-step:
+
+430 + 750 = 1180  
+1180 + 300 = 1480  
+1480 + 700 = 2180
+
+So, the total amount of money they all raised is $2180.
+
+2180
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given the following information:
+
+- Alexandra raises $430.
+- Kim raises $320 more than Alexandra.
+
+So, Kim's amount = $430 + $320 = $750.
+
+- Sarah raises $300.
+- Maryam raises $400 more than Sarah.
+
+So, Maryam's amount = $300 + $400 = $700.
+
+Now, let's add up all the amounts:
+
+Alexandra: $430  
+Kim: $750  
+Sarah: $300  
+Maryam: $700  
+
+Total = 430 + 750 + 300 + 700
+
+Step-by-step:
+
+430 + 750 = 1180  
+1180 + 300 = 1480  
+1480 + 700 = 2180
+
+So, the total amount of money they all raised is $2180.
+
+2180
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given the following information:
+
+- Alexandra raises $430.
+- Kim raises $320 more than Alexandra.
+
+So, Kim's amount = $430 + $320 = $750.
+
+- Sarah raises $300.
+- Maryam raises $400 more than Sarah.
+
+So, Maryam's amount = $300 + $400 = $700.
+
+Now, let's add up all the amounts:
+
+Alexandra: $430  
+Kim: $750  
+Sarah: $300  
+Maryam: $700  
+
+Total = 430 + 750 + 300 + 700
+
+Step-by-step:
+
+430 + 750 = 1180  
+1180 + 300 = 1480  
+1480 + 700 = 2180
+
+So, the total amount of money they all raised is $2180.
+
+2180
+#############################################################
+#############################################################
+gold_text_raw: Kim raises 320+430=<<320+430=750>>750 dollars.
+Maryam raises 400+300=<<400+300=700>>700 dollars.
+They raise 750+430+400+700=<<750+430+400+700=2280>>2280 dollars.
+#### 2280
+pred_answer: 2180.0
+correct_answer: 2280.0
+总共100条样本，已回答1条样本，回答正确的样本数量为0.
+#############################################################
+final_output_text: Kalinda can add 4 pieces per minute.  
+Her mom can place half as many pieces per minute as Kalinda, so her mom adds:
+
+$$
+\frac{4}{2} = 2 \text{ pieces per minute}
+$$
+
+Together, they add:
+
+$$
+4 + 2 = 6 \text{ pieces per minute}
+$$
+
+The puzzle has 360 pieces. So, the time required (in minutes) is:
+
+$$
+\frac{360}{6} = 60 \text{ minutes}
+$$
+
+To convert minutes to hours:
+
+$$
+\frac{60}{60} = 1 \text{ hour}
+$$
+
+Numerically: 1
+
+1
+#############################################################
+#############################################################
+every_model_output_text[0]: Kalinda can add 4 pieces per minute.  
+Her mom can place half as many pieces per minute as Kalinda, so her mom adds:
+
+$$
+\frac{4}{2} = 2 \text{ pieces per minute}
+$$
+
+Together, they add:
+
+$$
+4 + 2 = 6 \text{ pieces per minute}
+$$
+
+The puzzle has 360 pieces. So, the time required (in minutes) is:
+
+$$
+\frac{360}{6} = 60 \text{ minutes}
+$$
+
+To convert minutes to hours:
+
+$$
+\frac{60}{60} = 1 \text{ hour}
+$$
+
+Numerically: 1
+
+1
+#############################################################
+#############################################################
+every_model_output_text[1]: Kalinda can add 4 pieces per minute.  
+Her mom can place half as many pieces per minute as Kalinda, so her mom adds:
+
+$$
+\frac{4}{2} = 2 \text{ pieces per minute}
+$$
+
+Together, they add:
+
+$$
+4 + 2 = 6 \text{ pieces per minute}
+$$
+
+The puzzle has 360 pieces. So, the time required (in minutes) is:
+
+$$
+\frac{360}{6} = 60 \text{ minutes}
+$$
+
+To convert minutes to hours:
+
+$$
+\frac{60}{60} = 1 \text{ hour}
+$$
+
+Numerically: 1
+
+1
+#############################################################
+#############################################################
+gold_text_raw: Her mom places 2 pieces per minute because 4 / 2 = <<4/2=2>>2
+On average they get in 6 pieces per minute because 4 + 2 = <<4+2=6>>6
+It will take 60 minutes to complete the puzzle because 360 / 6 = <<360/6=60>>60
+It will take one hour because 60 / 60 = <<60/60=1>>1
+#### 1
+pred_answer: 1.0
+correct_answer: 1.0
+总共100条样本，已回答2条样本，回答正确的样本数量为1.
+#############################################################
+final_output_text: We are given:
+
+- Tom's ship travels **outbound** from 1 PM to 4 PM at **10 miles per hour**.
+- Then he travels **back** at **6 miles per hour**.
+- We are to find **how long it takes him to get back**, meaning the time for the return trip.
+
+### Step 1: Find the distance traveled outbound
+
+He sails from 1 PM to 4 PM → that's **3 hours**.
+
+Speed = 10 mph  
+Distance = Speed × Time = 10 mph × 3 hours = **30 miles**
+
+### Step 2: Find time to travel back
+
+Return speed = 6 mph  
+Distance = 30 miles
+
+Time = Distance �� Speed = 30 �� 6 = **5 hours**
+
+### Final Answer:
+5
+
+5
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Tom's ship travels **outbound** from 1 PM to 4 PM at **10 miles per hour**.
+- Then he travels **back** at **6 miles per hour**.
+- We are to find **how long it takes him to get back**, meaning the time for the return trip.
+
+### Step 1: Find the distance traveled outbound
+
+He sails from 1 PM to 4 PM → that's **3 hours**.
+
+Speed = 10 mph  
+Distance = Speed × Time = 10 mph × 3 hours = **30 miles**
+
+### Step 2: Find time to travel back
+
+Return speed = 6 mph  
+Distance = 30 miles
+
+Time = Distance �� Speed = 30 �� 6 = **5 hours**
+
+### Final Answer:
+5
+
+5
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Tom's ship travels **outbound** from 1 PM to 4 PM at **10 miles per hour**.
+- Then he travels **back** at **6 miles per hour**.
+- We are to find **how long it takes him to get back**, meaning the time for the return trip.
+
+### Step 1: Find the distance traveled outbound
+
+He sails from 1 PM to 4 PM → that's **3 hours**.
+
+Speed = 10 mph  
+Distance = Speed × Time = 10 mph × 3 hours = **30 miles**
+
+### Step 2: Find time to travel back
+
+Return speed = 6 mph  
+Distance = 30 miles
+
+Time = Distance �� Speed = 30 �� 6 = **5 hours**
+
+### Final Answer:
+5
+
+5
+#############################################################
+#############################################################
+gold_text_raw: He was travelling at full speed for 4-1=<<4-1=3>>3 hours
+So he went 3*10=<<3*10=30>>30 miles
+That means it takes 30/6=<<30/6=5>>5 hours to get back
+#### 5
+pred_answer: 5.0
+correct_answer: 5.0
+总共100条样本，已回答3条样本，回答正确的样本数量为2.
+#############################################################
+final_output_text: James has two sons: one is 12 years old, and the other is 4 years younger.
+
+So, the younger son is:  
+12 - 4 = 8 years old.
+
+He is buying birthday candles for each son, so he needs one candle per year of age.
+
+Therefore, he needs:
+- 12 candles for the 12-year-old
+- 8 candles for the 8-year-old
+
+Total candles needed = 12 + 8 = 20 candles.
+
+A pack of 5 candles costs $3.
+
+Number of packs needed = 20 �� 5 = 4 packs.
+
+Cost = 4 packs × $3 = $12.
+
+James spends $12 on candles.
+
+12
+#############################################################
+#############################################################
+every_model_output_text[0]: James has two sons: one is 12 years old, and the other is 4 years younger.
+
+So, the younger son is:  
+12 - 4 = 8 years old.
+
+He is buying birthday candles for each son, so he needs one candle per year of age.
+
+Therefore, he needs:
+- 12 candles for the 12-year-old
+- 8 candles for the 8-year-old
+
+Total candles needed = 12 + 8 = 20 candles.
+
+A pack of 5 candles costs $3.
+
+Number of packs needed = 20 �� 5 = 4 packs.
+
+Cost = 4 packs × $3 = $12.
+
+James spends $12 on candles.
+
+12处理样本:   4%|▍         | 4/100 [08:10<3:08:20, 117.71s/it]处理样本:   5%|▌         | 5/100 [09:46<2:53:36, 109.65s/it]处理样本:   6%|▌         | 6/100 [11:21<2:44:09, 104.78s/it]处理样本:   7%|▋         | 7/100 [12:00<2:09:03, 83.26s/it] 
+#############################################################
+#############################################################
+every_model_output_text[1]: James has two sons: one is 12 years old, and the other is 4 years younger.
+
+So, the younger son is:  
+12 - 4 = 8 years old.
+
+He is buying birthday candles for each son, so he needs one candle per year of age.
+
+Therefore, he needs:
+- 12 candles for the 12-year-old
+- 8 candles for the 8-year-old
+
+Total candles needed = 12 + 8 = 20 candles.
+
+A pack of 5 candles costs $3.
+
+Number of packs needed = 20 �� 5 = 4 packs.
+
+Cost = 4 packs × $3 = $12.
+
+James spends $12 on candles.
+
+12
+#############################################################
+#############################################################
+gold_text_raw: His younger son is 12-4=<<12-4=8>>8 years old
+So he needs 12+8=<<12+8=20>>20 candles
+That means he needs 20/5=<<20/5=4>>4 packs of candles
+The total cost of those is 4*3=$<<4*3=12>>12
+#### 12
+pred_answer: 12.0
+correct_answer: 12.0
+总共100条样本，已回答4条样本，回答正确的样本数量为3.
+#############################################################
+final_output_text: Mariah used $ \frac{1}{4} $ of a skein, and her grandma used $ \frac{1}{2} $ of a skein.
+
+Each skein contains 364 yards.
+
+So, Mariah used:
+$$
+\frac{1}{4} \times 364 = 91 \text{ yards}
+$$
+
+Her grandma used:
+$$
+\frac{1}{2} \times 364 = 182 \text{ yards}
+$$
+
+Together, they used:
+$$
+91 + 182 = 273 \text{ yards}
+$$
+
+273
+#############################################################
+#############################################################
+every_model_output_text[0]: Mariah used $ \frac{1}{4} $ of a skein, and her grandma used $ \frac{1}{2} $ of a skein.
+
+Each skein contains 364 yards.
+
+So, Mariah used:
+$$
+\frac{1}{4} \times 364 = 91 \text{ yards}
+$$
+
+Her grandma used:
+$$
+\frac{1}{2} \times 364 = 182 \text{ yards}
+$$
+
+Together, they used:
+$$
+91 + 182 = 273 \text{ yards}
+$$
+
+273
+#############################################################
+#############################################################
+every_model_output_text[1]: Mariah used $ \frac{1}{4} $ of a skein, and her grandma used $ \frac{1}{2} $ of a skein.
+
+Each skein contains 364 yards.
+
+So, Mariah used:
+$$
+\frac{1}{4} \times 364 = 91 \text{ yards}
+$$
+
+Her grandma used:
+$$
+\frac{1}{2} \times 364 = 182 \text{ yards}
+$$
+
+Together, they used:
+$$
+91 + 182 = 273 \text{ yards}
+$$
+
+273
+#############################################################
+#############################################################
+gold_text_raw: Mariah’s grandma used 1/2 a skein of yarn. We should multiply this by (2/2) to have a common denominator, so 1/2 * 2/2 = 2/4.
+Now that there are common denominators, we can add the 1/4 skein of yarn Mariah used + 2/4 skein of yarn her grandma used = 3/4 of a skein of yarn.
+3/4 of a skein of yarn * 364 yards = 364 / 4 = <<3/4*364=273>>273 yards.
+#### 273
+pred_answer: 273.0
+correct_answer: 273.0
+总共100条样本，已回答5条样本，回答正确的样本数量为4.
+#############################################################
+final_output_text: Katelyn initially saw **50 fairies** flying above the forest.
+
+After about twenty minutes, **one of her friends saw half as many fairies as Katelyn saw come from the east** and join the fairies.
+
+So, half of 50 is:
+
+50 �� 2 = **25 fairies** joined the group.
+
+Now, total fairies after the new ones join:
+
+50 + 25 = **75 fairies**
+
+Ten minutes later, **30 fairies flew away**.
+
+So, fairies remaining:
+
+75 − 30 = **45 fairies**
+
+Numerically: 45
+#############################################################
+#############################################################
+every_model_output_text[0]: Katelyn initially saw **50 fairies** flying above the forest.
+
+After about twenty minutes, **one of her friends saw half as many fairies as Katelyn saw come from the east** and join the fairies.
+
+So, half of 50 is:
+
+50 �� 2 = **25 fairies** joined the group.
+
+Now, total fairies after the new ones join:
+
+50 + 25 = **75 fairies**
+
+Ten minutes later, **30 fairies flew away**.
+
+So, fairies remaining:
+
+75 − 30 = **45 fairies**
+
+Numerically: 45
+#############################################################
+#############################################################
+every_model_output_text[1]: Katelyn initially saw **50 fairies** flying above the forest.
+
+After about twenty minutes, **one of her friends saw half as many fairies as Katelyn saw come from the east** and join the fairies.
+
+So, half of 50 is:
+
+50 �� 2 = **25 fairies** joined the group.
+
+Now, total fairies after the new ones join:
+
+50 + 25 = **75 fairies**
+
+Ten minutes later, **30 fairies flew away**.
+
+So, fairies remaining:
+
+75 − 30 = **45 fairies**
+
+Numerically: 45
+#############################################################
+#############################################################
+gold_text_raw: Katelyn's friend saw 1/2*50 = <<1/2*50=25>>25, half as many fairies as Katelyn initially saw
+The total number of fairies flying above the forest now is 50 + 25 = <<50+25=75>>75
+If thirty fairies then flew away, there were 75 - 30 = <<75-30=45>>45 fairies that remained.
+#### 45
+pred_answer: 45.0
+correct_answer: 45.0
+总共100条样本，已回答6条样本，回答正确的样本数量为5.
+#############################################################
+final_output_text: Ann is 9 years old.  
+Her brother is twice her age, so he is 2 × 9 = 18 years old.  
+In 3 years, her brother will be 18 + 3 = 21 years old.  
+
+21
+#############################################################
+#############################################################
+every_model_output_text[0]: Ann is 9 years old.  
+Her brother is twice her age, so he is 2 × 9 = 18 years old.  
+In 3 years, her brother will be 18 + 3 = 21 years old.  
+
+21
+#############################################################
+#############################################################
+every_model_output_text[1]: Ann is 9 years old.  
+Her brother is twice her age, so he is 2 × 9 = 18 years old.  
+In 3 years, her brother will be 18 + 3 = 21 years old.  
+
+21
+#############################################################
+#############################################################
+gold_text_raw: Ann's brother is 9 * 2 = <<9*2=18>>18 years old now.
+This means, in 3 years, her brother will be 18 + 3 = <<18+3=21>>21 years old.
+#### 21
+pred_answer: 21.0
+correct_answer: 21.0
+总共100条样本，已回答7条样本，回答正确的样本数量为6.
+#############################################################
+final_output_text: We are given:
+
+- Twenty dozen cups cost $1200 **less** than the total cost of half a dozen plates sold at $6000 each.
+- We are to find the **total cost of buying each cup** (i.e., the cost per cup).
+
+---
+
+### Step 1: Understand the quantities
+
+**Dozen** means 12.
+
+So, **twenty dozen cups** = 20 × 12 = **240 cups**
+
+**Half a dozen plates** = 0.5 × 12 = **6 plates**
+
+Each plate is sold at $6000, so:
+
+Total cost of 6 plates = 6 × $6000 = **$36,000**
+
+---
+
+### Step 2: Use the given relationship
+
+> Twenty dozen cups cost $1200 less than the total cost of half a dozen plates.
+
+So:
+
+Cost of 240 cups = Cost of 6 plates − $1200  
+= $36,000 − $1200 = **$34,800**
+
+---
+
+### Step 3: Find cost per cup
+
+Total cost of 240 cups = $34,800  
+So, cost per cup = $34,800 �� 240
+
+Let’s compute that:
+
+$34,800 �� 240
+
+First, divide both by 10:  
+3480 �� 24
+
+Now divide:
+
+24 × 145 = 24 × 100 = 2400  
+24 × 40 = 960 → 2400 + 960 = 3360  
+3480 − 3360 = 120  
+24 × 5 = 120
+
+So 140 + 5 = 145
+
+Thus, 3480 �� 24 = 145
+
+So cost per cup = **$145**
+
+---
+
+✅ Final Answer: **145**
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Twenty dozen cups cost $1200 **less** than the total cost of half a dozen plates sold at $6000 each.
+- We are to find the **total cost of buying each cup** (i.e., the cost per cup).
+
+---
+
+### Step 1: Understand the quantities
+
+**Dozen** means 12.
+
+So, **twenty dozen cups** = 20 × 12 = **240 cups**
+
+**Half a dozen plates** = 0.5 × 12 = **6 plates**
+
+Each plate is sold at $6000, so:
+
+Total cost of 6 plates = 6 × $6000 = **$36,000**
+
+---
+
+### Step 2: Use the given relationship
+
+> Twenty dozen cups cost $1200 less than the total cost of half a dozen plates.
+
+So:
+
+Cost of 240 cups = Cost of 6 plates − $1200  
+= $36,000 − $1200 = **$34,800**
+
+---
+
+### Step 3: Find cost per cup
+
+Total cost of 240 cups = $34,800  
+So, cost per cup = $34,800 �� 240
+
+Let’s compute that:
+
+$34,800 �� 240
+
+First, divide both by 10:  
+3480 �� 24
+
+Now divide:
+
+24 × 145 = 24 × 100 = 2400  
+24 × 40 = 960 → 2400 + 960 = 3360  
+3480 − 3360 = 120  
+24 × 5 = 120
+
+So 140 + 5 = 145
+
+Thus, 3480 �� 24 = 145
+
+So cost per cup = **$145**
+
+---
+
+✅ Final Answer: **145**处理样本:   8%|▊         | 8/100 [17:21<4:03:37, 158.89s/it]处理样本:   9%|▉         | 9/100 [18:27<3:17:02, 129.92s/it]处理样本:  10%|█         | 10/100 [20:24<3:08:42, 125.80s/it]
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Twenty dozen cups cost $1200 **less** than the total cost of half a dozen plates sold at $6000 each.
+- We are to find the **total cost of buying each cup** (i.e., the cost per cup).
+
+---
+
+### Step 1: Understand the quantities
+
+**Dozen** means 12.
+
+So, **twenty dozen cups** = 20 × 12 = **240 cups**
+
+**Half a dozen plates** = 0.5 × 12 = **6 plates**
+
+Each plate is sold at $6000, so:
+
+Total cost of 6 plates = 6 × $6000 = **$36,000**
+
+---
+
+### Step 2: Use the given relationship
+
+> Twenty dozen cups cost $1200 less than the total cost of half a dozen plates.
+
+So:
+
+Cost of 240 cups = Cost of 6 plates − $1200  
+= $36,000 − $1200 = **$34,800**
+
+---
+
+### Step 3: Find cost per cup
+
+Total cost of 240 cups = $34,800  
+So, cost per cup = $34,800 �� 240
+
+Let’s compute that:
+
+$34,800 �� 240
+
+First, divide both by 10:  
+3480 �� 24
+
+Now divide:
+
+24 × 145 = 24 × 100 = 2400  
+24 × 40 = 960 → 2400 + 960 = 3360  
+3480 − 3360 = 120  
+24 × 5 = 120
+
+So 140 + 5 = 145
+
+Thus, 3480 �� 24 = 145
+
+So cost per cup = **$145**
+
+---
+
+✅ Final Answer: **145**
+#############################################################
+#############################################################
+gold_text_raw: Since a dozen has 12 items, half a dozen plates are 12/2 = <<6=6>>6
+Half a dozen plates sold at $6000 each cost 6*$6000 = $<<6*6000=36000>>36000
+Twenty dozen cups cost $1200 less than the total cost of half a dozen plates, meaning the twenty dozen cups cost a total of $36000-$1200 = 34800
+Since a dozen has 12 items, twenty dozen cups are 20*12 = <<20*12=240>>240 cups.
+If the twenty dozen cups cost $34800, each cup costs $34800/240=$<<34800/240=145>>145
+#### 145
+pred_answer: 145.0
+correct_answer: 145.0
+总共100条样本，已回答8条样本，回答正确的样本数量为7.
+#############################################################
+final_output_text: Last year, there were 50 students enrolled in the calligraphy class.
+
+This year, there is a 20% increase in enrollment.
+
+To find the increase:
+20% of 50 = 0.20 × 50 = 10
+
+Add that to the original number:
+50 + 10 = 60
+
+So, this year, there are 60 students enrolled in the calligraphy class.
+
+60
+#############################################################
+#############################################################
+every_model_output_text[0]: Last year, there were 50 students enrolled in the calligraphy class.
+
+This year, there is a 20% increase in enrollment.
+
+To find the increase:
+20% of 50 = 0.20 × 50 = 10
+
+Add that to the original number:
+50 + 10 = 60
+
+So, this year, there are 60 students enrolled in the calligraphy class.
+
+60
+#############################################################
+#############################################################
+every_model_output_text[1]: Last year, there were 50 students enrolled in the calligraphy class.
+
+This year, there is a 20% increase in enrollment.
+
+To find the increase:
+20% of 50 = 0.20 × 50 = 10
+
+Add that to the original number:
+50 + 10 = 60
+
+So, this year, there are 60 students enrolled in the calligraphy class.
+
+60
+#############################################################
+#############################################################
+gold_text_raw: There was an increase of 50 x 20/100 = <<50*20/100=10>>10 students in enrollment.
+So, there is a total of 50 + 10 = <<50+10=60>>60 students who were enrolled this year.
+#### 60
+pred_answer: 60.0
+correct_answer: 60.0
+总共100条样本，已回答9条样本，回答正确的样本数量为8.
+#############################################################
+final_output_text: We are given:
+
+- Bo has 40 crabs.
+- Monic has 4 fewer crabs than Bo.
+- Rani has 10 more crabs than Monic.
+
+Step 1: Find how many crabs Monic has.
+
+Monic = Bo - 4  
+Monic = 40 - 4 = 36 crabs
+
+Step 2: Find how many crabs Rani has.
+
+Rani = Monic + 10  
+Rani = 36 + 10 = 46 crabs
+
+Step 3: Find the total number of crabs the three have together.
+
+Total = Bo + Monic + Rani  
+Total = 40 + 36 + 46 = 122
+
+Numerically: 122
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Bo has 40 crabs.
+- Monic has 4 fewer crabs than Bo.
+- Rani has 10 more crabs than Monic.
+
+Step 1: Find how many crabs Monic has.
+
+Monic = Bo - 4  
+Monic = 40 - 4 = 36 crabs
+
+Step 2: Find how many crabs Rani has.
+
+Rani = Monic + 10  
+Rani = 36 + 10 = 46 crabs
+
+Step 3: Find the total number of crabs the three have together.
+
+Total = Bo + Monic + Rani  
+Total = 40 + 36 + 46 = 122
+
+Numerically: 122
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Bo has 40 crabs.
+- Monic has 4 fewer crabs than Bo.
+- Rani has 10 more crabs than Monic.
+
+Step 1: Find how many crabs Monic has.
+
+Monic = Bo - 4  
+Monic = 40 - 4 = 36 crabs
+
+Step 2: Find how many crabs Rani has.
+
+Rani = Monic + 10  
+Rani = 36 + 10 = 46 crabs
+
+Step 3: Find the total number of crabs the three have together.
+
+Total = Bo + Monic + Rani  
+Total = 40 + 36 + 46 = 122
+
+Numerically: 122
+#############################################################
+#############################################################
+gold_text_raw: If Bo has 40 crabs, then Monic, who has 4 fewer crabs than Bo, has 40-4 = <<40-4=36>>36 crabs.
+Bo and Monic have a total of 36+40 = <<36+40=76>>76 crabs.
+Since Monic has 36 crabs, Rani's number of crabs is 36+ 10 = <<36+10=46>>46.
+Together, the three have 76+46 = <<76+46=122>>122 crabs.
+#### 122
+pred_answer: 122.0
+correct_answer: 122.0
+总共100条样本，已回答10条样本，回答正确的样本数量为9.
+#############################################################
+final_output_text: We are given the water removal rates of the dehumidifier at each setting:
+
+- **Low setting**: 1 liter per day  
+- **Medium setting**: twice as much as low → 2 liters per day  
+- **High setting**: twice as much as medium → 2 × 2 = 4 liters per day
+
+Now, Brian used the dehumidifier for:
+
+- 3 days on **low** setting  
+- 3 days on **medium** setting  
+- 5 days on **high** setting
+
+Let’s calculate the total water removed:
+
+1. **Low setting**:  
+   3 days × 1 liter/day = 3 liters
+
+2. **Medium setting**:  
+   3 days × 2 liters/day = 6 liters
+
+3. **High setting**:  
+   5 days × 4 liters/day = 20 liters
+
+Now, add them all together:
+
+3 + 6 + 20 = 30 liters
+
+Numerically: 30
+
+30
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given the water removal rates of the dehumidifier at each setting:
+
+- **Low setting**: 1 liter per day  
+- **Medium setting**: twice as much as low → 2 liters per day  
+- **High setting**: twice as much as medium → 2 × 2 = 4 liters per day
+
+Now, Brian used the dehumidifier for:
+
+- 3 days on **low** setting  
+- 3 days on **medium** setting  
+- 5 days on **high** setting
+
+Let’s calculate the total water removed:
+
+1. **Low setting**:  
+   3 days × 1 liter/day = 3 liters
+
+2. **Medium setting**:  
+   3 days × 2 liters/day = 6 liters
+
+3. **High setting**:  
+   5 days × 4 liters/day = 20 liters
+
+Now, add them all together:
+
+3 + 6 + 20 = 30 liters
+
+Numerically: 30
+
+30
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given the water removal rates of the dehumidifier at each setting:
+
+- **Low setting**: 1 liter per day  
+- **Medium setting**: twice as much as low → 2 liters per day  
+- **High setting**: twice as much as medium → 2 × 2 = 4 liters per day
+
+Now, Brian used the dehumidifier for:
+
+- 3 days on **low** setting  
+- 3 days on **medium** setting  
+- 5 days on **high** setting
+
+Let’s calculate the total water removed:
+
+1. **Low setting**:  
+   3 days × 1 liter/day = 3 liters
+
+2. **Medium setting**:  
+   3 days × 2 liters/day = 6 liters
+
+3. **High setting**:  
+   5 days × 4 liters/day = 20 liters
+
+Now, add them all together:
+
+3 + 6 + 20 = 30 liters
+
+Numerically: 30
+
+30处理样本:  11%|█         | 11/100 [22:51<3:16:13, 132.29s/it]处理样本:  12%|█▏        | 12/100 [25:20<3:21:28, 137.36s/it]处理样本:  13%|█▎        | 13/100 [27:26<3:14:07, 133.88s/it]处理样本:  14%|█▍        | 14/100 [30:11<3:25:46, 143.56s/it]
+#############################################################
+#############################################################
+gold_text_raw: The medium setting removes twice as much water per day as the low setting, for a total of 2*1=<<2*1=2>>2 liters of water per day.
+The high setting removes twice as much water per day as the medium setting, for a total of 2*2=<<2*2=4>>4 liters of water per day.
+3 days on the low setting removes 3*1=<<3*1=3>>3 liters of water.
+3 days on the medium setting removes 3*2=<<3*2=6>>6 liters of water.
+And 5 days on the high setting removes 5*4=<<5*4=20>>20 liters of water.
+In total, the dehumidifier removed 3+6+20=<<3+6+20=29>>29 liters of water from the air in his basement.
+#### 29
+pred_answer: 30.0
+correct_answer: 29.0
+总共100条样本，已回答11条样本，回答正确的样本数量为9.
+#############################################################
+final_output_text: We are given:
+
+- George ordered **600 burritos**.
+- There are **50 students**.
+- Each student gets **10 burritos**.
+- Mr. George eats **20 burritos**.
+
+We need to find the **total number of leftover burritos**.
+
+---
+
+**Step 1: Calculate how many burritos the students ate**
+
+Each of the 50 students gets 10 burritos:
+
+$$
+50 \times 10 = 500 \text{ burritos}
+$$
+
+---
+
+**Step 2: Add the burritos Mr. George ate**
+
+$$
+500 + 20 = 520 \text{ burritos consumed}
+$$
+
+---
+
+**Step 3: Subtract from the original total to find leftovers**
+
+$$
+600 - 520 = 80 \text{ leftover burritos}
+$$
+
+---
+
+✅ Final answer: 80
+
+80
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- George ordered **600 burritos**.
+- There are **50 students**.
+- Each student gets **10 burritos**.
+- Mr. George eats **20 burritos**.
+
+We need to find the **total number of leftover burritos**.
+
+---
+
+**Step 1: Calculate how many burritos the students ate**
+
+Each of the 50 students gets 10 burritos:
+
+$$
+50 \times 10 = 500 \text{ burritos}
+$$
+
+---
+
+**Step 2: Add the burritos Mr. George ate**
+
+$$
+500 + 20 = 520 \text{ burritos consumed}
+$$
+
+---
+
+**Step 3: Subtract from the original total to find leftovers**
+
+$$
+600 - 520 = 80 \text{ leftover burritos}
+$$
+
+---
+
+✅ Final answer: 80
+
+80
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- George ordered **600 burritos**.
+- There are **50 students**.
+- Each student gets **10 burritos**.
+- Mr. George eats **20 burritos**.
+
+We need to find the **total number of leftover burritos**.
+
+---
+
+**Step 1: Calculate how many burritos the students ate**
+
+Each of the 50 students gets 10 burritos:
+
+$$
+50 \times 10 = 500 \text{ burritos}
+$$
+
+---
+
+**Step 2: Add the burritos Mr. George ate**
+
+$$
+500 + 20 = 520 \text{ burritos consumed}
+$$
+
+---
+
+**Step 3: Subtract from the original total to find leftovers**
+
+$$
+600 - 520 = 80 \text{ leftover burritos}
+$$
+
+---
+
+✅ Final answer: 80
+
+80
+#############################################################
+#############################################################
+gold_text_raw: The total number of burritos eaten by the students is 50*10 = <<50*10=500>>500
+If Mr George also ate 20, the total number of burritos eaten at the picnic is 500+20 = <<500+20=520>>520
+There were 600-520 = <<600-520=80>>80 leftover burritos.
+#### 80
+pred_answer: 80.0
+correct_answer: 80.0
+总共100条样本，已回答12条样本，回答正确的样本数量为10.
+#############################################################
+final_output_text: Jim spends 2 hours watching TV each time.  
+He then reads for half as long, which is:
+
+2 �� 2 = 1 hour reading.
+
+So, each time he spends:
+
+2 hours (TV) + 1 hour (reading) = 3 hours total.
+
+He does this 3 times a week, so per week:
+
+3 hours × 3 = 9 hours per week.
+
+Over 4 weeks:
+
+9 hours/week × 4 weeks = 36 hours.
+
+Therefore, Jim spends 36 hours on TV and reading in 4 weeks.
+
+36
+#############################################################
+#############################################################
+every_model_output_text[0]: Jim spends 2 hours watching TV each time.  
+He then reads for half as long, which is:
+
+2 �� 2 = 1 hour reading.
+
+So, each time he spends:
+
+2 hours (TV) + 1 hour (reading) = 3 hours total.
+
+He does this 3 times a week, so per week:
+
+3 hours × 3 = 9 hours per week.
+
+Over 4 weeks:
+
+9 hours/week × 4 weeks = 36 hours.
+
+Therefore, Jim spends 36 hours on TV and reading in 4 weeks.
+
+36
+#############################################################
+#############################################################
+every_model_output_text[1]: Jim spends 2 hours watching TV each time.  
+He then reads for half as long, which is:
+
+2 �� 2 = 1 hour reading.
+
+So, each time he spends:
+
+2 hours (TV) + 1 hour (reading) = 3 hours total.
+
+He does this 3 times a week, so per week:
+
+3 hours × 3 = 9 hours per week.
+
+Over 4 weeks:
+
+9 hours/week × 4 weeks = 36 hours.
+
+Therefore, Jim spends 36 hours on TV and reading in 4 weeks.
+
+36
+#############################################################
+#############################################################
+gold_text_raw: He reads for 2/2=<<2/2=1>>1 hour a night
+So he spends 2+1=<<2+1=3>>3 hours on these activities
+That means he spends 3*3=<<3*3=9>>9 hours a week on them
+So in 4 weeks, he spends 9*4=<<9*4=36>>36 hours on these activities
+#### 36
+pred_answer: 36.0
+correct_answer: 36.0
+总共100条样本，已回答13条样本，回答正确的样本数量为11.
+#############################################################
+final_output_text: Janet pays:
+
+- $500 for the materials  
+- $800 for the jeweler to construct it  
+- 10% of the total cost (materials + construction) to get it insured  
+
+First, calculate the total cost before insurance:  
+$500 + $800 = $1300  
+
+Now, calculate 10% of $1300 for insurance:  
+10% of 1300 = 0.10 × 1300 = $130  
+
+Add the insurance cost to the original cost:  
+$1300 + $130 = $1430  
+
+Therefore, Janet paid a total of $1430.
+
+1430
+#############################################################
+#############################################################
+every_model_output_text[0]: Janet pays:
+
+- $500 for the materials  
+- $800 for the jeweler to construct it  
+- 10% of the total cost (materials + construction) to get it insured  
+
+First, calculate the total cost before insurance:  
+$500 + $800 = $1300  
+
+Now, calculate 10% of $1300 for insurance:  
+10% of 1300 = 0.10 × 1300 = $130  
+
+Add the insurance cost to the original cost:  
+$1300 + $130 = $1430  
+
+Therefore, Janet paid a total of $1430.
+
+1430
+#############################################################
+#############################################################
+every_model_output_text[1]: Janet pays:
+
+- $500 for the materials  
+- $800 for the jeweler to construct it  
+- 10% of the total cost (materials + construction) to get it insured  
+
+First, calculate the total cost before insurance:  
+$500 + $800 = $1300  
+
+Now, calculate 10% of $1300 for insurance:  
+10% of 1300 = 0.10 × 1300 = $130  
+
+Add the insurance cost to the original cost:  
+$1300 + $130 = $1430  
+
+Therefore, Janet paid a total of $1430.
+
+1430
+#############################################################
+#############################################################
+gold_text_raw: The total cost of the broch was 500+800=$<<500+800=1300>>1300
+The insurance was 1300*.1=$<<1300*.1=130>>130
+So she pays 1300+130=$<<1300+130=1430>>1430
+#### 1430
+pred_answer: 1430.0
+correct_answer: 1430.0
+总共100条样本，已回答14条样本，回答正确的样本数量为12.
+#############################################################
+final_output_text: Each duck needs 3.5 pounds of insects per week.
+
+First, find the total amount of insects needed for 10 ducks per week:
+
+10 ducks × 3.5 pounds = 35 pounds per week
+
+Now, convert that to a daily amount. There are 7 days in a week:
+
+35 pounds �� 7 days = 5 pounds per day
+
+So, the flock of ten ducks needs 5 pounds of insects per day.
+
+5
+#############################################################
+#############################################################处理样本:  15%|█▌        | 15/100 [31:53<3:05:21, 130.84s/it]处理样本:  16%|█▌        | 16/100 [33:38<2:52:10, 122.98s/it]处理样本:  17%|█▋        | 17/100 [35:16<2:39:54, 115.59s/it]处理样本:  18%|█▊        | 18/100 [36:19<2:16:18, 99.73s/it] 处理样本:  19%|█▉        | 19/100 [38:09<2:18:46, 102.79s/it]
+every_model_output_text[0]: Each duck needs 3.5 pounds of insects per week.
+
+First, find the total amount of insects needed for 10 ducks per week:
+
+10 ducks × 3.5 pounds = 35 pounds per week
+
+Now, convert that to a daily amount. There are 7 days in a week:
+
+35 pounds �� 7 days = 5 pounds per day
+
+So, the flock of ten ducks needs 5 pounds of insects per day.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[1]: Each duck needs 3.5 pounds of insects per week.
+
+First, find the total amount of insects needed for 10 ducks per week:
+
+10 ducks × 3.5 pounds = 35 pounds per week
+
+Now, convert that to a daily amount. There are 7 days in a week:
+
+35 pounds �� 7 days = 5 pounds per day
+
+So, the flock of ten ducks needs 5 pounds of insects per day.
+
+5
+#############################################################
+#############################################################
+gold_text_raw: The flock needs 35 pounds per week because 10 x 3.5 = <<10*3.5=35>>35
+They need 5 pounds per day because 35 / 7 = <<35/7=5>>5
+#### 5
+pred_answer: 5.0
+correct_answer: 5.0
+总共100条样本，已回答15条样本，回答正确的样本数量为13.
+#############################################################
+final_output_text: Joey starts with 214 points and scores 26 points:
+
+214 + 26 = 240 points
+
+Marcy starts with 225 points and scores 10 points:
+
+225 + 10 = 235 points
+
+Now, subtract Marcy's total from Joey's total to find the point difference:
+
+240 - 235 = 5
+
+Joey is now winning by 5 points.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[0]: Joey starts with 214 points and scores 26 points:
+
+214 + 26 = 240 points
+
+Marcy starts with 225 points and scores 10 points:
+
+225 + 10 = 235 points
+
+Now, subtract Marcy's total from Joey's total to find the point difference:
+
+240 - 235 = 5
+
+Joey is now winning by 5 points.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[1]: Joey starts with 214 points and scores 26 points:
+
+214 + 26 = 240 points
+
+Marcy starts with 225 points and scores 10 points:
+
+225 + 10 = 235 points
+
+Now, subtract Marcy's total from Joey's total to find the point difference:
+
+240 - 235 = 5
+
+Joey is now winning by 5 points.
+
+5
+#############################################################
+#############################################################
+gold_text_raw: Joey now has 214+26=<<214+26=240>>240.
+Marcy now has 225+10=<<225+10=235>>235.
+And 240-235=<<240-235=5>>5.
+#### 5
+pred_answer: 5.0
+correct_answer: 5.0
+总共100条样本，已回答16条样本，回答正确的样本数量为14.
+#############################################################
+final_output_text: Sarah spent $300 on books, and each book cost $15.
+
+First, find the total number of books she bought:
+
+$$
+\frac{300}{15} = 20 \text{ books}
+$$
+
+She gave an equal number of books to her 4 kids:
+
+$$
+\frac{20}{4} = 5 \text{ books per child}
+$$
+
+Each child got 5 books.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[0]: Sarah spent $300 on books, and each book cost $15.
+
+First, find the total number of books she bought:
+
+$$
+\frac{300}{15} = 20 \text{ books}
+$$
+
+She gave an equal number of books to her 4 kids:
+
+$$
+\frac{20}{4} = 5 \text{ books per child}
+$$
+
+Each child got 5 books.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[1]: Sarah spent $300 on books, and each book cost $15.
+
+First, find the total number of books she bought:
+
+$$
+\frac{300}{15} = 20 \text{ books}
+$$
+
+She gave an equal number of books to her 4 kids:
+
+$$
+\frac{20}{4} = 5 \text{ books per child}
+$$
+
+Each child got 5 books.
+
+5
+#############################################################
+#############################################################
+gold_text_raw: Since she spent $300 on the books and each book's cost was $15, she bought $300/$15= <<300/15=20>>20 books.
+If Sarah gave an equal number of books to each of her children, each kid received 20/4 = <<20/4=5>>5 books.
+#### 5
+pred_answer: 5.0
+correct_answer: 5.0
+总共100条样本，已回答17条样本，回答正确的样本数量为15.
+#############################################################
+final_output_text: Ted buys 3 books at $16 each:  
+3 × $16 = $48
+
+He also buys 3 pencils at $6 each:  
+3 × $6 = $18
+
+Total spent = $48 + $18 = $66
+
+66
+#############################################################
+#############################################################
+every_model_output_text[0]: Ted buys 3 books at $16 each:  
+3 × $16 = $48
+
+He also buys 3 pencils at $6 each:  
+3 × $6 = $18
+
+Total spent = $48 + $18 = $66
+
+66
+#############################################################
+#############################################################
+every_model_output_text[1]: Ted buys 3 books at $16 each:  
+3 × $16 = $48
+
+He also buys 3 pencils at $6 each:  
+3 × $6 = $18
+
+Total spent = $48 + $18 = $66
+
+66
+#############################################################
+#############################################################
+gold_text_raw: Ted spent a total of 3*16 = <<3*16=48>>48 dollars on books.
+Ted spent a total of 3*6 = <<3*6=18>>18 dollars on pencils.
+In total Ted spent 48+18 = <<48+18=66>>66 dollars.
+#### 66
+pred_answer: 66.0
+correct_answer: 66.0
+总共100条样本，已回答18条样本，回答正确的样本数量为16.
+#############################################################
+final_output_text: Eve originally had 20 pieces of pomelos.
+
+After giving some away, she is left with **1/4** of the original amount.
+
+So, the number of pomelos she has left is:
+
+$$
+\frac{1}{4} \times 20 = 5
+$$
+
+Therefore, the number of pomelos she gave away is:
+
+$$
+20 - 5 = 15
+$$
+
+Eve gave away 15 pomelos.
+
+15
+#############################################################
+#############################################################
+every_model_output_text[0]: Eve originally had 20 pieces of pomelos.
+
+After giving some away, she is left with **1/4** of the original amount.
+
+So, the number of pomelos she has left is:
+
+$$
+\frac{1}{4} \times 20 = 5
+$$
+
+Therefore, the number of pomelos she gave away is:
+
+$$
+20 - 5 = 15
+$$
+
+Eve gave away 15 pomelos.
+
+15
+#############################################################
+#############################################################
+every_model_output_text[1]: Eve originally had 20 pieces of pomelos.
+
+After giving some away, she is left with **1/4** of the original amount.
+
+So, the number of pomelos she has left is:
+
+$$
+\frac{1}{4} \times 20 = 5
+$$
+
+Therefore, the number of pomelos she gave away is:
+
+$$
+20 - 5 = 15
+$$
+
+Eve gave away 15 pomelos.
+
+15
+#############################################################
+#############################################################
+gold_text_raw: Eve is left with 20 x 1/4 = <<20*1/4=5>>5 pieces of pomelos.
+So she gave away 20 - 5 = <<20-5=15>>15 pieces of pomelos to her friend.
+#### 15
+pred_answer: 15.0
+correct_answer: 15.0
+总共100条样本，已回答19条样本，回答正确的样本数量为17.
+#############################################################
+final_output_text: We are told:
+
+- The Doubtfire sisters are driving home with **7 kittens** they adopted from the shelter.
+- Their mother informs them that:
+  - **Patchy** (the first cat) has had **thrice the number of adopted kittens**.
+  - **Trixie** has had **12 kittens**.
+
+We need to find the **total number of kittens** the Doubtfire family now has.
+
+---
+
+Step 1: Understand what "Patchy has had thrice the number of adopted kittens" means.
+
+"Adopted kittens" refers to the 7 kittens the sisters adopted.
+
+So, Patchy has had **3 times 7** = **21 kittens**.
+
+But wait — is that correct?
+
+Let’s read carefully:  
+"Patchy, the first cat, has had thrice the number of adopted kittens"
+
+This could be interpreted as:  
+Patchy has had **three times the number of the adopted kittens** (i.e., 3 × 7 = 21).
+
+Trixie has had **12 kittens**.
+
+So, the total number of kittens born to the cats is:
+
+- Patchy: 3 × 7 = 21
+- Trixie: 12
+
+So total kittens from the cats = 21 + 12 = 33
+
+Plus the 7 kittens they adopted from the shelter.
+
+So total kittens in the family = adopted kittens + kittens born to Patchy and Trixie  
+= 7 + 21 + 12 = **40**
+
+✅ Final answer: 40
+
+40处理样本:  20%|██        | 20/100 [43:58<3:55:46, 176.83s/it]处理样本:  21%|██        | 21/100 [45:04<3:08:59, 143.54s/it]处理样本:  22%|██▏       | 22/100 [49:42<3:58:57, 183.81s/it]
+#############################################################
+#############################################################
+every_model_output_text[0]: We are told:
+
+- The Doubtfire sisters are driving home with **7 kittens** they adopted from the shelter.
+- Their mother informs them that:
+  - **Patchy** (the first cat) has had **thrice the number of adopted kittens**.
+  - **Trixie** has had **12 kittens**.
+
+We need to find the **total number of kittens** the Doubtfire family now has.
+
+---
+
+Step 1: Understand what "Patchy has had thrice the number of adopted kittens" means.
+
+"Adopted kittens" refers to the 7 kittens the sisters adopted.
+
+So, Patchy has had **3 times 7** = **21 kittens**.
+
+But wait — is that correct?
+
+Let’s read carefully:  
+"Patchy, the first cat, has had thrice the number of adopted kittens"
+
+This could be interpreted as:  
+Patchy has had **three times the number of the adopted kittens** (i.e., 3 × 7 = 21).
+
+Trixie has had **12 kittens**.
+
+So, the total number of kittens born to the cats is:
+
+- Patchy: 3 × 7 = 21
+- Trixie: 12
+
+So total kittens from the cats = 21 + 12 = 33
+
+Plus the 7 kittens they adopted from the shelter.
+
+So total kittens in the family = adopted kittens + kittens born to Patchy and Trixie  
+= 7 + 21 + 12 = **40**
+
+✅ Final answer: 40
+
+40
+#############################################################
+#############################################################
+every_model_output_text[1]: We are told:
+
+- The Doubtfire sisters are driving home with **7 kittens** they adopted from the shelter.
+- Their mother informs them that:
+  - **Patchy** (the first cat) has had **thrice the number of adopted kittens**.
+  - **Trixie** has had **12 kittens**.
+
+We need to find the **total number of kittens** the Doubtfire family now has.
+
+---
+
+Step 1: Understand what "Patchy has had thrice the number of adopted kittens" means.
+
+"Adopted kittens" refers to the 7 kittens the sisters adopted.
+
+So, Patchy has had **3 times 7** = **21 kittens**.
+
+But wait — is that correct?
+
+Let’s read carefully:  
+"Patchy, the first cat, has had thrice the number of adopted kittens"
+
+This could be interpreted as:  
+Patchy has had **three times the number of the adopted kittens** (i.e., 3 × 7 = 21).
+
+Trixie has had **12 kittens**.
+
+So, the total number of kittens born to the cats is:
+
+- Patchy: 3 × 7 = 21
+- Trixie: 12
+
+So total kittens from the cats = 21 + 12 = 33
+
+Plus the 7 kittens they adopted from the shelter.
+
+So total kittens in the family = adopted kittens + kittens born to Patchy and Trixie  
+= 7 + 21 + 12 = **40**
+
+✅ Final answer: 40
+
+40
+#############################################################
+#############################################################
+gold_text_raw: Patchy has just had 3 * 7 = <<3*7=21>>21 kittens
+Since Trixie's kittens are 12, both cats have 21 +12 = <<21+12=33>>33 kittens.
+Combining the adopted kittens with those from the two cats, the Doubtfire family now has 7 + 33 = <<7+33=40>>40 kittens.
+#### 40
+pred_answer: 40.0
+correct_answer: 40.0
+总共100条样本，已回答20条样本，回答正确的样本数量为18.
+#############################################################
+final_output_text: Jen has 3 fish, and each fish needs $1 worth of food per day.
+
+So, daily cost = 3 fish × $1 = $3 per day.
+
+May has 31 days.
+
+Total cost for May = $3/day × 31 days = $93.
+
+93
+#############################################################
+#############################################################
+every_model_output_text[0]: Jen has 3 fish, and each fish needs $1 worth of food per day.
+
+So, daily cost = 3 fish × $1 = $3 per day.
+
+May has 31 days.
+
+Total cost for May = $3/day × 31 days = $93.
+
+93
+#############################################################
+#############################################################
+every_model_output_text[1]: Jen has 3 fish, and each fish needs $1 worth of food per day.
+
+So, daily cost = 3 fish × $1 = $3 per day.
+
+May has 31 days.
+
+Total cost for May = $3/day × 31 days = $93.
+
+93
+#############################################################
+#############################################################
+gold_text_raw: He spends 3*1=$<<3*1=3>>3 on food a day
+So he spends 3*31=$<<3*31=93>>93 a month
+#### 93
+pred_answer: 93.0
+correct_answer: 93.0
+总共100条样本，已回答21条样本，回答正确的样本数量为19.
+#############################################################
+final_output_text: Elliott wants to walk 10,000 steps a day.
+
+He completed **half of his steps** on his walks to and from school.  
+So, half of 10,000 is:
+
+10,000 �� 2 = **5,000 steps**
+
+Then, he did **another 1,000 steps** going for a short walk with his friend.
+
+So far, he has taken:  
+5,000 + 1,000 = **6,000 steps**
+
+After that, he went for a short jog, and **after the jog**, he had **2,000 steps left** to reach 10,000.
+
+That means the steps he took during the jog are the difference between what he had taken so far and what was left.
+
+So, total steps taken during the jog =  
+(10,000 total steps) − (steps taken before jog) − (steps left after jog)
+
+= 10,000 − 6,000 − 2,000  
+= 2,000 steps
+
+✅ Therefore, Elliott took **2,000 steps** during his jog.
+
+2000
+#############################################################
+#############################################################
+every_model_output_text[0]: Elliott wants to walk 10,000 steps a day.
+
+He completed **half of his steps** on his walks to and from school.  
+So, half of 10,000 is:
+
+10,000 �� 2 = **5,000 steps**
+
+Then, he did **another 1,000 steps** going for a short walk with his friend.
+
+So far, he has taken:  
+5,000 + 1,000 = **6,000 steps**
+
+After that, he went for a short jog, and **after the jog**, he had **2,000 steps left** to reach 10,000.
+
+That means the steps he took during the jog are the difference between what he had taken so far and what was left.
+
+So, total steps taken during the jog =  
+(10,000 total steps) − (steps taken before jog) − (steps left after jog)
+
+= 10,000 − 6,000 − 2,000  
+= 2,000 steps
+
+✅ Therefore, Elliott took **2,000 steps** during his jog.
+
+2000
+#############################################################
+#############################################################
+every_model_output_text[1]: Elliott wants to walk 10,000 steps a day.
+
+He completed **half of his steps** on his walks to and from school.  
+So, half of 10,000 is:
+
+10,000 �� 2 = **5,000 steps**
+
+Then, he did **another 1,000 steps** going for a short walk with his friend.
+
+So far, he has taken:  
+5,000 + 1,000 = **6,000 steps**
+
+After that, he went for a short jog, and **after the jog**, he had **2,000 steps left** to reach 10,000.
+
+That means the steps he took during the jog are the difference between what he had taken so far and what was left.
+
+So, total steps taken during the jog =  
+(10,000 total steps) − (steps taken before jog) − (steps left after jog)
+
+= 10,000 − 6,000 − 2,000  
+= 2,000 steps
+
+✅ Therefore, Elliott took **2,000 steps** during his jog.
+
+2000
+#############################################################
+#############################################################
+gold_text_raw: Elliott took half of his steps on his school journey, which was 10,000 steps / 2 = <<10000/2=5000>>5,000 steps.
+Adding this to his short walk means he has taken 5,000 + 1,000 = <<6000=6000>>6,000 steps.
+He only has 2,000 steps left, which means that during the day, he has taken 10,000 goal steps – 2,000 remaining steps = <<10000-2000=8000>>8,000 steps.
+The difference between these is therefore the steps he took during his jog, which was 8,000 total steps – 6,000 steps on his school walks and short walks = <<8000-6000=2000>>2,000 steps.
+#### 2000
+pred_answer: 2000.0
+correct_answer: 2000.0
+总共100条样本，已回答22条样本，回答正确的样本数量为20.
+#############################################################
+final_output_text: We are given:
+
+- Aaron runs each mile **twice as fast** as Vanessa.
+- Vanessa runs **twice as far** as Aaron.
+- Vanessa ran **4 miles**.
+- Aaron completed his part in **16 minutes**.
+- We are to find how long Vanessa took to complete her part.
+
+---
+
+### Step 1: Understand the relationship between distance and speed
+
+Let’s define:
+
+- Let $ v $ be Vanessa’s speed in miles per minute.
+- Then Aaron’s speed is $ 2v $ (since he runs twice as fast).
+
+Let’s find how far each ran.
+
+We are told: **Vanessa ran 4 miles**.
+
+We are also told: **Vanessa ran twice as far as Aaron**.
+
+So:
+
+$$
+\text{Vanessa's distance} = 2 \times \text{Aaron's distance}
+$$
+
+$$
+4 = 2 \times \text{Aaron's distance}
+$$
+
+$$
+\text{Aaron's distance} = 2 \text{ miles}
+$$
+
+So Aaron ran 2 miles.
+
+---
+
+### Step 2: Use Aaron’s time to find his speed
+
+Aaron ran 2 miles in 16 minutes.
+
+So his speed is:
+
+$$
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{2 \text{ miles}}{16 \text{ minutes}} = \frac{1}{8} \text{ miles per minute}
+$$
+
+But we were told Aaron runs **twice as fast** as Vanessa.
+
+So Vanessa’s speed is half of Aaron’s:
+
+$$
+v = \frac{1}{2} \times \frac{1}{8} = \frac{1}{16} \text{ miles per minute}
+$$
+
+---
+
+### Step 3: Find time Vanessa took to run 4 miles
+
+Time = Distance �� Speed
+
+$$
+\text{Time} = \frac{4}{1/16} = 4 \times 16 = 64 \text{ minutes}
+$$
+
+---
+
+✅ Final Answer: 64
+
+64处理样本:  23%|██▎       | 23/100 [57:21<5:42:03, 266.54s/it]处理样本:  24%|██▍       | 24/100 [1:01:00<5:19:22, 252.14s/it]
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Aaron runs each mile **twice as fast** as Vanessa.
+- Vanessa runs **twice as far** as Aaron.
+- Vanessa ran **4 miles**.
+- Aaron completed his part in **16 minutes**.
+- We are to find how long Vanessa took to complete her part.
+
+---
+
+### Step 1: Understand the relationship between distance and speed
+
+Let’s define:
+
+- Let $ v $ be Vanessa’s speed in miles per minute.
+- Then Aaron’s speed is $ 2v $ (since he runs twice as fast).
+
+Let’s find how far each ran.
+
+We are told: **Vanessa ran 4 miles**.
+
+We are also told: **Vanessa ran twice as far as Aaron**.
+
+So:
+
+$$
+\text{Vanessa's distance} = 2 \times \text{Aaron's distance}
+$$
+
+$$
+4 = 2 \times \text{Aaron's distance}
+$$
+
+$$
+\text{Aaron's distance} = 2 \text{ miles}
+$$
+
+So Aaron ran 2 miles.
+
+---
+
+### Step 2: Use Aaron’s time to find his speed
+
+Aaron ran 2 miles in 16 minutes.
+
+So his speed is:
+
+$$
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{2 \text{ miles}}{16 \text{ minutes}} = \frac{1}{8} \text{ miles per minute}
+$$
+
+But we were told Aaron runs **twice as fast** as Vanessa.
+
+So Vanessa’s speed is half of Aaron’s:
+
+$$
+v = \frac{1}{2} \times \frac{1}{8} = \frac{1}{16} \text{ miles per minute}
+$$
+
+---
+
+### Step 3: Find time Vanessa took to run 4 miles
+
+Time = Distance �� Speed
+
+$$
+\text{Time} = \frac{4}{1/16} = 4 \times 16 = 64 \text{ minutes}
+$$
+
+---
+
+✅ Final Answer: 64
+
+64
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Aaron runs each mile **twice as fast** as Vanessa.
+- Vanessa runs **twice as far** as Aaron.
+- Vanessa ran **4 miles**.
+- Aaron completed his part in **16 minutes**.
+- We are to find how long Vanessa took to complete her part.
+
+---
+
+### Step 1: Understand the relationship between distance and speed
+
+Let’s define:
+
+- Let $ v $ be Vanessa’s speed in miles per minute.
+- Then Aaron’s speed is $ 2v $ (since he runs twice as fast).
+
+Let’s find how far each ran.
+
+We are told: **Vanessa ran 4 miles**.
+
+We are also told: **Vanessa ran twice as far as Aaron**.
+
+So:
+
+$$
+\text{Vanessa's distance} = 2 \times \text{Aaron's distance}
+$$
+
+$$
+4 = 2 \times \text{Aaron's distance}
+$$
+
+$$
+\text{Aaron's distance} = 2 \text{ miles}
+$$
+
+So Aaron ran 2 miles.
+
+---
+
+### Step 2: Use Aaron’s time to find his speed
+
+Aaron ran 2 miles in 16 minutes.
+
+So his speed is:
+
+$$
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{2 \text{ miles}}{16 \text{ minutes}} = \frac{1}{8} \text{ miles per minute}
+$$
+
+But we were told Aaron runs **twice as fast** as Vanessa.
+
+So Vanessa’s speed is half of Aaron’s:
+
+$$
+v = \frac{1}{2} \times \frac{1}{8} = \frac{1}{16} \text{ miles per minute}
+$$
+
+---
+
+### Step 3: Find time Vanessa took to run 4 miles
+
+Time = Distance �� Speed
+
+$$
+\text{Time} = \frac{4}{1/16} = 4 \times 16 = 64 \text{ minutes}
+$$
+
+---
+
+✅ Final Answer: 64
+
+64
+#############################################################
+#############################################################
+gold_text_raw: Vanessa ran twice as far as Aaron, so Aaron ran 4 / 2 = <<4/2=2>>2 miles.
+Aaron took 16 minutes, so he ran each mile in 16 / 2 = <<16/2=8>>8 minutes.
+Vanessa takes twice as long to run a mile, so she took 8 * 2 = <<8*2=16>>16 minutes for each mile.
+She ran 4 miles, so she took 4 * 16 = <<4*16=64>>64 minutes to complete her part of the race.
+#### 64
+pred_answer: 64.0
+correct_answer: 64.0
+总共100条样本，已回答23条样本，回答正确的样本数量为21.
+#############################################################
+final_output_text: We are told:
+
+- Each of the 40 customers gave Rafaela a $20 tip.
+- Julieta received 10% less in tips than Rafaela.
+
+### Step 1: Calculate Rafaela's total tips
+Each of 40 customers gave $20:
+
+$$
+40 \times 20 = 800
+$$
+
+So, Rafaela received **$800** in tips.
+
+### Step 2: Calculate Julieta's tips
+Julieta received 10% less than Rafaela.
+
+10% of $800 is:
+
+$$
+0.10 \times 800 = 80
+$$
+
+So, Julieta received:
+
+$$
+800 - 80 = 720
+$$
+
+### Step 3: Total tips received by both
+
+$$
+800 + 720 = 1520
+$$
+
+### Final Answer:
+1520
+
+1520
+#############################################################
+#############################################################
+every_model_output_text[0]: We are told:
+
+- Each of the 40 customers gave Rafaela a $20 tip.
+- Julieta received 10% less in tips than Rafaela.
+
+### Step 1: Calculate Rafaela's total tips
+Each of 40 customers gave $20:
+
+$$
+40 \times 20 = 800
+$$
+
+So, Rafaela received **$800** in tips.
+
+### Step 2: Calculate Julieta's tips
+Julieta received 10% less than Rafaela.
+
+10% of $800 is:
+
+$$
+0.10 \times 800 = 80
+$$
+
+So, Julieta received:
+
+$$
+800 - 80 = 720
+$$
+
+### Step 3: Total tips received by both
+
+$$
+800 + 720 = 1520
+$$
+
+### Final Answer:
+1520
+
+1520
+#############################################################
+#############################################################
+every_model_output_text[1]: We are told:
+
+- Each of the 40 customers gave Rafaela a $20 tip.
+- Julieta received 10% less in tips than Rafaela.
+
+### Step 1: Calculate Rafaela's total tips
+Each of 40 customers gave $20:
+
+$$
+40 \times 20 = 800
+$$
+
+So, Rafaela received **$800** in tips.
+
+### Step 2: Calculate Julieta's tips
+Julieta received 10% less than Rafaela.
+
+10% of $800 is:
+
+$$
+0.10 \times 800 = 80
+$$
+
+So, Julieta received:
+
+$$
+800 - 80 = 720
+$$
+
+### Step 3: Total tips received by both
+
+$$
+800 + 720 = 1520
+$$
+
+### Final Answer:
+1520
+
+1520
+#############################################################
+#############################################################
+gold_text_raw: The total amount of money that Rafaela received as tips from the forty customers is 40*$20 = $<<40*20=800>>800
+Julieta got 10% less money in tips than Rafaela, a total of 10/100*$800 = $<<10/100*800=80>>80
+The total amount of money that Julieta received as tips is $800-$80 = $<<800-80=720>>720
+Altogether, Julieta, and Rafaela received $720+$800 = $<<720+800=1520>>1520
+#### 1520
+pred_answer: 1520.0
+correct_answer: 1520.0
+总共100条样本，已回答24条样本，回答正确的样本数量为22.
+#############################################################
+final_output_text: We are given:
+
+- On a certain day, the total cost of filling **20 helium balloons** was **$900**.
+- Two days later, the **cost per balloon increased by $20**.
+- We are to find out how much **Bentley paid** to fill **170 balloons** after the price increase.
+
+---
+
+### Step 1: Find the original cost per balloon
+
+Total cost for 20 balloons = $900  
+So, cost per balloon originally =  
+$$
+\frac{900}{20} = 45 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 2: Find the new cost per balloon after increase
+
+Increase = $20  
+New cost per balloon =  
+$$
+45 + 20 = 65 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 3: Calculate cost for 170 balloons at the new price
+
+$$
+170 \times 65 = ?
+$$
+
+Break it down:
+
+$$
+170 \times 65 = 170 \times (60 + 5) = (170 \times 60) + (170 \times 5)
+$$
+
+$$
+170 \times 60 = 10,200  
+170 \times 5 = 850  
+$$
+
+Add them:
+
+$$
+10,200 + 850 = 11,050
+$$
+
+---
+
+### Final Answer:
+
+11050
+
+11050
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- On a certain day, the total cost of filling **20 helium balloons** was **$900**.
+- Two days later, the **cost per balloon increased by $20**.
+- We are to find out how much **Bentley paid** to fill **170 balloons** after the price increase.
+
+---
+
+### Step 1: Find the original cost per balloon
+
+Total cost for 20 balloons = $900  
+So, cost per balloon originally =  
+$$
+\frac{900}{20} = 45 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 2: Find the new cost per balloon after increase
+
+Increase = $20  
+New cost per balloon =  
+$$
+45 + 20 = 65 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 3: Calculate cost for 170 balloons at the new price
+
+$$
+170 \times 65 = ?
+$$
+
+Break it down:
+
+$$
+170 \times 65 = 170 \times (60 + 5) = (170 \times 60) + (170 \times 5)
+$$
+
+$$
+170 \times 60 = 10,200  
+170 \times 5 = 850  
+$$
+
+Add them:
+
+$$
+10,200 + 850 = 11,050
+$$
+
+---
+
+### Final Answer:
+
+11050
+
+11050处理样本:  25%|██▌       | 25/100 [1:06:56<5:54:12, 283.37s/it]处理样本:  26%|██▌       | 26/100 [1:11:42<5:50:24, 284.11s/it]处理样本:  27%|██▋       | 27/100 [1:14:33<5:04:16, 250.08s/it]
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- On a certain day, the total cost of filling **20 helium balloons** was **$900**.
+- Two days later, the **cost per balloon increased by $20**.
+- We are to find out how much **Bentley paid** to fill **170 balloons** after the price increase.
+
+---
+
+### Step 1: Find the original cost per balloon
+
+Total cost for 20 balloons = $900  
+So, cost per balloon originally =  
+$$
+\frac{900}{20} = 45 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 2: Find the new cost per balloon after increase
+
+Increase = $20  
+New cost per balloon =  
+$$
+45 + 20 = 65 \text{ dollars per balloon}
+$$
+
+---
+
+### Step 3: Calculate cost for 170 balloons at the new price
+
+$$
+170 \times 65 = ?
+$$
+
+Break it down:
+
+$$
+170 \times 65 = 170 \times (60 + 5) = (170 \times 60) + (170 \times 5)
+$$
+
+$$
+170 \times 60 = 10,200  
+170 \times 5 = 850  
+$$
+
+Add them:
+
+$$
+10,200 + 850 = 11,050
+$$
+
+---
+
+### Final Answer:
+
+11050
+
+11050
+#############################################################
+#############################################################
+gold_text_raw: If the total cost of filling up 20 helium balloons was $900 before the price increase, the cost of filling one balloon was $900/20=$<<900/20=45>>45
+Two days later, the cost of filling each balloon was increased by $20 to $45+$20=$<<45+20=65>>65
+If Bentley had 170 balloons that he wanted to fill, after the price increase, Bentley paid 170*$65=$<<170*65=11050>>11050 to fill 170 balloons.
+#### 11050
+pred_answer: 11050.0
+correct_answer: 11050.0
+总共100条样本，已回答25条样本，回答正确的样本数量为23.
+#############################################################
+final_output_text: We are given:
+
+- Number of students = 30  
+- Each student sold 10 lollipops on average  
+- Selling price per lollipop = $0.80  
+- Cost price per lollipop = $0.50  
+
+We need to find the **total profit** the class made from selling lollipops.
+
+---
+
+### Step 1: Total number of lollipops sold
+Each of the 30 students sold 10 lollipops:
+
+$$
+30 \times 10 = 300 \text{ lollipops}
+$$
+
+---
+
+### Step 2: Total revenue (money earned from selling)
+$$
+300 \times 0.80 = 240 \text{ dollars}
+$$
+
+---
+
+### Step 3: Total cost (money spent to buy the lollipops)
+$$
+300 \times 0.50 = 150 \text{ dollars}
+$$
+
+---
+
+### Step 4: Total profit
+$$
+\text{Profit} = \text{Revenue} - \text{Cost} = 240 - 150 = 90 \text{ dollars}
+$$
+
+---
+
+✅ The class raised **$90** from the profit.
+
+90
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Number of students = 30  
+- Each student sold 10 lollipops on average  
+- Selling price per lollipop = $0.80  
+- Cost price per lollipop = $0.50  
+
+We need to find the **total profit** the class made from selling lollipops.
+
+---
+
+### Step 1: Total number of lollipops sold
+Each of the 30 students sold 10 lollipops:
+
+$$
+30 \times 10 = 300 \text{ lollipops}
+$$
+
+---
+
+### Step 2: Total revenue (money earned from selling)
+$$
+300 \times 0.80 = 240 \text{ dollars}
+$$
+
+---
+
+### Step 3: Total cost (money spent to buy the lollipops)
+$$
+300 \times 0.50 = 150 \text{ dollars}
+$$
+
+---
+
+### Step 4: Total profit
+$$
+\text{Profit} = \text{Revenue} - \text{Cost} = 240 - 150 = 90 \text{ dollars}
+$$
+
+---
+
+✅ The class raised **$90** from the profit.
+
+90
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Number of students = 30  
+- Each student sold 10 lollipops on average  
+- Selling price per lollipop = $0.80  
+- Cost price per lollipop = $0.50  
+
+We need to find the **total profit** the class made from selling lollipops.
+
+---
+
+### Step 1: Total number of lollipops sold
+Each of the 30 students sold 10 lollipops:
+
+$$
+30 \times 10 = 300 \text{ lollipops}
+$$
+
+---
+
+### Step 2: Total revenue (money earned from selling)
+$$
+300 \times 0.80 = 240 \text{ dollars}
+$$
+
+---
+
+### Step 3: Total cost (money spent to buy the lollipops)
+$$
+300 \times 0.50 = 150 \text{ dollars}
+$$
+
+---
+
+### Step 4: Total profit
+$$
+\text{Profit} = \text{Revenue} - \text{Cost} = 240 - 150 = 90 \text{ dollars}
+$$
+
+---
+
+✅ The class raised **$90** from the profit.
+
+90
+#############################################################
+#############################################################
+gold_text_raw: The class got $0.8 - $0.5 = $<<0.8-0.5=0.3>>0.3 profit from each lollipop.
+So each student raised $0.3 x 10 = $<<0.3*10=3>>3 from selling 10 lollipops.
+Therefore, they were able to raise a total of $3 x 30 = $<<3*30=90>>90.
+#### 90
+pred_answer: 90.0
+correct_answer: 90.0
+总共100条样本，已回答26条样本，回答正确的样本数量为24.
+#############################################################
+final_output_text: John's house is worth $250,000.
+
+He gets a loan worth 40% of that:
+
+40% of $250,000 = 0.40 × 250,000 = $100,000
+
+He uses 60% of that loan amount to pay off his debts:
+
+60% of $100,000 = 0.60 × 100,000 = $60,000
+
+So, the amount he has leftover after paying off his debts is:
+
+$100,000 − $60,000 = $40,000
+
+Numerically: 40000
+#############################################################
+#############################################################
+every_model_output_text[0]: John's house is worth $250,000.
+
+He gets a loan worth 40% of that:
+
+40% of $250,000 = 0.40 × 250,000 = $100,000
+
+He uses 60% of that loan amount to pay off his debts:
+
+60% of $100,000 = 0.60 × 100,000 = $60,000
+
+So, the amount he has leftover after paying off his debts is:
+
+$100,000 − $60,000 = $40,000
+
+Numerically: 40000
+#############################################################
+#############################################################
+every_model_output_text[1]: John's house is worth $250,000.
+
+He gets a loan worth 40% of that:
+
+40% of $250,000 = 0.40 × 250,000 = $100,000
+
+He uses 60% of that loan amount to pay off his debts:
+
+60% of $100,000 = 0.60 × 100,000 = $60,000
+
+So, the amount he has leftover after paying off his debts is:
+
+$100,000 − $60,000 = $40,000
+
+Numerically: 40000
+#############################################################
+#############################################################
+gold_text_raw: His loan is worth 250,000*.4=$<<250000*.4=100000>>100,000
+That means he uses 100,000*.6=$<<100000*.6=60000>>60,000 to pay off debts
+So he has 100,000-60,000=$<<100000-60000=40000>>40,000 leftover
+#### 40,000
+pred_answer: 40000.0
+correct_answer: 40000.0
+总共100条样本，已回答27条样本，回答正确的样本数量为25.
+#############################################################
+final_output_text: We are given:
+
+- Liam made $63 one weekend.
+- Mitchell sold 21 lemonades at $4 each.
+
+First, let's calculate how much money Mitchell made:
+
+$$
+21 \text{ lemonades} \times \$4 = \$84
+$$
+
+Now, compare Mitchell's earnings to Liam's:
+
+$$
+\$84 - \$63 = \$21
+$$
+
+So, Mitchell made $21 more than Liam.
+
+Numerically: 21
+#############################################################
+#############################################################
+every_model_output_text[0]: We are given:
+
+- Liam made $63 one weekend.
+- Mitchell sold 21 lemonades at $4 each.
+
+First, let's calculate how much money Mitchell made:
+
+$$
+21 \text{ lemonades} \times \$4 = \$84
+$$
+
+Now, compare Mitchell's earnings to Liam's:
+
+$$
+\$84 - \$63 = \$21
+$$
+
+So, Mitchell made $21 more than Liam.
+
+Numerically: 21
+#############################################################
+#############################################################
+every_model_output_text[1]: We are given:
+
+- Liam made $63 one weekend.
+- Mitchell sold 21 lemonades at $4 each.
+
+First, let's calculate how much money Mitchell made:
+
+$$
+21 \text{ lemonades} \times \$4 = \$84
+$$
+
+Now, compare Mitchell's earnings to Liam's:
+
+$$
+\$84 - \$63 = \$21
+$$
+
+So, Mitchell made $21 more than Liam.
+
+Numerically: 21
+#############################################################
+#############################################################
+gold_text_raw: Mitchell made 21 * 4 = $<<21*4=84>>84 selling lemonade.
+Thus, Mitchell made 84 - 63 = $<<84-63=21>>21 more selling lemonade that weekend than Liam.
+#### 21处理样本:  28%|██▊       | 28/100 [1:16:19<4:08:13, 206.85s/it]处理样本:  29%|██▉       | 29/100 [1:22:30<5:03:16, 256.29s/it]

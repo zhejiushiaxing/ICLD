@@ -1,0 +1,73 @@
+{
+    "comment": "多模型实验，数据集：PIQA",
+    "finish_date": "2026-04-22_00-11-03",
+    "integrate_models_name": [
+        "Llama3.2-3B-Instruct",
+        "Gemma4-E2B-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "PIQA",
+    "avg_cal_time": 70.6,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        349.0,
+        349.0
+    ],
+    "avg_ensemble_num": 62.0,
+    "high_confidence_ensemble_ratio": 0.35838,
+    "low_confidence_ensemble_ratio": 0.0,
+    "all_ensemble_ratio": 0.17765,
+    "bunk_list": [
+        0,
+        2,
+        12,
+        18,
+        24,
+        33,
+        25,
+        27,
+        35,
+        111
+    ],
+    "all_cal_time": 70.59554719924927,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        349,
+        349
+    ],
+    "all_ensemble_num": 62,
+    "all_high_confidence_token_num": 173,
+    "all_high_confidence_ensemble_num": 62,
+    "all_low_confidence_token_num": 176,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "E"
+    ],
+    "question_correct_answer_list": [
+        1
+    ],
+    "avg_high_confidence_token_num": 173.0,
+    "avg_high_confidence_ensemble_num": 62.0,
+    "avg_low_confidence_token_num": 176.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "E",
+            "correct_answer": 1,
+            "ensemble_num": 62,
+            "high_confidence_token_num": 173,
+            "high_confidence_ensemble_num": 62,
+            "low_confidence_token_num": 176,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.\n\nSolution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.\n\nSolution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.\n\nIn both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.\n\nSince the instructions for both solutions are essentially the same, the correct answer is 0.",
+            "every_model_output_text": [
+                "To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.\n\nSolution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.\n\nSolution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.\n\nIn both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.\n\nSince the instructions for both solutions are essentially the same, the correct answer is 0.",
+                "To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.\n\nSolution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.\n\nSolution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.\n\nIn both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.\n\nSince the instructions for both solutions are essentially the same, the correct answer is 0."
+            ],
+            "every_model_generate_token_num_list": [
+                349,
+                349
+            ]
+        }
+    ]
+}

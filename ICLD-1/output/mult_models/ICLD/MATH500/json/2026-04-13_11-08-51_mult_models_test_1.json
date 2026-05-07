@@ -1,0 +1,54 @@
+{
+    "comment": "测试Unite，Math500，主模型：Q，协作模型：L",
+    "finish_date": "2026-04-13_11-08-51",
+    "integrate_models_name": [
+        "Qwen2.5-7B-Instruct",
+        "Llama3.1-8B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MATH500",
+    "all_cal_time": 100.8838894367218,
+    "all_correct_num": 1,
+    "all_generated_tokens_num_list": [
+        678,
+        678
+    ],
+    "all_ensemble_num": 678,
+    "all_high_confidence_token_num": 0,
+    "all_high_confidence_ensemble_num": 0,
+    "all_low_confidence_token_num": 0,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "3,5,7"
+    ],
+    "question_correct_answer_list": [
+        "3, 5, 7"
+    ],
+    "avg_cal_time": 100.88,
+    "avg_correct_num": 1.0,
+    "avg_generated_tokens_num_list": [
+        678.0,
+        678.0
+    ],
+    "avg_ensemble_num": 678.0,
+    "avg_high_confidence_token_num": 0.0,
+    "avg_high_confidence_ensemble_num": 0.0,
+    "avg_low_confidence_token_num": 0.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "3,5,7",
+            "correct_answer": "3, 5, 7",
+            "ensemble_num": 678,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Let's start by simplifying the given equation:\n\n\\[\n(x - 3)^3 + (x - 7)^3 = (2x - 10)^3\n\\]\n\nFirst, we can expand the terms on the left-hand side and the right-hand side. However, a more efficient approach is to recognize that the equation can be simplified by a substitution. Let's set $y = x - 5$. This substitution is chosen because it centers the terms around 5, which is the midpoint of 3 and 7.\n\nRewriting the equation in terms of $y$:\n\n\\[\n(y + 2)^3 + (y - 2)^3 = (2y)^3\n\\]\n\nNow, we expand each term:\n\n\\[\n(y + 2)^3 = y^3 + 3y^2 \\cdot 2 + 3y \\cdot 2^2 + 2^3 = y^3 + 6y^2 + 12y + 8\n\\]\n\n\\[\n(y - 2)^3 = y^3 - 3y^2 \\cdot 2 + 3y \\cdot 2^2 - 2^3 = y^3 - 6y^2 + 12y - 8\n\\]\n\n\\[\n(2y)^3 = 8y^3\n\\]\n\nSubstituting these back into the equation:\n\n\\[\n(y^3 + 6y^2 + 12y + 8) + (y^3 - 6y^2 + 12y - 8) = 8y^3\n\\]\n\nCombine like terms:\n\n\\[\n2y^3 + 24y = 8y^3\n\\]\n\nRearrange the equation to isolate terms involving $y$ on one side:\n\n\\[\n2y^3 + 24y - 8y^3 = 0\n\\]\n\n\\[\n-6y^3 + 24y = 0\n\\]\n\nFactor out the common term $-6y$:\n\n\\[\n-6y(y^2 - 4) = 0\n\\]\n\nThis gives us two factors to solve for $y$:\n\n\\[\n-6y = 0 \\quad \\text{or} \\quad y^2 - 4 = 0\n\\]\n\nSolving these:\n\n\\[\ny = 0 \\quad \\text{or} \\quad y^2 = 4\n\\]\n\n\\[\ny = 0 \\quad \\text{or} \\quad y = \\pm 2\n\\]\n\nRecall that $y = x - 5$. Therefore, we solve for $x$:\n\n\\[\nx - 5 = 0 \\quad \\text{or} \\quad x - 5 = 2 \\quad \\text{or} \\quad x - 5 = -2\n\\]\n\n\\[\nx = 5 \\quad \\text{or} \\quad x = 7 \\quad \\text{or} \\quad x = 3\n\\]\n\nThe roots of the equation are:\n\n\\[\nx = 3, 5, 7\n\\]\n\nThe answer is 3,5,7",
+            "every_model_generate_token_num_list": [
+                678,
+                678
+            ]
+        }
+    ]
+}

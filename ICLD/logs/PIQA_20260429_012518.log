@@ -1,0 +1,97 @@
+初始化ModelInfer
+100
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:30,  8.26it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:02, 112.14it/s]Loading weights:  17%|█▋        | 43/254 [00:00<00:01, 152.69it/s]Loading weights:  26%|██▌       | 66/254 [00:00<00:01, 178.78it/s]Loading weights:  34%|███▍      | 86/254 [00:00<00:00, 182.86it/s]Loading weights:  44%|████▎     | 111/254 [00:00<00:00, 202.41it/s]Loading weights:  52%|█████▏    | 132/254 [00:00<00:00, 202.35it/s]Loading weights:  61%|██████▏   | 156/254 [00:00<00:00, 210.62it/s]Loading weights:  70%|███████   | 178/254 [00:00<00:00, 212.16it/s]Loading weights:  79%|███████▉  | 201/254 [00:01<00:00, 215.74it/s]Loading weights:  88%|████████▊ | 223/254 [00:01<00:00, 215.12it/s]Loading weights:  97%|█████████▋| 246/254 [00:01<00:00, 219.00it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 196.22it/s]
+Unrecognized keys in `rope_parameters` for 'rope_type'='dynamic': {'alpha', 'beta_slow', 'mscale_all_dim', 'mscale', 'beta_fast'}
+Traceback (most recent call last):
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
+    raise exc
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 124, in _connect
+    stream = self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 207, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data3/zzc/projects/ZJX/code/ICLD/EX/test_mult_models.py", line 105, in <module>
+    main()
+  File "/data3/zzc/projects/ZJX/code/ICLD/EX/test_mult_models.py", line 101, in main
+    model_infer.mult_models_infer(test_cfg)
+  File "/data3/zzc/projects/ZJX/code/ICLD/core/model_infer.py", line 56, in mult_models_infer
+    model, tokenizer = load_model(model_path, cfg, device=target_device)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/projects/ZJX/code/ICLD/utils/load_model.py", line 9, in load_model
+    tokenizer = AutoTokenizer.from_pretrained(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py", line 792, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 1729, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/tokenization_utils_base.py", line 1918, in _from_pretrained
+    tokenizer = cls(*init_inputs, **init_kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/tokenization_utils_tokenizers.py", line 477, in __init__
+    self._tokenizer = self._patch_mistral_regex(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/tokenization_utils_tokenizers.py", line 1297, in _patch_mistral_regex
+    is_local or (not is_local and is_base_mistral(pretrained_model_name_or_path))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/transformers/tokenization_utils_tokenizers.py", line 1287, in is_base_mistral
+    model = model_info(model_id)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 88, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/huggingface_hub/hf_api.py", line 3203, in model_info
+    r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 1053, in get
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/data3/zzc/miniconda3/envs/ICLD/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 111] Connection refused

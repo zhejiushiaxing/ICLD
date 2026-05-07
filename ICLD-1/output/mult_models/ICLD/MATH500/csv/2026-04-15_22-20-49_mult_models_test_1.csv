@@ -1,0 +1,13 @@
+﻿id,question,answer,response
+0,Riproarin' Ringo was roping a recalcitrant dogie. Ringo decided to give the dogie a reprieve by calculating \[|(1-i)^8|\]before riding after the dogie. What answer should Ringo have found?,16,"To find the value of \( |(1-i)^8| \), we first need to understand the properties of complex numbers and their magnitudes. The magnitude of a complex number \( z = a + bi \) is given by \( |z| = \sqrt{a^2 + b^2} \).
+
+The complex number \( 1 - i \) can be written as \( 1 - i = 1 + (-1)i \). Therefore, its magnitude is:
+\[ |1 - i| = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2} \]
+
+When we raise a complex number to a power, the magnitude of the result is the magnitude of the original number raised to that power. Therefore, we have:
+\[ |(1 - i)^8| = |1 - i|^8 = (\sqrt{2})^8 \]
+
+Next, we need to calculate \( (\sqrt{2})^8 \). We can simplify this as follows:
+\[ (\sqrt{2})^8 = (2^{1/2})^8 = 2^{8/2} = 2^4 = 16 \]
+
+The answer is 16."

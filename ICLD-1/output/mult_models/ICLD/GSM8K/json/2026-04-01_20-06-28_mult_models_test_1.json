@@ -1,0 +1,41 @@
+{
+    "finish_date": "2026-04-01_20-06-28",
+    "integrate_models_name": [
+        "Llama3.1-8B-Instruct",
+        "gemma-2-9b-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "GSM8K",
+    "all_cal_time": 23.828277587890625,
+    "all_correct_num": 1,
+    "all_generated_tokens_num_list": [
+        325,
+        63
+    ],
+    "all_ensemble_num": 63,
+    "models_pred_answer_list": [
+        4000.0
+    ],
+    "question_correct_answer_list": [
+        4000.0
+    ],
+    "avg_cal_time": 23.83,
+    "avg_correct_num": 1.0,
+    "avg_generated_tokens_num_list": [
+        325.0,
+        63.0
+    ],
+    "avg_ensemble_num": 63.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": 4000.0,
+            "correct_answer": 4000.0,
+            "ensemble_num": 63,
+            "final_output_text": "## Step 1: Calculate the total number of pineapples in the field.\nTo find the total number of pineapples in the field, we need to multiply the number of hectares by the number of pineapples per hectare. So, we multiply 10 hectares by 100 pineapples per hectare.\n\n## Step 2: Perform the multiplication to find the total number of pineapples.\n10 hectares * 100 pineapples/ha = 1000 pineapples.\n\n## Step 3: Determine how many times John can harvest his pineapples within a year.\nSince John can harvest his pineapples every 3 months, and there are 12 months in a year, we need to divide the total number of months in a year by 3 to find out how many harvests John can make.\n\n## Step 4: Perform the division to find the number of harvests within a year.\n12 months / 3 months/harvest = 4 harvests.\n\n## Step 5: Calculate the total number of pineapples John can harvest within a year.\nTo find the total number of pineapples John can harvest within a year, we need to multiply the total number of pineapples by the number of harvests. So, we multiply 1000 pineapples by 4 harvests.\n\n## Step 6: Perform the multiplication to find the total number of pineapples John can harvest within a year.\n1000 pineapples * 4 harvests = 4000 pineapples.\n\nThe answer is 4000.",
+            "every_model_generate_token_num_list": [
+                325,
+                63
+            ]
+        }
+    ]
+}

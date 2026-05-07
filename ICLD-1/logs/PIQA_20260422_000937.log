@@ -1,0 +1,44 @@
+初始化ModelInfer
+1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:28,  8.92it/s]Loading weights:   7%|▋         | 17/254 [00:00<00:02, 91.32it/s]Loading weights:  13%|█▎        | 32/254 [00:00<00:01, 112.40it/s]Loading weights:  19%|█▉        | 49/254 [00:00<00:01, 132.91it/s]Loading weights:  26%|██▌       | 66/254 [00:00<00:01, 144.50it/s]Loading weights:  32%|███▏      | 81/254 [00:00<00:01, 146.15it/s]Loading weights:  38%|███▊      | 96/254 [00:00<00:01, 145.70it/s]Loading weights:  44%|████▍     | 112/254 [00:00<00:00, 148.30it/s]Loading weights:  51%|█████     | 129/254 [00:00<00:00, 154.01it/s]Loading weights:  57%|█████▋    | 145/254 [00:01<00:00, 153.56it/s]Loading weights:  63%|██████▎   | 161/254 [00:01<00:00, 150.73it/s]Loading weights:  70%|██████▉   | 177/254 [00:01<00:00, 148.66it/s]Loading weights:  76%|███████▌  | 193/254 [00:01<00:00, 150.88it/s]Loading weights:  83%|████████▎ | 211/254 [00:01<00:00, 153.38it/s]Loading weights:  90%|████████▉ | 228/254 [00:01<00:00, 155.12it/s]Loading weights:  96%|█████████▌| 244/254 [00:01<00:00, 153.19it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 144.72it/s]
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 256/1951 [00:00<00:00, 2520.49it/s]Loading weights:  26%|██▌       | 509/1951 [00:00<00:00, 2231.98it/s]Loading weights:  38%|███▊      | 735/1951 [00:00<00:00, 2144.33it/s]Loading weights:  49%|████▊     | 951/1951 [00:01<00:02, 412.43it/s] Loading weights:  56%|█████▌    | 1089/1951 [00:01<00:02, 417.69it/s]Loading weights:  61%|██████    | 1193/1951 [00:02<00:01, 411.37it/s]Loading weights:  65%|██████▌   | 1275/1951 [00:02<00:01, 397.76it/s]Loading weights:  72%|███████▏  | 1405/1951 [00:02<00:01, 504.48it/s]Loading weights:  85%|████████▌ | 1662/1951 [00:02<00:00, 802.94it/s]Loading weights:  97%|█████████▋| 1898/1951 [00:02<00:00, 1069.03it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 714.47it/s] 
+开始推理，共 1 条样本...
+处理样本:   0%|          | 0/1 [00:00<?, ?it/s]处理样本: 100%|██████████| 1/1 [01:10<00:00, 70.60s/it]处理样本: 100%|██████████| 1/1 [01:10<00:00, 70.60s/it]
+#############################################################
+final_output_text: To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.
+
+Solution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.
+
+Solution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.
+
+In both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.
+
+Since the instructions for both solutions are essentially the same, the correct answer is 0.
+#############################################################
+#############################################################
+every_model_output_text[0]: To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.
+
+Solution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.
+
+Solution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.
+
+In both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.
+
+Since the instructions for both solutions are essentially the same, the correct answer is 0.
+#############################################################
+#############################################################
+every_model_output_text[1]: To apply concealer effectively, it's essential to understand the purpose of concealer and the specific areas of the face where it's typically applied. Concealer is a cosmetic product used to cover up blemishes, dark circles, and other imperfections on the skin. The two provided solutions focus on addressing under-eyes and redness, which are common concerns for many individuals.
+
+Solution 0 suggests applying concealer to areas with greenness, which is often associated with dark circles or puffiness under the eyes. This approach is based on the idea that green-tinted discoloration can be counteracted by applying a concealer with a yellow or peach undertone, as these colors are opposite to green on the color wheel. By covering up the green discoloration, the concealer can help to neutralize the appearance of dark circles and create a more even tone under the eyes.
+
+Solution 1 recommends applying concealer to areas with redness, which is often caused by inflammation, allergies, or irritation. This approach is based on the principle that redness can be effectively masked by applying a concealer with a color that is opposite to red on the color wheel, which is blue or purple. By covering up the redness, the concealer can help to calm the skin and create a more uniform tone.
+
+In both cases, the key to effective concealer application is to use a small amount and blend, blend, blend! Gently pat the concealer into the skin with your ring finger, feathering it out towards the hairline and edges to create a seamless finish. This will help to prevent any harsh lines or cakey texture.
+
+Since the instructions for both solutions are essentially the same, the correct answer is 0.
+#############################################################
+#############################################################
+pred_answer: E
+correct_answer: 1
+总共1条样本，已回答1条样本，回答正确的样本数量为0.
+结果保存到： output/mult_models/ICLD/PIQA/json/2026-04-22_00-11-03_mult_models_test_1.json

@@ -1,0 +1,630 @@
+{
+    "finish_date": "2026-03-29_15-20-37",
+    "integrate_models_name": [
+        "gemma-2-9b-it_multilingual",
+        "gemma-2-9b-it_math",
+        "gemma-2-9b-it_coding"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "GSM8K",
+    "all_cal_time": 901.4062218666077,
+    "all_correct_num": 42,
+    "all_generated_tokens_num_list": [
+        1053,
+        9222,
+        1053
+    ],
+    "models_pred_answer_list": [
+        4000.0,
+        12.0,
+        25.0,
+        2.0,
+        6.0,
+        5.0,
+        9.0,
+        22.0,
+        null,
+        2.0,
+        50.0,
+        7.0,
+        6.0,
+        270.0,
+        140.0,
+        4.0,
+        87.0,
+        80.0,
+        159.0,
+        66.0,
+        1596.0,
+        2.0,
+        21.0,
+        142.0,
+        4.0,
+        133.0,
+        8.0,
+        6.0,
+        364.0,
+        20.0,
+        7200.0,
+        17000.0,
+        105.0,
+        84.0,
+        45.0,
+        54.0,
+        5.0,
+        260.0,
+        1000.0,
+        20.0,
+        10.0,
+        10.0,
+        549.0,
+        34.0,
+        9.0,
+        122.0,
+        27.0,
+        16.0,
+        9.0,
+        22.0
+    ],
+    "question_correct_answer_list": [
+        4000.0,
+        12.0,
+        25.0,
+        2.0,
+        6.0,
+        5.0,
+        9.0,
+        22.0,
+        10.0,
+        2.0,
+        50.0,
+        7.0,
+        18.0,
+        270.0,
+        140.0,
+        4.0,
+        87.0,
+        80.0,
+        159.0,
+        66.0,
+        1596.0,
+        2.0,
+        21.0,
+        142.0,
+        4.0,
+        133.0,
+        8.0,
+        6.0,
+        284.0,
+        40.0,
+        7200.0,
+        17000.0,
+        75.0,
+        84.0,
+        45.0,
+        54.0,
+        5.0,
+        260.0,
+        1000.0,
+        20.0,
+        10.0,
+        160.0,
+        324.0,
+        34.0,
+        4.0,
+        122.0,
+        27.0,
+        16.0,
+        9.0,
+        22.0
+    ],
+    "avg_cal_time": 18.03,
+    "avg_correct_num": 0.84,
+    "avg_generated_tokens_num_list": [
+        21.06,
+        184.44,
+        21.06
+    ],
+    "all_question_response_list": [
+        {
+            "pred_answer": 4000.0,
+            "correct_answer": 4000.0,
+            "final_output_text": "1. First, we need to find out how many pineapples John can harvest in a year.\n2. Since John can harvest his pineapples every 3 months, he can harvest 4 times a year (12 months / 3 months = 4).\n3. To find out how many pineapples he can harvest in a year, we multiply the number of pineapples per hectare by the number of hectares and then multiply that by the number of harvests per year.\n4. So, the calculation is 10 hectares * 100 pineapples/hectare * 4 harvests/year = 4000 pineapples/year.\nThe answer is 4000.",
+            "every_model_generate_token_num_list": [
+                30,
+                148,
+                30
+            ]
+        },
+        {
+            "pred_answer": 12.0,
+            "correct_answer": 12.0,
+            "final_output_text": "1. First, we need to find the cost of one apple and one orange.\n2. To find the cost of one apple, we divide the total cost of four apples by four: $5.20 / 4 = $1.30.\n3. To find the cost of one orange, we divide the total cost of three oranges by three: $3.30 / 3 = $1.10.\n4. Now we can find the cost of 5 apples and 5 oranges.\n5. The cost of 5 apples is 5 * $1.30 = $6.50.\n6. The cost of 5 oranges is 5 * $1.10 = $5.50.\n7. The total cost is $6.50 + $5.50 = $12.00.\nThe answer is 12.<eos>",
+            "every_model_generate_token_num_list": [
+                23,
+                194,
+                23
+            ]
+        },
+        {
+            "pred_answer": 25.0,
+            "correct_answer": 25.0,
+            "final_output_text": "1. First, we need to find out how many indoor plants Mrs. Smith has. Since one-fourth of her plants are indoor plants, we can calculate this by multiplying the total number of plants by $\\frac{1}{4}$: $100 \\times \\frac{1}{4} = 25$.\n2. After removing the indoor plants, we are left with $100 - 25 = 75$ plants.\n3. Two-thirds of these remaining plants are outdoor plants, so we can calculate the number of outdoor plants by multiplying the remaining plants by $\\frac{2}{3}$: $75 \\times \\frac{2}{3} = 50$.\n4. The rest of the plants are flowering plants, so we can find the number of flowering plants by subtracting the number of outdoor plants from the remaining plants: $75 - 50 = 25$.\n5. To find the percentage of flowering plants, we can divide the number of flowering plants by the total number of plants and multiply by 100: $\\frac{25}{100} \\times 100 = 25\\%$.\n6. Therefore, 25% of the plants are flowering plants. The answer is 25.",
+            "every_model_generate_token_num_list": [
+                31,
+                273,
+                31
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 2.0,
+            "final_output_text": "1. First, we know that Suzie bought four packs of gum in total. She bought two packs of strawberry gum, one pack of grape gum, and one pack of green apple gum.\n2. She paid $2 for the grape gum and half as much for the green apple gum, which means she paid $2/2 = $1 for the green apple gum.\n3. The total cost of the grape and green apple gum is $2 + $1 = $3.\n4. Since Suzie paid $7 in all, the total cost of the strawberry gum is $7 - $3 = $4.\n5. Since she bought two packs of strawberry gum, each pack of strawberry gum cost $4/2 = $2.\nThe answer is 2.",
+            "every_model_generate_token_num_list": [
+                23,
+                163,
+                23
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 6.0,
+            "final_output_text": "1. First, we need to find out how long it takes to solve an extreme sudoku puzzle. Since an extreme sudoku takes 4 times as long as a normal sudoku, and a normal sudoku takes 45 minutes, an extreme sudoku takes 4 * 45 = 180 minutes.\n2. Since John drinks a bottle of water every half hour, we need to convert the time it takes to solve the extreme sudoku into half-hour intervals. There are 60 minutes in an hour, so 180 minutes is equal to 180 / 30 = 6 half-hour intervals.\n3. Therefore, John drinks 6 bottles of water while solving the extreme sudoku. The answer is: $6$",
+            "every_model_generate_token_num_list": [
+                24,
+                156,
+                24
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "final_output_text": "1. First, we need to find the speed of the plane. Speed is calculated by dividing the distance traveled by the time taken. In this case, the plane traveled 1200 miles in 3 hours, so its speed is $\\frac{1200}{3} = 400$ miles per hour.\n2. To find out how many additional hours it would take to travel an additional 2000 miles, we divide the distance by the speed. So, the additional time is $\\frac{2000}{400} = 5$ hours.\nThe answer is 5.",
+            "every_model_generate_token_num_list": [
+                22,
+                133,
+                22
+            ]
+        },
+        {
+            "pred_answer": 9.0,
+            "correct_answer": 9.0,
+            "final_output_text": "1. First, we need to find out how many rows of red tulips Jackson can plant. To do this, we divide the total number of red tulips (36) by the number of red tulips that can fit in a row (6). This gives us $36 \\div 6 = 6$. So, Jackson can plant 6 rows of red tulips.\n2. Next, we need to find out how many rows of blue tulips Jackson can plant. To do this, we divide the total number of blue tulips (24) by the number of blue tulips that can fit in a row (8). This gives us $24 \\div 8 = 3$. So, Jackson can plant 3 rows of blue tulips.\n3. Finally, to find the total number of rows of flowers Jackson can plant, we add the number of rows of red tulips (6) and the number of rows of blue tulips (3). This gives us $6 + 3 = 9$.\n4. So, Jackson can plant 9 rows of flowers. The answer is 9.",
+            "every_model_generate_token_num_list": [
+                20,
+                227,
+                20
+            ]
+        },
+        {
+            "pred_answer": 22.0,
+            "correct_answer": 22.0,
+            "final_output_text": "1. First, we need to find out how many days it will take for her to create each type of picture scene.\n2. For the large-sized picture scenes, she can draw 5 per day and she needs to create 45, so it will take her 45/5 = 9 days.\n3. For the medium-sized picture scenes, she can draw 6 per day and she needs to create 36, so it will take her 36/6 = 6 days.\n4. For the small-sized picture scenes, she can draw 7 per day and she needs to create 49, so it will take her 49/7 = 7 days.\n5. To find the total number of days, we add the number of days for each type of picture scene: 9 + 6 + 7 = 22 days.\n6. The answer is 22.\nThe answer is 22",
+            "every_model_generate_token_num_list": [
+                24,
+                206,
+                24
+            ]
+        },
+        {
+            "pred_answer": null,
+            "correct_answer": 10.0,
+            "final_output_text": "1. First, we need to find out how many crayons Violetta can buy with her $20. Since each crayon costs $2, we can divide the total amount of money she has by the cost of each crayon: $20 / $2 = 10 crayons.\n2. Since she needs 5 different colors of crayons, and she can only buy 10 crayons in total, she will not be able to buy all the colors she wants.\n3. To find out how much change she will get, we need to subtract the total cost of the crayons she can buy from the total amount of money she has.\n4. The total cost of the crayons she can buy is 10 crayons x $2/crayon = $20.\n5. Therefore, the change she will get is $20 - $20 = $0.\n6. The answer is 0.<eos>",
+            "every_model_generate_token_num_list": [
+                24,
+                191,
+                24
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 2.0,
+            "final_output_text": "1. First, we need to calculate how much money Janet makes per hour. She makes $10 an hour from wages and another $15 an hour from tips, so her total hourly wage is $10 + $15 = $25.\n2. Next, we need to calculate how much money she makes in a week. She works 40 hours a week and makes $25 an hour, so she makes 40 * $25 = $1000 per week.\n3. Now, we need to calculate how much money she needs to save for the down payment. She wants to save up 20% of the cost of a $10000 car, so the down payment is 20/100 * $10000 = $2000.\n4. Finally, we need to calculate how many weeks she needs to work to save the down payment. She makes $1000 per week and needs to save $2000, so she needs to work 2000/1000 = 2 weeks.\nThe answer is 2.",
+            "every_model_generate_token_num_list": [
+                30,
+                244,
+                30
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "final_output_text": "1. On Monday, Lucy sold all the apples she picked, and she got $56 from selling them. Since each apple costs $4, she must have sold $56 / $4 = 14 apples on Monday.\n2. On Tuesday, Lucy picked 12 apples.\n3. On Wednesday, Lucy picked double the number of apples she did on Tuesday, so she picked 2 * 12 = 24 apples.\n4. To find the total number of apples Lucy picked over the three days, we add the number of apples she picked each day: 14 + 12 + 24 = 50 apples.\nThe answer is 50.",
+            "every_model_generate_token_num_list": [
+                27,
+                148,
+                27
+            ]
+        },
+        {
+            "pred_answer": 7.0,
+            "correct_answer": 7.0,
+            "final_output_text": "If Jason carried 2 balls, and Jordan carried twice as many as Jason, then Jordan carried 2*2 = 4 balls.\nAnd if Jason carried twice as many balls as Jeffrey, then Jeffrey carried 2/2 = 1 ball.\nThe total number of balls that the three boys carried is 2+4+1 = 7 balls.\nSince the three boys carried all of the balls in one trip, the coach brought 7 balls to practice.\nThe answer is: $7$.",
+            "every_model_generate_token_num_list": [
+                15,
+                107,
+                15
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 18.0,
+            "final_output_text": "1. First, we need to find out how many pounds of butter Dennis needs to buy. Since he uses 1 pound of butter for every dozen croissants and he needs to make 6 dozen croissants, he will need 6 pounds of butter.\n2. The grocery store is offering a promotion where if you buy one pound of butter, you get the second pound at half price. So for the first pound, it will cost $4.00, and for the second pound, it will cost $4.00/2 = $2.00.\n3. To find the total cost, we add the cost of the first pound to the cost of the second pound: $4.00 + $2.00 = $6.00.\n4. Since he needs to buy 6 pounds of butter, we multiply the cost of 2 pounds by 3 (since 6/2 = 3): $6.00 * 3 = $18.00.\n5. So, it will cost him $18.00 to purchase 6 pounds of butter. The answer is: $18$",
+            "every_model_generate_token_num_list": [
+                32,
+                242,
+                32
+            ]
+        },
+        {
+            "pred_answer": 270.0,
+            "correct_answer": 270.0,
+            "final_output_text": "1. Maddison initially has 5 boxes with 50 marbles each, so she has a total of $5 \\times 50 = 250$ marbles.\n2. She then receives 20 more marbles from her friend, so the total number of marbles she has now is $250 + 20 = 270$.\nThe answer is 270.<eos>",
+            "every_model_generate_token_num_list": [
+                10,
+                86,
+                10
+            ]
+        },
+        {
+            "pred_answer": 140.0,
+            "correct_answer": 140.0,
+            "final_output_text": "1. First, we need to find out how many hours Jordan spends playing video games in a week. Since he plays for 2 hours every day, and there are 7 days in a week, he spends 2*7 = 14 hours playing video games in a week.\n2. If he spent this time working instead, he would earn $10 per hour. So, to find out how much money he would earn, we multiply the number of hours he would work by his hourly wage. That is 14*$10 = $140.\n3. So, if Jordan spent his video game time working instead, he would earn $140 in one week. The answer is 140.",
+            "every_model_generate_token_num_list": [
+                24,
+                154,
+                24
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 4.0,
+            "final_output_text": "1. First, we need to find the total number of animals that need to be groomed.\n2. The total number of dogs is 8, cats is 5, birds is 3, and horses is 12.\n3. To find the total number of animals, we add these numbers together: $8 + 5 + 3 + 12 = 28$.\n4. Since there are 7 days in a week, we divide the total number of animals by 7 to find out how many animals she will groom each day: $28 \\div 7 = 4$.\n5. Therefore, she will groom 4 animals each day of the week. The answer is 4.",
+            "every_model_generate_token_num_list": [
+                21,
+                152,
+                21
+            ]
+        },
+        {
+            "pred_answer": 87.0,
+            "correct_answer": 87.0,
+            "final_output_text": "1. Laurel's friend gave her 24 baby outfits.\n2. At her baby shower, Laurel received twice the amount of new baby outfits, which is 2 * 24 = 48 outfits.\n3. Then, Laurel's mom gifted her with another 15 baby outfits.\n4. To find the total number of outfits, we add the number of outfits from each source: 24 + 48 + 15 = 87 outfits.\nThe answer is 87.<eos>",
+            "every_model_generate_token_num_list": [
+                19,
+                112,
+                19
+            ]
+        },
+        {
+            "pred_answer": 80.0,
+            "correct_answer": 80.0,
+            "final_output_text": "1. First, we need to calculate the distance traveled in the first 4 hours. Since speed is distance over time, we can calculate the distance by multiplying the speed by the time. So, in the first 4 hours, he travels $8 \\times 4 = 32$ miles.\n2. Then, he travels for another 6 hours at the same speed. So, in the next 6 hours, he travels $8 \\times 6 = 48$ miles.\n3. To find the total distance traveled, we add the distances from the first and second parts of the journey. So, the total distance is $32 + 48 = 80$ miles. The answer is 80.",
+            "every_model_generate_token_num_list": [
+                33,
+                155,
+                33
+            ]
+        },
+        {
+            "pred_answer": 159.0,
+            "correct_answer": 159.0,
+            "final_output_text": "1. Each goat needs 5 pounds of hay.\n2. Each sheep needs 3 pounds less than twice the amount each goat needs. Twice the amount each goat needs is 2*5 = 10 pounds.\n3. Each sheep needs 10 - 3 = 7 pounds of hay.\n4. There are 15 goats, so they need 15*5 = 75 pounds of hay.\n5. There are 12 sheep, so they need 12*7 = 84 pounds of hay.\n6. In total, Nate needs 75 + 84 = 159 pounds of hay.\nThe answer is 159.",
+            "every_model_generate_token_num_list": [
+                9,
+                151,
+                9
+            ]
+        },
+        {
+            "pred_answer": 66.0,
+            "correct_answer": 66.0,
+            "final_output_text": "1. First, we need to calculate the total cost of the books. Since each book costs $16 and he bought 3 books, the total cost of the books is $16 * 3 = $48.\n2. Next, we need to calculate the total cost of the pencils. Since each pencil costs $6 and he bought 3 pencils, the total cost of the pencils is $6 * 3 = $18.\n3. To find the total amount spent, we add the cost of the books and the cost of the pencils: $48 + $18 = $66.\n4. Therefore, the total amount spent by Ted is $66. The answer is 66.",
+            "every_model_generate_token_num_list": [
+                21,
+                153,
+                21
+            ]
+        },
+        {
+            "pred_answer": 1596.0,
+            "correct_answer": 1596.0,
+            "final_output_text": "1. The streaming service charges $140 per month.\n2. For the first half of the year, which is 6 months, she pays $140 x 6 = $840.\n3. For the other half of the year, which is also 6 months, she pays $140 - ($140 x 10%) = $140 - $14 = $126 per month.\n4. So for the other half of the year, she pays $126 x 6 = $756.\n5. To find the total amount she paid for the streaming service by the end of the year, we add the amounts for the first half and the other half of the year, which is $840 + $756 = $1596.\nThe answer is 1596.",
+            "every_model_generate_token_num_list": [
+                15,
+                189,
+                15
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 2.0,
+            "final_output_text": "1. First, we need to find out how far he walked in total. Since he walked halfway to the store and then back home, he walked a total of 4 miles (to the store) + 4 miles (back home) = 8 miles.\n2. Next, we need to find out how long it took him to walk this distance. Since he walks at a speed of 4 miles per hour, we can find the time by dividing the total distance by his speed. So, the time it took him is 8 miles / 4 miles per hour = 2 hours.\nThe answer is 2.",
+            "every_model_generate_token_num_list": [
+                25,
+                131,
+                25
+            ]
+        },
+        {
+            "pred_answer": 21.0,
+            "correct_answer": 21.0,
+            "final_output_text": "1. First, we need to find out how many watermelons were ready for harvest after two months. Since 30% of the 120 watermelons were ready, we can calculate this by multiplying 120 by 30% (or 0.30): $120 \\times 0.30 = 36$. So, Ashlyn took home 36 watermelons.\n2. After taking home 36 watermelons, the remaining number of watermelons is $120 - 36 = 84$.\n3. Two weeks later, 3/4 of the remaining melons were ready, so we can calculate this by multiplying 84 by 3/4: $84 \\times \\frac{3}{4} = 63$. So, Ashlyn harvested 63 more watermelons.\n4. After harvesting 63 more watermelons, the number of watermelons that were not ready to be harvested is $84 - 63 = 21$.\nThe answer is 21.<eos>",
+            "every_model_generate_token_num_list": [
+                28,
+                229,
+                28
+            ]
+        },
+        {
+            "pred_answer": 142.0,
+            "correct_answer": 142.0,
+            "final_output_text": "1. First, we need to find out how many tomatoes Ricardo can get from his tomato plants. He planted 5 tomato plants, and each plant yields 22 tomatoes. So, the total number of tomatoes he can get is $5 \\times 22 = 110$.\n2. Next, we need to find out how many eggplants Ricardo can get from his eggplant plants. He planted 8 eggplant plants, and each plant yields 4 eggplants. So, the total number of eggplants he can get is $8 \\times 4 = 32$.\n3. Finally, to find the total number of fruits Ricardo can get, we add the number of tomatoes and eggplants together. So, the total number of fruits is $110 + 32 = 142$.\nThe answer is 142.<eos>",
+            "every_model_generate_token_num_list": [
+                20,
+                180,
+                20
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 4.0,
+            "final_output_text": "1. First, we need to find out how long it takes Matthew to dig all the small holes and all the large holes separately.\n2. To dig 30 small holes, it will take him 30 * 3 = 90 minutes.\n3. To dig 15 large holes, it will take him 15 * 10 = 150 minutes.\n4. In total, it will take him 90 + 150 = 240 minutes.\n5. To convert minutes to hours, we divide by 60. So, 240 / 60 = 4 hours.\nThe answer is 4.",
+            "every_model_generate_token_num_list": [
+                21,
+                147,
+                21
+            ]
+        },
+        {
+            "pred_answer": 133.0,
+            "correct_answer": 133.0,
+            "final_output_text": "1. First, we need to calculate the amount of the discount. To do this, we multiply the original price by the discount rate: $140 \\times 0.05 = $7$.\n2. Next, we subtract the discount from the original price to find the final price: $140 - 7 = $133$.\n3. So, after the discount, you will pay $133. The answer is 133.",
+            "every_model_generate_token_num_list": [
+                15,
+                101,
+                15
+            ]
+        },
+        {
+            "pred_answer": 8.0,
+            "correct_answer": 8.0,
+            "final_output_text": "1. First, we need to convert the length of the wire from feet to inches. There are 12 inches in a foot, so a 4-foot wire is 4 x 12 = 48 inches long.\n2. Next, we divide the total length of the wire by the length of each piece to find the number of pieces. So, 48 inches / 6 inches = 8 pieces.\nThe answer is 8.",
+            "every_model_generate_token_num_list": [
+                11,
+                98,
+                11
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 6.0,
+            "final_output_text": "Marissa has already walked 4 + 2 = 6 miles in total.\nShe wants to walk a total of 12 miles, so she has 12 - 6 = 6 miles remaining to walk.\nShe wants her average speed to be 4 miles per hour, and she has a total of 3 hours (1 hour for the first 4 miles and 1 hour for the next 2 miles) already spent hiking.\nTo achieve an average speed of 4 miles per hour over a total of 3 hours, she needs to walk a total of 4 * 3 = 12 miles.\nSince she has already walked 6 miles, she needs to walk the remaining 6 miles in 3 - 2 = 1 hour.\nTherefore, she needs to walk the remaining 6 miles in 1 hour, which means she needs to walk at a speed of 6 miles per hour.\nThe answer is: $6$.",
+            "every_model_generate_token_num_list": [
+                21,
+                204,
+                21
+            ]
+        },
+        {
+            "pred_answer": 364.0,
+            "correct_answer": 284.0,
+            "final_output_text": "1. First, we need to calculate the cost for the first 6 months. Since the price is $8 per month, the total cost for the first 6 months is 6 * $8 = $48.\n2. Next, we need to calculate the cost for the next 2 years, which is 24 months. The price for these months is $12 per month, so the total cost for these months is 24 * $12 = $288.\n3. Finally, we need to calculate the cost for the last 2 months, which are at the increased price of $14 per month. The total cost for these months is 2 * $14 = $28.\n4. To get the total cost for 2 years, we add up the costs from steps 1, 2, and 3: $48 + $288 + $28 = $364.\n5. So, the total cost for 2 years of the service is $364. The answer is: $364$",
+            "every_model_generate_token_num_list": [
+                30,
+                232,
+                30
+            ]
+        },
+        {
+            "pred_answer": 20.0,
+            "correct_answer": 40.0,
+            "final_output_text": "1. Courtney reported that the audience was 48 in number.\n2. Kelly said that Courtney had made the mistake of overstating the number of people in attendance by 20%. This means that the actual number of people in attendance was 48 - (20% of 48).\n3. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n4. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n5. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n6. Let's go back to the beginning and try again.\n7. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n8. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n9. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n10. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n11. Let's go back to the beginning and try again.\n12. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n13. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n14. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n15. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n16. Let's go back to the beginning and try again.\n17. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n18. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n19. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n20. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n21. Let's go back to the beginning and try again.\n22. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n23. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n24. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n25. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n26. Let's go back to the beginning and try again.\n27. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n28. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n29. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n30. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n31. Let's go back to the beginning and try again.\n32. If Kelly was right, then the actual number of people in attendance was 48 - (20% of 48).\n33. To calculate 20% of 48, we multiply 48 by 20/100, which gives us 9.6.\n34. So, the actual number of people in attendance was 48 - 9.6 = 38.4.\n35. However, the number of people cannot be a fraction, so we must have made a mistake in our calculations.\n36. Let's go back to the beginning and try again.\n37. If Kelly was right, then the actual number of people in attendance was 48 - (20",
+            "every_model_generate_token_num_list": [
+                32,
+                1024,
+                32
+            ]
+        },
+        {
+            "pred_answer": 7200.0,
+            "correct_answer": 7200.0,
+            "final_output_text": "1. First, we need to find out how many doughnuts Derrick makes in a day. Since a dozen is 12, he makes 10 x 12 = 120 doughnuts each day.\n2. Next, we need to find out how many doughnuts he makes in June. June has 30 days, so he makes 120 x 30 = 3600 doughnuts in June.\n3. Finally, we need to find out how much money he makes from selling all these doughnuts. Since each doughnut is sold for $2, he makes 3600 x $2 = $7200.\nThe answer is 7200.",
+            "every_model_generate_token_num_list": [
+                20,
+                148,
+                20
+            ]
+        },
+        {
+            "pred_answer": 17000.0,
+            "correct_answer": 17000.0,
+            "final_output_text": "1. The first bank gave Mr. Josue $4000.\n2. The second bank gave him twice as much as the first bank, so it gave him 2 * $4000 = $8000.\n3. In total, Mr. Josue received $4000 + $8000 = $12000 from the banks.\n4. He initially had $5000 in capital.\n5. Therefore, his total capital now is $5000 + $12000 = $17000.\nThe answer is 17000.",
+            "every_model_generate_token_num_list": [
+                13,
+                140,
+                13
+            ]
+        },
+        {
+            "pred_answer": 105.0,
+            "correct_answer": 75.0,
+            "final_output_text": "1. First, we need to determine how many hours James hired the carriage for. He hired it from 5 PM to 9 PM, which is a total of 4 hours. However, he gets 1 hour free, so he actually paid for 4 - 1 = 3 hours.\n2. The first hour costs $15.\n3. The second hour costs twice the cost of the first hour, so it costs 2 * $15 = $30.\n4. The third hour also costs twice the cost of the second hour, so it costs 2 * $30 = $60.\n5. To find the total cost, we add up the costs of each hour: $15 + $30 + $60 = $105.\n6. So, James paid $105 in total. The answer is: $105$",
+            "every_model_generate_token_num_list": [
+                24,
+                191,
+                24
+            ]
+        },
+        {
+            "pred_answer": 84.0,
+            "correct_answer": 84.0,
+            "final_output_text": "1. Madeline ate 6 grapes.\n2. Her brother used up 5 times as many grapes as Madeline, so he used 5 * 6 = 30 grapes.\n3. Together, Madeline and her brother used 6 + 30 = 36 grapes.\n4. Their mother used the remaining grapes to make 4 pies, and each pie requires 12 grapes, so the mother used 4 * 12 = 48 grapes.\n5. In total, they used 36 + 48 = 84 grapes.\n6. Therefore, the number of grapes at the beginning was 84. The answer is: $84$.",
+            "every_model_generate_token_num_list": [
+                12,
+                147,
+                12
+            ]
+        },
+        {
+            "pred_answer": 45.0,
+            "correct_answer": 45.0,
+            "final_output_text": "1. First, we need to find out how many shrimp she can cook in one minute. Since she can saute 30 shrimp in 10 minutes, she can cook 30/10 = 3 shrimp per minute.\n2. Next, we need to find out how long it will take her to peel 90 shrimp. Since she can peel 6 shrimp per minute, it will take her 90/6 = 15 minutes to peel all the shrimp.\n3. Now, we need to find out how long it will take her to cook 90 shrimp. Since she can cook 3 shrimp per minute, it will take her 90/3 = 30 minutes to cook all the shrimp.\n4. Finally, we need to add the time it takes to peel and cook the shrimp. So, the total time is 15 + 30 = 45 minutes.\nThe answer is 45.",
+            "every_model_generate_token_num_list": [
+                25,
+                203,
+                25
+            ]
+        },
+        {
+            "pred_answer": 54.0,
+            "correct_answer": 54.0,
+            "final_output_text": "1. For the first three days, the tow truck pulled ten cars each day, so the total number of cars towed in those three days is $10 \\times 3 = 30$.\n2. For the remaining four days, the tow truck pulled four fewer cars each day than the first three days, so it pulled $10 - 4 = 6$ cars each day.\n3. The total number of cars towed in the remaining four days is $6 \\times 4 = 24$.\n4. The total number of cars towed that week is the sum of the cars towed in the first three days and the remaining four days, which is $30 + 24 = 54$.\nThe answer is 54.<eos>",
+            "every_model_generate_token_num_list": [
+                18,
+                160,
+                18
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "final_output_text": "1. First, we need to figure out how many cookies Shannon will need in total. She eats 2 cookies a night and wants enough for 30 days, so she will need 2*30 = 60 cookies.\n2. Her recipe makes 1 dozen cookies, which is 12 cookies. To find out how many dozens she needs to make, we divide the total number of cookies she needs by the number of cookies in a dozen. So, 60/12 = 5.\n3. Therefore, Shannon will need to make 5 dozens of cookies. The answer is 5.",
+            "every_model_generate_token_num_list": [
+                26,
+                131,
+                26
+            ]
+        },
+        {
+            "pred_answer": 260.0,
+            "correct_answer": 260.0,
+            "final_output_text": "1. First, we need to calculate the total cost of the dental work. The base price for each implant is $2000, and he needs 2 implants, so the total base price is 2 * $2000 = $4000.\n2. For one of the implants, he wants a crown made of porcelain, which costs an extra $500. So the total cost of the dental work is $4000 + $500 = $4500.\n3. He has already put down a deposit of $600, so the remaining amount he needs to pay is $4500 - $600 = $3900.\n4. He makes $15 per hour at work. To find out how many hours he needs to work to earn $3900, we divide the remaining amount by his hourly wage: $3900 / $15 = 260 hours.\nThe answer is 260.",
+            "every_model_generate_token_num_list": [
+                16,
+                218,
+                16
+            ]
+        },
+        {
+            "pred_answer": 1000.0,
+            "correct_answer": 1000.0,
+            "final_output_text": "1. First, we need to find the average enrollment at Butler High School. Since Butler High School enrolls an average of 3/4 as many students as Norman High School, and Norman High School enrolls an average of 4000 students, the average enrollment at Butler High School is $3/4 \\times 4000 = 3000$.\n2. To find the difference in average enrollment between the two schools, we subtract the average enrollment at Butler High School from the average enrollment at Norman High School: $4000 - 3000 = 1000$.\n3. Therefore, the average enrollment at Norman High School is $1000$ greater than the enrollment at Butler High School. The answer is 1000.",
+            "every_model_generate_token_num_list": [
+                13,
+                168,
+                13
+            ]
+        },
+        {
+            "pred_answer": 20.0,
+            "correct_answer": 20.0,
+            "final_output_text": "1. First, we need to find out how many words are in the book. Since the book is 45 pages long and each page has 200 words, the total number of words in the book is $45 \\times 200 = 9000$.\n2. Next, we need to find out how long it will take Toby to read the book. Since Toby can read at a rate of 300 words per minute, it will take him $9000 \\div 300 = 30$ minutes to read the book.\n3. Toby has to be at the airport in 60 minutes, and it takes him 10 minutes to get there. So, he needs to finish reading the book in $60 - 10 = 50$ minutes.\n4. Since it takes him 30 minutes to read the book, he will be $50 - 30 = 20$ minutes early. The answer is 20.",
+            "every_model_generate_token_num_list": [
+                22,
+                218,
+                22
+            ]
+        },
+        {
+            "pred_answer": 10.0,
+            "correct_answer": 10.0,
+            "final_output_text": "1. First, we need to find out how many days it will take Mike to finish reading the book. Since he plans to read 10 pages a day and the book has 200 pages, we can divide the total number of pages by the number of pages he reads each day: 200 / 10 = 20 days.\n2. Next, we need to find out how many days before the deadline Mike will finish his reading. Since the deadline is 30 days, we can subtract the number of days it will take him to finish reading from the deadline: 30 - 20 = 10 days.\n3. Therefore, Mike will finish his reading 10 days before the deadline. The answer is 10.",
+            "every_model_generate_token_num_list": [
+                29,
+                163,
+                29
+            ]
+        },
+        {
+            "pred_answer": 10.0,
+            "correct_answer": 160.0,
+            "final_output_text": "The restaurant initially has 170 normal chairs and 23 baby chairs, for a total of $170 + 23 = 193$ chairs.\nIf 20 normal chairs and 13 baby chairs were sent to the carpenter for repair, then the restaurant is left with $170 - 20 = 150$ normal chairs and $23 - 13 = 10$ baby chairs.\nTherefore, the restaurant has $150 + 10 = 160$ chairs left. The answer is: $160$",
+            "every_model_generate_token_num_list": [
+                8,
+                129,
+                8
+            ]
+        },
+        {
+            "pred_answer": 549.0,
+            "correct_answer": 324.0,
+            "final_output_text": "1. The cost of the installation is $129.00.\n2. Angela needs to install 6 mirrors, 2 chandeliers, and 20 pictures.\n3. The cost of installing the mirrors is 6 * $15.00 = $90.00.\n4. The cost of installing the chandeliers is 2 * $15.00 = $30.00.\n5. The cost of installing the pictures is 20 * $15.00 = $300.00.\n6. The total cost of installing all the items is $129.00 + $90.00 + $30.00 + $300.00 = $549.00.\n7. Therefore, the cost for Angela will be $549.00.\nThe answer is 549.",
+            "every_model_generate_token_num_list": [
+                23,
+                199,
+                23
+            ]
+        },
+        {
+            "pred_answer": 34.0,
+            "correct_answer": 34.0,
+            "final_output_text": "1. First, we need to calculate the total cost of the pens. Since each pen costs $1.5 and Raphael bought 4 pens, the total cost of the pens is 4 * $1.5 = $6.\n2. Next, we need to calculate the total cost of the notebooks. Since each notebook costs $4 and Raphael bought 2 notebooks, the total cost of the notebooks is 2 * $4 = $8.\n3. Finally, we need to add the cost of the bond paper to the total cost of the pens and notebooks. The bond paper costs $20.\n4. Therefore, the total amount Raphael spent is $6 + $8 + $20 = $34.\nThe answer is 34.",
+            "every_model_generate_token_num_list": [
+                21,
+                160,
+                21
+            ]
+        },
+        {
+            "pred_answer": 9.0,
+            "correct_answer": 4.0,
+            "final_output_text": "1. First, we need to find out how much each class costs. We know that the total cost of the classes is $60 and there are 10 classes. So, we divide the total cost by the number of classes to find the cost per class: $60 / 10 = $6.\n2. The parents have told us that if the cost per class is more than $10, they won't sign him up again. Since the cost per class is $6, which is less than $10, he can miss some classes before they don't sign him up again.\n3. To find out how many classes he can miss, we need to find out how many classes would make the cost per class equal to $10. We can do this by dividing $10 by the number of classes: $10 / 10 = $1. This means that if he misses 9 classes, the cost per class would be $1, which is less than $10. But if he misses 10 classes, the cost per class would be $6, which is more than $10. So, he can miss 9 classes before they don't sign him up again.\nThe answer is 9.<eos>",
+            "every_model_generate_token_num_list": [
+                45,
+                266,
+                45
+            ]
+        },
+        {
+            "pred_answer": 122.0,
+            "correct_answer": 122.0,
+            "final_output_text": "If Bo has 40 crabs, and Monic has 4 fewer crabs than Bo, then Monic has 40 - 4 = 36 crabs.\nIf Rani has ten more crabs than Monic, then Rani has 36 + 10 = 46 crabs.\nTo find the total number of crabs the three have together, we add the number of crabs each person has: 40 + 36 + 46 = 122.\nThe answer is 122.<eos>",
+            "every_model_generate_token_num_list": [
+                8,
+                114,
+                8
+            ]
+        },
+        {
+            "pred_answer": 27.0,
+            "correct_answer": 27.0,
+            "final_output_text": "Cindy had 5 green eggs.\nShe had twice as many blue eggs as green eggs, so she had 2 * 5 = 10 blue eggs.\nShe had one fewer pink egg than blue eggs, so she had 10 - 1 = 9 pink eggs.\nShe had one-third as many yellow eggs as pink eggs, so she had 9 / 3 = 3 yellow eggs.\nTo find the total number of eggs, we add up the number of each color of eggs: 5 + 10 + 9 + 3 = 27.\nSo Cindy had 27 eggs altogether.\nThe answer is 27.",
+            "every_model_generate_token_num_list": [
+                9,
+                144,
+                9
+            ]
+        },
+        {
+            "pred_answer": 16.0,
+            "correct_answer": 16.0,
+            "final_output_text": "1. Octavia drinks half the daily recommended cups of coffee, which is 4/2 = 2 cups.\n2. Juan drinks 10 times the amount of coffee Octavia drinks, which is 10*2 = 20 cups.\n3. Juan's doctor has asked him to reduce his coffee intake to the daily recommendation of 4 cups.\n4. To find out how many cups Juan must reduce his daily coffee intake, we subtract the new recommended amount from the current amount he drinks, which is 20 - 4 = 16 cups.\n5. Therefore, Juan must reduce his daily coffee intake by 16 cups.\nThe answer is 16.",
+            "every_model_generate_token_num_list": [
+                16,
+                147,
+                16
+            ]
+        },
+        {
+            "pred_answer": 9.0,
+            "correct_answer": 9.0,
+            "final_output_text": "In the first 20 minutes, he scores 4 points.\nIn the second 20 minutes, he scores 25% more points than the first 20 minutes.\n25% of 4 points is (25/100) * 4 = 1 point.\nSo, in the second 20 minutes, he scores 4 + 1 = 5 points.\nTo find the total points, we add the points from the first 20 minutes and the second 20 minutes: 4 + 5 = 9 points.\nThe answer is 9.",
+            "every_model_generate_token_num_list": [
+                12,
+                131,
+                12
+            ]
+        },
+        {
+            "pred_answer": 22.0,
+            "correct_answer": 22.0,
+            "final_output_text": "1. First, we need to find out the total number of chips that Mitchell bought. He bought two bags of chips with 55 chips each, so the total number of chips is 2 * 55 = 110 chips.\n2. Next, we need to divide the total number of chips by the number of family members to find out how many chips each person gets. There are five members in the family, so each person gets 110 / 5 = 22 chips.\nThe answer is 22.<eos>",
+            "every_model_generate_token_num_list": [
+                13,
+                115,
+                13
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+初始化ModelInfer
+1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:31,  8.00it/s]Loading weights:   6%|▌         | 14/254 [00:00<00:03, 72.11it/s]Loading weights:  12%|█▏        | 31/254 [00:00<00:02, 110.21it/s]Loading weights:  19%|█▉        | 48/254 [00:00<00:01, 128.36it/s]Loading weights:  25%|██▍       | 63/254 [00:00<00:01, 134.02it/s]Loading weights:  30%|███       | 77/254 [00:00<00:01, 132.27it/s]Loading weights:  37%|███▋      | 94/254 [00:00<00:01, 141.45it/s]Loading weights:  44%|████▍     | 113/254 [00:00<00:00, 151.13it/s]Loading weights:  52%|█████▏    | 133/254 [00:00<00:00, 165.27it/s]Loading weights:  59%|█████▉    | 150/254 [00:01<00:00, 156.84it/s]Loading weights:  65%|██████▌   | 166/254 [00:01<00:00, 153.84it/s]Loading weights:  72%|███████▏  | 183/254 [00:01<00:00, 154.00it/s]Loading weights:  78%|███████▊  | 199/254 [00:01<00:00, 151.32it/s]Loading weights:  85%|████████▍ | 215/254 [00:01<00:00, 151.41it/s]Loading weights:  91%|█████████ | 231/254 [00:01<00:00, 146.55it/s]Loading weights:  97%|█████████▋| 247/254 [00:01<00:00, 148.77it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 142.62it/s]
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 251/1951 [00:00<00:00, 2470.22it/s]Loading weights:  26%|██▌       | 499/1951 [00:00<00:00, 2108.09it/s]Loading weights:  37%|███▋      | 714/1951 [00:00<00:00, 2062.92it/s]Loading weights:  47%|████▋     | 922/1951 [00:01<00:02, 386.23it/s] Loading weights:  54%|█████▍    | 1055/1951 [00:01<00:02, 404.35it/s]Loading weights:  59%|█████▉    | 1157/1951 [00:02<00:02, 386.29it/s]Loading weights:  63%|██████▎   | 1236/1951 [00:02<00:01, 380.49it/s]Loading weights:  67%|██████▋   | 1301/1951 [00:02<00:01, 383.04it/s]Loading weights:  80%|████████  | 1568/1951 [00:02<00:00, 690.42it/s]Loading weights:  91%|█████████ | 1769/1951 [00:02<00:00, 902.67it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 675.68it/s]
+开始推理，共 1 条样本...
+处理样本:   0%|          | 0/1 [00:00<?, ?it/s]处理样本: 100%|██████████| 1/1 [00:38<00:00, 38.51s/it]处理样本: 100%|██████████| 1/1 [00:38<00:00, 38.51s/it]
+#############################################################
+final_output_text: To compute $99^2+99+1$ in my head, I can use a trick. 
+
+First, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. 
+
+This simplifies to $10000 - 20 + 1 = 9,980$. 
+
+Now, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. 
+
+Finally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. 
+
+Therefore, $99^2+99+1 = 10,080$.
+
+Answer: 10,0,080.
+#############################################################
+#############################################################
+every_model_output_text[0]: To compute $99^2+99+1$ in my head, I can use a trick. 
+
+First, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. 
+
+This simplifies to $10000 - 20 + 1 = 9,980$. 
+
+Now, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. 
+
+Finally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. 
+
+Therefore, $99^2+99+1 = 10,080$.
+
+Answer: 10,0,080.
+#############################################################
+#############################################################
+every_model_output_text[1]: To compute $99^2+99+1$ in my head, I can use a trick. 
+
+First, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. 
+
+This simplifies to $10000 - 20 + 1 = 9,980$. 
+
+Now, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. 
+
+Finally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. 
+
+Therefore, $99^2+99+1 = 10,080$.
+
+Answer: 10,0,080.
+#############################################################
+#############################################################
+pred_answer: 10,0,080
+correct_answer: 9901
+总共1条样本，已回答1条样本，回答正确的样本数量为0.
+结果保存到： output/mult_models/ICLD/MATH500/json/2026-04-22_00-09-35_mult_models_test_1.json

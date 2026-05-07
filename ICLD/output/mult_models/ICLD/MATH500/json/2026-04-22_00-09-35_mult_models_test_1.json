@@ -1,0 +1,73 @@
+{
+    "comment": "多模型实验，数据集：MATH500",
+    "finish_date": "2026-04-22_00-09-35",
+    "integrate_models_name": [
+        "Llama3.2-3B-Instruct",
+        "Gemma4-E2B-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MATH500",
+    "avg_cal_time": 38.51,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        194.0,
+        194.0
+    ],
+    "avg_ensemble_num": 41.0,
+    "high_confidence_ensemble_ratio": 0.37963,
+    "low_confidence_ensemble_ratio": 0.0,
+    "all_ensemble_ratio": 0.21134,
+    "bunk_list": [
+        0,
+        0,
+        2,
+        6,
+        7,
+        15,
+        11,
+        19,
+        26,
+        67
+    ],
+    "all_cal_time": 38.50851392745972,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        194,
+        194
+    ],
+    "all_ensemble_num": 41,
+    "all_high_confidence_token_num": 108,
+    "all_high_confidence_ensemble_num": 41,
+    "all_low_confidence_token_num": 86,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "10,0,080"
+    ],
+    "question_correct_answer_list": [
+        "9901"
+    ],
+    "avg_high_confidence_token_num": 108.0,
+    "avg_high_confidence_ensemble_num": 41.0,
+    "avg_low_confidence_token_num": 86.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "10,0,080",
+            "correct_answer": "9901",
+            "ensemble_num": 41,
+            "high_confidence_token_num": 108,
+            "high_confidence_ensemble_num": 41,
+            "low_confidence_token_num": 86,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To compute $99^2+99+1$ in my head, I can use a trick. \n\nFirst, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. \n\nThis simplifies to $10000 - 20 + 1 = 9,980$. \n\nNow, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. \n\nFinally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. \n\nTherefore, $99^2+99+1 = 10,080$.\n\nAnswer: 10,0,080.",
+            "every_model_output_text": [
+                "To compute $99^2+99+1$ in my head, I can use a trick. \n\nFirst, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. \n\nThis simplifies to $10000 - 20 + 1 = 9,980$. \n\nNow, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. \n\nFinally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. \n\nTherefore, $99^2+99+1 = 10,080$.\n\nAnswer: 10,0,080.",
+                "To compute $99^2+99+1$ in my head, I can use a trick. \n\nFirst, I can calculate $99^2$ as $(100-1)^2$. Using the formula $(a-b)^2 = a^2 - 2ab + b^2$, I can expand this to $100^2 - 2*100*1 + 1^2$. \n\nThis simplifies to $10000 - 20 + 1 = 9,980$. \n\nNow, I can add $99$ to this result, which gives me $9,980 + 99 = 10,0,079$. \n\nFinally, adding $1$ to this result gives me $10,0,079 + 1 = 10,0,08$. \n\nTherefore, $99^2+99+1 = 10,080$.\n\nAnswer: 10,0,080."
+            ],
+            "every_model_generate_token_num_list": [
+                194,
+                194
+            ]
+        }
+    ]
+}

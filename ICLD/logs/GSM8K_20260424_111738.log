@@ -1,0 +1,249 @@
+初始化ModelInfer
+100
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 255/1951 [00:00<00:00, 2536.29it/s]Loading weights:  26%|██▌       | 509/1951 [00:00<00:00, 2256.95it/s]Loading weights:  38%|███▊      | 737/1951 [00:00<00:00, 2184.94it/s]Loading weights:  49%|████▉     | 957/1951 [00:01<00:01, 514.23it/s] Loading weights:  56%|█████▋    | 1099/1951 [00:01<00:01, 495.81it/s]Loading weights:  62%|██████▏   | 1206/1951 [00:01<00:01, 477.82it/s]Loading weights:  66%|██████▌   | 1291/1951 [00:02<00:01, 453.82it/s]Loading weights:  79%|███████▊  | 1534/1951 [00:02<00:00, 710.79it/s]Loading weights:  91%|█████████▏| 1783/1951 [00:02<00:00, 989.21it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 819.26it/s]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 4/254 [00:00<00:06, 35.77it/s]Loading weights:   9%|▉         | 23/254 [00:00<00:02, 114.31it/s]Loading weights:  16%|█▌        | 41/254 [00:00<00:01, 139.06it/s]Loading weights:  23%|██▎       | 59/254 [00:00<00:01, 151.55it/s]Loading weights:  30%|███       | 77/254 [00:00<00:01, 159.16it/s]Loading weights:  37%|███▋      | 95/254 [00:00<00:00, 163.22it/s]Loading weights:  44%|████▍     | 113/254 [00:00<00:00, 165.59it/s]Loading weights:  52%|█████▏    | 131/254 [00:00<00:00, 167.24it/s]Loading weights:  59%|█████▊    | 149/254 [00:00<00:00, 168.52it/s]Loading weights:  66%|██████▌   | 167/254 [00:01<00:00, 169.43it/s]Loading weights:  73%|███████▎  | 185/254 [00:01<00:00, 169.69it/s]Loading weights:  80%|███████▉  | 203/254 [00:01<00:00, 168.89it/s]Loading weights:  87%|████████▋ | 221/254 [00:01<00:00, 169.73it/s]Loading weights:  94%|█████████▍| 239/254 [00:01<00:00, 170.61it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 163.55it/s]
+开始推理，共 100 条样本...
+处理样本:   0%|          | 0/100 [00:00<?, ?it/s]处理样本:   1%|          | 1/100 [02:32<4:11:13, 152.26s/it]处理样本:   2%|▏         | 2/100 [05:07<4:11:54, 154.23s/it]#############################################################
+final_output_text: Here is the step-by-step calculation to find the total amount of money raised:
+
+**1. Calculate how much Alexandra raised:**
+Alexandra raised $\$430$.
+
+**2. Calculate how much Kim raised:**
+Kim raised $\$320$ more than Alexandra.
+Kim's amount = Alexandra's amount + $\$320$
+Kim's amount = $\$430 + \$320 = \$750$
+
+**3. Calculate how much Sarah raised:**
+Sarah raised $\$300$.
+
+**4. Calculate how much Maryam raised:**
+Maryam raised $\$400$ more than Sarah.
+Maryam's amount = Sarah's amount + $\$400$
+Maryam's amount = $\$300 + \$400 = \$700$
+
+**5. Calculate the total amount raised:**
+Total = Kim's amount + Alexandra's amount + Maryam's amount + Sarah's amount
+Total = $\$750 + \$430 + \$700 + \$300$
+Total = $(\$750 + \$430) + (\$700 + \$300)$
+Total = $\$1180 + \$1000$
+Total = $\$2180$
+
+They all raised a total of $\$2180$.
+
+2180
+#############################################################
+#############################################################
+every_model_output_text[0]: Here is the step-by-step calculation to find the total amount of money raised:
+
+**1. Calculate how much Alexandra raised:**
+Alexandra raised $\$430$.
+
+**2. Calculate how much Kim raised:**
+Kim raised $\$320$ more than Alexandra.
+Kim's amount = Alexandra's amount + $\$320$
+Kim's amount = $\$430 + \$320 = \$750$
+
+**3. Calculate how much Sarah raised:**
+Sarah raised $\$300$.
+
+**4. Calculate how much Maryam raised:**
+Maryam raised $\$400$ more than Sarah.
+Maryam's amount = Sarah's amount + $\$400$
+Maryam's amount = $\$300 + \$400 = \$700$
+
+**5. Calculate the total amount raised:**
+Total = Kim's amount + Alexandra's amount + Maryam's amount + Sarah's amount
+Total = $\$750 + \$430 + \$700 + \$300$
+Total = $(\$750 + \$430) + (\$700 + \$300)$
+Total = $\$1180 + \$1000$
+Total = $\$2180$
+
+They all raised a total of $\$2180$.
+
+2180
+#############################################################
+#############################################################
+every_model_output_text[1]: Here is the step-by-step calculation to find the total amount of money raised:
+
+**1. Calculate how much Alexandra raised:**
+Alexandra raised $\$430$.
+
+**2. Calculate how much Kim raised:**
+Kim raised $\$320$ more than Alexandra.
+Kim's amount = Alexandra's amount + $\$320$
+Kim's amount = $\$430 + \$320 = \$750$
+
+**3. Calculate how much Sarah raised:**
+Sarah raised $\$300$.
+
+**4. Calculate how much Maryam raised:**
+Maryam raised $\$400$ more than Sarah.
+Maryam's amount = Sarah's amount + $\$400$
+Maryam's amount = $\$300 + \$400 = \$700$
+
+**5. Calculate the total amount raised:**
+Total = Kim's amount + Alexandra's amount + Maryam's amount + Sarah's amount
+Total = $\$750 + \$430 + \$700 + \$300$
+Total = $(\$750 + \$430) + (\$700 + \$300)$
+Total = $\$1180 + \$1000$
+Total = $\$2180$
+
+They all raised a total of $\$2180$.
+
+2180
+#############################################################
+#############################################################
+gold_text_raw: Kim raises 320+430=<<320+430=750>>750 dollars.
+Maryam raises 400+300=<<400+300=700>>700 dollars.
+They raise 750+430+400+700=<<750+430+400+700=2280>>2280 dollars.
+#### 2280
+pred_answer: 2180.0
+correct_answer: 2280.0
+总共100条样本，已回答1条样本，回答正确的样本数量为0.
+#############################################################
+final_output_text: Here is the step-by-step solution:
+
+**1. Determine the individual rates:**
+
+*   **Kalinda's rate:** Kalinda can add 4 pieces per minute.
+*   **Mom's rate:** Her mom can place half as many pieces per minute as Kalinda.
+    *   Mom's rate = $4 \text{ pieces/minute} / 2 = 2$ pieces per minute.
+
+**2. Determine their combined rate:**
+
+*   **Combined rate:** Add Kalinda's rate and her mom's rate.
+    *   Combined rate = $4 \text{ pieces/minute} + 2 \text{ pieces/minute} = 6$ pieces per minute.
+
+**3. Calculate the time needed in minutes:**
+
+*   **Total pieces:** The puzzle has 360 pieces.
+*   **Time (minutes) = Total pieces / Combined rate**
+    *   Time (minutes) = $360 \text{ pieces} / 6 \text{ pieces/minute} = 60$ minutes.
+
+**4. Convert the time from minutes to hours:**
+
+*   There are 60 minutes in 1 hour.
+*   **Time (hours) = Time (minutes) / 60**
+    *   Time (hours) = $60 \text{ minutes} / 60 \text{ minutes/hour} = 1$ hour.
+
+It will take them 1 hour to complete the puzzle.
+
+1
+#############################################################
+#############################################################
+every_model_output_text[0]: Here is the step-by-step solution:
+
+**1. Determine the individual rates:**
+
+*   **Kalinda's rate:** Kalinda can add 4 pieces per minute.
+*   **Mom's rate:** Her mom can place half as many pieces per minute as Kalinda.
+    *   Mom's rate = $4 \text{ pieces/minute} / 2 = 2$ pieces per minute.
+
+**2. Determine their combined rate:**
+
+*   **Combined rate:** Add Kalinda's rate and her mom's rate.
+    *   Combined rate = $4 \text{ pieces/minute} + 2 \text{ pieces/minute} = 6$ pieces per minute.
+
+**3. Calculate the time needed in minutes:**
+
+*   **Total pieces:** The puzzle has 360 pieces.
+*   **Time (minutes) = Total pieces / Combined rate**
+    *   Time (minutes) = $360 \text{ pieces} / 6 \text{ pieces/minute} = 60$ minutes.
+
+**4. Convert the time from minutes to hours:**
+
+*   There are 60 minutes in 1 hour.
+*   **Time (hours) = Time (minutes) / 60**
+    *   Time (hours) = $60 \text{ minutes} / 60 \text{ minutes/hour} = 1$ hour.
+
+It will take them 1 hour to complete the puzzle.
+
+1
+#############################################################
+#############################################################
+every_model_output_text[1]: Here is the step-by-step solution:
+
+**1. Determine the individual rates:**
+
+*   **Kalinda's rate:** Kalinda can add 4 pieces per minute.
+*   **Mom's rate:** Her mom can place half as many pieces per minute as Kalinda.
+    *   Mom's rate = $4 \text{ pieces/minute} / 2 = 2$ pieces per minute.
+
+**2. Determine their combined rate:**
+
+*   **Combined rate:** Add Kalinda's rate and her mom's rate.
+    *   Combined rate = $4 \text{ pieces/minute} + 2 \text{ pieces/minute} = 6$ pieces per minute.
+
+**3. Calculate the time needed in minutes:**
+
+*   **Total pieces:** The puzzle has 360 pieces.
+*   **Time (minutes) = Total pieces / Combined rate**
+    *   Time (minutes) = $360 \text{ pieces} / 6 \text{ pieces/minute} = 60$ minutes.
+
+**4. Convert the time from minutes to hours:**
+
+*   There are 60 minutes in 1 hour.
+*   **Time (hours) = Time (minutes) / 60**
+    *   Time (hours) = $60 \text{ minutes} / 60 \text{ minutes/hour} = 1$ hour.
+
+It will take them 1 hour to complete the puzzle.
+
+1
+#############################################################
+#############################################################
+gold_text_raw: Her mom places 2 pieces per minute because 4 / 2 = <<4/2=2>>2
+On average they get in 6 pieces per minute because 4 + 2 = <<4+2=6>>6
+It will take 60 minutes to complete the puzzle because 360 / 6 = <<360/6=60>>60
+It will take one hour because 60 / 60 = <<60/60=1>>1
+#### 1
+pred_answer: 1.0
+correct_answer: 1.0
+总共100条样本，已回答2条样本，回答正确的样本数量为1.
+#############################################################
+final_output_text: Here is how to solve the problem:
+
+**1. Determine the duration of the outbound journey:**
+Tom sails from 1 PM to 4 PM.
+Time taken = 4 PM - 1 PM = 3 hours.
+
+**2. Determine the distance traveled during the outbound journey:**
+Speed (outbound) = 10 mph
+Time (outbound) = 3 hours
+Distance = Speed $\times$ Time
+Distance = $10 \text{ mph} \times 3 \text{ hours} = 30 \text{ miles}$.
+
+**3. Determine the time taken for the return journey:**
+The problem implies that the return journey covers the same distance (30 miles) at the new speed.
+Speed (return) = 6 mph
+Distance = 30 miles
+Time = Distance / Speed
+Time (return) = $30 \text{ miles} / 6 \text{ mph} = 5 \text{ hours}$.
+
+It takes Tom 5 hours to get back.
+
+5
+#############################################################
+#############################################################
+every_model_output_text[0]: Here is how to solve the problem:
+
+**1. Determine the duration of the outbound journey:**
+Tom sails from 1 PM to 4 PM.
+Time taken = 4 PM - 1 PM = 3 hours.
+
+**2. Determine the distance traveled during the outbound journey:**
+Speed (outbound) = 10 mph
+Time (outbound) = 3 hours
+Distance = Speed $\times$ Time
+Distance = $10 \text{ mph} \times 3 \text{ hours} = 30 \text{ miles}$.
+
+**3. Determine the time taken for the return journey:**
+The problem implies that the return journey covers the same distance (30 miles) at the new speed.
+Speed (return) = 6 mph
+Distance = 30 miles
+Time = Distance / Speed
+Time (return) = $30 \text{ miles} / 6 \text{ mph} = 5 \text{ hours}$.
+
+It takes Tom 5 hours to get back.
+
+5处理样本:   3%|▎         | 3/100 [07:35<4:04:37, 151.31s/it]处理样本:   4%|▍         | 4/100 [10:04<4:00:35, 150.37s/it]

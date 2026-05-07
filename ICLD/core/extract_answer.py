@@ -17,6 +17,9 @@ def strip_outer_boxed(text: str) -> str:
     去掉最外层 \\boxed{...}
     仅处理最外层；内部 LaTeX 结构尽量保留。
     """
+    if not isinstance(text, str):
+        return text
+
     text = text.strip()
     if not text.startswith(r"\boxed{") or not text.endswith("}"):
         return text
@@ -24,7 +27,7 @@ def strip_outer_boxed(text: str) -> str:
     prefix = r"\boxed{"
     inner = text[len(prefix):-1]
 
-    # 简单平衡检查，避免误删不完整结构
+    # 平衡检查，避免误删不完整结构
     balance = 0
     for ch in inner:
         if ch == "{":
@@ -33,9 +36,72 @@ def strip_outer_boxed(text: str) -> str:
             balance -= 1
             if balance < 0:
                 return text
+
     if balance == 0:
         return inner.strip()
+
     return text
+
+
+def strip_math_delimiters(text: str) -> str:
+    """
+    去掉最外层常见数学定界符：
+    \\( ... \\)
+    \\[ ... \\]
+    $ ... $
+    $$ ... $$
+    """
+    if not isinstance(text, str):
+        return text
+
+    text = text.strip()
+
+    pairs = [
+        (r"\(", r"\)"),
+        (r"\[", r"\]"),
+        ("$$", "$$"),
+        ("$", "$"),
+    ]
+
+    changed = True
+    while changed:
+        changed = False
+        text = text.strip()
+        for left, right in pairs:
+            if text.startswith(left) and text.endswith(right):
+                text = text[len(left):-len(right)].strip()
+                changed = True
+
+    return text
+
+
+def unwrap_latex_answer(text: str) -> str:
+    """
+    统一去掉外层数学包裹与 boxed 包裹。
+    支持：
+    - \\boxed{103}
+    - \\(\\boxed{103}\\)
+    - $\\boxed{103}$
+    - \\[\\boxed{103}\\]
+    """
+    if not isinstance(text, str):
+        return text
+
+    text = text.strip()
+
+    # 多层包裹时循环剥离
+    changed = True
+    while changed:
+        changed = False
+        old = text
+
+        text = strip_math_delimiters(text)
+        text = strip_outer_boxed(text)
+
+        if text != old:
+            changed = True
+
+    return text.strip()
 
 
 def normalize_math_answer(ans: str) -> str:
@@ -45,21 +111,25 @@ def normalize_math_answer(ans: str) -> str:
 
     ans = ans.strip()
 
-    # 去掉常见前缀
+    # 新增：移除 answer 标签
+    ans = re.sub(r"</?answer>", "", ans, flags=re.IGNORECASE).strip()
+
+    # 新增：如果是 x = 17，只保留等号右侧
+    eq_match = re.fullmatch(r"(?:\$+)?\s*[a-zA-Z]\s*=\s*(.+?)\s*(?:\$+)?", ans)
+    if eq_match:
+        ans = eq_match.group(1).strip()
+
+    # 原有逻辑继续
     ans = re.sub(r"^The\s+answer\s+is\s+", "", ans, flags=re.IGNORECASE).strip()
-    ans = re.sub(r"^(?:Final\s+answer|Answer|Result|Solution)\s*[:：]\s*", "", ans, flags=re.IGNORECASE).strip()
+    ans = re.sub(
+        r"^(?:Final\s+answer|Answer|Result|Solution)\s*[:：]\s*",
+        "",
+        ans,
+        flags=re.IGNORECASE
+    ).strip()
 
-    # 去掉 markdown 强调
     ans = re.sub(r"^\*+(.*?)\*+$", r"\1", ans).strip()
-
-    # 去掉首尾美元符号
-    if len(ans) >= 2 and ans.startswith("$") and ans.endswith("$"):
-        ans = ans[1:-1].strip()
-
-    # 去掉最外层 boxed
-    ans = strip_outer_boxed(ans)
-
-    # 去掉收尾标点，但尽量不破坏数学表达主体
+    ans = unwrap_latex_answer(ans)
     ans = re.sub(r"[\s。．.!！;；,，]+$", "", ans).strip()
 
     return ans if ans else "E"
@@ -119,16 +189,19 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
 
     # -----------------------
     # 2. GSM8K → 数字（整数/小数）
-    # -----------------------   
+    # -----------------------
     elif dataset_name == "GSM8K":
         patterns = [
-            # 1. ✅ 最高优先级：精准匹配 "The answer is X." 在独立行（符合你新提示词要求）
+            # 0. 最高优先级：The answer is \(\boxed{103}\). / The answer is $\boxed{103}$
+            r'(?:^|\n|\s)The\s+answer\s+is\s+(?:\\\(|\\\[|\$+)?\s*\\boxed\{\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*\}\s*(?:\\\)|\\\]|\$+)?(?=\s*[\.]|\s*$)',
+
+            # 1. 精准匹配 "The answer is X."
             r'(?:^|\n|\s)The\s+answer\s+is\s+([+-]?\d+(?:\.\d+)?(?:[eE][+-]?\d+)?)(?=\s*[\.]|\s*$)',
 
-            # 2. 次优先级：其他英文引导语（兼容旧模型输出或变体）
+            # 2. 其他英文引导语
             r'(?:Final\s+answer|Answer|Result|Solution)[:：]?\s*([+-]?\d+(?:,\d{3})*(?:\.\d+)?(?:[eE][+-]?\d+)?)',
 
-            # 3. 标准标记格式 #### [123] 或 #### [1,234.56]
+            # 3. 标准标记格式 #### [123]
             r'####\s*\[\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*\]',
 
             # 4. LaTeX \boxed{} 格式
@@ -140,25 +213,25 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
             # 6. JSON-like 格式
             r'"?answer"?\s*[:：]\s*["\']?\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*["\']?',
 
-            # 7. 句末或独立行的数字（避免匹配单词）
+            # 7. 句末或独立行数字
             r'(?<!\w)([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)(?!\w)(?:\s*[a-zA-Z]+)?(?:[\.!\?,;\s]|$)',
 
-            # 8. 带括号或引号包裹的数字
+            # 8. 带括号或引号包裹
             r'[\[【(「『]\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*[\]】)」』]',
 
-            # 9. 星号强调格式 *123* 或 **45.6**
+            # 9. 星号强调
             r'\*+\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*\*+',
 
             # 10. 行首或行尾独立数字
             r'^\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*$',
 
-            # 11. 列表项格式，如 “- 42” 或 “1. 3.14”
+            # 11. 列表项格式
             r'^\s*[-•*]?\s*\d*\.?\s*([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)\s*$',
 
-            # 12. 分数支持（可选，如 "3/4" 或 "1 1/2"），需后处理
+            # 12. 分数支持
             r'(?<!\w)(\d+\s+\d+/\d+|\d+/\d+)(?!\w)',
 
-            # 13. fallback：任意位置“最可能”的数字（最后兜底）
+            # 13. fallback
             r'(?<![\d,])([+-]?(?:\d{1,3}(?:,\d{3})*|\d+)(?:\.\d+)?(?:[eE][+-]?\d+)?)(?![\d,])'
         ]
 
@@ -166,21 +239,33 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
     # 3. MATH500 → 数学表达式
     # -----------------------
     elif dataset_name == "MATH500":
-        patterns = [
-            # 严格匹配建议 prompt 的最后一行格式
-            r"(?:^|\n|\s)The\s+answer\s+is\s+(.+?)(?=\s*$)",
+        # MATH500：只提取回复中最后出现的数字
+        # 支持类型：-12.3、-12、12、12.3
+        cleaned_text = re.sub(r"</?answer>", "", cleaned_text, flags=re.IGNORECASE)
+        cleaned_text = re.sub(r"<[^>]+>", "", cleaned_text)
 
-            # 常见英文结论
-            r"(?:Final\s+answer|Answer|Result|Solution)\s*[:：]\s*(.+?)(?=\s*$)",
+        number_matches = re.findall(
+            r"(?<![\w.])[-+]?\d+(?:\.\d+)?(?![\w.])",
+            cleaned_text
+        )
 
-            # boxed / 标签 / JSON-like
-            r"\\boxed\{(.+?)\}",
-            r"<answer>\s*(.+?)\s*</answer>",
-            r'"?answer"?\s*[:：]\s*["\']?(.+?)["\']?\s*$',
+        if not number_matches:
+            return "E"
 
-            # 最后一行兜底
-            r"\n\s*([^\n]+)\s*$",
-        ]
+        last_number = number_matches[-1]
+
+        # 去掉正号
+        if last_number.startswith("+"):
+            last_number = last_number[1:]
+
+        # 12.0 -> 12
+        try:
+            value = float(last_number)
+            if value.is_integer():
+                return str(int(value))
+            return str(value)
+        except ValueError:
+            return last_number
 
     # -----------------------
     # 4. BOOLQ → True / False
@@ -201,6 +286,35 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
             r"^\s*[-•*]?\s*\d*\.?\s*(True|False|true|false|TRUE|FALSE)\s*$",
             r"\\boxed\{\s*(True|False|true|false|TRUE|FALSE)\s*\}",
         ]
+
+        # -----------------------
+    
+    
+    # 5. PIQA → 0 / 1
+    # -----------------------
+    elif dataset_name == "PIQA":
+        # PIQA：只提取回复中最后一次独立出现的 0/1
+        # 适配：
+        # - The answer is 1.
+        # - **The answer is 1.**
+        # - Solution 0 / Solution 1
+        # - <answer>1</answer>
+        #
+        # 注意：
+        # 这里会直接 return，不再走后面的 candidates 排序逻辑。
+        cleaned_text = re.sub(r"</?answer>", "", cleaned_text, flags=re.IGNORECASE)
+        cleaned_text = re.sub(r"<[^>]+>", "", cleaned_text)
+
+        piqa_matches = re.findall(
+            r"(?<![\w./])([01])(?!\.\d)(?![\w/])",
+            cleaned_text
+        )
+
+        if not piqa_matches:
+            return "E"
+
+        return piqa_matches[-1]
+
 
     else:
         return "E"
@@ -238,7 +352,11 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
         return ans if ans in {"A", "B", "C", "D"} else "E"
 
     elif dataset_name == "GSM8K":
-        raw_clean = best_match.replace(",", "").strip()
+        raw_clean = unwrap_latex_answer(best_match)
+        raw_clean = raw_clean.replace(",", "").strip()
+
+        # 去掉句尾标点
+        raw_clean = re.sub(r"[\s。．.!！;；,，]+$", "", raw_clean).strip()
 
         # 分数处理：支持 "3/4" 和 "1 1/2"
         frac_match = re.fullmatch(r"(\d+)\s+(\d+)/(\d+)", raw_clean)
@@ -283,7 +401,11 @@ def extract_answer(dataset_name: str, generated_text: str) -> Any:
             return "False"
         return "E"
 
-    elif dataset_name == "MATH500":
-        return normalize_math_answer(best_match)
+    elif dataset_name == "PIQA":
+        ans = best_match.strip()
+        return ans if ans in {"0", "1"} else "E"
+
+    # elif dataset_name == "MATH500":
+    #     return normalize_math_answer(best_match)
 
     return "E"

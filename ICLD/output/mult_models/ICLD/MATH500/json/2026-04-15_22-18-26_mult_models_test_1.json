@@ -1,0 +1,54 @@
+{
+    "comment": "测试OURS，MATH500，主模型：Q，协作模型：L",
+    "finish_date": "2026-04-15_22-18-26",
+    "integrate_models_name": [
+        "Qwen2.5-7B-Instruct",
+        "Llama3.1-8B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MATH500",
+    "all_cal_time": 68.29519057273865,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        647,
+        311
+    ],
+    "all_ensemble_num": 311,
+    "all_high_confidence_token_num": 591,
+    "all_high_confidence_ensemble_num": 311,
+    "all_low_confidence_token_num": 56,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "3"
+    ],
+    "question_correct_answer_list": [
+        "3, 5, 7"
+    ],
+    "avg_cal_time": 68.3,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        647.0,
+        311.0
+    ],
+    "avg_ensemble_num": 311.0,
+    "avg_high_confidence_token_num": 591.0,
+    "avg_high_confidence_ensemble_num": 311.0,
+    "avg_low_confidence_token_num": 56.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "3",
+            "correct_answer": "3, 5, 7",
+            "ensemble_num": 311,
+            "high_confidence_token_num": 591,
+            "high_confidence_ensemble_num": 311,
+            "low_confidence_token_num": 56,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the roots of the equation $(x - 3)^3 + (x - 7)^3 = (2x - 10)^3$, we can start by simplifying the equation. Notice that $2x - 10 = 2(x - 5)$, so the equation can be rewritten as:\n\n\\[\n(x - 3)^3 + (x - 7)^3 = [2(x - 5)]^3\n\\]\n\nThis simplifies to:\n\n\\[\n(x - 3)^3 + (x - 7)^3 = 8(x - 5)^3\n\\]\n\nLet's introduce a substitution to simplify the equation. Let $y = x - 5$. Then, we have:\n\n\\[\n(y + 2)^3 + (y - 2)^3 = 8y^3\n\\]\n\nExpanding the left side, we get:\n\n\\[\n(y + 2)^3 = y^3 + 3y^2(2) + 3y(2^2) + 2^3 = y^3 + 6y^2 + 12y + 8\n\\]\n\\[\n(y - 2)^3 = y^3 - 3y^2(2) + 3y(2^2) - 2^3 = y^3 - 6y^2 + 12y - 8\n\\]\n\nAdding these together, we get:\n\n\\[\n(y + 2)^3 + (y - 2)^3 = (y^3 + 6y^2 + 12y + 8) + (y^3 - 6y^2 + 12y - 8) = 2y^3 + 24y\n\\]\n\nSo the equation becomes:\n\n\\[\n2y^3 + 24y = 8y^3\n\\]\n\nRearranging terms, we get:\n\n\\[\n2y^3 + 24y - 8y^3 = 0 \\implies -6y^3 + 24y = 0\n\\]\n\nFactoring out $-6y$, we get:\n\n\\[\n-6y(y^2 - 4) = 0\n\\]\n\nThis gives us three solutions:\n\n\\[\n-6y = 0 \\implies y = 0\n\\]\n\\[\ny^2 - 4 = 0 \\implies y^2 = 4 \\implies y = 2 \\text{ or } y = -2\n\\]\n\nRecalling that $y = x - 5$, we substitute back to find $x$:\n\n\\[\nx - 5 = 0 \\implies x = 5\n\\]\n\\[\nx - 5 = 2 \\implies x = 7\n\\]\n\\[\nx - 5 = -2 \\implies x = 3\n\\]\n\nThus, the roots of the equation are $x = 3, 5, 7$.\n\nThe answer is 3.",
+            "every_model_generate_token_num_list": [
+                647,
+                311
+            ]
+        }
+    ]
+}

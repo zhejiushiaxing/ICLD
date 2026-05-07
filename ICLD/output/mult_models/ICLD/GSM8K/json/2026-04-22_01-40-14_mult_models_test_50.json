@@ -1,0 +1,1053 @@
+{
+    "comment": "多模型实验，数据集：GSM8K",
+    "finish_date": "2026-04-22_01-40-14",
+    "integrate_models_name": [
+        "Llama3.2-3B-Instruct",
+        "Gemma4-E2B-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "GSM8K",
+    "avg_cal_time": 29.83,
+    "avg_correct_num": 0.38,
+    "avg_generated_tokens_num_list": [
+        204.12,
+        204.12
+    ],
+    "avg_ensemble_num": 32.44,
+    "high_confidence_ensemble_ratio": 0.23959,
+    "low_confidence_ensemble_ratio": 0.0,
+    "all_ensemble_ratio": 0.15893,
+    "bunk_list": [
+        0,
+        18,
+        101,
+        242,
+        475,
+        593,
+        611,
+        636,
+        759,
+        5149
+    ],
+    "all_cal_time": 1491.7142624855042,
+    "all_correct_num": 19,
+    "all_generated_tokens_num_list": [
+        10206,
+        10206
+    ],
+    "all_ensemble_num": 1622,
+    "all_high_confidence_token_num": 6770,
+    "all_high_confidence_ensemble_num": 1622,
+    "all_low_confidence_token_num": 3436,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        1106.0,
+        1.0,
+        5.0,
+        9.0,
+        2.25,
+        45.0,
+        21.0,
+        2.0,
+        60.0,
+        77.0,
+        29.0,
+        4.0,
+        36.0,
+        1.0,
+        0.5,
+        5.0,
+        5.0,
+        66.0,
+        10.0,
+        55.0,
+        63.0,
+        4000.0,
+        20.0,
+        null,
+        16.5,
+        90.0,
+        40000.0,
+        2.0,
+        9.0,
+        2.0,
+        34.0,
+        450.0,
+        27.0,
+        96.0,
+        98.0,
+        1.0,
+        2.0,
+        3.0,
+        3.0,
+        140.0,
+        50.0,
+        50.0,
+        6.0,
+        2.5,
+        8.0,
+        280.0,
+        30.0,
+        8.0,
+        6.0,
+        32.0
+    ],
+    "question_correct_answer_list": [
+        2280.0,
+        1.0,
+        5.0,
+        12.0,
+        273.0,
+        45.0,
+        21.0,
+        145.0,
+        60.0,
+        122.0,
+        29.0,
+        80.0,
+        36.0,
+        1430.0,
+        5.0,
+        5.0,
+        5.0,
+        66.0,
+        15.0,
+        40.0,
+        93.0,
+        2000.0,
+        64.0,
+        1520.0,
+        11050.0,
+        90.0,
+        40000.0,
+        21.0,
+        18.0,
+        14.0,
+        23.0,
+        145.0,
+        27.0,
+        123.0,
+        98.0,
+        7.0,
+        594.0,
+        34.0,
+        38.0,
+        320.0,
+        50.0,
+        50.0,
+        84.0,
+        50.0,
+        8000.0,
+        280.0,
+        30.0,
+        192.0,
+        276.0,
+        32.0
+    ],
+    "avg_high_confidence_token_num": 135.4,
+    "avg_high_confidence_ensemble_num": 32.44,
+    "avg_low_confidence_token_num": 68.72,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": 1106.0,
+            "correct_answer": 2280.0,
+            "ensemble_num": 18,
+            "high_confidence_token_num": 69,
+            "high_confidence_ensemble_num": 18,
+            "low_confidence_token_num": 71,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.\n\nAlexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).\n\nKim raised $43 + $320 = $363.\n\nMaryam raised $300 + $400 = $700.\n\nSarah raised $300.\n\nNow, let's add the amounts together: \n$43 + $3,63 + $700 + $300 = $1,106.\n\nThe total amount of money raised is $1,106.\n\nThe total amount of money raised is $1,106.<turn|>",
+            "every_model_output_text": [
+                "To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.\n\nAlexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).\n\nKim raised $43 + $320 = $363.\n\nMaryam raised $300 + $400 = $700.\n\nSarah raised $300.\n\nNow, let's add the amounts together: \n$43 + $3,63 + $700 + $300 = $1,106.\n\nThe total amount of money raised is $1,106.\n\nThe total amount of money raised is $1,106.<turn|>",
+                "To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.\n\nAlexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).\n\nKim raised $43 + $320 = $363.\n\nMaryam raised $300 + $400 = $700.\n\nSarah raised $300.\n\nNow, let's add the amounts together: \n$43 + $3,63 + $700 + $300 = $1,106.\n\nThe total amount of money raised is $1,106.\n\nThe total amount of money raised is $1,106."
+            ],
+            "every_model_generate_token_num_list": [
+                140,
+                140
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 1.0,
+            "ensemble_num": 32,
+            "high_confidence_token_num": 170,
+            "high_confidence_ensemble_num": 32,
+            "low_confidence_token_num": 73,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how we can solve this problem step by step:\n\n1. First, we need to find out how many pieces Kalinda and her mom can place per minute. \n   - Kalinda can place 4 pieces per minute.\n   - Her mom can place half as many pieces per minute, so her mom can place 4 / 2 = 2 pieces per minute.\n\n2. Now, we need to find out how many pieces they can place per minute together. \n   - Together, they can place 4 (Kalinda) + 2 (Mom) = 6 pieces per minute.\n\n3. Since the puzzle has 360 pieces, we need to divide the total number of pieces by the number of pieces they can place per minute to find out how many minutes it will take them to complete the puzzle.\n    - 360 pieces / 6 pieces per minute = 60 minutes.\n\n4. Finally, we need to convert the time from minutes to hours. \n  - 60 minutes / 60 = 1 hour.\n\nTherefore, it will take Kalinda and her mom 1 hour to complete the 360-piece puzzle.\n\n**Answer: 1 hour**<turn|>",
+            "every_model_output_text": [
+                "Here's how we can solve this problem step by step:\n\n1. First, we need to find out how many pieces Kalinda and her mom can place per minute. \n   - Kalinda can place 4 pieces per minute.\n   - Her mom can place half as many pieces per minute, so her mom can place 4 / 2 = 2 pieces per minute.\n\n2. Now, we need to find out how many pieces they can place per minute together. \n   - Together, they can place 4 (Kalinda) + 2 (Mom) = 6 pieces per minute.\n\n3. Since the puzzle has 360 pieces, we need to divide the total number of pieces by the number of pieces they can place per minute to find out how many minutes it will take them to complete the puzzle.\n    - 360 pieces / 6 pieces per minute = 60 minutes.\n\n4. Finally, we need to convert the time from minutes to hours. \n  - 60 minutes / 60 = 1 hour.\n\nTherefore, it will take Kalinda and her mom 1 hour to complete the 360-piece puzzle.\n\n**Answer: 1 hour**<turn|>",
+                "Here's how we can solve this problem step by step:\n\n1. First, we need to find out how many pieces Kalinda and her mom can place per minute. \n   - Kalinda can place 4 pieces per minute.\n   - Her mom can place half as many pieces per minute, so her mom can place 4 / 2 = 2 pieces per minute.\n\n2. Now, we need to find out how many pieces they can place per minute together. \n   - Together, they can place 4 (Kalinda) + 2 (Mom) = 6 pieces per minute.\n\n3. Since the puzzle has 360 pieces, we need to divide the total number of pieces by the number of pieces they can place per minute to find out how many minutes it will take them to complete the puzzle.\n    - 360 pieces / 6 pieces per minute = 60 minutes.\n\n4. Finally, we need to convert the time from minutes to hours. \n  - 60 minutes / 60 = 1 hour.\n\nTherefore, it will take Kalinda and her mom 1 hour to complete the 360-piece puzzle.\n\n**Answer: 1 hour**"
+            ],
+            "every_model_generate_token_num_list": [
+                243,
+                243
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 24,
+            "high_confidence_token_num": 88,
+            "high_confidence_ensemble_num": 24,
+            "low_confidence_token_num": 52,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nSince Tom is sailing from 1 PM to 4 PM, that's a total of 3 hours. \n\nTo find the distance he traveled, we multiply the speed (10 mph) by the time (3 hours): \nDistance = Speed * Time\nDistance = 10 * 3\nDistance = 30 miles\n\nNow, to find the time it takes to travel back, we divide the distance by the speed (6 mph):\nTime = Distance / Speed\nTime = 30 miles / 6 mph\nTime = 5 hours\n\nSo, it takes Tom 5 hours to get back.\n\nAnswer: 5<turn|><turn|><turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nSince Tom is sailing from 1 PM to 4 PM, that's a total of 3 hours. \n\nTo find the distance he traveled, we multiply the speed (10 mph) by the time (3 hours): \nDistance = Speed * Time\nDistance = 10 * 3\nDistance = 30 miles\n\nNow, to find the time it takes to travel back, we divide the distance by the speed (6 mph):\nTime = Distance / Speed\nTime = 30 miles / 6 mph\nTime = 5 hours\n\nSo, it takes Tom 5 hours to get back.\n\nAnswer: 5<turn|><turn|><turn|>",
+                "Here's how to solve the problem:\n\nSince Tom is sailing from 1 PM to 4 PM, that's a total of 3 hours. \n\nTo find the distance he traveled, we multiply the speed (10 mph) by the time (3 hours): \nDistance = Speed * Time\nDistance = 10 * 3\nDistance = 30 miles\n\nNow, to find the time it takes to travel back, we divide the distance by the speed (6 mph):\nTime = Distance / Speed\nTime = 30 miles / 6 mph\nTime = 5 hours\n\nSo, it takes Tom 5 hours to get back.\n\nAnswer: 5"
+            ],
+            "every_model_generate_token_num_list": [
+                140,
+                140
+            ]
+        },
+        {
+            "pred_answer": 9.0,
+            "correct_answer": 12.0,
+            "ensemble_num": 27,
+            "high_confidence_token_num": 135,
+            "high_confidence_ensemble_num": 27,
+            "low_confidence_token_num": 96,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nLet's first find the age of James' younger son. Since he is 4 years younger than his older son, and the older son is 12 years old, the younger son is 12 - 4 = 8 years old.\n\nSince James wants to buy birthday candles for both his sons, he needs a total of 12 candles (5 candles for each son).\n\nSince a pack of 5 candles costs $3, we need to find out how many packs James needs to buy. To do this, we divide the total number of candles needed (12) by the number of candles in each pack (5):\n\n12 � 5 = 2.4\n\nSince we cannot buy a fraction of a pack, James will need to buy 3 packs of candles (2 full packs and 1 partial pack, but since you can't buy a fraction of a pack, he will have to buy 3 packs).\n\nNow, let's calculate the total cost:\n\n3 packs x $3 per pack = $9\n\nSo, James spends $9 on birthday candles.\n\n$9<turn|>9<turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nLet's first find the age of James' younger son. Since he is 4 years younger than his older son, and the older son is 12 years old, the younger son is 12 - 4 = 8 years old.\n\nSince James wants to buy birthday candles for both his sons, he needs a total of 12 candles (5 candles for each son).\n\nSince a pack of 5 candles costs $3, we need to find out how many packs James needs to buy. To do this, we divide the total number of candles needed (12) by the number of candles in each pack (5):\n\n12 � 5 = 2.4\n\nSince we cannot buy a fraction of a pack, James will need to buy 3 packs of candles (2 full packs and 1 partial pack, but since you can't buy a fraction of a pack, he will have to buy 3 packs).\n\nNow, let's calculate the total cost:\n\n3 packs x $3 per pack = $9\n\nSo, James spends $9 on birthday candles.\n\n$9<turn|>9<turn|>",
+                "Here's how to solve the problem:\n\nLet's first find the age of James' younger son. Since he is 4 years younger than his older son, and the older son is 12 years old, the younger son is 12 - 4 = 8 years old.\n\nSince James wants to buy birthday candles for both his sons, he needs a total of 12 candles (5 candles for each son).\n\nSince a pack of 5 candles costs $3, we need to find out how many packs James needs to buy. To do this, we divide the total number of candles needed (12) by the number of candles in each pack (5):\n\n12 � 5 = 2.4\n\nSince we cannot buy a fraction of a pack, James will need to buy 3 packs of candles (2 full packs and 1 partial pack, but since you can't buy a fraction of a pack, he will have to buy 3 packs).\n\nNow, let's calculate the total cost:\n\n3 packs x $3 per pack = $9\n\nSo, James spends $9 on birthday candles.\n\n$99"
+            ],
+            "every_model_generate_token_num_list": [
+                231,
+                231
+            ]
+        },
+        {
+            "pred_answer": 2.25,
+            "correct_answer": 273.0,
+            "ensemble_num": 107,
+            "high_confidence_token_num": 281,
+            "high_confidence_ensemble_num": 107,
+            "low_confidence_token_num": 231,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total yards of yarn used, we need to add the amount used by Mariah and her grandma.\n\nMariah used 1/4 of a skein, and her grandma used 1/2 of a skein. To add these fractions, we need to find a common denominator, which is 4. \n\nSo, we can rewrite 1/2 as 2/4. Now we can add:\n\n1/4 + 2/4 = 3/4\n\nSince there are 36 yards in a quarter of a skein (364 yards / 4 = 9.1 yards per quarter, but we'll use 9 for simplicity), we can multiply 3/4 by 3 to find the total yards used:\n\n3/4 * 3 = 9/4 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.25 yards\n\nSince we can't have a",
+            "every_model_output_text": [
+                "To find the total yards of yarn used, we need to add the amount used by Mariah and her grandma.\n\nMariah used 1/4 of a skein, and her grandma used 1/2 of a skein. To add these fractions, we need to find a common denominator, which is 4. \n\nSo, we can rewrite 1/2 as 2/4. Now we can add:\n\n1/4 + 2/4 = 3/4\n\nSince there are 36 yards in a quarter of a skein (364 yards / 4 = 9.1 yards per quarter, but we'll use 9 for simplicity), we can multiply 3/4 by 3 to find the total yards used:\n\n3/4 * 3 = 9/4 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.25 yards\n\nSince we can't have a",
+                "To find the total yards of yarn used, we need to add the amount used by Mariah and her grandma.\n\nMariah used 1/4 of a skein, and her grandma used 1/2 of a skein. To add these fractions, we need to find a common denominator, which is 4. \n\nSo, we can rewrite 1/2 as 2/4. Now we can add:\n\n1/4 + 2/4 = 3/4\n\nSince there are 36 yards in a quarter of a skein (364 yards / 4 = 9.1 yards per quarter, but we'll use 9 for simplicity), we can multiply 3/4 by 3 to find the total yards used:\n\n3/4 * 3 = 9/4 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.2 yards\n\nHowever, since we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.2 yards\n\nSince we can't have a fraction of a yard, we can round down to 2.25 yards, but to be precise, we can keep the 3/4 and multiply it by 3 to get the total yards used:\n\n3/4 * 3 = 2.25 yards\n\nTo be precise, we can multiply 3/4 by 3 and then divide by 4 to get the total yards used:\n\n3 * 3 = 9\n9 / 4 = 2.25 yards\n\nSince we can't have a"
+            ],
+            "every_model_generate_token_num_list": [
+                512,
+                512
+            ]
+        },
+        {
+            "pred_answer": 45.0,
+            "correct_answer": 45.0,
+            "ensemble_num": 30,
+            "high_confidence_token_num": 111,
+            "high_confidence_ensemble_num": 30,
+            "low_confidence_token_num": 61,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\n1. Initially, Katelyn saw 50 fairies flying above the forest.\n2. After 20 minutes, 1/2 of the fairies that Katelyn saw come from the east and join the fairies that were already there. \n   - Since Katelyn saw 50 fairies initially, 1/2 of 50 is 25. So, 25 more fairies join the initial group.\n    - Total fairies now: 50 (initial) + 25 (new) = 75 fairies.\n3. Ten minutes later, 30 fairies flew away.\n   - Total fairies remaining: 75 - 30 = 45 fairies.\n\nThere are 45 fairies remaining.\n\n**Answer: 45**<turn|><turn|>",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\n1. Initially, Katelyn saw 50 fairies flying above the forest.\n2. After 20 minutes, 1/2 of the fairies that Katelyn saw come from the east and join the fairies that were already there. \n   - Since Katelyn saw 50 fairies initially, 1/2 of 50 is 25. So, 25 more fairies join the initial group.\n    - Total fairies now: 50 (initial) + 25 (new) = 75 fairies.\n3. Ten minutes later, 30 fairies flew away.\n   - Total fairies remaining: 75 - 30 = 45 fairies.\n\nThere are 45 fairies remaining.\n\n**Answer: 45**<turn|><turn|>",
+                "To solve this problem, let's break it down step by step.\n\n1. Initially, Katelyn saw 50 fairies flying above the forest.\n2. After 20 minutes, 1/2 of the fairies that Katelyn saw come from the east and join the fairies that were already there. \n   - Since Katelyn saw 50 fairies initially, 1/2 of 50 is 25. So, 25 more fairies join the initial group.\n    - Total fairies now: 50 (initial) + 25 (new) = 75 fairies.\n3. Ten minutes later, 30 fairies flew away.\n   - Total fairies remaining: 75 - 30 = 45 fairies.\n\nThere are 45 fairies remaining.\n\n**Answer: 45**"
+            ],
+            "every_model_generate_token_num_list": [
+                172,
+                172
+            ]
+        },
+        {
+            "pred_answer": 21.0,
+            "correct_answer": 21.0,
+            "ensemble_num": 7,
+            "high_confidence_token_num": 63,
+            "high_confidence_ensemble_num": 7,
+            "low_confidence_token_num": 43,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nAnn is 9 years old, and her brother is twice her age, so her brother's age is 9 x 2 = 18 years old.\n\nTo find out how old her brother will be in 3 years, we need to add 3 to his current age. \n\n18 (current age) + 3 (years) = 2 + 18 = 21\n\nSo, in 3 years, Ann's brother will be 21 years old.\n\n21",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nAnn is 9 years old, and her brother is twice her age, so her brother's age is 9 x 2 = 18 years old.\n\nTo find out how old her brother will be in 3 years, we need to add 3 to his current age. \n\n18 (current age) + 3 (years) = 2 + 18 = 21\n\nSo, in 3 years, Ann's brother will be 21 years old.\n\n21",
+                "Here's how to solve the problem:\n\nAnn is 9 years old, and her brother is twice her age, so her brother's age is 9 x 2 = 18 years old.\n\nTo find out how old her brother will be in 3 years, we need to add 3 to his current age. \n\n18 (current age) + 3 (years) = 2 + 18 = 21\n\nSo, in 3 years, Ann's brother will be 21 years old.\n\n21"
+            ],
+            "every_model_generate_token_num_list": [
+                106,
+                106
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 145.0,
+            "ensemble_num": 64,
+            "high_confidence_token_num": 296,
+            "high_confidence_ensemble_num": 64,
+            "low_confidence_token_num": 216,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nLet's denote the cost of one cup as 'x'. \n\nWe know that twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. \n\nFirst, let's calculate the cost of half a dozen plates:\nHalf a dozen plates = 6 plates\nCost of 6 plates = 6 * $60 = $36\n\nNow, we know that twenty dozen cups cost $1200 less than the cost of 6 plates. \nTwenty dozen cups = 24 cups\nCost of 24 cups = $36 - $1200\nCost of 24 cups = -$11.67 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nNow, we'll set up an equation to find the cost of one cup:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1.92\nx = -$1.9 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nSince we can't have a negative cost, let's re-evaluate the equation:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1092\nx = -$45.83\n\nHowever, we can't have a negative cost, so let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$1092\n\nSince we can't have a negative cost, let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$10 * 24\nCost of 24 cups = $240 - $1,200\nCost of 24 cups = -$9,6 * 24\nCost of 24 cups = $960 - $1200\nCost of 2 dozen cups",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nLet's denote the cost of one cup as 'x'. \n\nWe know that twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. \n\nFirst, let's calculate the cost of half a dozen plates:\nHalf a dozen plates = 6 plates\nCost of 6 plates = 6 * $60 = $36\n\nNow, we know that twenty dozen cups cost $1200 less than the cost of 6 plates. \nTwenty dozen cups = 24 cups\nCost of 24 cups = $36 - $1200\nCost of 24 cups = -$11.67 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nNow, we'll set up an equation to find the cost of one cup:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1.92\nx = -$1.9 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nSince we can't have a negative cost, let's re-evaluate the equation:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1092\nx = -$45.83\n\nHowever, we can't have a negative cost, so let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$1092\n\nSince we can't have a negative cost, let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$10 * 24\nCost of 24 cups = $240 - $1,200\nCost of 24 cups = -$9,6 * 24\nCost of 24 cups = $960 - $1200\nCost of 2 dozen cups",
+                "To solve this problem, let's break it down step by step.\n\nLet's denote the cost of one cup as 'x'. \n\nWe know that twenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each. \n\nFirst, let's calculate the cost of half a dozen plates:\nHalf a dozen plates = 6 plates\nCost of 6 plates = 6 * $60 = $36\n\nNow, we know that twenty dozen cups cost $1200 less than the cost of 6 plates. \nTwenty dozen cups = 24 cups\nCost of 24 cups = $36 - $1200\nCost of 24 cups = -$11.67 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nNow, we'll set up an equation to find the cost of one cup:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1.92\nx = -$1.9 (However, we can't have a negative cost, so we'll proceed with the equation as is)\n\nSince we can't have a negative cost, let's re-evaluate the equation:\n24x = 3 * $36 - $1200\n24x = $108 - $1200\n24x = -$1092\nx = -$45.83\n\nHowever, we can't have a negative cost, so let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$1092\n\nSince we can't have a negative cost, let's re-evaluate the equation again:\nTwenty dozen cups cost $1200 less than the total cost of half a dozen plates sold at $6000 each.\nCost of 24 cups = 3 * $36 - $1200\nCost of 24 cups = $108 - $1200\nCost of 24 cups = -$10 * 24\nCost of 24 cups = $240 - $1,200\nCost of 24 cups = -$9,6 * 24\nCost of 24 cups = $960 - $1200\nCost of 2 dozen cups"
+            ],
+            "every_model_generate_token_num_list": [
+                512,
+                512
+            ]
+        },
+        {
+            "pred_answer": 60.0,
+            "correct_answer": 60.0,
+            "ensemble_num": 11,
+            "high_confidence_token_num": 67,
+            "high_confidence_ensemble_num": 11,
+            "low_confidence_token_num": 25,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the increase in enrollment:\n\nOriginal number of students = 50\nIncrease in enrollment = 20% of 50\n= 0.20 * 50\n= 10\n\nNew number of students = Original number of students + Increase in enrollment\n= 50 + 10\n= 60\n\nTherefore, there are 60 students enrolled in the calligraphy class this year.\n\nThe answer is 60.<turn|><turn|>",
+            "every_model_output_text": [
+                "Here's how to calculate the increase in enrollment:\n\nOriginal number of students = 50\nIncrease in enrollment = 20% of 50\n= 0.20 * 50\n= 10\n\nNew number of students = Original number of students + Increase in enrollment\n= 50 + 10\n= 60\n\nTherefore, there are 60 students enrolled in the calligraphy class this year.\n\nThe answer is 60.<turn|><turn|>",
+                "Here's how to calculate the increase in enrollment:\n\nOriginal number of students = 50\nIncrease in enrollment = 20% of 50\n= 0.20 * 50\n= 10\n\nNew number of students = Original number of students + Increase in enrollment\n= 50 + 10\n= 60\n\nTherefore, there are 60 students enrolled in the calligraphy class this year.\n\nThe answer is 60."
+            ],
+            "every_model_generate_token_num_list": [
+                92,
+                92
+            ]
+        },
+        {
+            "pred_answer": 77.0,
+            "correct_answer": 122.0,
+            "ensemble_num": 31,
+            "high_confidence_token_num": 127,
+            "high_confidence_ensemble_num": 31,
+            "low_confidence_token_num": 48,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, we need to find out how many crabs each person has and then add them together.\n\nWe know that Bo has 40 crabs. Since Monic has 4 fewer crabs than Bo, Monic has 4 less than 40, which is 40 - 4 = 36 crabs.\n\nRani has 1 more crab than Monic, so Rani has 1 more than 36, which is 36 + 1 = 37 crabs.\n\nNow, let's add up the number of crabs each person has: \nBo has 40 crabs\nMonic has 36 crabs\nRani has 37 crabs\n\nTotal number of crabs = 4 + 36 + 37 = 77\n\nThe total number of crabs the three have together is 77.",
+            "every_model_output_text": [
+                "To solve this problem, we need to find out how many crabs each person has and then add them together.\n\nWe know that Bo has 40 crabs. Since Monic has 4 fewer crabs than Bo, Monic has 4 less than 40, which is 40 - 4 = 36 crabs.\n\nRani has 1 more crab than Monic, so Rani has 1 more than 36, which is 36 + 1 = 37 crabs.\n\nNow, let's add up the number of crabs each person has: \nBo has 40 crabs\nMonic has 36 crabs\nRani has 37 crabs\n\nTotal number of crabs = 4 + 36 + 37 = 77\n\nThe total number of crabs the three have together is 77.",
+                "To solve this problem, we need to find out how many crabs each person has and then add them together.\n\nWe know that Bo has 40 crabs. Since Monic has 4 fewer crabs than Bo, Monic has 4 less than 40, which is 40 - 4 = 36 crabs.\n\nRani has 1 more crab than Monic, so Rani has 1 more than 36, which is 36 + 1 = 37 crabs.\n\nNow, let's add up the number of crabs each person has: \nBo has 40 crabs\nMonic has 36 crabs\nRani has 37 crabs\n\nTotal number of crabs = 4 + 36 + 37 = 77\n\nThe total number of crabs the three have together is 77."
+            ],
+            "every_model_generate_token_num_list": [
+                175,
+                175
+            ]
+        },
+        {
+            "pred_answer": 29.0,
+            "correct_answer": 29.0,
+            "ensemble_num": 48,
+            "high_confidence_token_num": 227,
+            "high_confidence_ensemble_num": 48,
+            "low_confidence_token_num": 94,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by- step solution to the problem:\n\n1. First, we need to find out how much water the dehumidifier removes per day at each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 * (1 liter) = 2 liters per day\n    - High setting: 2 * (2 liters) = 4 liters per day\n\n2. Now, we need to calculate the total amount of water removed per day for each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 liters per day\n  - High setting: 4 liters per day\n\n3. Next, we need to calculate the total amount of water removed for each setting over the given number of days:\n   - Low setting: 1 liter per day * 3 days = 3 liters\n  - Medium setting: 2 liters per day * 3 days = 6 liters\n \n4. Then, we need to calculate the total amount of water removed for the high setting:\n  - High setting: 4 liters per day * 5 days = 20 liters\n\n5. Finally, we need to add up the total amount of water removed from all settings:\n   - Total water removed = 3 liters (low) + 6 liters (medium) + 20 liters (high) = 29 liters\n\nThe total amount of water that the dehumidifier removed from the air in Brian's basement is 29 liters.\n\n**The final answer is 29",
+            "every_model_output_text": [
+                "Here's the step-by- step solution to the problem:\n\n1. First, we need to find out how much water the dehumidifier removes per day at each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 * (1 liter) = 2 liters per day\n    - High setting: 2 * (2 liters) = 4 liters per day\n\n2. Now, we need to calculate the total amount of water removed per day for each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 liters per day\n  - High setting: 4 liters per day\n\n3. Next, we need to calculate the total amount of water removed for each setting over the given number of days:\n   - Low setting: 1 liter per day * 3 days = 3 liters\n  - Medium setting: 2 liters per day * 3 days = 6 liters\n \n4. Then, we need to calculate the total amount of water removed for the high setting:\n  - High setting: 4 liters per day * 5 days = 20 liters\n\n5. Finally, we need to add up the total amount of water removed from all settings:\n   - Total water removed = 3 liters (low) + 6 liters (medium) + 20 liters (high) = 29 liters\n\nThe total amount of water that the dehumidifier removed from the air in Brian's basement is 29 liters.\n\n**The final answer is 29",
+                "Here's the step-by- step solution to the problem:\n\n1. First, we need to find out how much water the dehumidifier removes per day at each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 * (1 liter) = 2 liters per day\n    - High setting: 2 * (2 liters) = 4 liters per day\n\n2. Now, we need to calculate the total amount of water removed per day for each setting:\n   - Low setting: 1 liter per day\n  - Medium setting: 2 liters per day\n  - High setting: 4 liters per day\n\n3. Next, we need to calculate the total amount of water removed for each setting over the given number of days:\n   - Low setting: 1 liter per day * 3 days = 3 liters\n  - Medium setting: 2 liters per day * 3 days = 6 liters\n \n4. Then, we need to calculate the total amount of water removed for the high setting:\n  - High setting: 4 liters per day * 5 days = 20 liters\n\n5. Finally, we need to add up the total amount of water removed from all settings:\n   - Total water removed = 3 liters (low) + 6 liters (medium) + 20 liters (high) = 29 liters\n\nThe total amount of water that the dehumidifier removed from the air in Brian's basement is 29 liters.\n\n**The final answer is 29"
+            ],
+            "every_model_generate_token_num_list": [
+                321,
+                321
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 80.0,
+            "ensemble_num": 46,
+            "high_confidence_token_num": 126,
+            "high_confidence_ensemble_num": 46,
+            "low_confidence_token_num": 62,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-Step solution:\n\n1. First, we need to calculate the total number of burritos given to the students. Since there are 50 students and each student was given 10 burritos: \n     Total burritos given to students = 50 students * 10 burritos/ student = 500 burritos\n\n2. Next, we need to subtract the number of burritos eaten by Mr. George from the total number of burritos given to the students:\n     Total burritos eaten by Mr. George = 20 burritos\n      Total burritos left = Total burritos given to students - Total burritos eaten by Mr. George\n     Total burritos left = 500 burritos - 20 burritos\n     Total burritos left = 4 burritos\n\nThe total number of leftover burritos from the picnic is 4.\n\nThe final answer is: 4<turn|>",
+            "every_model_output_text": [
+                "Here's the step-by-Step solution:\n\n1. First, we need to calculate the total number of burritos given to the students. Since there are 50 students and each student was given 10 burritos: \n     Total burritos given to students = 50 students * 10 burritos/ student = 500 burritos\n\n2. Next, we need to subtract the number of burritos eaten by Mr. George from the total number of burritos given to the students:\n     Total burritos eaten by Mr. George = 20 burritos\n      Total burritos left = Total burritos given to students - Total burritos eaten by Mr. George\n     Total burritos left = 500 burritos - 20 burritos\n     Total burritos left = 4 burritos\n\nThe total number of leftover burritos from the picnic is 4.\n\nThe final answer is: 4<turn|>",
+                "Here's the step-by-Step solution:\n\n1. First, we need to calculate the total number of burritos given to the students. Since there are 50 students and each student was given 10 burritos: \n     Total burritos given to students = 50 students * 10 burritos/ student = 500 burritos\n\n2. Next, we need to subtract the number of burritos eaten by Mr. George from the total number of burritos given to the students:\n     Total burritos eaten by Mr. George = 20 burritos\n      Total burritos left = Total burritos given to students - Total burritos eaten by Mr. George\n     Total burritos left = 500 burritos - 20 burritos\n     Total burritos left = 4 burritos\n\nThe total number of leftover burritos from the picnic is 4.\n\nThe final answer is: 4"
+            ],
+            "every_model_generate_token_num_list": [
+                188,
+                188
+            ]
+        },
+        {
+            "pred_answer": 36.0,
+            "correct_answer": 36.0,
+            "ensemble_num": 22,
+            "high_confidence_token_num": 112,
+            "high_confidence_ensemble_num": 22,
+            "low_confidence_token_num": 58,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by- step solution:\n\n1. First, let's calculate the time Jim spends on TV and reading in one day:\n   - Time spent watching TV: 2 hours\n  - Time spent reading: 2 hours / 2 = 1 hour\n \n2. Total time spent on TV and reading in one day: 2 hours + 1 hour = 3 hours\n\n3. Since Jim does this 3 times a week, the total time spent on TV and reading in one week: 3 hours * 3 = 9 hours\n\n4. To find the total time spent on TV and reading in 4 weeks: 9 hours * 4 = 36 hours\n\nTherefore, Jim spends 36 hours on TV and reading in 4 weeks.\n\nThe final answer is: 36",
+            "every_model_output_text": [
+                "Here's the step-by- step solution:\n\n1. First, let's calculate the time Jim spends on TV and reading in one day:\n   - Time spent watching TV: 2 hours\n  - Time spent reading: 2 hours / 2 = 1 hour\n \n2. Total time spent on TV and reading in one day: 2 hours + 1 hour = 3 hours\n\n3. Since Jim does this 3 times a week, the total time spent on TV and reading in one week: 3 hours * 3 = 9 hours\n\n4. To find the total time spent on TV and reading in 4 weeks: 9 hours * 4 = 36 hours\n\nTherefore, Jim spends 36 hours on TV and reading in 4 weeks.\n\nThe final answer is: 36",
+                "Here's the step-by- step solution:\n\n1. First, let's calculate the time Jim spends on TV and reading in one day:\n   - Time spent watching TV: 2 hours\n  - Time spent reading: 2 hours / 2 = 1 hour\n \n2. Total time spent on TV and reading in one day: 2 hours + 1 hour = 3 hours\n\n3. Since Jim does this 3 times a week, the total time spent on TV and reading in one week: 3 hours * 3 = 9 hours\n\n4. To find the total time spent on TV and reading in 4 weeks: 9 hours * 4 = 36 hours\n\nTherefore, Jim spends 36 hours on TV and reading in 4 weeks.\n\nThe final answer is: 36"
+            ],
+            "every_model_generate_token_num_list": [
+                170,
+                170
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 1430.0,
+            "ensemble_num": 31,
+            "high_confidence_token_num": 82,
+            "high_confidence_ensemble_num": 31,
+            "low_confidence_token_num": 35,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total amount Janet paid, we need to calculate the cost of the material, the construction, and the insurance.\n\n1. Cost of material: $500\n2. Cost of construction: $800\n3. Total cost so far: $500 + $800 = $1,3oo\n4. Insurance cost: 10% of $1,300 = $130\n5. Total amount paid: $1,300 + $130 = $1,4**30**\n\nJanet paid a total of $1,4**30**.<turn|>",
+            "every_model_output_text": [
+                "To find the total amount Janet paid, we need to calculate the cost of the material, the construction, and the insurance.\n\n1. Cost of material: $500\n2. Cost of construction: $800\n3. Total cost so far: $500 + $800 = $1,3oo\n4. Insurance cost: 10% of $1,300 = $130\n5. Total amount paid: $1,300 + $130 = $1,4**30**\n\nJanet paid a total of $1,4**30**.<turn|>",
+                "To find the total amount Janet paid, we need to calculate the cost of the material, the construction, and the insurance.\n\n1. Cost of material: $500\n2. Cost of construction: $800\n3. Total cost so far: $500 + $800 = $1,3oo\n4. Insurance cost: 10% of $1,300 = $130\n5. Total amount paid: $1,300 + $130 = $1,4**30**\n\nJanet paid a total of $1,4**30**."
+            ],
+            "every_model_generate_token_num_list": [
+                117,
+                117
+            ]
+        },
+        {
+            "pred_answer": 0.5,
+            "correct_answer": 5.0,
+            "ensemble_num": 30,
+            "high_confidence_token_num": 91,
+            "high_confidence_ensemble_num": 30,
+            "low_confidence_token_num": 55,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the total amount of insects needed per day for the flock of ducks:\n\nTo find out how many pounds of insects the ducks need per day, we need to divide the total weekly amount by the number of days in a week. \n\nThere are 7 days in a week. \n\nWeekly amount of insects needed: 3.5 pounds\nNumber of days in a week: 7\n\nDaily amount of insects needed = Weekly amount / Number of days\n= 3.5 pounds / 7\n= 0.5 pounds per day\n\nSo, the flock of ten ducks needs 0.5 pounds of insects per day.\n\n**Answer: 0.5 pounds per day**<turn|>",
+            "every_model_output_text": [
+                "Here's how to calculate the total amount of insects needed per day for the flock of ducks:\n\nTo find out how many pounds of insects the ducks need per day, we need to divide the total weekly amount by the number of days in a week. \n\nThere are 7 days in a week. \n\nWeekly amount of insects needed: 3.5 pounds\nNumber of days in a week: 7\n\nDaily amount of insects needed = Weekly amount / Number of days\n= 3.5 pounds / 7\n= 0.5 pounds per day\n\nSo, the flock of ten ducks needs 0.5 pounds of insects per day.\n\n**Answer: 0.5 pounds per day**<turn|>",
+                "Here's how to calculate the total amount of insects needed per day for the flock of ducks:\n\nTo find out how many pounds of insects the ducks need per day, we need to divide the total weekly amount by the number of days in a week. \n\nThere are 7 days in a week. \n\nWeekly amount of insects needed: 3.5 pounds\nNumber of days in a week: 7\n\nDaily amount of insects needed = Weekly amount / Number of days\n= 3.5 pounds / 7\n= 0.5 pounds per day\n\nSo, the flock of ten ducks needs 0.5 pounds of insects per day.\n\n**Answer: 0.5 pounds per day**"
+            ],
+            "every_model_generate_token_num_list": [
+                146,
+                146
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 24,
+            "high_confidence_token_num": 80,
+            "high_confidence_ensemble_num": 24,
+            "low_confidence_token_num": 46,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find out how many points Joey is now winning, we need to subtract the points Marcy scored from the points Joey scored.\n\nJoey scored 2 points more than Marcy, so we can calculate the difference as follows:\n\nJoey's initial points: 214\nJoey's points after scoring 26: 214 + 26 = 240\nMarcy's points after scoring 10: 225 + 10 = 235\n\nNow, we subtract Marcy's points from Joey's points:\n240 - 235 = 5\n\nSo, Joey is now winning by 5 points.\n\n5<turn|>",
+            "every_model_output_text": [
+                "To find out how many points Joey is now winning, we need to subtract the points Marcy scored from the points Joey scored.\n\nJoey scored 2 points more than Marcy, so we can calculate the difference as follows:\n\nJoey's initial points: 214\nJoey's points after scoring 26: 214 + 26 = 240\nMarcy's points after scoring 10: 225 + 10 = 235\n\nNow, we subtract Marcy's points from Joey's points:\n240 - 235 = 5\n\nSo, Joey is now winning by 5 points.\n\n5<turn|>",
+                "To find out how many points Joey is now winning, we need to subtract the points Marcy scored from the points Joey scored.\n\nJoey scored 2 points more than Marcy, so we can calculate the difference as follows:\n\nJoey's initial points: 214\nJoey's points after scoring 26: 214 + 26 = 240\nMarcy's points after scoring 10: 225 + 10 = 235\n\nNow, we subtract Marcy's points from Joey's points:\n240 - 235 = 5\n\nSo, Joey is now winning by 5 points.\n\n5"
+            ],
+            "every_model_generate_token_num_list": [
+                126,
+                126
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 12,
+            "high_confidence_token_num": 129,
+            "high_confidence_ensemble_num": 12,
+            "low_confidence_token_num": 46,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how we can solve this problem:\n\nLet's start by finding the total number of books Sarah bought. We know she spent $300 on books and each book costs $15. To find the total number of books, we can divide the total amount spent by the cost of each book:\n\nTotal amount spent = $300\nCost of each book = $15\n\nTotal number of books = Total amount spent / Cost of each book\n= $300 / $15\n= 20\n\nSince Sarah gave an equal number of books to her 4 kids, we can divide the total number of books by 4 to find out how many books each child got:\n\nNumber of books per child = Total number of books / 4\n= 20 / 4\n= 5\n\nTherefore, each child got 5 books.\n\nThe answer is: 5",
+            "every_model_output_text": [
+                "Here's how we can solve this problem:\n\nLet's start by finding the total number of books Sarah bought. We know she spent $300 on books and each book costs $15. To find the total number of books, we can divide the total amount spent by the cost of each book:\n\nTotal amount spent = $300\nCost of each book = $15\n\nTotal number of books = Total amount spent / Cost of each book\n= $300 / $15\n= 20\n\nSince Sarah gave an equal number of books to her 4 kids, we can divide the total number of books by 4 to find out how many books each child got:\n\nNumber of books per child = Total number of books / 4\n= 20 / 4\n= 5\n\nTherefore, each child got 5 books.\n\nThe answer is: 5",
+                "Here's how we can solve this problem:\n\nLet's start by finding the total number of books Sarah bought. We know she spent $300 on books and each book costs $15. To find the total number of books, we can divide the total amount spent by the cost of each book:\n\nTotal amount spent = $300\nCost of each book = $15\n\nTotal number of books = Total amount spent / Cost of each book\n= $300 / $15\n= 20\n\nSince Sarah gave an equal number of books to her 4 kids, we can divide the total number of books by 4 to find out how many books each child got:\n\nNumber of books per child = Total number of books / 4\n= 20 / 4\n= 5\n\nTherefore, each child got 5 books.\n\nThe answer is: 5"
+            ],
+            "every_model_generate_token_num_list": [
+                175,
+                175
+            ]
+        },
+        {
+            "pred_answer": 66.0,
+            "correct_answer": 66.0,
+            "ensemble_num": 9,
+            "high_confidence_token_num": 75,
+            "high_confidence_ensemble_num": 9,
+            "low_confidence_token_num": 32,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total amount Ted spent, we need to calculate the cost of the books and the pencils separately and then add them together.\n\nThe cost of 3 books at 1 dollar each is 3 x 16 = 48 dollars.\nThe cost of 3 pencils at 2 dollars each is 3 x 6 = 18 dollars.\n\nNow, let's add the cost of the books and pencils together: 48 + 18 = 66 dollars.\n\nTed spent a total of 66 dollars.\n\n66<turn|>",
+            "every_model_output_text": [
+                "To find the total amount Ted spent, we need to calculate the cost of the books and the pencils separately and then add them together.\n\nThe cost of 3 books at 1 dollar each is 3 x 16 = 48 dollars.\nThe cost of 3 pencils at 2 dollars each is 3 x 6 = 18 dollars.\n\nNow, let's add the cost of the books and pencils together: 48 + 18 = 66 dollars.\n\nTed spent a total of 66 dollars.\n\n66<turn|>",
+                "To find the total amount Ted spent, we need to calculate the cost of the books and the pencils separately and then add them together.\n\nThe cost of 3 books at 1 dollar each is 3 x 16 = 48 dollars.\nThe cost of 3 pencils at 2 dollars each is 3 x 6 = 18 dollars.\n\nNow, let's add the cost of the books and pencils together: 48 + 18 = 66 dollars.\n\nTed spent a total of 66 dollars.\n\n66"
+            ],
+            "every_model_generate_token_num_list": [
+                107,
+                107
+            ]
+        },
+        {
+            "pred_answer": 10.0,
+            "correct_answer": 15.0,
+            "ensemble_num": 31,
+            "high_confidence_token_num": 125,
+            "high_confidence_ensemble_num": 31,
+            "low_confidence_token_num": 51,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the solution to the problem:\n\nLet's say Eve gave away x pomelos. Since she is left with 1/4 of the original amount, we can set up the equation:\n\n20 - x = (1/4) * 20\n\nTo solve for x, we can multiply both sides by 4 to get rid of the fraction:\n\n4 * (20 - x) = 20\n\nExpanding the left side, we get:\n\n80 - 4x = 2 * 20\n\nSimplifying the equation, we get:\n\n80 - 4x = 40\n\nSubtracting 80 from both sides, we get:\n\n-4x = -40\n\nDividing both sides by -4, we get:\n\nx = 10\n\nSo, Eve gave away 10 pomelos.\n\nAnswer: 10<turn|><turn|>",
+            "every_model_output_text": [
+                "Here's the solution to the problem:\n\nLet's say Eve gave away x pomelos. Since she is left with 1/4 of the original amount, we can set up the equation:\n\n20 - x = (1/4) * 20\n\nTo solve for x, we can multiply both sides by 4 to get rid of the fraction:\n\n4 * (20 - x) = 20\n\nExpanding the left side, we get:\n\n80 - 4x = 2 * 20\n\nSimplifying the equation, we get:\n\n80 - 4x = 40\n\nSubtracting 80 from both sides, we get:\n\n-4x = -40\n\nDividing both sides by -4, we get:\n\nx = 10\n\nSo, Eve gave away 10 pomelos.\n\nAnswer: 10<turn|><turn|>",
+                "Here's the solution to the problem:\n\nLet's say Eve gave away x pomelos. Since she is left with 1/4 of the original amount, we can set up the equation:\n\n20 - x = (1/4) * 20\n\nTo solve for x, we can multiply both sides by 4 to get rid of the fraction:\n\n4 * (20 - x) = 20\n\nExpanding the left side, we get:\n\n80 - 4x = 2 * 20\n\nSimplifying the equation, we get:\n\n80 - 4x = 40\n\nSubtracting 80 from both sides, we get:\n\n-4x = -40\n\nDividing both sides by -4, we get:\n\nx = 10\n\nSo, Eve gave away 10 pomelos.\n\nAnswer: 10"
+            ],
+            "every_model_generate_token_num_list": [
+                176,
+                176
+            ]
+        },
+        {
+            "pred_answer": 55.0,
+            "correct_answer": 40.0,
+            "ensemble_num": 30,
+            "high_confidence_token_num": 81,
+            "high_confidence_ensemble_num": 30,
+            "low_confidence_token_num": 47,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how we can solve this problem step by step:\n\n1. Trixie has had 12 kittens.\n2. Patchy has had thrice the number of adopted kittens as Trixie, so Patchy has had 3 * 12 = 36 kittens.\n3. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the shelter (7) and the kittens born at home (12 + 36).\n4. So, the total number of kittens is 7 + 12 + 36 = 55.\n\nThe Doubtfire family now has 55 kittens.",
+            "every_model_output_text": [
+                "Here's how we can solve this problem step by step:\n\n1. Trixie has had 12 kittens.\n2. Patchy has had thrice the number of adopted kittens as Trixie, so Patchy has had 3 * 12 = 36 kittens.\n3. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the shelter (7) and the kittens born at home (12 + 36).\n4. So, the total number of kittens is 7 + 12 + 36 = 55.\n\nThe Doubtfire family now has 55 kittens.",
+                "Here's how we can solve this problem step by step:\n\n1. Trixie has had 12 kittens.\n2. Patchy has had thrice the number of adopted kittens as Trixie, so Patchy has had 3 * 12 = 36 kittens.\n3. The total number of kittens the Doubtfire family now has is the sum of the kittens adopted from the shelter (7) and the kittens born at home (12 + 36).\n4. So, the total number of kittens is 7 + 12 + 36 = 55.\n\nThe Doubtfire family now has 55 kittens."
+            ],
+            "every_model_generate_token_num_list": [
+                128,
+                128
+            ]
+        },
+        {
+            "pred_answer": 63.0,
+            "correct_answer": 93.0,
+            "ensemble_num": 14,
+            "high_confidence_token_num": 107,
+            "high_confidence_ensemble_num": 14,
+            "low_confidence_token_num": 52,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find out how much Jen spends on food for her fish in May, we need to calculate the total number of days in May and multiply it by the daily cost of food per fish.\n\nMay has 3 weeks, and each week has 7 days. So, the total number of days in May is 3 * 7 = 21 days.\n\nSince each fish needs $1 worth of food per day, and Jen has 3 fish, the total daily cost of food for all the fish is 3 * $1 = $3.\n\nTo find the total cost for the month, we multiply the daily cost by the number of days: $3/ day * 21 days = $63.\n\nJen spends $63 on food for her fish in May.\n\n$63",
+            "every_model_output_text": [
+                "To find out how much Jen spends on food for her fish in May, we need to calculate the total number of days in May and multiply it by the daily cost of food per fish.\n\nMay has 3 weeks, and each week has 7 days. So, the total number of days in May is 3 * 7 = 21 days.\n\nSince each fish needs $1 worth of food per day, and Jen has 3 fish, the total daily cost of food for all the fish is 3 * $1 = $3.\n\nTo find the total cost for the month, we multiply the daily cost by the number of days: $3/ day * 21 days = $63.\n\nJen spends $63 on food for her fish in May.\n\n$63",
+                "To find out how much Jen spends on food for her fish in May, we need to calculate the total number of days in May and multiply it by the daily cost of food per fish.\n\nMay has 3 weeks, and each week has 7 days. So, the total number of days in May is 3 * 7 = 21 days.\n\nSince each fish needs $1 worth of food per day, and Jen has 3 fish, the total daily cost of food for all the fish is 3 * $1 = $3.\n\nTo find the total cost for the month, we multiply the daily cost by the number of days: $3/ day * 21 days = $63.\n\nJen spends $63 on food for her fish in May.\n\n$63"
+            ],
+            "every_model_generate_token_num_list": [
+                159,
+                159
+            ]
+        },
+        {
+            "pred_answer": 4000.0,
+            "correct_answer": 2000.0,
+            "ensemble_num": 42,
+            "high_confidence_token_num": 142,
+            "high_confidence_ensemble_num": 42,
+            "low_confidence_token_num": 72,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by- step solution:\n\nLet's break down Elliott's steps:\n\n1. Elliott finished half of his steps on his walks to and from school. Since he wants to walk 10,0oo steps a day, half of that is 10,000 / 2 = 5,000 steps.\n\n2. He did another 1,000 steps going for a short walk with his friend.\n\n3. After that, he went for a short jog and realized he had 2,000 steps left to take.\n\nTo find out how many steps he took during his jog, we need to subtract the steps he already took (5,000 + 1,000) from the total steps he wants to take (10,000). \n\n10,000 - (5,000 + 1,000) = 10,000 - 6,000 = 4,000 steps.\n\nSo, Elliott took 4,000 steps during his jog.\n\n**Answer: Elliott took 4,000 steps during his jog.**",
+            "every_model_output_text": [
+                "Here's the step-by- step solution:\n\nLet's break down Elliott's steps:\n\n1. Elliott finished half of his steps on his walks to and from school. Since he wants to walk 10,0oo steps a day, half of that is 10,000 / 2 = 5,000 steps.\n\n2. He did another 1,000 steps going for a short walk with his friend.\n\n3. After that, he went for a short jog and realized he had 2,000 steps left to take.\n\nTo find out how many steps he took during his jog, we need to subtract the steps he already took (5,000 + 1,000) from the total steps he wants to take (10,000). \n\n10,000 - (5,000 + 1,000) = 10,000 - 6,000 = 4,000 steps.\n\nSo, Elliott took 4,000 steps during his jog.\n\n**Answer: Elliott took 4,000 steps during his jog.**",
+                "Here's the step-by- step solution:\n\nLet's break down Elliott's steps:\n\n1. Elliott finished half of his steps on his walks to and from school. Since he wants to walk 10,0oo steps a day, half of that is 10,000 / 2 = 5,000 steps.\n\n2. He did another 1,000 steps going for a short walk with his friend.\n\n3. After that, he went for a short jog and realized he had 2,000 steps left to take.\n\nTo find out how many steps he took during his jog, we need to subtract the steps he already took (5,000 + 1,000) from the total steps he wants to take (10,000). \n\n10,000 - (5,000 + 1,000) = 10,000 - 6,000 = 4,000 steps.\n\nSo, Elliott took 4,000 steps during his jog.\n\n**Answer: Elliott took 4,000 steps during his jog.**"
+            ],
+            "every_model_generate_token_num_list": [
+                214,
+                214
+            ]
+        },
+        {
+            "pred_answer": 20.0,
+            "correct_answer": 64.0,
+            "ensemble_num": 54,
+            "high_confidence_token_num": 226,
+            "high_confidence_ensemble_num": 54,
+            "low_confidence_token_num": 124,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nLet's denote Aaron's speed as A miles per minute and Vanessa's speed as V miles per minute. We know that Aaron's speed is twice Vanessa's speed, so we can write:\n\nA = 2V\n\nWe also know that Vanessa ran 4 miles, and her speed is V miles per minute. To find her time, we can use the formula:\n\nTime = Distance / Speed\n\nSince Vanessa ran 4 miles, her time can be represented as:\n\nTime = 4 / V\n\nWe are also given that Aaron completed his part of the race in 16 minutes. Since Aaron's speed is twice Vanessa's speed, his time can be represented as:\n\nTime = 1 / A = 1 / (2V) = 0.5 / V\n\nWe know that the total time for the relay is the sum of Aaron's and Vanessa's times. Since they are running together, their times are equal to the total time. We can set up the equation:\n\n0.5 / V + 4 / V = 16\n\nTo solve for V, we can multiply both sides of the equation by V:\n\n0.5 + 4 = 16V\n\nCombine like terms:\n\n4.5 = 16V\n\nNow, divide both sides by 16:\n\nV = 4.5 / 16\nV = 0.2\n\nNow that we know Vanessa's speed, we can find her time:\n\nTime = 4 / V\nTime = 4 / 0.2\nTime = 20 minutes\n\nTherefore, Vanessa took 20 minutes to complete her part of the relay. \n\nAnswer: 20",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nLet's denote Aaron's speed as A miles per minute and Vanessa's speed as V miles per minute. We know that Aaron's speed is twice Vanessa's speed, so we can write:\n\nA = 2V\n\nWe also know that Vanessa ran 4 miles, and her speed is V miles per minute. To find her time, we can use the formula:\n\nTime = Distance / Speed\n\nSince Vanessa ran 4 miles, her time can be represented as:\n\nTime = 4 / V\n\nWe are also given that Aaron completed his part of the race in 16 minutes. Since Aaron's speed is twice Vanessa's speed, his time can be represented as:\n\nTime = 1 / A = 1 / (2V) = 0.5 / V\n\nWe know that the total time for the relay is the sum of Aaron's and Vanessa's times. Since they are running together, their times are equal to the total time. We can set up the equation:\n\n0.5 / V + 4 / V = 16\n\nTo solve for V, we can multiply both sides of the equation by V:\n\n0.5 + 4 = 16V\n\nCombine like terms:\n\n4.5 = 16V\n\nNow, divide both sides by 16:\n\nV = 4.5 / 16\nV = 0.2\n\nNow that we know Vanessa's speed, we can find her time:\n\nTime = 4 / V\nTime = 4 / 0.2\nTime = 20 minutes\n\nTherefore, Vanessa took 20 minutes to complete her part of the relay. \n\nAnswer: 20",
+                "To solve this problem, let's break it down step by step.\n\nLet's denote Aaron's speed as A miles per minute and Vanessa's speed as V miles per minute. We know that Aaron's speed is twice Vanessa's speed, so we can write:\n\nA = 2V\n\nWe also know that Vanessa ran 4 miles, and her speed is V miles per minute. To find her time, we can use the formula:\n\nTime = Distance / Speed\n\nSince Vanessa ran 4 miles, her time can be represented as:\n\nTime = 4 / V\n\nWe are also given that Aaron completed his part of the race in 16 minutes. Since Aaron's speed is twice Vanessa's speed, his time can be represented as:\n\nTime = 1 / A = 1 / (2V) = 0.5 / V\n\nWe know that the total time for the relay is the sum of Aaron's and Vanessa's times. Since they are running together, their times are equal to the total time. We can set up the equation:\n\n0.5 / V + 4 / V = 16\n\nTo solve for V, we can multiply both sides of the equation by V:\n\n0.5 + 4 = 16V\n\nCombine like terms:\n\n4.5 = 16V\n\nNow, divide both sides by 16:\n\nV = 4.5 / 16\nV = 0.2\n\nNow that we know Vanessa's speed, we can find her time:\n\nTime = 4 / V\nTime = 4 / 0.2\nTime = 20 minutes\n\nTherefore, Vanessa took 20 minutes to complete her part of the relay. \n\nAnswer: 20"
+            ],
+            "every_model_generate_token_num_list": [
+                350,
+                350
+            ]
+        },
+        {
+            "pred_answer": null,
+            "correct_answer": 1520.0,
+            "ensemble_num": 23,
+            "high_confidence_token_num": 72,
+            "high_confidence_ensemble_num": 23,
+            "low_confidence_token_num": 77,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find out how much money Julieta received, we need to calculate 10% of the amount Rafaela received. Since Rafaela received $20 in tips from each of the 40 customers, the total amount she received is:\n\n40 customers $\\times$ $20 = $800\n\n10% of $800 is:\n$0.10 \\times$800 = $80\n\nSo, Julieta received $8 less than Rafaella, which is:\n$8 = $20 - $12\n\nJulieta received $12 in tips.\n\nNow, let's add the amount of money that Rafaela and Julieta received:\n$800 + $12 = $8\n\n$800 + $1,200 = $2,0",
+            "every_model_output_text": [
+                "To find out how much money Julieta received, we need to calculate 10% of the amount Rafaela received. Since Rafaela received $20 in tips from each of the 40 customers, the total amount she received is:\n\n40 customers $\\times$ $20 = $800\n\n10% of $800 is:\n$0.10 \\times$800 = $80\n\nSo, Julieta received $8 less than Rafaella, which is:\n$8 = $20 - $12\n\nJulieta received $12 in tips.\n\nNow, let's add the amount of money that Rafaela and Julieta received:\n$800 + $12 = $8\n\n$800 + $1,200 = $2,0",
+                "To find out how much money Julieta received, we need to calculate 10% of the amount Rafaela received. Since Rafaela received $20 in tips from each of the 40 customers, the total amount she received is:\n\n40 customers $\\times$ $20 = $800\n\n10% of $800 is:\n$0.10 \\times$800 = $80\n\nSo, Julieta received $8 less than Rafaella, which is:\n$8 = $20 - $12\n\nJulieta received $12 in tips.\n\nNow, let's add the amount of money that Rafaela and Julieta received:\n$800 + $12 = $8\n\n$800 + $1,200 = $2,0"
+            ],
+            "every_model_generate_token_num_list": [
+                149,
+                149
+            ]
+        },
+        {
+            "pred_answer": 16.5,
+            "correct_answer": 11050.0,
+            "ensemble_num": 36,
+            "high_confidence_token_num": 149,
+            "high_confidence_ensemble_num": 36,
+            "low_confidence_token_num": 53,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by--step solution to the problem:\n\nInitially, the cost of filling 20 balloons was $9 per balloon. To find the cost per balloon, we divide the total cost by the number of balloons:\n\nCost per balloon = Total cost / Number of balloons\n= $9 / 20\n= $0.45 per balloon\n\nTwo days later, the cost of filling each balloon increased by $2. So, the new cost per balloon is:\n\nNew cost per balloon = $0.45 + $2\n= $2.45 per balloon\n\nNow, we need to find the cost of filling 170 balloons at the new price. We multiply the new cost per balloon by the number of balloons:\n\nTotal cost = New cost per balloon * Number of balloons\n= $2.45 * 170\n= $416.5\n\nTherefore, Bentley paid $4,1,6.5 to fill 170 balloons.\n\nAnswer: $4,16.5",
+            "every_model_output_text": [
+                "Here's the step-by--step solution to the problem:\n\nInitially, the cost of filling 20 balloons was $9 per balloon. To find the cost per balloon, we divide the total cost by the number of balloons:\n\nCost per balloon = Total cost / Number of balloons\n= $9 / 20\n= $0.45 per balloon\n\nTwo days later, the cost of filling each balloon increased by $2. So, the new cost per balloon is:\n\nNew cost per balloon = $0.45 + $2\n= $2.45 per balloon\n\nNow, we need to find the cost of filling 170 balloons at the new price. We multiply the new cost per balloon by the number of balloons:\n\nTotal cost = New cost per balloon * Number of balloons\n= $2.45 * 170\n= $416.5\n\nTherefore, Bentley paid $4,1,6.5 to fill 170 balloons.\n\nAnswer: $4,16.5",
+                "Here's the step-by--step solution to the problem:\n\nInitially, the cost of filling 20 balloons was $9 per balloon. To find the cost per balloon, we divide the total cost by the number of balloons:\n\nCost per balloon = Total cost / Number of balloons\n= $9 / 20\n= $0.45 per balloon\n\nTwo days later, the cost of filling each balloon increased by $2. So, the new cost per balloon is:\n\nNew cost per balloon = $0.45 + $2\n= $2.45 per balloon\n\nNow, we need to find the cost of filling 170 balloons at the new price. We multiply the new cost per balloon by the number of balloons:\n\nTotal cost = New cost per balloon * Number of balloons\n= $2.45 * 170\n= $416.5\n\nTherefore, Bentley paid $4,1,6.5 to fill 170 balloons.\n\nAnswer: $4,16.5"
+            ],
+            "every_model_generate_token_num_list": [
+                202,
+                202
+            ]
+        },
+        {
+            "pred_answer": 90.0,
+            "correct_answer": 90.0,
+            "ensemble_num": 91,
+            "high_confidence_token_num": 207,
+            "high_confidence_ensemble_num": 91,
+            "low_confidence_token_num": 58,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-Step solution:\n\n1. Calculate the total number of lollipops sold: \n   Number of students = 30\n    Average lollipops sold per student = 10\n  Total lollipops sold = Number of students * Average lollipops sold per student\n  Total lollipops sold = 30 * 10\n  Total lollipops sold = 300\n\n2. Calculate the total cost of the lollipops:\n   Cost per lollipop = $0.5\n \n  Total cost of lollipops = Total lollipops sold * Cost per lollipop\n  Total cost of lollipops = 300 * $0.5\n  Total cost of lollipops = $150\n\n3. Calculate the total profit:\n   Total revenue = Total lollipops sold * Price per lollipop\n   Total revenue = 300 * $0.8\n  Total revenue = $240\n\n   Total profit = Total revenue - Total cost of lollipops\n  Total profit = $240 - $150\n  Total profit = $90\n\nThe class was able to raise $90 from the profit of selling lollipops.\n\nThe final answer is: $90",
+            "every_model_output_text": [
+                "Here's the step-by-Step solution:\n\n1. Calculate the total number of lollipops sold: \n   Number of students = 30\n    Average lollipops sold per student = 10\n  Total lollipops sold = Number of students * Average lollipops sold per student\n  Total lollipops sold = 30 * 10\n  Total lollipops sold = 300\n\n2. Calculate the total cost of the lollipops:\n   Cost per lollipop = $0.5\n \n  Total cost of lollipops = Total lollipops sold * Cost per lollipop\n  Total cost of lollipops = 300 * $0.5\n  Total cost of lollipops = $150\n\n3. Calculate the total profit:\n   Total revenue = Total lollipops sold * Price per lollipop\n   Total revenue = 300 * $0.8\n  Total revenue = $240\n\n   Total profit = Total revenue - Total cost of lollipops\n  Total profit = $240 - $150\n  Total profit = $90\n\nThe class was able to raise $90 from the profit of selling lollipops.\n\nThe final answer is: $90",
+                "Here's the step-by-Step solution:\n\n1. Calculate the total number of lollipops sold: \n   Number of students = 30\n    Average lollipops sold per student = 10\n  Total lollipops sold = Number of students * Average lollipops sold per student\n  Total lollipops sold = 30 * 10\n  Total lollipops sold = 300\n\n2. Calculate the total cost of the lollipops:\n   Cost per lollipop = $0.5\n \n  Total cost of lollipops = Total lollipops sold * Cost per lollipop\n  Total cost of lollipops = 300 * $0.5\n  Total cost of lollipops = $150\n\n3. Calculate the total profit:\n   Total revenue = Total lollipops sold * Price per lollipop\n   Total revenue = 300 * $0.8\n  Total revenue = $240\n\n   Total profit = Total revenue - Total cost of lollipops\n  Total profit = $240 - $150\n  Total profit = $90\n\nThe class was able to raise $90 from the profit of selling lollipops.\n\nThe final answer is: $90"
+            ],
+            "every_model_generate_token_num_list": [
+                265,
+                265
+            ]
+        },
+        {
+            "pred_answer": 40000.0,
+            "correct_answer": 40000.0,
+            "ensemble_num": 32,
+            "high_confidence_token_num": 106,
+            "high_confidence_ensemble_num": 32,
+            "low_confidence_token_num": 28,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-Step solution:\n\n1. Calculate the loan amount: 40% of $250,0,000 = 0.4 * $250,000 = $100,000\n2. Calculate the amount used to pay off debts: 60% of $100,000 = 0.6 * $100,00 = $60,000\n3. Calculate the amount leftover: Loan amount - Amount used to pay off debts = $100,000 - $60,000 = $40,000\n\nJohn had $40,00 leftover after paying off his debts.\n\nNumerical answer: $40,000",
+            "every_model_output_text": [
+                "Here's the step-by-Step solution:\n\n1. Calculate the loan amount: 40% of $250,0,000 = 0.4 * $250,000 = $100,000\n2. Calculate the amount used to pay off debts: 60% of $100,000 = 0.6 * $100,00 = $60,000\n3. Calculate the amount leftover: Loan amount - Amount used to pay off debts = $100,000 - $60,000 = $40,000\n\nJohn had $40,00 leftover after paying off his debts.\n\nNumerical answer: $40,000",
+                "Here's the step-by-Step solution:\n\n1. Calculate the loan amount: 40% of $250,0,000 = 0.4 * $250,000 = $100,000\n2. Calculate the amount used to pay off debts: 60% of $100,000 = 0.6 * $100,00 = $60,000\n3. Calculate the amount leftover: Loan amount - Amount used to pay off debts = $100,000 - $60,000 = $40,000\n\nJohn had $40,00 leftover after paying off his debts.\n\nNumerical answer: $40,000"
+            ],
+            "every_model_generate_token_num_list": [
+                134,
+                134
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 21.0,
+            "ensemble_num": 11,
+            "high_confidence_token_num": 61,
+            "high_confidence_ensemble_num": 11,
+            "low_confidence_token_num": 33,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nTo find out how much Mitchell made, we need to multiply the number of lemonades he sold (21) by the price of each lemonade ($4).\n\n21 x $4 = $84\n\nSince Liam made $63, we need to subtract this amount from Mitchell's total to find the difference.\n\n$84 - $63 = $2\n\nSo, Mitchell made $2 more than Liam that weekend.\n\n$2<turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nTo find out how much Mitchell made, we need to multiply the number of lemonades he sold (21) by the price of each lemonade ($4).\n\n21 x $4 = $84\n\nSince Liam made $63, we need to subtract this amount from Mitchell's total to find the difference.\n\n$84 - $63 = $2\n\nSo, Mitchell made $2 more than Liam that weekend.\n\n$2<turn|>",
+                "Here's how to solve the problem:\n\nTo find out how much Mitchell made, we need to multiply the number of lemonades he sold (21) by the price of each lemonade ($4).\n\n21 x $4 = $84\n\nSince Liam made $63, we need to subtract this amount from Mitchell's total to find the difference.\n\n$84 - $63 = $2\n\nSo, Mitchell made $2 more than Liam that weekend.\n\n$2"
+            ],
+            "every_model_generate_token_num_list": [
+                94,
+                94
+            ]
+        },
+        {
+            "pred_answer": 9.0,
+            "correct_answer": 18.0,
+            "ensemble_num": 69,
+            "high_confidence_token_num": 242,
+            "high_confidence_ensemble_num": 69,
+            "low_confidence_token_num": 82,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nLet's say Melanie started with x vacuum cleaners.\n\nShe sold a third of her vacuum cleaners at the green house:\nx/3\n\nShe sold 2 more at the red house:\nx/3 + 2\n\nShe sold half of what was left at the orange house:\n(x/3 + 2)/2\n\nWe know that Melanie has 5 vacuum cleaners left, so we can set up the equation:\nx - (x/3 + 2 + (x/3 + 2)/2) = 5\n\nTo simplify the equation, we can first combine like terms:\nx - (x/3 + 2 + x/6 + 1) = 5\n\nCombine the fractions:\nx - (x/3 + x/6 + 3) = 5\n\nTo combine the fractions, we need a common denominator, which is 6:\nx - (2x/6 + 1) = 5\n\nSlight rearrangement:\nx - 2x/6 - 1 = 5\n\nCombine like terms:\n(6x - 2x)/6 - 1 = 5\n\nSimplify:\n4x/6 - 1 = 5\n\nAdd 1 to both sides:\n4x/6 = 6\n\nSimplify:\n2x/3 = 6\n\nMultiply both sides by 3:\n2x = 18\n\nDivide both sides by 2:\nx = 9\n\nMelanie started with 9 vacuum cleaners.\n\n9<turn|>",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nLet's say Melanie started with x vacuum cleaners.\n\nShe sold a third of her vacuum cleaners at the green house:\nx/3\n\nShe sold 2 more at the red house:\nx/3 + 2\n\nShe sold half of what was left at the orange house:\n(x/3 + 2)/2\n\nWe know that Melanie has 5 vacuum cleaners left, so we can set up the equation:\nx - (x/3 + 2 + (x/3 + 2)/2) = 5\n\nTo simplify the equation, we can first combine like terms:\nx - (x/3 + 2 + x/6 + 1) = 5\n\nCombine the fractions:\nx - (x/3 + x/6 + 3) = 5\n\nTo combine the fractions, we need a common denominator, which is 6:\nx - (2x/6 + 1) = 5\n\nSlight rearrangement:\nx - 2x/6 - 1 = 5\n\nCombine like terms:\n(6x - 2x)/6 - 1 = 5\n\nSimplify:\n4x/6 - 1 = 5\n\nAdd 1 to both sides:\n4x/6 = 6\n\nSimplify:\n2x/3 = 6\n\nMultiply both sides by 3:\n2x = 18\n\nDivide both sides by 2:\nx = 9\n\nMelanie started with 9 vacuum cleaners.\n\n9<turn|>",
+                "To solve this problem, let's break it down step by step.\n\nLet's say Melanie started with x vacuum cleaners.\n\nShe sold a third of her vacuum cleaners at the green house:\nx/3\n\nShe sold 2 more at the red house:\nx/3 + 2\n\nShe sold half of what was left at the orange house:\n(x/3 + 2)/2\n\nWe know that Melanie has 5 vacuum cleaners left, so we can set up the equation:\nx - (x/3 + 2 + (x/3 + 2)/2) = 5\n\nTo simplify the equation, we can first combine like terms:\nx - (x/3 + 2 + x/6 + 1) = 5\n\nCombine the fractions:\nx - (x/3 + x/6 + 3) = 5\n\nTo combine the fractions, we need a common denominator, which is 6:\nx - (2x/6 + 1) = 5\n\nSlight rearrangement:\nx - 2x/6 - 1 = 5\n\nCombine like terms:\n(6x - 2x)/6 - 1 = 5\n\nSimplify:\n4x/6 - 1 = 5\n\nAdd 1 to both sides:\n4x/6 = 6\n\nSimplify:\n2x/3 = 6\n\nMultiply both sides by 3:\n2x = 18\n\nDivide both sides by 2:\nx = 9\n\nMelanie started with 9 vacuum cleaners.\n\n9"
+            ],
+            "every_model_generate_token_num_list": [
+                324,
+                324
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 14.0,
+            "ensemble_num": 35,
+            "high_confidence_token_num": 131,
+            "high_confidence_ensemble_num": 35,
+            "low_confidence_token_num": 88,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nInitially, we don' know how many people were on the bus at the terminal. Let's call this number x.\n\n1. **First bus stop**: 5 more people got in, so the total number of people on the bus is x + 5.\n\n2. **Second bus stop**: 7 people got down and 8 more got in. This means the total number of people on the bus is (x + 5) - 7 + 8.\n\nSlight simplification: (x + 5) - 7 + 8 = x + 5 - 7 + 8 = x + 6.\n\n3. We know that after the second stop, there were 20 people on the bus. So, we can set up the equation:\nx + 6 = 20\n\nTo solve for x, we subtract 6 from both sides:\nx = 2\n\nSo, there were 2 people on the bus at the terminal.\n\n**Answer:** 2",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nInitially, we don' know how many people were on the bus at the terminal. Let's call this number x.\n\n1. **First bus stop**: 5 more people got in, so the total number of people on the bus is x + 5.\n\n2. **Second bus stop**: 7 people got down and 8 more got in. This means the total number of people on the bus is (x + 5) - 7 + 8.\n\nSlight simplification: (x + 5) - 7 + 8 = x + 5 - 7 + 8 = x + 6.\n\n3. We know that after the second stop, there were 20 people on the bus. So, we can set up the equation:\nx + 6 = 20\n\nTo solve for x, we subtract 6 from both sides:\nx = 2\n\nSo, there were 2 people on the bus at the terminal.\n\n**Answer:** 2",
+                "To solve this problem, let's break it down step by step.\n\nInitially, we don' know how many people were on the bus at the terminal. Let's call this number x.\n\n1. **First bus stop**: 5 more people got in, so the total number of people on the bus is x + 5.\n\n2. **Second bus stop**: 7 people got down and 8 more got in. This means the total number of people on the bus is (x + 5) - 7 + 8.\n\nSlight simplification: (x + 5) - 7 + 8 = x + 5 - 7 + 8 = x + 6.\n\n3. We know that after the second stop, there were 20 people on the bus. So, we can set up the equation:\nx + 6 = 20\n\nTo solve for x, we subtract 6 from both sides:\nx = 2\n\nSo, there were 2 people on the bus at the terminal.\n\n**Answer:** 2"
+            ],
+            "every_model_generate_token_num_list": [
+                219,
+                219
+            ]
+        },
+        {
+            "pred_answer": 34.0,
+            "correct_answer": 23.0,
+            "ensemble_num": 13,
+            "high_confidence_token_num": 126,
+            "high_confidence_ensemble_num": 13,
+            "low_confidence_token_num": 50,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the number of yellow cars, we need to first find the number of green and blue cars.\n\nWe know there are 12 red cars. Since there are 2 fewer green cars than red cars, the number of green cars is 12 - 2 = 10.\n\nSince there are 3 times the number of blue cars as green cars, the number of blue cars is 3 * 10 = 30.\n\nNow, we know the total number of cars is 75. We have already accounted for 1 (red) + 10 (green) + 30 (blue) = 41 cars. \n\nTo find the number of yellow cars, we subtract the number of accounted cars from the total: 75 - 41 = 34.\n\nTherefore, the number of yellow cars is 34.\n\n**Answer: 34**<turn|><turn|>",
+            "every_model_output_text": [
+                "To find the number of yellow cars, we need to first find the number of green and blue cars.\n\nWe know there are 12 red cars. Since there are 2 fewer green cars than red cars, the number of green cars is 12 - 2 = 10.\n\nSince there are 3 times the number of blue cars as green cars, the number of blue cars is 3 * 10 = 30.\n\nNow, we know the total number of cars is 75. We have already accounted for 1 (red) + 10 (green) + 30 (blue) = 41 cars. \n\nTo find the number of yellow cars, we subtract the number of accounted cars from the total: 75 - 41 = 34.\n\nTherefore, the number of yellow cars is 34.\n\n**Answer: 34**<turn|><turn|>",
+                "To find the number of yellow cars, we need to first find the number of green and blue cars.\n\nWe know there are 12 red cars. Since there are 2 fewer green cars than red cars, the number of green cars is 12 - 2 = 10.\n\nSince there are 3 times the number of blue cars as green cars, the number of blue cars is 3 * 10 = 30.\n\nNow, we know the total number of cars is 75. We have already accounted for 1 (red) + 10 (green) + 30 (blue) = 41 cars. \n\nTo find the number of yellow cars, we subtract the number of accounted cars from the total: 75 - 41 = 34.\n\nTherefore, the number of yellow cars is 34.\n\n**Answer: 34**"
+            ],
+            "every_model_generate_token_num_list": [
+                176,
+                176
+            ]
+        },
+        {
+            "pred_answer": 450.0,
+            "correct_answer": 145.0,
+            "ensemble_num": 33,
+            "high_confidence_token_num": 182,
+            "high_confidence_ensemble_num": 33,
+            "low_confidence_token_num": 141,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-Step solution:\n\n1. Adam has 50 points.\n2. Betty collected 30% more points than Adam. \n    Betty's points = Adam's points + 30% of Adam's points\n     = 50 + 0.3 * 50\n     = 5 + 50\n     = 55 points\n3. Marta collected 3 times more points than Tom.\n   Let's denote Tom's points as T. \n   Marta's points = 3T\n4. Tom has 30 points less than Betty.\n   Betty's points = Tom's points + 30\n               = T + 30\n   Since Betty's points = 55\n    T + 30 = 55\n    T = 55 - 30\n    T = 25\n   So Tom has 25 points.\n   Marta's points = 3 * 25\n                  = 75 points\n5. Now, let's add up the points of all the students:\n   Adam's points + Betty's points + Tom's points + Marta's points\n    = 50 + 55 + 25 + 75\n    = 1.5 * 100\n    = 150 points\n6. The minimum threshold to go on the trip is 400 points. \n   The class is missing 4.5 * 100 points to go on the trip.\n\nThe class is missing 450 points to go on the trip.",
+            "every_model_output_text": [
+                "Here's the step-by-Step solution:\n\n1. Adam has 50 points.\n2. Betty collected 30% more points than Adam. \n    Betty's points = Adam's points + 30% of Adam's points\n     = 50 + 0.3 * 50\n     = 5 + 50\n     = 55 points\n3. Marta collected 3 times more points than Tom.\n   Let's denote Tom's points as T. \n   Marta's points = 3T\n4. Tom has 30 points less than Betty.\n   Betty's points = Tom's points + 30\n               = T + 30\n   Since Betty's points = 55\n    T + 30 = 55\n    T = 55 - 30\n    T = 25\n   So Tom has 25 points.\n   Marta's points = 3 * 25\n                  = 75 points\n5. Now, let's add up the points of all the students:\n   Adam's points + Betty's points + Tom's points + Marta's points\n    = 50 + 55 + 25 + 75\n    = 1.5 * 100\n    = 150 points\n6. The minimum threshold to go on the trip is 400 points. \n   The class is missing 4.5 * 100 points to go on the trip.\n\nThe class is missing 450 points to go on the trip.",
+                "Here's the step-by-Step solution:\n\n1. Adam has 50 points.\n2. Betty collected 30% more points than Adam. \n    Betty's points = Adam's points + 30% of Adam's points\n     = 50 + 0.3 * 50\n     = 5 + 50\n     = 55 points\n3. Marta collected 3 times more points than Tom.\n   Let's denote Tom's points as T. \n   Marta's points = 3T\n4. Tom has 30 points less than Betty.\n   Betty's points = Tom's points + 30\n               = T + 30\n   Since Betty's points = 55\n    T + 30 = 55\n    T = 55 - 30\n    T = 25\n   So Tom has 25 points.\n   Marta's points = 3 * 25\n                  = 75 points\n5. Now, let's add up the points of all the students:\n   Adam's points + Betty's points + Tom's points + Marta's points\n    = 50 + 55 + 25 + 75\n    = 1.5 * 100\n    = 150 points\n6. The minimum threshold to go on the trip is 400 points. \n   The class is missing 4.5 * 100 points to go on the trip.\n\nThe class is missing 450 points to go on the trip."
+            ],
+            "every_model_generate_token_num_list": [
+                323,
+                323
+            ]
+        },
+        {
+            "pred_answer": 27.0,
+            "correct_answer": 27.0,
+            "ensemble_num": 8,
+            "high_confidence_token_num": 85,
+            "high_confidence_ensemble_num": 8,
+            "low_confidence_token_num": 29,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nWe know that George has 18 pens. Since Timothy has three times the number of pens that George owns, we can multiply George's number of pens by 3 to find Timothy's number of pens:\n\n18 * 3 = 54\n\nNow, we know that Sarah has half as many pens as Timothy. To find Sarah's number of pens, we can divide Timothy's number of pens by 2:\n\n54 / 2 = 27\n\nSo, Sarah has 27 pens.\n\nAnswer: 27<turn|><turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nWe know that George has 18 pens. Since Timothy has three times the number of pens that George owns, we can multiply George's number of pens by 3 to find Timothy's number of pens:\n\n18 * 3 = 54\n\nNow, we know that Sarah has half as many pens as Timothy. To find Sarah's number of pens, we can divide Timothy's number of pens by 2:\n\n54 / 2 = 27\n\nSo, Sarah has 27 pens.\n\nAnswer: 27<turn|><turn|>",
+                "Here's how to solve the problem:\n\nWe know that George has 18 pens. Since Timothy has three times the number of pens that George owns, we can multiply George's number of pens by 3 to find Timothy's number of pens:\n\n18 * 3 = 54\n\nNow, we know that Sarah has half as many pens as Timothy. To find Sarah's number of pens, we can divide Timothy's number of pens by 2:\n\n54 / 2 = 27\n\nSo, Sarah has 27 pens.\n\nAnswer: 27"
+            ],
+            "every_model_generate_token_num_list": [
+                114,
+                114
+            ]
+        },
+        {
+            "pred_answer": 96.0,
+            "correct_answer": 123.0,
+            "ensemble_num": 29,
+            "high_confidence_token_num": 163,
+            "high_confidence_ensemble_num": 29,
+            "low_confidence_token_num": 52,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total number of children in the classroom, we need to first find the number of girls and nongendered children.\n\nSince there are 3 times as many girls as boys, and there are 30 boys, we can multiply the number of boys by 3 to find the number of girls:\n30 * 3 = 90 girls\n\nNext, we are told that there are 1/10 as many nongendered children as there are boys. To find the number of nongendered children, we can multiply the number of boys by 1/10:\n30 * 1/10 = 3 nongendered children\n\nFinally, we can add the number of boys, girls, and nongendered children to find the total number of children in the classroom:\nTotal children = 3 (boys) + 90 (girls) + 3 (nongendered children)\nTotal children = 96\n\nThe total number of children in the classroom is 96.\n\n**Answer: 96**<turn|><turn|>",
+            "every_model_output_text": [
+                "To find the total number of children in the classroom, we need to first find the number of girls and nongendered children.\n\nSince there are 3 times as many girls as boys, and there are 30 boys, we can multiply the number of boys by 3 to find the number of girls:\n30 * 3 = 90 girls\n\nNext, we are told that there are 1/10 as many nongendered children as there are boys. To find the number of nongendered children, we can multiply the number of boys by 1/10:\n30 * 1/10 = 3 nongendered children\n\nFinally, we can add the number of boys, girls, and nongendered children to find the total number of children in the classroom:\nTotal children = 3 (boys) + 90 (girls) + 3 (nongendered children)\nTotal children = 96\n\nThe total number of children in the classroom is 96.\n\n**Answer: 96**<turn|><turn|>",
+                "To find the total number of children in the classroom, we need to first find the number of girls and nongendered children.\n\nSince there are 3 times as many girls as boys, and there are 30 boys, we can multiply the number of boys by 3 to find the number of girls:\n30 * 3 = 90 girls\n\nNext, we are told that there are 1/10 as many nongendered children as there are boys. To find the number of nongendered children, we can multiply the number of boys by 1/10:\n30 * 1/10 = 3 nongendered children\n\nFinally, we can add the number of boys, girls, and nongendered children to find the total number of children in the classroom:\nTotal children = 3 (boys) + 90 (girls) + 3 (nongendered children)\nTotal children = 96\n\nThe total number of children in the classroom is 96.\n\n**Answer: 96**"
+            ],
+            "every_model_generate_token_num_list": [
+                215,
+                215
+            ]
+        },
+        {
+            "pred_answer": 98.0,
+            "correct_answer": 98.0,
+            "ensemble_num": 33,
+            "high_confidence_token_num": 156,
+            "high_confidence_ensemble_num": 33,
+            "low_confidence_token_num": 55,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nFirst, we need to convert the length of the room from yards to feet. Since 1 yard is equal to 3 feet, we can multiply the length by 3 to get the length in feet:\n\n3 yards * 3 feet/yard = 9 feet\n\nNow that we have the length in feet, we can use the formula for the area of a rectangle to find the width:\n\nArea = Length * Width\n360 = 9 * Width\n\nTo find the width, we can divide both sides of the equation by 9:\n\nWidth = 360 / 9\nWidth = 40 feet\n\nNow that we have both the length and width, we can find the perimeter of the room using the formula:\n\nPerimeter = 2 * (Length + Width)\nPerimeter = 2 * (9 + 40)\nPerimeter = 2 * 49\nPerimeter = 98 feet\n\nThe perimeter of Billie's room is 98 feet.\n\nAnswer: 98<turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nFirst, we need to convert the length of the room from yards to feet. Since 1 yard is equal to 3 feet, we can multiply the length by 3 to get the length in feet:\n\n3 yards * 3 feet/yard = 9 feet\n\nNow that we have the length in feet, we can use the formula for the area of a rectangle to find the width:\n\nArea = Length * Width\n360 = 9 * Width\n\nTo find the width, we can divide both sides of the equation by 9:\n\nWidth = 360 / 9\nWidth = 40 feet\n\nNow that we have both the length and width, we can find the perimeter of the room using the formula:\n\nPerimeter = 2 * (Length + Width)\nPerimeter = 2 * (9 + 40)\nPerimeter = 2 * 49\nPerimeter = 98 feet\n\nThe perimeter of Billie's room is 98 feet.\n\nAnswer: 98<turn|>",
+                "Here's how to solve the problem:\n\nFirst, we need to convert the length of the room from yards to feet. Since 1 yard is equal to 3 feet, we can multiply the length by 3 to get the length in feet:\n\n3 yards * 3 feet/yard = 9 feet\n\nNow that we have the length in feet, we can use the formula for the area of a rectangle to find the width:\n\nArea = Length * Width\n360 = 9 * Width\n\nTo find the width, we can divide both sides of the equation by 9:\n\nWidth = 360 / 9\nWidth = 40 feet\n\nNow that we have both the length and width, we can find the perimeter of the room using the formula:\n\nPerimeter = 2 * (Length + Width)\nPerimeter = 2 * (9 + 40)\nPerimeter = 2 * 49\nPerimeter = 98 feet\n\nThe perimeter of Billie's room is 98 feet.\n\nAnswer: 98"
+            ],
+            "every_model_generate_token_num_list": [
+                211,
+                211
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 7.0,
+            "ensemble_num": 64,
+            "high_confidence_token_num": 194,
+            "high_confidence_ensemble_num": 64,
+            "low_confidence_token_num": 60,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by- step solution:\n\n1. First, we need to find the cost of 10 lollipops. Since each lollipop costs $0.40, we multiply the number of lollipops by the cost per lollipop:\n     Cost of 10 lollipops = 10 * $0.40 = $4.00\n\n2. Next, we need to find the cost of 10 candies. We know that 4 candies cost $3.20, so we can find the cost of 1 candy by dividing the total cost by the number of candies:\n    Cost of 1 candy = $3.20 / 4 = $0.8\n    Cost of 10 candies = 10 * $0.8 = $8.00\n\n3. Now, we add the cost of 10 lollipops and 10 candies to find the total cost:\n     Total cost = Cost of 10 lollipops + Cost of 10 candies\n                = $4.00 + $8.00\n                = $12.00\n\nThe total cost of 10 lollipops and 10 candies is $12.00.\n\n$1",
+            "every_model_output_text": [
+                "Here's the step-by- step solution:\n\n1. First, we need to find the cost of 10 lollipops. Since each lollipop costs $0.40, we multiply the number of lollipops by the cost per lollipop:\n     Cost of 10 lollipops = 10 * $0.40 = $4.00\n\n2. Next, we need to find the cost of 10 candies. We know that 4 candies cost $3.20, so we can find the cost of 1 candy by dividing the total cost by the number of candies:\n    Cost of 1 candy = $3.20 / 4 = $0.8\n    Cost of 10 candies = 10 * $0.8 = $8.00\n\n3. Now, we add the cost of 10 lollipops and 10 candies to find the total cost:\n     Total cost = Cost of 10 lollipops + Cost of 10 candies\n                = $4.00 + $8.00\n                = $12.00\n\nThe total cost of 10 lollipops and 10 candies is $12.00.\n\n$1",
+                "Here's the step-by- step solution:\n\n1. First, we need to find the cost of 10 lollipops. Since each lollipop costs $0.40, we multiply the number of lollipops by the cost per lollipop:\n     Cost of 10 lollipops = 10 * $0.40 = $4.00\n\n2. Next, we need to find the cost of 10 candies. We know that 4 candies cost $3.20, so we can find the cost of 1 candy by dividing the total cost by the number of candies:\n    Cost of 1 candy = $3.20 / 4 = $0.8\n    Cost of 10 candies = 10 * $0.8 = $8.00\n\n3. Now, we add the cost of 10 lollipops and 10 candies to find the total cost:\n     Total cost = Cost of 10 lollipops + Cost of 10 candies\n                = $4.00 + $8.00\n                = $12.00\n\nThe total cost of 10 lollipops and 10 candies is $12.00.\n\n$1"
+            ],
+            "every_model_generate_token_num_list": [
+                254,
+                254
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 594.0,
+            "ensemble_num": 22,
+            "high_confidence_token_num": 80,
+            "high_confidence_ensemble_num": 22,
+            "low_confidence_token_num": 77,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-Step solution:\n\n1. The caretaker needs 3 feet of line for every foot of dock. Since there are 2 feet of dock left (200 feet - 6 feet), he needs 3 x 2 = 6 feet of line for the remaining dock.\n2. He already has 6 feet of line, so he doesn't need to buy any more line for the remaining dock.\n3. However, he needs to buy line for the entire length of the dock, which is 2 feet (200 feet - 6 feet).\n4. Therefore, the total amount of line he needs to buy is 2 feet.\n\nThe caretaker needs to buy 2 feet of line in total.\n\nAnswer: 2<turn|><turn|><turn|>",
+            "every_model_output_text": [
+                "Here's the step-by-Step solution:\n\n1. The caretaker needs 3 feet of line for every foot of dock. Since there are 2 feet of dock left (200 feet - 6 feet), he needs 3 x 2 = 6 feet of line for the remaining dock.\n2. He already has 6 feet of line, so he doesn't need to buy any more line for the remaining dock.\n3. However, he needs to buy line for the entire length of the dock, which is 2 feet (200 feet - 6 feet).\n4. Therefore, the total amount of line he needs to buy is 2 feet.\n\nThe caretaker needs to buy 2 feet of line in total.\n\nAnswer: 2<turn|><turn|><turn|>",
+                "Here's the step-by-Step solution:\n\n1. The caretaker needs 3 feet of line for every foot of dock. Since there are 2 feet of dock left (200 feet - 6 feet), he needs 3 x 2 = 6 feet of line for the remaining dock.\n2. He already has 6 feet of line, so he doesn't need to buy any more line for the remaining dock.\n3. However, he needs to buy line for the entire length of the dock, which is 2 feet (200 feet - 6 feet).\n4. Therefore, the total amount of line he needs to buy is 2 feet.\n\nThe caretaker needs to buy 2 feet of line in total.\n\nAnswer: 2"
+            ],
+            "every_model_generate_token_num_list": [
+                157,
+                157
+            ]
+        },
+        {
+            "pred_answer": 3.0,
+            "correct_answer": 34.0,
+            "ensemble_num": 42,
+            "high_confidence_token_num": 146,
+            "high_confidence_ensemble_num": 42,
+            "low_confidence_token_num": 62,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step by step:\n\n1. First, let's calculate the total amount spent on tickets: $20.25\n2. Since they spent $4.50 less on food than on tickets, the amount spent on food is: $20.25 - $4.50 = $15.75\n3. The total amount spent on tickets and food is: $20.2 + $15.75 = $35.95\n4. They went on 2 different rides, each costing $33. The total cost of the rides is: 2 x $33 = $66.00\n5. The total amount spent on all activities is: $35.95 + $66.00 = $101.95\n6. To find out how much each of them paid, we need to divide the total amount by 3: $101.95 � 3 = $3.65\n\nEach of them paid $3.65.\n\n$3.65<turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem step by step:\n\n1. First, let's calculate the total amount spent on tickets: $20.25\n2. Since they spent $4.50 less on food than on tickets, the amount spent on food is: $20.25 - $4.50 = $15.75\n3. The total amount spent on tickets and food is: $20.2 + $15.75 = $35.95\n4. They went on 2 different rides, each costing $33. The total cost of the rides is: 2 x $33 = $66.00\n5. The total amount spent on all activities is: $35.95 + $66.00 = $101.95\n6. To find out how much each of them paid, we need to divide the total amount by 3: $101.95 � 3 = $3.65\n\nEach of them paid $3.65.\n\n$3.65<turn|>",
+                "Here's how to solve the problem step by step:\n\n1. First, let's calculate the total amount spent on tickets: $20.25\n2. Since they spent $4.50 less on food than on tickets, the amount spent on food is: $20.25 - $4.50 = $15.75\n3. The total amount spent on tickets and food is: $20.2 + $15.75 = $35.95\n4. They went on 2 different rides, each costing $33. The total cost of the rides is: 2 x $33 = $66.00\n5. The total amount spent on all activities is: $35.95 + $66.00 = $101.95\n6. To find out how much each of them paid, we need to divide the total amount by 3: $101.95 � 3 = $3.65\n\nEach of them paid $3.65.\n\n$3.65"
+            ],
+            "every_model_generate_token_num_list": [
+                208,
+                208
+            ]
+        },
+        {
+            "pred_answer": 3.0,
+            "correct_answer": 38.0,
+            "ensemble_num": 30,
+            "high_confidence_token_num": 109,
+            "high_confidence_ensemble_num": 30,
+            "low_confidence_token_num": 31,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the calculation:\n\nTo find the total cost, we need to multiply the weight of each type of fruit by its price per pound and then add them together.\n\nPeaches: 6 pounds * $2.00 per pound = $12.00\nPlums: 8 pounds * $1.00 per pound = $8.00\nApricots: 6 pounds * $3.00 per pound = $18.00\n\nNow, let's add the costs together:\n$12.00 + $8.00 + $18.00 = $38.00\n\nWinston spent $38.00 on fruit.\n\n$3.80<turn|>",
+            "every_model_output_text": [
+                "Here's the calculation:\n\nTo find the total cost, we need to multiply the weight of each type of fruit by its price per pound and then add them together.\n\nPeaches: 6 pounds * $2.00 per pound = $12.00\nPlums: 8 pounds * $1.00 per pound = $8.00\nApricots: 6 pounds * $3.00 per pound = $18.00\n\nNow, let's add the costs together:\n$12.00 + $8.00 + $18.00 = $38.00\n\nWinston spent $38.00 on fruit.\n\n$3.80<turn|>",
+                "Here's the calculation:\n\nTo find the total cost, we need to multiply the weight of each type of fruit by its price per pound and then add them together.\n\nPeaches: 6 pounds * $2.00 per pound = $12.00\nPlums: 8 pounds * $1.00 per pound = $8.00\nApricots: 6 pounds * $3.00 per pound = $18.00\n\nNow, let's add the costs together:\n$12.00 + $8.00 + $18.00 = $38.00\n\nWinston spent $38.00 on fruit.\n\n$3.80"
+            ],
+            "every_model_generate_token_num_list": [
+                140,
+                140
+            ]
+        },
+        {
+            "pred_answer": 140.0,
+            "correct_answer": 320.0,
+            "ensemble_num": 34,
+            "high_confidence_token_num": 156,
+            "high_confidence_ensemble_num": 34,
+            "low_confidence_token_num": 46,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nInitially, Elaine had 20 Pokémon cards.\n\n**Month 1:** She collected three times the number of cards she initially had, which is 3 * 20 = 60 cards. So, now she has 6 + 20 = 60 cards.\n\n**Month 2:** She collected 20 fewer cards than those she collected in the first month, which is 60 - 20 = 40 cards. So, now she has 60 + 40 = 100 cards.\n\n**Month 3:** She collected twice the combined number of Pokémon cards she collected in the first and second months, which is $2 * (60 + 40) = 2 * 100 = 20 * 2 = 40 cards. So, now she has 100 + 40 = 140 cards.\n\nTherefore, Elaine now has a total of 140 Pokémon cards.\n\n**Answer:** 140<turn|>",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nInitially, Elaine had 20 Pokémon cards.\n\n**Month 1:** She collected three times the number of cards she initially had, which is 3 * 20 = 60 cards. So, now she has 6 + 20 = 60 cards.\n\n**Month 2:** She collected 20 fewer cards than those she collected in the first month, which is 60 - 20 = 40 cards. So, now she has 60 + 40 = 100 cards.\n\n**Month 3:** She collected twice the combined number of Pokémon cards she collected in the first and second months, which is $2 * (60 + 40) = 2 * 100 = 20 * 2 = 40 cards. So, now she has 100 + 40 = 140 cards.\n\nTherefore, Elaine now has a total of 140 Pokémon cards.\n\n**Answer:** 140<turn|>",
+                "To solve this problem, let's break it down step by step.\n\nInitially, Elaine had 20 Pokémon cards.\n\n**Month 1:** She collected three times the number of cards she initially had, which is 3 * 20 = 60 cards. So, now she has 6 + 20 = 60 cards.\n\n**Month 2:** She collected 20 fewer cards than those she collected in the first month, which is 60 - 20 = 40 cards. So, now she has 60 + 40 = 100 cards.\n\n**Month 3:** She collected twice the combined number of Pokémon cards she collected in the first and second months, which is $2 * (60 + 40) = 2 * 100 = 20 * 2 = 40 cards. So, now she has 100 + 40 = 140 cards.\n\nTherefore, Elaine now has a total of 140 Pokémon cards.\n\n**Answer:** 140"
+            ],
+            "every_model_generate_token_num_list": [
+                202,
+                202
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 12,
+            "high_confidence_token_num": 107,
+            "high_confidence_ensemble_num": 12,
+            "low_confidence_token_num": 53,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nCandidate A got 20% of the votes, which is 0.20 * 100 = 20 votes.\n\nCandidate B got 50% more than candidate A's votes, so candidate B got 20 + (50% of 20) votes. 50% of 20 is 0.50 * 20 = 10, so candidate B got 2 + 10 = 30 votes.\n\nThe total number of votes for candidates A and B is 20 + 30 = 50 votes.\n\nSince there are 100 voters in total, the number of votes for candidate C is 100 - 50 = 50 votes.\n\nThe number of votes candidate C got is 50.\n\nThe answer is 50.<turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nCandidate A got 20% of the votes, which is 0.20 * 100 = 20 votes.\n\nCandidate B got 50% more than candidate A's votes, so candidate B got 20 + (50% of 20) votes. 50% of 20 is 0.50 * 20 = 10, so candidate B got 2 + 10 = 30 votes.\n\nThe total number of votes for candidates A and B is 20 + 30 = 50 votes.\n\nSince there are 100 voters in total, the number of votes for candidate C is 100 - 50 = 50 votes.\n\nThe number of votes candidate C got is 50.\n\nThe answer is 50.<turn|>",
+                "Here's how to solve the problem:\n\nCandidate A got 20% of the votes, which is 0.20 * 100 = 20 votes.\n\nCandidate B got 50% more than candidate A's votes, so candidate B got 20 + (50% of 20) votes. 50% of 20 is 0.50 * 20 = 10, so candidate B got 2 + 10 = 30 votes.\n\nThe total number of votes for candidates A and B is 20 + 30 = 50 votes.\n\nSince there are 100 voters in total, the number of votes for candidate C is 100 - 50 = 50 votes.\n\nThe number of votes candidate C got is 50.\n\nThe answer is 50."
+            ],
+            "every_model_generate_token_num_list": [
+                160,
+                160
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 13,
+            "high_confidence_token_num": 98,
+            "high_confidence_ensemble_num": 13,
+            "low_confidence_token_num": 62,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nGerald and Julia divided $100 in the ratio 3:2. This means that for every 3 parts Gerald gets, Julia gets 2 parts. To find out how much money each person gets, we need to add the parts together: 3 + 2 = 5.\n\nNow, we need to divide the total amount of money ($100) by the total number of parts (5). $100 � 5 = $20 per part.\n\nSince Gerald gets 3 parts, we multiply 3 by $20: 3 x $20 = $60.\n\nGerald spent $10 on a book, so we subtract this from his share: $60 - $10 = $50.\n\nThe answer is $50.\n\n$50",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nGerald and Julia divided $100 in the ratio 3:2. This means that for every 3 parts Gerald gets, Julia gets 2 parts. To find out how much money each person gets, we need to add the parts together: 3 + 2 = 5.\n\nNow, we need to divide the total amount of money ($100) by the total number of parts (5). $100 � 5 = $20 per part.\n\nSince Gerald gets 3 parts, we multiply 3 by $20: 3 x $20 = $60.\n\nGerald spent $10 on a book, so we subtract this from his share: $60 - $10 = $50.\n\nThe answer is $50.\n\n$50",
+                "Here's how to solve the problem:\n\nGerald and Julia divided $100 in the ratio 3:2. This means that for every 3 parts Gerald gets, Julia gets 2 parts. To find out how much money each person gets, we need to add the parts together: 3 + 2 = 5.\n\nNow, we need to divide the total amount of money ($100) by the total number of parts (5). $100 � 5 = $20 per part.\n\nSince Gerald gets 3 parts, we multiply 3 by $20: 3 x $20 = $60.\n\nGerald spent $10 on a book, so we subtract this from his share: $60 - $10 = $50.\n\nThe answer is $50.\n\n$50"
+            ],
+            "every_model_generate_token_num_list": [
+                160,
+                160
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 84.0,
+            "ensemble_num": 36,
+            "high_confidence_token_num": 225,
+            "high_confidence_ensemble_num": 36,
+            "low_confidence_token_num": 147,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's break it down step by step.\n\nMadeline ate 6 grapes. Her brother used 5 times as many grapes as Madeline, so he used 5 * 6 = 30 grapes.\n\nThe total number of grapes used by Madeline and her brother is 6 + 30 = 36 grapes.\n\nTheir mother then used the remaining grapes to make 4 pies. Each pie requires 12 grapes, so the total number of grapes used for the pies is 4 * 12 = 48 grapes.\n\nSince the total number of grapes used by Madeline, her brother, and their mother is 36 + 48 = 84 grapes, and we know that 48 grapes were used for the pies, the number of grapes remaining for Madeline and her brother is 84 - 48 = 36 grapes.\n\nHowever, we know that Madeline ate 6 grapes, so the number of grapes remaining for her brother is 36 - 6 = 30 grapes.\n\nSince the problem states that the brother used 5 times as many grapes as Madeline, we can set up an equation to find the number of grapes Madeline had initially:\n\nLet x be the number of grapes Madeline had initially.\nThe brother used 5 times as many grapes as Madeline, so the brother used 5x grapes.\nThe total number of grapes used by Madeline and her brother is 6 + 5x.\nThe total number of grapes remaining for the pies is 36 - 6 = 30 grapes.\nSince the brother used 5 times as many grapes as Madeline, we can set up the equation:\n5x = 30\nx = 30 / 5\nx = 6\n\nSo, Madeline had 6 grapes initially.\n\nThe answer is: 6",
+            "every_model_output_text": [
+                "To solve this problem, let's break it down step by step.\n\nMadeline ate 6 grapes. Her brother used 5 times as many grapes as Madeline, so he used 5 * 6 = 30 grapes.\n\nThe total number of grapes used by Madeline and her brother is 6 + 30 = 36 grapes.\n\nTheir mother then used the remaining grapes to make 4 pies. Each pie requires 12 grapes, so the total number of grapes used for the pies is 4 * 12 = 48 grapes.\n\nSince the total number of grapes used by Madeline, her brother, and their mother is 36 + 48 = 84 grapes, and we know that 48 grapes were used for the pies, the number of grapes remaining for Madeline and her brother is 84 - 48 = 36 grapes.\n\nHowever, we know that Madeline ate 6 grapes, so the number of grapes remaining for her brother is 36 - 6 = 30 grapes.\n\nSince the problem states that the brother used 5 times as many grapes as Madeline, we can set up an equation to find the number of grapes Madeline had initially:\n\nLet x be the number of grapes Madeline had initially.\nThe brother used 5 times as many grapes as Madeline, so the brother used 5x grapes.\nThe total number of grapes used by Madeline and her brother is 6 + 5x.\nThe total number of grapes remaining for the pies is 36 - 6 = 30 grapes.\nSince the brother used 5 times as many grapes as Madeline, we can set up the equation:\n5x = 30\nx = 30 / 5\nx = 6\n\nSo, Madeline had 6 grapes initially.\n\nThe answer is: 6",
+                "To solve this problem, let's break it down step by step.\n\nMadeline ate 6 grapes. Her brother used 5 times as many grapes as Madeline, so he used 5 * 6 = 30 grapes.\n\nThe total number of grapes used by Madeline and her brother is 6 + 30 = 36 grapes.\n\nTheir mother then used the remaining grapes to make 4 pies. Each pie requires 12 grapes, so the total number of grapes used for the pies is 4 * 12 = 48 grapes.\n\nSince the total number of grapes used by Madeline, her brother, and their mother is 36 + 48 = 84 grapes, and we know that 48 grapes were used for the pies, the number of grapes remaining for Madeline and her brother is 84 - 48 = 36 grapes.\n\nHowever, we know that Madeline ate 6 grapes, so the number of grapes remaining for her brother is 36 - 6 = 30 grapes.\n\nSince the problem states that the brother used 5 times as many grapes as Madeline, we can set up an equation to find the number of grapes Madeline had initially:\n\nLet x be the number of grapes Madeline had initially.\nThe brother used 5 times as many grapes as Madeline, so the brother used 5x grapes.\nThe total number of grapes used by Madeline and her brother is 6 + 5x.\nThe total number of grapes remaining for the pies is 36 - 6 = 30 grapes.\nSince the brother used 5 times as many grapes as Madeline, we can set up the equation:\n5x = 30\nx = 30 / 5\nx = 6\n\nSo, Madeline had 6 grapes initially.\n\nThe answer is: 6"
+            ],
+            "every_model_generate_token_num_list": [
+                372,
+                372
+            ]
+        },
+        {
+            "pred_answer": 2.5,
+            "correct_answer": 50.0,
+            "ensemble_num": 42,
+            "high_confidence_token_num": 165,
+            "high_confidence_ensemble_num": 42,
+            "low_confidence_token_num": 122,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's the step-by-approach to solve this problem:\n\nLet's break down the problem into two halves. Since Elvis has 3 weeks in April, we can divide the month into two halves of 2 weeks each.\n\nTotal savings target for the month: $1125\nTotal days in the first half of the month: 14 days\nTotal days in the second half of the month: 1 day (since there are 28 days in April)\n\nLet's denote the amount Elvis saves in the first half of the month as x. Since he wants to save twice as much daily in the second half, the amount he saves in the second half will be 2x.\n\nWe know that the total savings for the month is $1125, so we can set up the equation:\n\nx (first half) + 2x (second half) = 1125\n\nCombine like terms:\n\n3x = 1125\n\nDivide both sides by 3:\n\nx = 11.25\n\nSo, Elvis saves $11.25 per day in the first half of the month.\n\nSince he wants to save twice as much in the second half, he will save 2 * 1.25 = $2.50 per day in the second half.\n\nTherefore, Elvis has to save $2.50 per day in the second half of the month.\n\nAnswer: $2.50",
+            "every_model_output_text": [
+                "Here's the step-by-approach to solve this problem:\n\nLet's break down the problem into two halves. Since Elvis has 3 weeks in April, we can divide the month into two halves of 2 weeks each.\n\nTotal savings target for the month: $1125\nTotal days in the first half of the month: 14 days\nTotal days in the second half of the month: 1 day (since there are 28 days in April)\n\nLet's denote the amount Elvis saves in the first half of the month as x. Since he wants to save twice as much daily in the second half, the amount he saves in the second half will be 2x.\n\nWe know that the total savings for the month is $1125, so we can set up the equation:\n\nx (first half) + 2x (second half) = 1125\n\nCombine like terms:\n\n3x = 1125\n\nDivide both sides by 3:\n\nx = 11.25\n\nSo, Elvis saves $11.25 per day in the first half of the month.\n\nSince he wants to save twice as much in the second half, he will save 2 * 1.25 = $2.50 per day in the second half.\n\nTherefore, Elvis has to save $2.50 per day in the second half of the month.\n\nAnswer: $2.50",
+                "Here's the step-by-approach to solve this problem:\n\nLet's break down the problem into two halves. Since Elvis has 3 weeks in April, we can divide the month into two halves of 2 weeks each.\n\nTotal savings target for the month: $1125\nTotal days in the first half of the month: 14 days\nTotal days in the second half of the month: 1 day (since there are 28 days in April)\n\nLet's denote the amount Elvis saves in the first half of the month as x. Since he wants to save twice as much daily in the second half, the amount he saves in the second half will be 2x.\n\nWe know that the total savings for the month is $1125, so we can set up the equation:\n\nx (first half) + 2x (second half) = 1125\n\nCombine like terms:\n\n3x = 1125\n\nDivide both sides by 3:\n\nx = 11.25\n\nSo, Elvis saves $11.25 per day in the first half of the month.\n\nSince he wants to save twice as much in the second half, he will save 2 * 1.25 = $2.50 per day in the second half.\n\nTherefore, Elvis has to save $2.50 per day in the second half of the month.\n\nAnswer: $2.50"
+            ],
+            "every_model_generate_token_num_list": [
+                287,
+                287
+            ]
+        },
+        {
+            "pred_answer": 8.0,
+            "correct_answer": 8000.0,
+            "ensemble_num": 24,
+            "high_confidence_token_num": 86,
+            "high_confidence_ensemble_num": 24,
+            "low_confidence_token_num": 44,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, let's use the information given. Let's say Harald sold x copies of his record. Since Marilyn's record sold 10 times as many copies as Harald's, Marilyn sold 10x copies.\n\nWe know that the total number of copies sold is 88,000. So, we can set up the equation:\n\nx + 10x = 88,0oo\n\nCombine like terms:\n\n11x = 88,000\n\nDivide both sides by 11:\n\nx = 8,0oo\n\nSo, Harald sold 8,000 copies of his record.\n\n8,000<turn|>",
+            "every_model_output_text": [
+                "To solve this problem, let's use the information given. Let's say Harald sold x copies of his record. Since Marilyn's record sold 10 times as many copies as Harald's, Marilyn sold 10x copies.\n\nWe know that the total number of copies sold is 88,000. So, we can set up the equation:\n\nx + 10x = 88,0oo\n\nCombine like terms:\n\n11x = 88,000\n\nDivide both sides by 11:\n\nx = 8,0oo\n\nSo, Harald sold 8,000 copies of his record.\n\n8,000<turn|>",
+                "To solve this problem, let's use the information given. Let's say Harald sold x copies of his record. Since Marilyn's record sold 10 times as many copies as Harald's, Marilyn sold 10x copies.\n\nWe know that the total number of copies sold is 88,000. So, we can set up the equation:\n\nx + 10x = 88,0oo\n\nCombine like terms:\n\n11x = 88,000\n\nDivide both sides by 11:\n\nx = 8,0oo\n\nSo, Harald sold 8,000 copies of his record.\n\n8,000"
+            ],
+            "every_model_generate_token_num_list": [
+                130,
+                130
+            ]
+        },
+        {
+            "pred_answer": 280.0,
+            "correct_answer": 280.0,
+            "ensemble_num": 17,
+            "high_confidence_token_num": 85,
+            "high_confidence_ensemble_num": 17,
+            "low_confidence_token_num": 52,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nWe know that there are 7 rows of children, and each row has 8 children standing in a row. To find the total number of children in one row, we multiply the number of rows by the number of children in each row.\n\n7 rows * 8 children per row = 56 children\n\nSince there are 5 different schools, and each school has 7 rows of children, we multiply the number of children in one row by the number of schools.\n\n5 schools * 56 children per school = 280 children\n\nTherefore, there can be 280 children in the drill.\n\n**Answer: 280**<turn|><turn|>",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nWe know that there are 7 rows of children, and each row has 8 children standing in a row. To find the total number of children in one row, we multiply the number of rows by the number of children in each row.\n\n7 rows * 8 children per row = 56 children\n\nSince there are 5 different schools, and each school has 7 rows of children, we multiply the number of children in one row by the number of schools.\n\n5 schools * 56 children per school = 280 children\n\nTherefore, there can be 280 children in the drill.\n\n**Answer: 280**<turn|><turn|>",
+                "Here's how to solve the problem:\n\nWe know that there are 7 rows of children, and each row has 8 children standing in a row. To find the total number of children in one row, we multiply the number of rows by the number of children in each row.\n\n7 rows * 8 children per row = 56 children\n\nSince there are 5 different schools, and each school has 7 rows of children, we multiply the number of children in one row by the number of schools.\n\n5 schools * 56 children per school = 280 children\n\nTherefore, there can be 280 children in the drill.\n\n**Answer: 280**"
+            ],
+            "every_model_generate_token_num_list": [
+                137,
+                137
+            ]
+        },
+        {
+            "pred_answer": 30.0,
+            "correct_answer": 30.0,
+            "ensemble_num": 10,
+            "high_confidence_token_num": 118,
+            "high_confidence_ensemble_num": 10,
+            "low_confidence_token_num": 37,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To solve this problem, we need to start with the information about Mike's age, which is given as 24 years old. \n\nSince Martha is 4 years younger than Mike, we can calculate Martha's age by subtracting 4 from Mike's age: \nMartha's age = Mike's age - 4\nMartha's age = 24 - 4\nMartha's age = 20\n\nNow, we know that Jeff is 10 years older than Martha. To find Jeff's age, we add 10 to Martha's age:\nJeff's age = Martha's age + 10\nJeff's age = 20 + 10\nJeff's age = 30\n\nTherefore, Jeff is 30 years old.\n\nAnswer: 30",
+            "every_model_output_text": [
+                "To solve this problem, we need to start with the information about Mike's age, which is given as 24 years old. \n\nSince Martha is 4 years younger than Mike, we can calculate Martha's age by subtracting 4 from Mike's age: \nMartha's age = Mike's age - 4\nMartha's age = 24 - 4\nMartha's age = 20\n\nNow, we know that Jeff is 10 years older than Martha. To find Jeff's age, we add 10 to Martha's age:\nJeff's age = Martha's age + 10\nJeff's age = 20 + 10\nJeff's age = 30\n\nTherefore, Jeff is 30 years old.\n\nAnswer: 30",
+                "To solve this problem, we need to start with the information about Mike's age, which is given as 24 years old. \n\nSince Martha is 4 years younger than Mike, we can calculate Martha's age by subtracting 4 from Mike's age: \nMartha's age = Mike's age - 4\nMartha's age = 24 - 4\nMartha's age = 20\n\nNow, we know that Jeff is 10 years older than Martha. To find Jeff's age, we add 10 to Martha's age:\nJeff's age = Martha's age + 10\nJeff's age = 20 + 10\nJeff's age = 30\n\nTherefore, Jeff is 30 years old.\n\nAnswer: 30"
+            ],
+            "every_model_generate_token_num_list": [
+                155,
+                155
+            ]
+        },
+        {
+            "pred_answer": 8.0,
+            "correct_answer": 192.0,
+            "ensemble_num": 34,
+            "high_confidence_token_num": 143,
+            "high_confidence_ensemble_num": 34,
+            "low_confidence_token_num": 82,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the number of cows in 8 of the stalls, we need to first find out how many cows are in each stall after Mr. Sylas buys 40 cows and divides them equally among the 20 stalls.\n\nInitially, there were 20 cows in each stall. Mr. Sylas buys 40 cows and adds them to the existing 20 stalls. So, the total number of cows becomes 20 (initial cows) + 40 (new cows) = 60 cows.\n\nNow, the 60 cows are divided equally among the 20 stalls. To find out how many cows are in each stall, we divide 60 by 20:\n\n60 � 2 = 30\n\nSo, there are 30 cows in each stall.\n\nNow, we need to find out how many cows are in 8 of the stalls. Since there are 30 cows in each stall, we multiply 3 (8 stalls) by 30 (cows per stall):\n\n8 x 30 = 240\n\nTherefore, there are 240 cows in 8 of the stalls.\n\n240<turn|>",
+            "every_model_output_text": [
+                "To find the number of cows in 8 of the stalls, we need to first find out how many cows are in each stall after Mr. Sylas buys 40 cows and divides them equally among the 20 stalls.\n\nInitially, there were 20 cows in each stall. Mr. Sylas buys 40 cows and adds them to the existing 20 stalls. So, the total number of cows becomes 20 (initial cows) + 40 (new cows) = 60 cows.\n\nNow, the 60 cows are divided equally among the 20 stalls. To find out how many cows are in each stall, we divide 60 by 20:\n\n60 � 2 = 30\n\nSo, there are 30 cows in each stall.\n\nNow, we need to find out how many cows are in 8 of the stalls. Since there are 30 cows in each stall, we multiply 3 (8 stalls) by 30 (cows per stall):\n\n8 x 30 = 240\n\nTherefore, there are 240 cows in 8 of the stalls.\n\n240<turn|>",
+                "To find the number of cows in 8 of the stalls, we need to first find out how many cows are in each stall after Mr. Sylas buys 40 cows and divides them equally among the 20 stalls.\n\nInitially, there were 20 cows in each stall. Mr. Sylas buys 40 cows and adds them to the existing 20 stalls. So, the total number of cows becomes 20 (initial cows) + 40 (new cows) = 60 cows.\n\nNow, the 60 cows are divided equally among the 20 stalls. To find out how many cows are in each stall, we divide 60 by 20:\n\n60 � 2 = 30\n\nSo, there are 30 cows in each stall.\n\nNow, we need to find out how many cows are in 8 of the stalls. Since there are 30 cows in each stall, we multiply 3 (8 stalls) by 30 (cows per stall):\n\n8 x 30 = 240\n\nTherefore, there are 240 cows in 8 of the stalls.\n\n240"
+            ],
+            "every_model_generate_token_num_list": [
+                225,
+                225
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 276.0,
+            "ensemble_num": 28,
+            "high_confidence_token_num": 153,
+            "high_confidence_ensemble_num": 28,
+            "low_confidence_token_num": 68,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\nFirst, let's calculate the total number of wheels needed for the cars. Since there are 57 cars and each car needs 4 wheels, the total number of wheels needed for the cars is:\n\n57 cars * 4 wheels/car = 22.8 wheels\n\nSince you cannot have a fraction of a wheel, we'll round down to 22 wheels (as you can't have 0.8 wheels).\n\nNext, let's calculate the total number of wheels needed for the motorcycles. Since there are 73 motorcycles and each motorcycle needs 2 wheels, the total number of wheels needed for the motorcycles is:\n\n73 motorcycles * 2 wheels/ motorcycle = 146 wheels\n\nNow, let's add the total number of wheels needed for the cars and motorcycles:\n\n22 wheels (for cars) + 146 wheels (for motorcycles) = 168 wheels\n\nSince Henry has 65 wheels in the box (650 - 585 = 65), we need to subtract the total number of wheels needed from the total number of wheels available:\n\n6",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\nFirst, let's calculate the total number of wheels needed for the cars. Since there are 57 cars and each car needs 4 wheels, the total number of wheels needed for the cars is:\n\n57 cars * 4 wheels/car = 22.8 wheels\n\nSince you cannot have a fraction of a wheel, we'll round down to 22 wheels (as you can't have 0.8 wheels).\n\nNext, let's calculate the total number of wheels needed for the motorcycles. Since there are 73 motorcycles and each motorcycle needs 2 wheels, the total number of wheels needed for the motorcycles is:\n\n73 motorcycles * 2 wheels/ motorcycle = 146 wheels\n\nNow, let's add the total number of wheels needed for the cars and motorcycles:\n\n22 wheels (for cars) + 146 wheels (for motorcycles) = 168 wheels\n\nSince Henry has 65 wheels in the box (650 - 585 = 65), we need to subtract the total number of wheels needed from the total number of wheels available:\n\n6",
+                "Here's how to solve the problem:\n\nFirst, let's calculate the total number of wheels needed for the cars. Since there are 57 cars and each car needs 4 wheels, the total number of wheels needed for the cars is:\n\n57 cars * 4 wheels/car = 22.8 wheels\n\nSince you cannot have a fraction of a wheel, we'll round down to 22 wheels (as you can't have 0.8 wheels).\n\nNext, let's calculate the total number of wheels needed for the motorcycles. Since there are 73 motorcycles and each motorcycle needs 2 wheels, the total number of wheels needed for the motorcycles is:\n\n73 motorcycles * 2 wheels/ motorcycle = 146 wheels\n\nNow, let's add the total number of wheels needed for the cars and motorcycles:\n\n22 wheels (for cars) + 146 wheels (for motorcycles) = 168 wheels\n\nSince Henry has 65 wheels in the box (650 - 585 = 65), we need to subtract the total number of wheels needed from the total number of wheels available:\n\n6"
+            ],
+            "every_model_generate_token_num_list": [
+                221,
+                221
+            ]
+        },
+        {
+            "pred_answer": 32.0,
+            "correct_answer": 32.0,
+            "ensemble_num": 57,
+            "high_confidence_token_num": 215,
+            "high_confidence_ensemble_num": 57,
+            "low_confidence_token_num": 57,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To find the total number of fish caught, we need to calculate the number of fish each person caught and then add them together.\n\nAnakin caught 10 starfish, 6 sea horses, and 3 clownfish. \nLocsin caught 5 fewer starfish than Anakin: 10 - 5 = 5 starfish.\nLocsin caught 3 fewer sea horses than Anakin: 6 - 3 = 3 sea horses.\nLocsin caught 2 more clownfish than Anakin: 3 + 2 = 5 clownfish.\n\nNow, let's add up the total number of fish caught by both Anakin and Locsin:\nTotal starfish: 10 (Anakin) + 5 (Locsin) = 15\nTotal sea horses: 6 (Anakin) + 3 (Locsin) = 9\nTotal clownfish: 3 (Anakin) + 5 (Locsin) = 8\n\nNow, let's add up the total number of fish caught:\nTotal fish = 1. Total starfish + 2. Total sea horses + 3. Total clownfish\nTotal fish = 15 + 9 + 8\nTotal fish = 32\n\nThe total number of fish caught by Anakin and Locsin is 32.\n\n32<turn|>",
+            "every_model_output_text": [
+                "To find the total number of fish caught, we need to calculate the number of fish each person caught and then add them together.\n\nAnakin caught 10 starfish, 6 sea horses, and 3 clownfish. \nLocsin caught 5 fewer starfish than Anakin: 10 - 5 = 5 starfish.\nLocsin caught 3 fewer sea horses than Anakin: 6 - 3 = 3 sea horses.\nLocsin caught 2 more clownfish than Anakin: 3 + 2 = 5 clownfish.\n\nNow, let's add up the total number of fish caught by both Anakin and Locsin:\nTotal starfish: 10 (Anakin) + 5 (Locsin) = 15\nTotal sea horses: 6 (Anakin) + 3 (Locsin) = 9\nTotal clownfish: 3 (Anakin) + 5 (Locsin) = 8\n\nNow, let's add up the total number of fish caught:\nTotal fish = 1. Total starfish + 2. Total sea horses + 3. Total clownfish\nTotal fish = 15 + 9 + 8\nTotal fish = 32\n\nThe total number of fish caught by Anakin and Locsin is 32.\n\n32<turn|>",
+                "To find the total number of fish caught, we need to calculate the number of fish each person caught and then add them together.\n\nAnakin caught 10 starfish, 6 sea horses, and 3 clownfish. \nLocsin caught 5 fewer starfish than Anakin: 10 - 5 = 5 starfish.\nLocsin caught 3 fewer sea horses than Anakin: 6 - 3 = 3 sea horses.\nLocsin caught 2 more clownfish than Anakin: 3 + 2 = 5 clownfish.\n\nNow, let's add up the total number of fish caught by both Anakin and Locsin:\nTotal starfish: 10 (Anakin) + 5 (Locsin) = 15\nTotal sea horses: 6 (Anakin) + 3 (Locsin) = 9\nTotal clownfish: 3 (Anakin) + 5 (Locsin) = 8\n\nNow, let's add up the total number of fish caught:\nTotal fish = 1. Total starfish + 2. Total sea horses + 3. Total clownfish\nTotal fish = 15 + 9 + 8\nTotal fish = 32\n\nThe total number of fish caught by Anakin and Locsin is 32.\n\n32"
+            ],
+            "every_model_generate_token_num_list": [
+                272,
+                272
+            ]
+        }
+    ]
+}

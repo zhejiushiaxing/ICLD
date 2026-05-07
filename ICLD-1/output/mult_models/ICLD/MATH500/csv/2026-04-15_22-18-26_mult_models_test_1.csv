@@ -1,0 +1,76 @@
+﻿id,question,answer,response
+0,Find the roots of $(x - 3)^3 + (x -7)^3 = (2x - 10)^3.$,"3, 5, 7","To find the roots of the equation $(x - 3)^3 + (x - 7)^3 = (2x - 10)^3$, we can start by simplifying the equation. Notice that $2x - 10 = 2(x - 5)$, so the equation can be rewritten as:
+
+\[
+(x - 3)^3 + (x - 7)^3 = [2(x - 5)]^3
+\]
+
+This simplifies to:
+
+\[
+(x - 3)^3 + (x - 7)^3 = 8(x - 5)^3
+\]
+
+Let's introduce a substitution to simplify the equation. Let $y = x - 5$. Then, we have:
+
+\[
+(y + 2)^3 + (y - 2)^3 = 8y^3
+\]
+
+Expanding the left side, we get:
+
+\[
+(y + 2)^3 = y^3 + 3y^2(2) + 3y(2^2) + 2^3 = y^3 + 6y^2 + 12y + 8
+\]
+\[
+(y - 2)^3 = y^3 - 3y^2(2) + 3y(2^2) - 2^3 = y^3 - 6y^2 + 12y - 8
+\]
+
+Adding these together, we get:
+
+\[
+(y + 2)^3 + (y - 2)^3 = (y^3 + 6y^2 + 12y + 8) + (y^3 - 6y^2 + 12y - 8) = 2y^3 + 24y
+\]
+
+So the equation becomes:
+
+\[
+2y^3 + 24y = 8y^3
+\]
+
+Rearranging terms, we get:
+
+\[
+2y^3 + 24y - 8y^3 = 0 \implies -6y^3 + 24y = 0
+\]
+
+Factoring out $-6y$, we get:
+
+\[
+-6y(y^2 - 4) = 0
+\]
+
+This gives us three solutions:
+
+\[
+-6y = 0 \implies y = 0
+\]
+\[
+y^2 - 4 = 0 \implies y^2 = 4 \implies y = 2 \text{ or } y = -2
+\]
+
+Recalling that $y = x - 5$, we substitute back to find $x$:
+
+\[
+x - 5 = 0 \implies x = 5
+\]
+\[
+x - 5 = 2 \implies x = 7
+\]
+\[
+x - 5 = -2 \implies x = 3
+\]
+
+Thus, the roots of the equation are $x = 3, 5, 7$.
+
+The answer is 3."

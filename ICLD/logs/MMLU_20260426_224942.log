@@ -1,0 +1,6 @@
+初始化ModelInfer
+100
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:28,  8.77it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:01, 117.03it/s]Loading weights:  18%|█▊        | 45/254 [00:00<00:01, 163.63it/s]Loading weights:  26%|██▋       | 67/254 [00:00<00:01, 183.42it/s]Loading weights:  35%|███▌      | 90/254 [00:00<00:00, 197.73it/s]Loading weights:  44%|████▍     | 113/254 [00:00<00:00, 201.87it/s]Loading weights:  54%|█████▍    | 138/254 [00:00<00:00, 215.66it/s]Loading weights:  63%|██████▎   | 160/254 [00:00<00:00, 215.85it/s]Loading weights:  72%|███████▏  | 184/254 [00:00<00:00, 217.22it/s]Loading weights:  81%|████████▏ | 207/254 [00:01<00:00, 220.63it/s]Loading weights:  91%|█████████ | 230/254 [00:01<00:00, 216.02it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 202.36it/s]
+Unrecognized keys in `rope_parameters` for 'rope_type'='dynamic': {'mscale', 'beta_fast', 'beta_slow', 'mscale_all_dim', 'alpha'}
+Unrecognized keys in `rope_parameters` for 'rope_type'='dynamic': {'mscale', 'beta_fast', 'beta_slow', 'mscale_all_dim', 'alpha'}
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]

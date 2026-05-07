@@ -1,0 +1,73 @@
+{
+    "comment": "多模型实验，数据集：MMLU",
+    "finish_date": "2026-04-26_09-49-10",
+    "integrate_models_name": [
+        "Llama3.2-3B-Instruct",
+        "Gemma4-E2B-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MMLU",
+    "avg_cal_time": 108.7,
+    "avg_correct_num": 1.0,
+    "avg_generated_tokens_num_list": [
+        863.0,
+        846.0
+    ],
+    "avg_ensemble_num": 869.0,
+    "high_confidence_ensemble_ratio": 0,
+    "low_confidence_ensemble_ratio": 0,
+    "all_ensemble_ratio": 1.00695,
+    "bunk_list": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "all_cal_time": 108.6983232498169,
+    "all_correct_num": 1,
+    "all_generated_tokens_num_list": [
+        863,
+        846
+    ],
+    "all_ensemble_num": 869,
+    "all_high_confidence_token_num": 0,
+    "all_high_confidence_ensemble_num": 0,
+    "all_low_confidence_token_num": 0,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "B"
+    ],
+    "question_correct_answer_list": [
+        "B"
+    ],
+    "avg_high_confidence_token_num": 0.0,
+    "avg_high_confidence_ensemble_num": 0.0,
+    "avg_low_confidence_token_num": 0.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "B",
+            "correct_answer": "B",
+            "ensemble_num": 869,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "To determine which option is NOT a group, we need to recall the four axioms that define a group structure $(G, \\cdot)$:\n\n1. **Closure:** For all $a, b$ in $G$, $a \\cdot b$ is also in $G$.\n2. **Associativity:** For all $a, b, c$ in $G$, $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$.\n3. **Identity Element:** There exists an element $e$ in $G$ such that for all $a$ in $G$, $a \\cdot e = e \\cdot a = a$.\n4. **Inverse Element:** For every element $a$ in $G$, there exists an element $a^{-1}$ in $G$ such that $a \\cdot a^{-1} = a^{-1} \\cdot a = e$.\n\nLet's examine each option:\n\n**A. The integers under addition ($\\mathbb{Z}, +$):**\n1. **Closure:** The sum of two integers is an integer. (Holds)\n2. **Associativity:** Addition of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all integers $a$. (Holds)\n4. **Inverse Element:** For every integer $a$, its inverse is $-a$, and $a + (-a) = (-a) + a = 0$. (Holds)\nTherefore, $(\\mathbb{Z}, +)$ is a group.\n\n**B. The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero integers is a nonzero integer. (Holds)\n2. **Associativity:** Multiplication of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero integers $a$. (Holds)\n4. **Inverse Element:** For every nonzero integer $a$, its inverse is $1/a$. However, $1/a$ is not always an integer (e.g., $1/2$ is not an integer). Since the inverse must be in the set, this axiom fails for the set of nonzero integers under multiplication.\nTherefore, $(\\mathbb{Z} \\setminus \\{0\\}, \\times)$ is NOT a group.\n\n**C. The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero real numbers is a nonzero real number. (Holds)\n2. **Associativity:** Multiplication of real numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero real numbers $a$. (Holds)\n4. **Inverse Element:** For every nonzero real number $a$, its inverse is $1/a$, which is also a nonzero real number. (Holds)\nTherefore, $(\\mathbb{R} \\setminus \\{0\\}, \\times)$ is a group.\n\n**D. The complex numbers under addition ($\\mathbb{C}, +$):**\n1. **Closure:** The sum of two complex numbers is a complex number. (Holds)\n2. **Associativity:** Addition of complex numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all complex numbers $a$. (Holds)\n4. **Inverse Element:** For every complex number $a = x + yi$, its inverse is $-(x + yi) = -x - yi$, and $a + (-a) = 0$. (Holds)\nTherefore, $(\\mathbb{C}, +)$ is a group.\n\nThe answer is B",
+            "every_model_output_text": [
+                "To determine which option is NOT a group, we need to recall the four axioms that define a group structure $(G, \\cdot)$:\n\n1. **Closure:** For all $a, b$ in $G$, $a \\cdot b$ is also in $G$.\n2. **Associativity:** For all $a, b, c$ in $G$, $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$.\n3. **Identity Element:** There exists an element $e$ in $G$ such that for all $a$ in $G$, $a \\cdot e = e \\cdot a = a$.\n4. **Inverse Element:** For every element $a$ in $G$, there exists an element $a^{-1}$ in $G$ such that $a \\cdot a^{-1} = a^{-1} \\cdot a = e$.\n\nLet's examine each option:\n\n**A. The integers under addition ($\\mathbb{Z}, +$):**\n1. **Closure:** The sum of two integers is an integer. (Holds)\n2. **Associativity:** Addition of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all integers $a$. (Holds)\n4. **Inverse Element:** For every integer $a$, its inverse is $-a$, and $a + (-a) = (-a) + a = 0$. (Holds)\nTherefore, $(\\mathbb{Z}, +)$ is a group.\n\n**B. The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero integers is a nonzero integer. (Holds)\n2. **Associativity:** Multiplication of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero integers $a$. (Holds)\n4. **Inverse Element:** For every nonzero integer $a$, its inverse is $1/a$. However, $1/a$ is not always an integer (e.g., $1/2$ is not an integer). Since the inverse must be in the set, this axiom fails for the set of nonzero integers under multiplication.\nTherefore, $(\\mathbb{Z} \\setminus \\{0\\}, \\times)$ is NOT a group.\n\n**C. The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero real numbers is a nonzero real number. (Holds)\n2. **Associativity:** Multiplication of real numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero real numbers $a$. (Holds)\n4. **Inverse Element:** For every nonzero real number $a$, its inverse is $1/a$, which is also a nonzero real number. (Holds)\nTherefore, $(\\mathbb{R} \\setminus \\{0\\}, \\times)$ is a group.\n\n**D. The complex numbers under addition ($\\mathbb{C}, +$):**\n1. **Closure:** The sum of two complex numbers is a complex number. (Holds)\n2. **Associativity:** Addition of complex numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all complex numbers $a$. (Holds)\n4. **Inverse Element:** For every complex number $a = x + yi$, its inverse is $-(x + yi) = -x - yi$, and $a + (-a) = 0$. (Holds)\nTherefore, $(\\mathbb{C}, +)$ is a group.\n\nThe answer is B",
+                "To determine which option is NOT a group, we need to recall the four axioms that define a group structure $(G, \\cdot)$:\n\n1. **Closure:** For all $a, b$ in $G$, $a \\cdot b$ is also in $G$.\n2. **Associativity:** For all $a, b, c$ in $G$, $(a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)$.\n3. **Identity Element:** There exists an element $e$ in $G$ such that for all $a$ in $G$, $a \\cdot e = e \\cdot a = a$.\n4. **Inverse Element:** For every element $a$ in $G$, there exists an element $a^{-1}$ in $G$ such that $a \\cdot a^{-1} = a^{-1} \\cdot a = e$.\n\nLet's examine each option:\n\n**A. The integers under addition ($\\mathbb{Z}, +$):**\n1. **Closure:** The sum of two integers is an integer. (Holds)\n2. **Associativity:** Addition of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all integers $a$. (Holds)\n4. **Inverse Element:** For every integer $a$, its inverse is $-a$, and $a + (-a) = (-a) + a = 0$. (Holds)\nTherefore, $(\\mathbb{Z}, +)$ is a group.\n\n**B. The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero integers is a nonzero integer. (Holds)\n2. **Associativity:** Multiplication of integers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero integers $a$. (Holds)\n4. **Inverse Element:** For every nonzero integer $a$, its inverse is $1/a$. However, $1/a$ is not always an integer (e.g., $1/2$ is not an integer). Since the inverse must be in the set, this axiom fails for the set of nonzero integers under multiplication.\nTherefore, $(\\mathbb{Z} \\setminus \\{0\\}, \\times)$ is NOT a group.\n\n**C. The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\times$):**\n1. **Closure:** The product of two nonzero real numbers is a nonzero real number. (Holds)\n2. **Associativity:** Multiplication of real numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $1$, and $a \\times 1 = 1 \\times a = a$ for all nonzero real numbers $a$. (Holds)\n4. **Inverse Element:** For every nonzero real number $a$, its inverse is $1/a$, which is also a nonzero real number. (Holds)\nTherefore, $(\\mathbb{R} \\setminus \\{0\\}, \\times)$ is a group.\n\n**D. The complex numbers under addition ($\\mathbb{C}, +$):**\n1. **Closure:** The sum of two complex numbers is a complex number. (Holds)\n2. **Associativity:** Addition of complex numbers is associative. (Holds)\n3. **Identity Element:** The identity element is $0$, and $a + 0 = 0 + a = a$ for all complex numbers $a$. (Holds)\n4. **Inverse Element:** For every complex number $a = x + yi$, its inverse is $-(x + yi) = -x - yi$, and $a + (-a) = 0$. (Holds)\nTherefore, $(\\mathbb{C}, +)$ is a group.\n\nThe answer is B"
+            ],
+            "every_model_generate_token_num_list": [
+                863,
+                846
+            ]
+        }
+    ]
+}
