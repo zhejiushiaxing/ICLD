@@ -1,0 +1,2053 @@
+{
+    "comment": "测试Gemma2-2B-it，数据集：GSM8K",
+    "finish_date": "2026-05-07_23-13-26",
+    "integrate_models_name": [
+        "Gemma2-2B-it",
+        "Qwen2.5-1.5B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "GSM8K",
+    "avg_cal_time": 8.36,
+    "avg_correct_num": 0.59,
+    "avg_generated_tokens_num_list": [
+        159.49,
+        0.0
+    ],
+    "avg_ensemble_num": 0.0,
+    "high_confidence_ensemble_ratio": 0,
+    "low_confidence_ensemble_ratio": 0,
+    "all_ensemble_ratio": 0.0,
+    "bunk_list": [
+        0,
+        7,
+        56,
+        149,
+        373,
+        534,
+        533,
+        626,
+        923,
+        12748
+    ],
+    "all_cal_time": 836.4709239006042,
+    "all_correct_num": 59,
+    "all_generated_tokens_num_list": [
+        15949,
+        0
+    ],
+    "all_ensemble_num": 0,
+    "all_high_confidence_token_num": 0,
+    "all_high_confidence_ensemble_num": 0,
+    "all_low_confidence_token_num": 0,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        1880.0,
+        1.0,
+        5.0,
+        6.0,
+        273.0,
+        45.0,
+        21.0,
+        145.0,
+        60.0,
+        122.0,
+        30.0,
+        100.0,
+        4.0,
+        1430.0,
+        0.5,
+        5.0,
+        5.0,
+        66.0,
+        15.0,
+        33.0,
+        90.0,
+        12000.0,
+        0.5,
+        1520.0,
+        170.0,
+        90.0,
+        90000.0,
+        21.0,
+        5.0,
+        null,
+        23.0,
+        145.0,
+        27.0,
+        123.0,
+        98.0,
+        16.0,
+        594.0,
+        34.0,
+        38.0,
+        320.0,
+        50.0,
+        50.0,
+        48.0,
+        750.0,
+        8000.0,
+        35.0,
+        30.0,
+        8.0,
+        276.0,
+        32.0,
+        25.0,
+        10.0,
+        147.0,
+        5.0,
+        2.0,
+        6.0,
+        140.0,
+        44.0,
+        1.0,
+        1.0,
+        50.0,
+        72.0,
+        98.0,
+        7.0,
+        105.0,
+        38.4,
+        350.0,
+        100.0,
+        133.0,
+        320.0,
+        7.0,
+        65.0,
+        2125.0,
+        8.0,
+        72.0,
+        32.0,
+        5.0,
+        450.0,
+        6000.0,
+        450.0,
+        54.0,
+        112.0,
+        5.0,
+        6.0,
+        4.0,
+        -24.0,
+        79.0,
+        35.0,
+        100.0,
+        55.0,
+        30.0,
+        140.0,
+        29.0,
+        4.0,
+        120.0,
+        310.0,
+        650.0,
+        15.0,
+        7.0,
+        60.0
+    ],
+    "question_correct_answer_list": [
+        2280.0,
+        1.0,
+        5.0,
+        12.0,
+        273.0,
+        45.0,
+        21.0,
+        145.0,
+        60.0,
+        122.0,
+        29.0,
+        80.0,
+        36.0,
+        1430.0,
+        5.0,
+        5.0,
+        5.0,
+        66.0,
+        15.0,
+        40.0,
+        93.0,
+        2000.0,
+        64.0,
+        1520.0,
+        11050.0,
+        90.0,
+        40000.0,
+        21.0,
+        18.0,
+        14.0,
+        23.0,
+        145.0,
+        27.0,
+        123.0,
+        98.0,
+        7.0,
+        594.0,
+        34.0,
+        38.0,
+        320.0,
+        50.0,
+        50.0,
+        84.0,
+        50.0,
+        8000.0,
+        280.0,
+        30.0,
+        192.0,
+        276.0,
+        32.0,
+        25.0,
+        10.0,
+        147.0,
+        25.0,
+        1800.0,
+        20.0,
+        140.0,
+        36.0,
+        1.0,
+        1.0,
+        50.0,
+        72.0,
+        860.0,
+        7.0,
+        105.0,
+        60.0,
+        350.0,
+        100.0,
+        133.0,
+        112.0,
+        13.0,
+        130.0,
+        2125.0,
+        8.0,
+        144.0,
+        8.0,
+        6.0,
+        450.0,
+        4400.0,
+        450.0,
+        27.0,
+        112.0,
+        32.0,
+        6.0,
+        4.0,
+        2.0,
+        79.0,
+        35.0,
+        100.0,
+        40.0,
+        30.0,
+        170.0,
+        29.0,
+        5.0,
+        12.0,
+        310.0,
+        650.0,
+        75.0,
+        7.0,
+        180.0
+    ],
+    "avg_high_confidence_token_num": 0.0,
+    "avg_high_confidence_ensemble_num": 0.0,
+    "avg_low_confidence_token_num": 0.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": 1880.0,
+            "correct_answer": 2280.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Alexandra's earnings:** Alexandra raises $430.\n* **Kim's earnings:** Kim raises $320 more than Alexandra, so she raises $430 + $320 = $750.\n* **Maryam's earnings:** Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $400 + $300 = $700.\n* **Total earnings:** To find the total, add up the amounts each girl raised: $750 + $430 + $700 = $1880.\n\n**Answer:** They raised a total of $1880. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Alexandra's earnings:** Alexandra raises $430.\n* **Kim's earnings:** Kim raises $320 more than Alexandra, so she raises $430 + $320 = $750.\n* **Maryam's earnings:** Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $400 + $300 = $700.\n* **Total earnings:** To find the total, add up the amounts each girl raised: $750 + $430 + $700 = $1880.\n\n**Answer:** They raised a total of $1880. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Alexandra's earnings:** Alexandra raises $430.\n* **Kim's earnings:** Kim raises $320 more than Alexandra, so she raises $430 + $320 = $750.\n* **Maryam's earnings:** Maryam raises $400 more than Sarah, who raises $300, so Maryam raises $400 + $300 = $700.\n* **Total earnings:** To find the total, add up the amounts each girl raised: $750 + $430 + $700 = $1880.\n\n**Answer:** They raised a total of $1880. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                168,
+                0
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 1.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n**1. Find Mom's speed:**\n\n* Mom places half as many pieces as Kalinda, so she adds 4 pieces / 2 = 2 pieces per minute.\n\n**2. Find their combined speed:**\n\n* Their combined speed is 4 pieces/minute + 2 pieces/minute = 6 pieces per minute.\n\n**3. Calculate the time to complete the puzzle:**\n\n* To find the time, divide the total number of pieces by their combined speed: 360 pieces / 6 pieces/minute = 60 minutes.\n\n**4. Convert minutes to hours:**\n\n* There are 60 minutes in an hour, so it will take them 60 minutes / 60 minutes/hour = 1 hour.\n\n\n**Answer:** It will take them **1 hour** to complete the puzzle. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n**1. Find Mom's speed:**\n\n* Mom places half as many pieces as Kalinda, so she adds 4 pieces / 2 = 2 pieces per minute.\n\n**2. Find their combined speed:**\n\n* Their combined speed is 4 pieces/minute + 2 pieces/minute = 6 pieces per minute.\n\n**3. Calculate the time to complete the puzzle:**\n\n* To find the time, divide the total number of pieces by their combined speed: 360 pieces / 6 pieces/minute = 60 minutes.\n\n**4. Convert minutes to hours:**\n\n* There are 60 minutes in an hour, so it will take them 60 minutes / 60 minutes/hour = 1 hour.\n\n\n**Answer:** It will take them **1 hour** to complete the puzzle. \n",
+                "Here's how to solve this problem:\n\n**1. Find Mom's speed:**\n\n* Mom places half as many pieces as Kalinda, so she adds 4 pieces / 2 = 2 pieces per minute.\n\n**2. Find their combined speed:**\n\n* Their combined speed is 4 pieces/minute + 2 pieces/minute = 6 pieces per minute.\n\n**3. Calculate the time to complete the puzzle:**\n\n* To find the time, divide the total number of pieces by their combined speed: 360 pieces / 6 pieces/minute = 60 minutes.\n\n**4. Convert minutes to hours:**\n\n* There are 60 minutes in an hour, so it will take them 60 minutes / 60 minutes/hour = 1 hour.\n\n\n**Answer:** It will take them **1 hour** to complete the puzzle. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                190,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n**1. Calculate the distance traveled in the first leg:**\n\n* Tom travels from 1 PM to 4 PM, which is 3 hours.\n* Distance = Speed x Time = 10 mph x 3 hours = 30 miles\n\n**2. Calculate the time taken to travel back:**\n\n* Tom travels back at 6 mph.\n* Time = Distance / Speed = 30 miles / 6 mph = 5 hours\n\n**Answer:** It takes Tom **5 hours** to get back. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n**1. Calculate the distance traveled in the first leg:**\n\n* Tom travels from 1 PM to 4 PM, which is 3 hours.\n* Distance = Speed x Time = 10 mph x 3 hours = 30 miles\n\n**2. Calculate the time taken to travel back:**\n\n* Tom travels back at 6 mph.\n* Time = Distance / Speed = 30 miles / 6 mph = 5 hours\n\n**Answer:** It takes Tom **5 hours** to get back. \n",
+                "Here's how to solve this problem:\n\n**1. Calculate the distance traveled in the first leg:**\n\n* Tom travels from 1 PM to 4 PM, which is 3 hours.\n* Distance = Speed x Time = 10 mph x 3 hours = 30 miles\n\n**2. Calculate the time taken to travel back:**\n\n* Tom travels back at 6 mph.\n* Time = Distance / Speed = 30 miles / 6 mph = 5 hours\n\n**Answer:** It takes Tom **5 hours** to get back. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                123,
+                0
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 12.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Find the age of the younger son:** The younger son is 4 years younger than the older son, who is 12 years old. So, the younger son is 12 - 4 = 8 years old.\n* **Calculate the number of candles needed:** James needs candles for two sons, so he needs 2 candles.\n* **Calculate the total cost:** A pack of 5 candles costs $3, so James needs to buy 2 packs, which costs 2 * $3 = $6.\n\n**Answer:** James spends $6 on candles. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Find the age of the younger son:** The younger son is 4 years younger than the older son, who is 12 years old. So, the younger son is 12 - 4 = 8 years old.\n* **Calculate the number of candles needed:** James needs candles for two sons, so he needs 2 candles.\n* **Calculate the total cost:** A pack of 5 candles costs $3, so James needs to buy 2 packs, which costs 2 * $3 = $6.\n\n**Answer:** James spends $6 on candles. \n",
+                "Here's how to solve the problem:\n\n* **Find the age of the younger son:** The younger son is 4 years younger than the older son, who is 12 years old. So, the younger son is 12 - 4 = 8 years old.\n* **Calculate the number of candles needed:** James needs candles for two sons, so he needs 2 candles.\n* **Calculate the total cost:** A pack of 5 candles costs $3, so James needs to buy 2 packs, which costs 2 * $3 = $6.\n\n**Answer:** James spends $6 on candles. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                136,
+                0
+            ]
+        },
+        {
+            "pred_answer": 273.0,
+            "correct_answer": 273.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Mariah's yarn:** 1/4 of a skein = (1/4) * 364 yards = 91 yards\n* **Grandma's yarn:** 1/2 of a skein = (1/2) * 364 yards = 182 yards\n* **Total yarn:** 91 yards + 182 yards = 273 yards\n\n**Answer:** They used a total of 273 yards of yarn. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Mariah's yarn:** 1/4 of a skein = (1/4) * 364 yards = 91 yards\n* **Grandma's yarn:** 1/2 of a skein = (1/2) * 364 yards = 182 yards\n* **Total yarn:** 91 yards + 182 yards = 273 yards\n\n**Answer:** They used a total of 273 yards of yarn. \n",
+                "Here's how to solve the problem:\n\n* **Mariah's yarn:** 1/4 of a skein = (1/4) * 364 yards = 91 yards\n* **Grandma's yarn:** 1/2 of a skein = (1/2) * 364 yards = 182 yards\n* **Total yarn:** 91 yards + 182 yards = 273 yards\n\n**Answer:** They used a total of 273 yards of yarn. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                120,
+                0
+            ]
+        },
+        {
+            "pred_answer": 45.0,
+            "correct_answer": 45.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Start:** Katelyn saw 50 fairies.\n* **Friend's Observation:** One friend saw half as many fairies as Katelyn, so 50 / 2 = 25 fairies came from the east.\n* **Total After Eastward Flight:** There were 50 + 25 = 75 fairies in total.\n* **Fairies Leaving:** 30 fairies flew away.\n* **Final Count:** 75 - 30 = 45 fairies remain.\n\n**Answer:** There are **45** fairies remaining. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Start:** Katelyn saw 50 fairies.\n* **Friend's Observation:** One friend saw half as many fairies as Katelyn, so 50 / 2 = 25 fairies came from the east.\n* **Total After Eastward Flight:** There were 50 + 25 = 75 fairies in total.\n* **Fairies Leaving:** 30 fairies flew away.\n* **Final Count:** 75 - 30 = 45 fairies remain.\n\n**Answer:** There are **45** fairies remaining. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Start:** Katelyn saw 50 fairies.\n* **Friend's Observation:** One friend saw half as many fairies as Katelyn, so 50 / 2 = 25 fairies came from the east.\n* **Total After Eastward Flight:** There were 50 + 25 = 75 fairies in total.\n* **Fairies Leaving:** 30 fairies flew away.\n* **Final Count:** 75 - 30 = 45 fairies remain.\n\n**Answer:** There are **45** fairies remaining. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                140,
+                0
+            ]
+        },
+        {
+            "pred_answer": 21.0,
+            "correct_answer": 21.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this:\n\n* **Find the brother's current age:** Ann's brother is twice her age, so he is 9 * 2 = 18 years old.\n* **Calculate the brother's age in 3 years:** In 3 years, he will be 18 + 3 = 21 years old.\n\n**Answer:** 21 \n",
+            "every_model_output_text": [
+                "Here's how to solve this:\n\n* **Find the brother's current age:** Ann's brother is twice her age, so he is 9 * 2 = 18 years old.\n* **Calculate the brother's age in 3 years:** In 3 years, he will be 18 + 3 = 21 years old.\n\n**Answer:** 21 \n",
+                "Here's how to solve this:\n\n* **Find the brother's current age:** Ann's brother is twice her age, so he is 9 * 2 = 18 years old.\n* **Calculate the brother's age in 3 years:** In 3 years, he will be 18 + 3 = 21 years old.\n\n**Answer:** 21 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                89,
+                0
+            ]
+        },
+        {
+            "pred_answer": 145.0,
+            "correct_answer": 145.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the cost of half a dozen plates:**\n\n* Cost per plate: $6000\n* Number of plates: 6\n* Total cost: $6000 * 6 = $36000\n\n**2. Calculate the cost of twenty dozen cups:**\n\n* Cost of twenty dozen cups: $36000 - $1200 = $34800\n\n**3. Calculate the cost of one cup:**\n\n* Cost of twenty dozen cups: $34800\n* Number of cups: 20 * 12 = 240\n* Cost per cup: $34800 / 240 = $145\n\n**Therefore, the total cost of buying each cup is $145.** \n\n\n**Answer: $145** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the cost of half a dozen plates:**\n\n* Cost per plate: $6000\n* Number of plates: 6\n* Total cost: $6000 * 6 = $36000\n\n**2. Calculate the cost of twenty dozen cups:**\n\n* Cost of twenty dozen cups: $36000 - $1200 = $34800\n\n**3. Calculate the cost of one cup:**\n\n* Cost of twenty dozen cups: $34800\n* Number of cups: 20 * 12 = 240\n* Cost per cup: $34800 / 240 = $145\n\n**Therefore, the total cost of buying each cup is $145.** \n\n\n**Answer: $145** \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the cost of half a dozen plates:**\n\n* Cost per plate: $6000\n* Number of plates: 6\n* Total cost: $6000 * 6 = $36000\n\n**2. Calculate the cost of twenty dozen cups:**\n\n* Cost of twenty dozen cups: $36000 - $1200 = $34800\n\n**3. Calculate the cost of one cup:**\n\n* Cost of twenty dozen cups: $34800\n* Number of cups: 20 * 12 = 240\n* Cost per cup: $34800 / 240 = $145\n\n**Therefore, the total cost of buying each cup is $145.** \n\n\n**Answer: $145** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                196,
+                0
+            ]
+        },
+        {
+            "pred_answer": 60.0,
+            "correct_answer": 60.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate the increase:** 50 students * 20% = 10 students\n* **Add the increase to the original number:** 50 students + 10 students = 60 students\n\n**Answer:** There are 60 students enrolled in the calligraphy class this year. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate the increase:** 50 students * 20% = 10 students\n* **Add the increase to the original number:** 50 students + 10 students = 60 students\n\n**Answer:** There are 60 students enrolled in the calligraphy class this year. \n",
+                "Here's how to solve the problem:\n\n* **Calculate the increase:** 50 students * 20% = 10 students\n* **Add the increase to the original number:** 50 students + 10 students = 60 students\n\n**Answer:** There are 60 students enrolled in the calligraphy class this year. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                77,
+                0
+            ]
+        },
+        {
+            "pred_answer": 122.0,
+            "correct_answer": 122.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Monic's crabs:** Bo has 40 crabs, and Monic has 4 fewer, so Monic has 40 - 4 = 36 crabs.\n* **Rani's crabs:** Rani has 10 more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n* **Total crabs:** To find the total, add the number of crabs each person has: 40 + 36 + 46 = 122 crabs.\n\n**Answer:** The total number of crabs the three have together is 122. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Monic's crabs:** Bo has 40 crabs, and Monic has 4 fewer, so Monic has 40 - 4 = 36 crabs.\n* **Rani's crabs:** Rani has 10 more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n* **Total crabs:** To find the total, add the number of crabs each person has: 40 + 36 + 46 = 122 crabs.\n\n**Answer:** The total number of crabs the three have together is 122. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Monic's crabs:** Bo has 40 crabs, and Monic has 4 fewer, so Monic has 40 - 4 = 36 crabs.\n* **Rani's crabs:** Rani has 10 more crabs than Monic, so Rani has 36 + 10 = 46 crabs.\n* **Total crabs:** To find the total, add the number of crabs each person has: 40 + 36 + 46 = 122 crabs.\n\n**Answer:** The total number of crabs the three have together is 122. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                151,
+                0
+            ]
+        },
+        {
+            "pred_answer": 30.0,
+            "correct_answer": 29.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to break down the problem:\n\n* **Low setting:** Removes 1 liter/day.\n* **Medium setting:** Removes 2 * 1 liter/day = 2 liters/day.\n* **High setting:** Removes 2 * 2 liters/day = 4 liters/day.\n\n**Calculations:**\n\n* **Low setting (3 days):** 1 liter/day * 3 days = 3 liters\n* **Medium setting (3 days):** 2 liters/day * 3 days = 6 liters\n* **High setting (5 days):** 4 liters/day * 5 days = 20 liters\n\n**Total:** 3 liters + 6 liters + 20 liters = **30 liters**\n\n\n**Answer:** 30 liters \n",
+            "every_model_output_text": [
+                "Here's how to break down the problem:\n\n* **Low setting:** Removes 1 liter/day.\n* **Medium setting:** Removes 2 * 1 liter/day = 2 liters/day.\n* **High setting:** Removes 2 * 2 liters/day = 4 liters/day.\n\n**Calculations:**\n\n* **Low setting (3 days):** 1 liter/day * 3 days = 3 liters\n* **Medium setting (3 days):** 2 liters/day * 3 days = 6 liters\n* **High setting (5 days):** 4 liters/day * 5 days = 20 liters\n\n**Total:** 3 liters + 6 liters + 20 liters = **30 liters**\n\n\n**Answer:** 30 liters \n",
+                "Here's how to break down the problem:\n\n* **Low setting:** Removes 1 liter/day.\n* **Medium setting:** Removes 2 * 1 liter/day = 2 liters/day.\n* **High setting:** Removes 2 * 2 liters/day = 4 liters/day.\n\n**Calculations:**\n\n* **Low setting (3 days):** 1 liter/day * 3 days = 3 liters\n* **Medium setting (3 days):** 2 liters/day * 3 days = 6 liters\n* **High setting (5 days):** 4 liters/day * 5 days = 20 liters\n\n**Total:** 3 liters + 6 liters + 20 liters = **30 liters**\n\n\n**Answer:** 30 liters \n"
+            ],
+            "every_model_generate_token_num_list": [
+                175,
+                0
+            ]
+        },
+        {
+            "pred_answer": 100.0,
+            "correct_answer": 80.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Burritos given to students:** 50 students * 10 burritos/student = 500 burritos\n* **Burritos remaining after Mr. George's portion:** 600 burritos - 20 burritos - 500 burritos = 100 burritos\n\n**Answer:** There were **100** leftover burritos. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Burritos given to students:** 50 students * 10 burritos/student = 500 burritos\n* **Burritos remaining after Mr. George's portion:** 600 burritos - 20 burritos - 500 burritos = 100 burritos\n\n**Answer:** There were **100** leftover burritos. \n",
+                "Here's how to solve the problem:\n\n* **Burritos given to students:** 50 students * 10 burritos/student = 500 burritos\n* **Burritos remaining after Mr. George's portion:** 600 burritos - 20 burritos - 500 burritos = 100 burritos\n\n**Answer:** There were **100** leftover burritos. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                96,
+                0
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 36.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Reading time per session:** Jim reads for half the time he watches TV, so he reads for 2 hours / 2 = 1 hour.\n* **Total reading time per session:** He reads for 1 hour.\n* **Total reading time per week:** He reads for 1 hour/session * 3 sessions = 3 hours.\n* **Total TV time per week:** He watches TV for 2 hours/session * 3 sessions = 6 hours.\n* **Total time spent on TV and reading in 4 weeks:** He spends 6 hours/week + 3 hours/week = 9 hours in total.\n\n**Answer:** Jim spends 9 hours on TV and reading in 4 weeks. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Reading time per session:** Jim reads for half the time he watches TV, so he reads for 2 hours / 2 = 1 hour.\n* **Total reading time per session:** He reads for 1 hour.\n* **Total reading time per week:** He reads for 1 hour/session * 3 sessions = 3 hours.\n* **Total TV time per week:** He watches TV for 2 hours/session * 3 sessions = 6 hours.\n* **Total time spent on TV and reading in 4 weeks:** He spends 6 hours/week + 3 hours/week = 9 hours in total.\n\n**Answer:** Jim spends 9 hours on TV and reading in 4 weeks. \n",
+                "Here's how to solve the problem:\n\n* **Reading time per session:** Jim reads for half the time he watches TV, so he reads for 2 hours / 2 = 1 hour.\n* **Total reading time per session:** He reads for 1 hour.\n* **Total reading time per week:** He reads for 1 hour/session * 3 sessions = 3 hours.\n* **Total TV time per week:** He watches TV for 2 hours/session * 3 sessions = 6 hours.\n* **Total time spent on TV and reading in 4 weeks:** He spends 6 hours/week + 3 hours/week = 9 hours in total.\n\n**Answer:** Jim spends 9 hours on TV and reading in 4 weeks. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                168,
+                0
+            ]
+        },
+        {
+            "pred_answer": 1430.0,
+            "correct_answer": 1430.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to break down the cost:\n\n* **Total cost of materials and construction:** $500 + $800 = $1300\n* **Insurance cost:** $1300 * 0.10 = $130\n* **Total cost including insurance:** $1300 + $130 = $1430\n\n**Answer:** Janet paid $1430. \n",
+            "every_model_output_text": [
+                "Here's how to break down the cost:\n\n* **Total cost of materials and construction:** $500 + $800 = $1300\n* **Insurance cost:** $1300 * 0.10 = $130\n* **Total cost including insurance:** $1300 + $130 = $1430\n\n**Answer:** Janet paid $1430. \n",
+                "Here's how to break down the cost:\n\n* **Total cost of materials and construction:** $500 + $800 = $1300\n* **Insurance cost:** $1300 * 0.10 = $130\n* **Total cost including insurance:** $1300 + $130 = $1430\n\n**Answer:** Janet paid $1430. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                97,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0.5,
+            "correct_answer": 5.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this:\n\n* **Weekly insects:** 3.5 pounds\n* **Days in a week:** 7 days\n* **Daily insects:** 3.5 pounds / 7 days = 0.5 pounds per day\n\n**Answer:** The flock of ducks needs 0.5 pounds of insects per day. \n",
+            "every_model_output_text": [
+                "Here's how to solve this:\n\n* **Weekly insects:** 3.5 pounds\n* **Days in a week:** 7 days\n* **Daily insects:** 3.5 pounds / 7 days = 0.5 pounds per day\n\n**Answer:** The flock of ducks needs 0.5 pounds of insects per day. \n",
+                "Here's how to solve this:\n\n* **Weekly insects:** 3.5 pounds\n* **Days in a week:** 7 days\n* **Daily insects:** 3.5 pounds / 7 days = 0.5 pounds per day\n\n**Answer:** The flock of ducks needs 0.5 pounds of insects per day. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                76,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Joey's score after his turn:** 214 + 26 = 240 points\n* **Marcy's score after her turn:** 225 + 10 = 235 points\n* **The difference in points:** 240 - 235 = 5 points\n\n**Answer:** Joey is winning by 5 points. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Joey's score after his turn:** 214 + 26 = 240 points\n* **Marcy's score after her turn:** 225 + 10 = 235 points\n* **The difference in points:** 240 - 235 = 5 points\n\n**Answer:** Joey is winning by 5 points. \n",
+                "Here's how to solve the problem:\n\n* **Joey's score after his turn:** 214 + 26 = 240 points\n* **Marcy's score after her turn:** 225 + 10 = 235 points\n* **The difference in points:** 240 - 235 = 5 points\n\n**Answer:** Joey is winning by 5 points. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                97,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Find the total number of books:** Sarah spent $300 on books, and each book costs $15, so she bought 300 / 15 = 20 books.\n* **Divide the books among the kids:** Since she gave an equal number of books to her 4 kids, each child received 20 / 4 = 5 books.\n\n**Answer:** Each child got 5 books. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Find the total number of books:** Sarah spent $300 on books, and each book costs $15, so she bought 300 / 15 = 20 books.\n* **Divide the books among the kids:** Since she gave an equal number of books to her 4 kids, each child received 20 / 4 = 5 books.\n\n**Answer:** Each child got 5 books. \n",
+                "Here's how to solve the problem:\n\n* **Find the total number of books:** Sarah spent $300 on books, and each book costs $15, so she bought 300 / 15 = 20 books.\n* **Divide the books among the kids:** Since she gave an equal number of books to her 4 kids, each child received 20 / 4 = 5 books.\n\n**Answer:** Each child got 5 books. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                106,
+                0
+            ]
+        },
+        {
+            "pred_answer": 66.0,
+            "correct_answer": 66.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Cost of the books:** 3 books * $16/book = $48\n* **Cost of the pencils:** 3 pencils * $6/pencil = $18\n* **Total spending:** $48 + $18 = $66\n\nTed spent a total of **$66**. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Cost of the books:** 3 books * $16/book = $48\n* **Cost of the pencils:** 3 pencils * $6/pencil = $18\n* **Total spending:** $48 + $18 = $66\n\nTed spent a total of **$66**. \n",
+                "Here's how to solve the problem:\n\n* **Cost of the books:** 3 books * $16/book = $48\n* **Cost of the pencils:** 3 pencils * $6/pencil = $18\n* **Total spending:** $48 + $18 = $66\n\nTed spent a total of **$66**. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                82,
+                0
+            ]
+        },
+        {
+            "pred_answer": 15.0,
+            "correct_answer": 15.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Find out how many pomelos Eve has left:** Eve has 20 pomelos / 4 = 5 pomelos left.\n* **Calculate how many pomelos Eve gave away:** Eve gave away 20 pomelos - 5 pomelos = 15 pomelos.\n\n**Answer:** Eve gave away 15 pomelos. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Find out how many pomelos Eve has left:** Eve has 20 pomelos / 4 = 5 pomelos left.\n* **Calculate how many pomelos Eve gave away:** Eve gave away 20 pomelos - 5 pomelos = 15 pomelos.\n\n**Answer:** Eve gave away 15 pomelos. \n",
+                "Here's how to solve the problem:\n\n* **Find out how many pomelos Eve has left:** Eve has 20 pomelos / 4 = 5 pomelos left.\n* **Calculate how many pomelos Eve gave away:** Eve gave away 20 pomelos - 5 pomelos = 15 pomelos.\n\n**Answer:** Eve gave away 15 pomelos. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                88,
+                0
+            ]
+        },
+        {
+            "pred_answer": 33.0,
+            "correct_answer": 40.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Patchy's kittens:** Patchy had thrice the number of adopted kittens, so she had 3 * 7 = 21 kittens.\n* **Total kittens:** In total, the cats had 21 + 12 = 33 kittens.\n* **Doubtfire family kittens:** The Doubtfire family now has 33 kittens.\n\n**Answer:** 33 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Patchy's kittens:** Patchy had thrice the number of adopted kittens, so she had 3 * 7 = 21 kittens.\n* **Total kittens:** In total, the cats had 21 + 12 = 33 kittens.\n* **Doubtfire family kittens:** The Doubtfire family now has 33 kittens.\n\n**Answer:** 33 \n",
+                "Here's how to solve the problem:\n\n* **Patchy's kittens:** Patchy had thrice the number of adopted kittens, so she had 3 * 7 = 21 kittens.\n* **Total kittens:** In total, the cats had 21 + 12 = 33 kittens.\n* **Doubtfire family kittens:** The Doubtfire family now has 33 kittens.\n\n**Answer:** 33 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                97,
+                0
+            ]
+        },
+        {
+            "pred_answer": 90.0,
+            "correct_answer": 93.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this:\n\n* **Daily food cost:** 3 fish * $1/fish = $3 per day\n* **Monthly food cost:** $3/day * 30 days/month = $90\n\n**Answer:** Jen spends $90 on food in May. \n",
+            "every_model_output_text": [
+                "Here's how to solve this:\n\n* **Daily food cost:** 3 fish * $1/fish = $3 per day\n* **Monthly food cost:** $3/day * 30 days/month = $90\n\n**Answer:** Jen spends $90 on food in May. \n",
+                "Here's how to solve this:\n\n* **Daily food cost:** 3 fish * $1/fish = $3 per day\n* **Monthly food cost:** $3/day * 30 days/month = $90\n\n**Answer:** Jen spends $90 on food in May. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                68,
+                0
+            ]
+        },
+        {
+            "pred_answer": 12000.0,
+            "correct_answer": 2000.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **School walks:** Elliott walked half his steps to and from school, so he took 10,000 steps / 2 = 5,000 steps.\n* **Total steps before jog:** He had 10,000 steps + 5,000 steps = 15,000 steps.\n* **Steps after jog:** He had 15,000 steps - 2,000 steps = 13,000 steps left.\n* **Steps from jog:** Elliott took 13,000 steps - 1,000 steps = 12,000 steps for his jog.\n\n**Answer:** Elliott took 12,000 steps during his jog. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **School walks:** Elliott walked half his steps to and from school, so he took 10,000 steps / 2 = 5,000 steps.\n* **Total steps before jog:** He had 10,000 steps + 5,000 steps = 15,000 steps.\n* **Steps after jog:** He had 15,000 steps - 2,000 steps = 13,000 steps left.\n* **Steps from jog:** Elliott took 13,000 steps - 1,000 steps = 12,000 steps for his jog.\n\n**Answer:** Elliott took 12,000 steps during his jog. \n",
+                "Here's how to solve the problem:\n\n* **School walks:** Elliott walked half his steps to and from school, so he took 10,000 steps / 2 = 5,000 steps.\n* **Total steps before jog:** He had 10,000 steps + 5,000 steps = 15,000 steps.\n* **Steps after jog:** He had 15,000 steps - 2,000 steps = 13,000 steps left.\n* **Steps from jog:** Elliott took 13,000 steps - 1,000 steps = 12,000 steps for his jog.\n\n**Answer:** Elliott took 12,000 steps during his jog. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                180,
+                0
+            ]
+        },
+        {
+            "pred_answer": 0.5,
+            "correct_answer": 64.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n**1. Find Aaron's speed:**\n\n* Vanessa ran 4 miles, and Aaron ran 1/2 the distance, so Aaron ran 4 miles / 2 = 2 miles.\n* Aaron ran twice as fast as Vanessa, so he ran 2 miles / 16 minutes = 1/8 mile per minute.\n\n**2. Find Vanessa's speed:**\n\n* Vanessa ran 4 miles, which is 2 times the distance Aaron ran.\n* Vanessa's speed is 4 miles / 1/2 = 8 miles per minute.\n\n**3. Find Vanessa's time:**\n\n* Vanessa ran 4 miles at a speed of 8 miles per minute.\n* Vanessa's time is 4 miles / 8 miles per minute = 0.5 minutes.\n\n**Answer:** Vanessa took **0.5 minutes** to complete her part of the race. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n**1. Find Aaron's speed:**\n\n* Vanessa ran 4 miles, and Aaron ran 1/2 the distance, so Aaron ran 4 miles / 2 = 2 miles.\n* Aaron ran twice as fast as Vanessa, so he ran 2 miles / 16 minutes = 1/8 mile per minute.\n\n**2. Find Vanessa's speed:**\n\n* Vanessa ran 4 miles, which is 2 times the distance Aaron ran.\n* Vanessa's speed is 4 miles / 1/2 = 8 miles per minute.\n\n**3. Find Vanessa's time:**\n\n* Vanessa ran 4 miles at a speed of 8 miles per minute.\n* Vanessa's time is 4 miles / 8 miles per minute = 0.5 minutes.\n\n**Answer:** Vanessa took **0.5 minutes** to complete her part of the race. \n",
+                "Here's how to solve this problem:\n\n**1. Find Aaron's speed:**\n\n* Vanessa ran 4 miles, and Aaron ran 1/2 the distance, so Aaron ran 4 miles / 2 = 2 miles.\n* Aaron ran twice as fast as Vanessa, so he ran 2 miles / 16 minutes = 1/8 mile per minute.\n\n**2. Find Vanessa's speed:**\n\n* Vanessa ran 4 miles, which is 2 times the distance Aaron ran.\n* Vanessa's speed is 4 miles / 1/2 = 8 miles per minute.\n\n**3. Find Vanessa's time:**\n\n* Vanessa ran 4 miles at a speed of 8 miles per minute.\n* Vanessa's time is 4 miles / 8 miles per minute = 0.5 minutes.\n\n**Answer:** Vanessa took **0.5 minutes** to complete her part of the race. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                205,
+                0
+            ]
+        },
+        {
+            "pred_answer": 1520.0,
+            "correct_answer": 1520.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate Julieta's tips:**\n\n* Julieta received 10% less than Rafaela, so she received 90% of Rafaela's tips.\n* Rafaela received $20 * 40 = $800 in tips.\n* Julieta received 0.90 * $800 = $720 in tips.\n\n**2. Calculate the total tips:**\n\n* Total tips received by Rafaela and Julieta: $800 + $720 = $1520\n\n**Answer:** Rafaela and Julieta received a total of $1520 in tips. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate Julieta's tips:**\n\n* Julieta received 10% less than Rafaela, so she received 90% of Rafaela's tips.\n* Rafaela received $20 * 40 = $800 in tips.\n* Julieta received 0.90 * $800 = $720 in tips.\n\n**2. Calculate the total tips:**\n\n* Total tips received by Rafaela and Julieta: $800 + $720 = $1520\n\n**Answer:** Rafaela and Julieta received a total of $1520 in tips. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate Julieta's tips:**\n\n* Julieta received 10% less than Rafaela, so she received 90% of Rafaela's tips.\n* Rafaela received $20 * 40 = $800 in tips.\n* Julieta received 0.90 * $800 = $720 in tips.\n\n**2. Calculate the total tips:**\n\n* Total tips received by Rafaela and Julieta: $800 + $720 = $1520\n\n**Answer:** Rafaela and Julieta received a total of $1520 in tips. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                152,
+                0
+            ]
+        },
+        {
+            "pred_answer": 170.0,
+            "correct_answer": 11050.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Find the original price per balloon:**\n\n* The total cost of 20 balloons was $900, so the original price per balloon was $900 / 20 = $45.\n\n**2. Calculate the new price per balloon:**\n\n* The price per balloon increased by $20, so the new price is $45 + $20 = $65.\n\n**3. Calculate the cost of filling 170 balloons:**\n\n* The cost of filling 170 balloons at the new price is 170 * $65 = $11050.\n\n**Answer:** Bentley paid $11050 to fill 170 balloons after the price increase. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Find the original price per balloon:**\n\n* The total cost of 20 balloons was $900, so the original price per balloon was $900 / 20 = $45.\n\n**2. Calculate the new price per balloon:**\n\n* The price per balloon increased by $20, so the new price is $45 + $20 = $65.\n\n**3. Calculate the cost of filling 170 balloons:**\n\n* The cost of filling 170 balloons at the new price is 170 * $65 = $11050.\n\n**Answer:** Bentley paid $11050 to fill 170 balloons after the price increase. \n",
+                "Here's how to solve the problem:\n\n**1. Find the original price per balloon:**\n\n* The total cost of 20 balloons was $900, so the original price per balloon was $900 / 20 = $45.\n\n**2. Calculate the new price per balloon:**\n\n* The price per balloon increased by $20, so the new price is $45 + $20 = $65.\n\n**3. Calculate the cost of filling 170 balloons:**\n\n* The cost of filling 170 balloons at the new price is 170 * $65 = $11050.\n\n**Answer:** Bentley paid $11050 to fill 170 balloons after the price increase. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                171,
+                0
+            ]
+        },
+        {
+            "pred_answer": 90.0,
+            "correct_answer": 90.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the total number of lollipops sold:**\n\n* Each student sold 10 lollipops, and there are 30 students, so they sold a total of 10 * 30 = 300 lollipops.\n\n**2. Calculate the total cost of the lollipops:**\n\n* They bought the lollipops for $0.5 each, and they sold 300 lollipops, so the total cost was 300 * $0.5 = $150.\n\n**3. Calculate the total revenue from selling the lollipops:**\n\n* They sold 300 lollipops at $0.8 each, so they made $0.8 * 300 = $240 in revenue.\n\n**4. Calculate the profit:**\n\n* Profit is revenue minus cost: $240 - $150 = $90\n\n**Answer:** The class was able to raise **$90** from the profit of selling lollipops. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the total number of lollipops sold:**\n\n* Each student sold 10 lollipops, and there are 30 students, so they sold a total of 10 * 30 = 300 lollipops.\n\n**2. Calculate the total cost of the lollipops:**\n\n* They bought the lollipops for $0.5 each, and they sold 300 lollipops, so the total cost was 300 * $0.5 = $150.\n\n**3. Calculate the total revenue from selling the lollipops:**\n\n* They sold 300 lollipops at $0.8 each, so they made $0.8 * 300 = $240 in revenue.\n\n**4. Calculate the profit:**\n\n* Profit is revenue minus cost: $240 - $150 = $90\n\n**Answer:** The class was able to raise **$90** from the profit of selling lollipops. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the total number of lollipops sold:**\n\n* Each student sold 10 lollipops, and there are 30 students, so they sold a total of 10 * 30 = 300 lollipops.\n\n**2. Calculate the total cost of the lollipops:**\n\n* They bought the lollipops for $0.5 each, and they sold 300 lollipops, so the total cost was 300 * $0.5 = $150.\n\n**3. Calculate the total revenue from selling the lollipops:**\n\n* They sold 300 lollipops at $0.8 each, so they made $0.8 * 300 = $240 in revenue.\n\n**4. Calculate the profit:**\n\n* Profit is revenue minus cost: $240 - $150 = $90\n\n**Answer:** The class was able to raise **$90** from the profit of selling lollipops. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                235,
+                0
+            ]
+        },
+        {
+            "pred_answer": 90000.0,
+            "correct_answer": 40000.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n1. **Calculate the loan amount:** 40% of $250,000 = (40/100) * $250,000 = $100,000\n\n2. **Calculate the amount used to pay off debts:** 60% of $100,000 = (60/100) * $100,000 = $60,000\n\n3. **Calculate the remaining amount:** $250,000 (house value) - $100,000 (loan) - $60,000 (debt payment) = $90,000\n\n**Answer:** John had $90,000 leftover after paying off his debts. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n1. **Calculate the loan amount:** 40% of $250,000 = (40/100) * $250,000 = $100,000\n\n2. **Calculate the amount used to pay off debts:** 60% of $100,000 = (60/100) * $100,000 = $60,000\n\n3. **Calculate the remaining amount:** $250,000 (house value) - $100,000 (loan) - $60,000 (debt payment) = $90,000\n\n**Answer:** John had $90,000 leftover after paying off his debts. \n",
+                "Here's how to solve the problem step-by-step:\n\n1. **Calculate the loan amount:** 40% of $250,000 = (40/100) * $250,000 = $100,000\n\n2. **Calculate the amount used to pay off debts:** 60% of $100,000 = (60/100) * $100,000 = $60,000\n\n3. **Calculate the remaining amount:** $250,000 (house value) - $100,000 (loan) - $60,000 (debt payment) = $90,000\n\n**Answer:** John had $90,000 leftover after paying off his debts. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                192,
+                0
+            ]
+        },
+        {
+            "pred_answer": 21.0,
+            "correct_answer": 21.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Mitchell's earnings:** Mitchell sold 21 lemonades at $4 each, so he made 21 * $4 = $84.\n* **The difference:** Mitchell made $84 - $63 = $21 more than Liam.\n\n**Answer:** Mitchell made $21 more than Liam. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Mitchell's earnings:** Mitchell sold 21 lemonades at $4 each, so he made 21 * $4 = $84.\n* **The difference:** Mitchell made $84 - $63 = $21 more than Liam.\n\n**Answer:** Mitchell made $21 more than Liam. \n",
+                "Here's how to solve the problem:\n\n* **Mitchell's earnings:** Mitchell sold 21 lemonades at $4 each, so he made 21 * $4 = $84.\n* **The difference:** Mitchell made $84 - $63 = $21 more than Liam.\n\n**Answer:** Mitchell made $21 more than Liam. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                83,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 18.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Let's represent the unknown:** Let 'x' be the number of vacuum cleaners Melanie started with.\n\n* **Green House:** She sold (1/3)x vacuum cleaners.\n\n* **Red House:** She sold 2 more than the green house, so she sold (1/3)x + 2 vacuum cleaners.\n\n* **Orange House:** She sold half of what was left, meaning she sold (1/2) * (x - (1/3)x - 2) vacuum cleaners.\n\n* **Total Sold:**  The total number of vacuum cleaners sold is (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n\n* **Simplify and Solve:** Combine like terms and solve for x:\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Let's represent the unknown:** Let 'x' be the number of vacuum cleaners Melanie started with.\n\n* **Green House:** She sold (1/3)x vacuum cleaners.\n\n* **Red House:** She sold 2 more than the green house, so she sold (1/3)x + 2 vacuum cleaners.\n\n* **Orange House:** She sold half of what was left, meaning she sold (1/2) * (x - (1/3)x - 2) vacuum cleaners.\n\n* **Total Sold:**  The total number of vacuum cleaners sold is (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n\n* **Simplify and Solve:** Combine like terms and solve for x:\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (",
+                "Here's how to solve the problem step-by-step:\n\n* **Let's represent the unknown:** Let 'x' be the number of vacuum cleaners Melanie started with.\n\n* **Green House:** She sold (1/3)x vacuum cleaners.\n\n* **Red House:** She sold 2 more than the green house, so she sold (1/3)x + 2 vacuum cleaners.\n\n* **Orange House:** She sold half of what was left, meaning she sold (1/2) * (x - (1/3)x - 2) vacuum cleaners.\n\n* **Total Sold:**  The total number of vacuum cleaners sold is (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n\n* **Simplify and Solve:** Combine like terms and solve for x:\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + (1/3)x + 2 + (1/2) * (x - (1/3)x - 2) = 5\n   (1/3)x + ("
+            ],
+            "every_model_generate_token_num_list": [
+                1024,
+                0
+            ]
+        },
+        {
+            "pred_answer": null,
+            "correct_answer": 14.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Let's use variables:**\n    *  Let 'x' represent the number of people who got on the bus at the terminal.\n\n* **Set up an equation:**\n    *  We know that the total number of people on the bus is 20, so: x + (5 + 7 + 8) = 20\n\n* **Solve for x:**\n    *  x + 20 = 20\n    *  x = 0\n\n* **Answer:**  There were **0** people who got on the bus at the terminal. \n\n\nLet me know if you'd like to try another problem! \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Let's use variables:**\n    *  Let 'x' represent the number of people who got on the bus at the terminal.\n\n* **Set up an equation:**\n    *  We know that the total number of people on the bus is 20, so: x + (5 + 7 + 8) = 20\n\n* **Solve for x:**\n    *  x + 20 = 20\n    *  x = 0\n\n* **Answer:**  There were **0** people who got on the bus at the terminal. \n\n\nLet me know if you'd like to try another problem! \n",
+                "Here's how to solve the problem:\n\n* **Let's use variables:**\n    *  Let 'x' represent the number of people who got on the bus at the terminal.\n\n* **Set up an equation:**\n    *  We know that the total number of people on the bus is 20, so: x + (5 + 7 + 8) = 20\n\n* **Solve for x:**\n    *  x + 20 = 20\n    *  x = 0\n\n* **Answer:**  There were **0** people who got on the bus at the terminal. \n\n\nLet me know if you'd like to try another problem! \n"
+            ],
+            "every_model_generate_token_num_list": [
+                153,
+                0
+            ]
+        },
+        {
+            "pred_answer": 23.0,
+            "correct_answer": 23.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Green cars:** The rink has 2 fewer green cars than red cars, so they have 12 - 2 = 10 green cars.\n* **Blue cars:** They have 3 times the number of blue cars as green cars, so they have 10 * 3 = 30 blue cars.\n* **Total red, green, and blue cars:**  The rink has 12 + 10 + 30 = 52 cars.\n* **Yellow cars:**  The rink has 75 total cars and 52 are red, green, and blue, so they have 75 - 52 = 23 yellow cars.\n\n**Answer:** The rink has 23 yellow cars. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Green cars:** The rink has 2 fewer green cars than red cars, so they have 12 - 2 = 10 green cars.\n* **Blue cars:** They have 3 times the number of blue cars as green cars, so they have 10 * 3 = 30 blue cars.\n* **Total red, green, and blue cars:**  The rink has 12 + 10 + 30 = 52 cars.\n* **Yellow cars:**  The rink has 75 total cars and 52 are red, green, and blue, so they have 75 - 52 = 23 yellow cars.\n\n**Answer:** The rink has 23 yellow cars. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Green cars:** The rink has 2 fewer green cars than red cars, so they have 12 - 2 = 10 green cars.\n* **Blue cars:** They have 3 times the number of blue cars as green cars, so they have 10 * 3 = 30 blue cars.\n* **Total red, green, and blue cars:**  The rink has 12 + 10 + 30 = 52 cars.\n* **Yellow cars:**  The rink has 75 total cars and 52 are red, green, and blue, so they have 75 - 52 = 23 yellow cars.\n\n**Answer:** The rink has 23 yellow cars. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                178,
+                0
+            ]
+        },
+        {
+            "pred_answer": 145.0,
+            "correct_answer": 145.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n**1. Calculate Betty's points:**\n\n* Betty collected 30% more than Adam, who has 50 points.\n* 30% of 50 points is (30/100) * 50 = 15 points.\n* Betty collected 50 + 15 = 65 points.\n\n**2. Calculate Marta's points:**\n\n* Marta collected 3 times more points than Tom, who has 30 points less than Betty.\n* Tom has 30 points less than Betty, so he has 65 - 30 = 35 points.\n* Marta collected 3 * 35 = 105 points.\n\n**3. Calculate the total points collected:**\n\n* Adam: 50 points\n* Betty: 65 points\n* Marta: 105 points\n* Tom: 35 points\n* Total: 50 + 65 + 105 + 35 = 255 points\n\n**4. Calculate the points missing:**\n\n* The minimum threshold is 400 points.\n* Points missing: 400 - 255 = 145 points.\n\n\n**Answer:** The class is missing 145 points to go on the trip. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n**1. Calculate Betty's points:**\n\n* Betty collected 30% more than Adam, who has 50 points.\n* 30% of 50 points is (30/100) * 50 = 15 points.\n* Betty collected 50 + 15 = 65 points.\n\n**2. Calculate Marta's points:**\n\n* Marta collected 3 times more points than Tom, who has 30 points less than Betty.\n* Tom has 30 points less than Betty, so he has 65 - 30 = 35 points.\n* Marta collected 3 * 35 = 105 points.\n\n**3. Calculate the total points collected:**\n\n* Adam: 50 points\n* Betty: 65 points\n* Marta: 105 points\n* Tom: 35 points\n* Total: 50 + 65 + 105 + 35 = 255 points\n\n**4. Calculate the points missing:**\n\n* The minimum threshold is 400 points.\n* Points missing: 400 - 255 = 145 points.\n\n\n**Answer:** The class is missing 145 points to go on the trip. \n",
+                "Here's how to solve the problem step-by-step:\n\n**1. Calculate Betty's points:**\n\n* Betty collected 30% more than Adam, who has 50 points.\n* 30% of 50 points is (30/100) * 50 = 15 points.\n* Betty collected 50 + 15 = 65 points.\n\n**2. Calculate Marta's points:**\n\n* Marta collected 3 times more points than Tom, who has 30 points less than Betty.\n* Tom has 30 points less than Betty, so he has 65 - 30 = 35 points.\n* Marta collected 3 * 35 = 105 points.\n\n**3. Calculate the total points collected:**\n\n* Adam: 50 points\n* Betty: 65 points\n* Marta: 105 points\n* Tom: 35 points\n* Total: 50 + 65 + 105 + 35 = 255 points\n\n**4. Calculate the points missing:**\n\n* The minimum threshold is 400 points.\n* Points missing: 400 - 255 = 145 points.\n\n\n**Answer:** The class is missing 145 points to go on the trip. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                301,
+                0
+            ]
+        },
+        {
+            "pred_answer": 27.0,
+            "correct_answer": 27.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Timothy's pens:** Timothy has three times the number of pens George has, so he has 3 * 18 = 54 pens.\n* **Sarah's pens:** Sarah has half as many pens as Timothy, so she has 54 / 2 = 27 pens.\n\n**Answer:** Sarah has 27 pens. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Timothy's pens:** Timothy has three times the number of pens George has, so he has 3 * 18 = 54 pens.\n* **Sarah's pens:** Sarah has half as many pens as Timothy, so she has 54 / 2 = 27 pens.\n\n**Answer:** Sarah has 27 pens. \n",
+                "Here's how to solve the problem:\n\n* **Timothy's pens:** Timothy has three times the number of pens George has, so he has 3 * 18 = 54 pens.\n* **Sarah's pens:** Sarah has half as many pens as Timothy, so she has 54 / 2 = 27 pens.\n\n**Answer:** Sarah has 27 pens. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                90,
+                0
+            ]
+        },
+        {
+            "pred_answer": 123.0,
+            "correct_answer": 123.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Girls:** Since there are 3 times as many girls as boys, there are 3 * 30 = 90 girls.\n* **Non-gendered children:**  There are 1/10 as many non-gendered children as boys, so there are (1/10) * 30 = 3 non-gendered children.\n* **Total children:**  The total number of children is 30 (boys) + 90 (girls) + 3 (non-gendered) = 123 children.\n\n**Therefore, the classroom has a total of 123 children.** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Girls:** Since there are 3 times as many girls as boys, there are 3 * 30 = 90 girls.\n* **Non-gendered children:**  There are 1/10 as many non-gendered children as boys, so there are (1/10) * 30 = 3 non-gendered children.\n* **Total children:**  The total number of children is 30 (boys) + 90 (girls) + 3 (non-gendered) = 123 children.\n\n**Therefore, the classroom has a total of 123 children.** \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Girls:** Since there are 3 times as many girls as boys, there are 3 * 30 = 90 girls.\n* **Non-gendered children:**  There are 1/10 as many non-gendered children as boys, so there are (1/10) * 30 = 3 non-gendered children.\n* **Total children:**  The total number of children is 30 (boys) + 90 (girls) + 3 (non-gendered) = 123 children.\n\n**Therefore, the classroom has a total of 123 children.** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                156,
+                0
+            ]
+        },
+        {
+            "pred_answer": 98.0,
+            "correct_answer": 98.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Convert yards to feet:**\n\n* There are 3 feet in every yard, so 3 yards is equal to 3 * 3 = 9 feet.\n\n**2. Find the width:**\n\n* The area of a rectangle is length * width.  We know the area is 360 square feet and the length is 9 feet.\n*  So, 360 = 9 * width\n*  Divide both sides by 9 to find the width: width = 40 feet.\n\n**3. Calculate the perimeter:**\n\n* The perimeter of a rectangle is 2 * (length + width)\n* Perimeter = 2 * (9 + 40) = 2 * 49 = 98 feet.\n\n**Answer:** The perimeter of Billie's room is 98 feet. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Convert yards to feet:**\n\n* There are 3 feet in every yard, so 3 yards is equal to 3 * 3 = 9 feet.\n\n**2. Find the width:**\n\n* The area of a rectangle is length * width.  We know the area is 360 square feet and the length is 9 feet.\n*  So, 360 = 9 * width\n*  Divide both sides by 9 to find the width: width = 40 feet.\n\n**3. Calculate the perimeter:**\n\n* The perimeter of a rectangle is 2 * (length + width)\n* Perimeter = 2 * (9 + 40) = 2 * 49 = 98 feet.\n\n**Answer:** The perimeter of Billie's room is 98 feet. \n",
+                "Here's how to solve the problem:\n\n**1. Convert yards to feet:**\n\n* There are 3 feet in every yard, so 3 yards is equal to 3 * 3 = 9 feet.\n\n**2. Find the width:**\n\n* The area of a rectangle is length * width.  We know the area is 360 square feet and the length is 9 feet.\n*  So, 360 = 9 * width\n*  Divide both sides by 9 to find the width: width = 40 feet.\n\n**3. Calculate the perimeter:**\n\n* The perimeter of a rectangle is 2 * (length + width)\n* Perimeter = 2 * (9 + 40) = 2 * 49 = 98 feet.\n\n**Answer:** The perimeter of Billie's room is 98 feet. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                193,
+                0
+            ]
+        },
+        {
+            "pred_answer": 16.0,
+            "correct_answer": 7.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Find the cost of the lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of five lollipops: $0.40 * 5 = $2.00\n\n**2. Find the cost of the candies:**\n\n* Total cost: $3.20\n* Cost of lollipops: $2.00\n* Cost of candies: $3.20 - $2.00 = $1.20\n\n**3. Find the cost of 10 lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of 10 lollipops: $0.40 * 10 = $4.00\n\n**4. Find the cost of 10 candies:**\n\n* Cost of one candy: $1.20\n* Cost of 10 candies: $1.20 * 10 = $12.00\n\n**5. Find the total cost:**\n\n* Cost of 10 lollipops: $4.00\n* Cost of 10 candies: $12.00\n* Total cost: $4.00 + $12.00 = $16.00\n\n\n**Answer:** 10 lollipops and 10 candies will cost Manolo $16.00. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Find the cost of the lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of five lollipops: $0.40 * 5 = $2.00\n\n**2. Find the cost of the candies:**\n\n* Total cost: $3.20\n* Cost of lollipops: $2.00\n* Cost of candies: $3.20 - $2.00 = $1.20\n\n**3. Find the cost of 10 lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of 10 lollipops: $0.40 * 10 = $4.00\n\n**4. Find the cost of 10 candies:**\n\n* Cost of one candy: $1.20\n* Cost of 10 candies: $1.20 * 10 = $12.00\n\n**5. Find the total cost:**\n\n* Cost of 10 lollipops: $4.00\n* Cost of 10 candies: $12.00\n* Total cost: $4.00 + $12.00 = $16.00\n\n\n**Answer:** 10 lollipops and 10 candies will cost Manolo $16.00. \n",
+                "Here's how to solve the problem:\n\n**1. Find the cost of the lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of five lollipops: $0.40 * 5 = $2.00\n\n**2. Find the cost of the candies:**\n\n* Total cost: $3.20\n* Cost of lollipops: $2.00\n* Cost of candies: $3.20 - $2.00 = $1.20\n\n**3. Find the cost of 10 lollipops:**\n\n* Cost of one lollipop: $0.40\n* Cost of 10 lollipops: $0.40 * 10 = $4.00\n\n**4. Find the cost of 10 candies:**\n\n* Cost of one candy: $1.20\n* Cost of 10 candies: $1.20 * 10 = $12.00\n\n**5. Find the total cost:**\n\n* Cost of 10 lollipops: $4.00\n* Cost of 10 candies: $12.00\n* Total cost: $4.00 + $12.00 = $16.00\n\n\n**Answer:** 10 lollipops and 10 candies will cost Manolo $16.00. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                311,
+                0
+            ]
+        },
+        {
+            "pred_answer": 594.0,
+            "correct_answer": 594.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate the total line needed:** The caretaker needs 3 feet of line for every foot of dock, so he needs 3 * 200 feet = 600 feet of line.\n* **Add the existing line:** He already has 6 feet of line, so he needs to buy 600 feet - 6 feet = 594 feet more.\n\n**Answer:** The caretaker needs to buy 594 feet of line in total. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate the total line needed:** The caretaker needs 3 feet of line for every foot of dock, so he needs 3 * 200 feet = 600 feet of line.\n* **Add the existing line:** He already has 6 feet of line, so he needs to buy 600 feet - 6 feet = 594 feet more.\n\n**Answer:** The caretaker needs to buy 594 feet of line in total. \n",
+                "Here's how to solve the problem:\n\n* **Calculate the total line needed:** The caretaker needs 3 feet of line for every foot of dock, so he needs 3 * 200 feet = 600 feet of line.\n* **Add the existing line:** He already has 6 feet of line, so he needs to buy 600 feet - 6 feet = 594 feet more.\n\n**Answer:** The caretaker needs to buy 594 feet of line in total. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                114,
+                0
+            ]
+        },
+        {
+            "pred_answer": 34.0,
+            "correct_answer": 34.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n**1. Calculate the cost of the food:**\n\n* They spent $4.50 less on food than tickets, so they spent $20.25 - $4.50 = $15.75 on food.\n\n**2. Calculate the total cost of the rides:**\n\n* Each ride cost $33, and they went on 2 rides, so the total cost of the rides was $33 * 2 = $66.\n\n**3. Calculate the total cost of the trip:**\n\n* The total cost of the trip was $20.25 (tickets) + $15.75 (food) + $66 (rides) = $102.00\n\n**4. Calculate the cost per person:**\n\n* They split the total cost evenly, so each person paid $102.00 / 3 people = $34.00\n\n**Answer:** Each of them paid $34.00. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n**1. Calculate the cost of the food:**\n\n* They spent $4.50 less on food than tickets, so they spent $20.25 - $4.50 = $15.75 on food.\n\n**2. Calculate the total cost of the rides:**\n\n* Each ride cost $33, and they went on 2 rides, so the total cost of the rides was $33 * 2 = $66.\n\n**3. Calculate the total cost of the trip:**\n\n* The total cost of the trip was $20.25 (tickets) + $15.75 (food) + $66 (rides) = $102.00\n\n**4. Calculate the cost per person:**\n\n* They split the total cost evenly, so each person paid $102.00 / 3 people = $34.00\n\n**Answer:** Each of them paid $34.00. \n",
+                "Here's how to solve the problem step-by-step:\n\n**1. Calculate the cost of the food:**\n\n* They spent $4.50 less on food than tickets, so they spent $20.25 - $4.50 = $15.75 on food.\n\n**2. Calculate the total cost of the rides:**\n\n* Each ride cost $33, and they went on 2 rides, so the total cost of the rides was $33 * 2 = $66.\n\n**3. Calculate the total cost of the trip:**\n\n* The total cost of the trip was $20.25 (tickets) + $15.75 (food) + $66 (rides) = $102.00\n\n**4. Calculate the cost per person:**\n\n* They split the total cost evenly, so each person paid $102.00 / 3 people = $34.00\n\n**Answer:** Each of them paid $34.00. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                228,
+                0
+            ]
+        },
+        {
+            "pred_answer": 38.0,
+            "correct_answer": 38.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate Winston's total cost:\n\n* **Peaches:** 6 pounds * $2.00/pound = $12.00\n* **Plums:** 8 pounds * $1.00/pound = $8.00\n* **Apricots:** 6 pounds * $3.00/pound = $18.00\n\n**Total cost:** $12.00 + $8.00 + $18.00 = $38.00\n\n**Answer:** Winston spent $38.00 on fruit. \n",
+            "every_model_output_text": [
+                "Here's how to calculate Winston's total cost:\n\n* **Peaches:** 6 pounds * $2.00/pound = $12.00\n* **Plums:** 8 pounds * $1.00/pound = $8.00\n* **Apricots:** 6 pounds * $3.00/pound = $18.00\n\n**Total cost:** $12.00 + $8.00 + $18.00 = $38.00\n\n**Answer:** Winston spent $38.00 on fruit. \n",
+                "Here's how to calculate Winston's total cost:\n\n* **Peaches:** 6 pounds * $2.00/pound = $12.00\n* **Plums:** 8 pounds * $1.00/pound = $8.00\n* **Apricots:** 6 pounds * $3.00/pound = $18.00\n\n**Total cost:** $12.00 + $8.00 + $18.00 = $38.00\n\n**Answer:** Winston spent $38.00 on fruit. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                133,
+                0
+            ]
+        },
+        {
+            "pred_answer": 320.0,
+            "correct_answer": 320.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Month 1:** Elaine collected 20 * 3 = 60 cards.\n* **Month 2:** She collected 60 - 20 = 40 cards.\n* **Month 1 & 2 combined:** She had 60 + 40 = 100 cards.\n* **Month 3:** She collected 100 * 2 = 200 cards.\n* **Total:** Elaine has 20 + 60 + 40 + 200 = **320** Pokemon cards. \n\n\n**Answer:** 320 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Month 1:** Elaine collected 20 * 3 = 60 cards.\n* **Month 2:** She collected 60 - 20 = 40 cards.\n* **Month 1 & 2 combined:** She had 60 + 40 = 100 cards.\n* **Month 3:** She collected 100 * 2 = 200 cards.\n* **Total:** Elaine has 20 + 60 + 40 + 200 = **320** Pokemon cards. \n\n\n**Answer:** 320 \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Month 1:** Elaine collected 20 * 3 = 60 cards.\n* **Month 2:** She collected 60 - 20 = 40 cards.\n* **Month 1 & 2 combined:** She had 60 + 40 = 100 cards.\n* **Month 3:** She collected 100 * 2 = 200 cards.\n* **Total:** Elaine has 20 + 60 + 40 + 200 = **320** Pokemon cards. \n\n\n**Answer:** 320 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                152,
+                0
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate candidate B's votes:** Candidate B got 50% more than candidate A's 20% votes, so they got 0.20 * 1.50 = 0.30 of the votes.\n* **Calculate the total votes for A and B:** Together, they got 0.20 + 0.30 = 0.50 of the votes.\n* **Calculate the votes for candidate C:** The remaining votes were for candidate C, who got 1 - 0.50 = 0.50 of the votes.\n* **Calculate the number of votes for candidate C:** Since there were 100 voters, candidate C got 0.50 * 100 = 50 votes.\n\n\n**Answer:** Candidate C got 50 votes. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate candidate B's votes:** Candidate B got 50% more than candidate A's 20% votes, so they got 0.20 * 1.50 = 0.30 of the votes.\n* **Calculate the total votes for A and B:** Together, they got 0.20 + 0.30 = 0.50 of the votes.\n* **Calculate the votes for candidate C:** The remaining votes were for candidate C, who got 1 - 0.50 = 0.50 of the votes.\n* **Calculate the number of votes for candidate C:** Since there were 100 voters, candidate C got 0.50 * 100 = 50 votes.\n\n\n**Answer:** Candidate C got 50 votes. \n",
+                "Here's how to solve the problem:\n\n* **Calculate candidate B's votes:** Candidate B got 50% more than candidate A's 20% votes, so they got 0.20 * 1.50 = 0.30 of the votes.\n* **Calculate the total votes for A and B:** Together, they got 0.20 + 0.30 = 0.50 of the votes.\n* **Calculate the votes for candidate C:** The remaining votes were for candidate C, who got 1 - 0.50 = 0.50 of the votes.\n* **Calculate the number of votes for candidate C:** Since there were 100 voters, candidate C got 0.50 * 100 = 50 votes.\n\n\n**Answer:** Candidate C got 50 votes. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                193,
+                0
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Find the value of one ratio part:**\n\n* The ratio 3:2 represents 3 parts for Gerald and 2 parts for Julia.\n* The total ratio parts are 3 + 2 = 5.\n* The value of one ratio part is $100 / 5 = $20.\n\n**2. Calculate Gerald's initial amount:**\n\n* Gerald received 3 parts of the $100, so he had 3 * $20 = $60.\n\n**3. Calculate Gerald's remaining amount:**\n\n* Gerald spent $10, so he has $60 - $10 = $50 left.\n\n\n**Answer:** Gerald has $50 left. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Find the value of one ratio part:**\n\n* The ratio 3:2 represents 3 parts for Gerald and 2 parts for Julia.\n* The total ratio parts are 3 + 2 = 5.\n* The value of one ratio part is $100 / 5 = $20.\n\n**2. Calculate Gerald's initial amount:**\n\n* Gerald received 3 parts of the $100, so he had 3 * $20 = $60.\n\n**3. Calculate Gerald's remaining amount:**\n\n* Gerald spent $10, so he has $60 - $10 = $50 left.\n\n\n**Answer:** Gerald has $50 left. \n",
+                "Here's how to solve the problem:\n\n**1. Find the value of one ratio part:**\n\n* The ratio 3:2 represents 3 parts for Gerald and 2 parts for Julia.\n* The total ratio parts are 3 + 2 = 5.\n* The value of one ratio part is $100 / 5 = $20.\n\n**2. Calculate Gerald's initial amount:**\n\n* Gerald received 3 parts of the $100, so he had 3 * $20 = $60.\n\n**3. Calculate Gerald's remaining amount:**\n\n* Gerald spent $10, so he has $60 - $10 = $50 left.\n\n\n**Answer:** Gerald has $50 left. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                168,
+                0
+            ]
+        },
+        {
+            "pred_answer": 48.0,
+            "correct_answer": 84.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Brother's grapes:** The brother used 5 * 6 = 30 grapes.\n* **Total grapes used:** Together, they used 6 + 30 = 36 grapes.\n* **Grapes remaining:** They had 6 + 30 - 36 = -0 grapes left. \n* **Grapes for pies:** The mother used 4 pies * 12 grapes/pie = 48 grapes.\n* **Total grapes:**  They had 0 + 48 = 48 grapes.\n\n**Answer:** There were 48 grapes at the beginning. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Brother's grapes:** The brother used 5 * 6 = 30 grapes.\n* **Total grapes used:** Together, they used 6 + 30 = 36 grapes.\n* **Grapes remaining:** They had 6 + 30 - 36 = -0 grapes left. \n* **Grapes for pies:** The mother used 4 pies * 12 grapes/pie = 48 grapes.\n* **Total grapes:**  They had 0 + 48 = 48 grapes.\n\n**Answer:** There were 48 grapes at the beginning. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Brother's grapes:** The brother used 5 * 6 = 30 grapes.\n* **Total grapes used:** Together, they used 6 + 30 = 36 grapes.\n* **Grapes remaining:** They had 6 + 30 - 36 = -0 grapes left. \n* **Grapes for pies:** The mother used 4 pies * 12 grapes/pie = 48 grapes.\n* **Total grapes:**  They had 0 + 48 = 48 grapes.\n\n**Answer:** There were 48 grapes at the beginning. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                151,
+                0
+            ]
+        },
+        {
+            "pred_answer": 750.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n**1. Calculate the first half of the month's savings:**\n\n* Elvis needs to save $1125 total.\n* Let's assume he saves 'x' amount in the first half of the month.\n\n**2. Calculate the second half's savings:**\n\n* He wants to save twice as much in the second half, so he'll save 2 * x in the second half.\n\n**3. Set up an equation:**\n\n* The total savings for the month should equal $1125.\n*  Therefore: x + 2x = 1125\n\n**4. Solve for x:**\n\n* Combine like terms: 3x = 1125\n* Divide both sides by 3: x = 375\n\n**5. Calculate the second half's daily savings:**\n\n* He saves 2x in the second half, so he saves 2 * 375 = 750 per day.\n\n**Answer:** Elvis has to save $750 for each day in the second half of the month. \n \n**750** \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n**1. Calculate the first half of the month's savings:**\n\n* Elvis needs to save $1125 total.\n* Let's assume he saves 'x' amount in the first half of the month.\n\n**2. Calculate the second half's savings:**\n\n* He wants to save twice as much in the second half, so he'll save 2 * x in the second half.\n\n**3. Set up an equation:**\n\n* The total savings for the month should equal $1125.\n*  Therefore: x + 2x = 1125\n\n**4. Solve for x:**\n\n* Combine like terms: 3x = 1125\n* Divide both sides by 3: x = 375\n\n**5. Calculate the second half's daily savings:**\n\n* He saves 2x in the second half, so he saves 2 * 375 = 750 per day.\n\n**Answer:** Elvis has to save $750 for each day in the second half of the month. \n \n**750** \n",
+                "Here's how to solve this problem:\n\n**1. Calculate the first half of the month's savings:**\n\n* Elvis needs to save $1125 total.\n* Let's assume he saves 'x' amount in the first half of the month.\n\n**2. Calculate the second half's savings:**\n\n* He wants to save twice as much in the second half, so he'll save 2 * x in the second half.\n\n**3. Set up an equation:**\n\n* The total savings for the month should equal $1125.\n*  Therefore: x + 2x = 1125\n\n**4. Solve for x:**\n\n* Combine like terms: 3x = 1125\n* Divide both sides by 3: x = 375\n\n**5. Calculate the second half's daily savings:**\n\n* He saves 2x in the second half, so he saves 2 * 375 = 750 per day.\n\n**Answer:** Elvis has to save $750 for each day in the second half of the month. \n \n**750** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                255,
+                0
+            ]
+        },
+        {
+            "pred_answer": 8000.0,
+            "correct_answer": 8000.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Let's represent the number of copies Harald sold with the variable \"x\".** \n* **Marilyn sold 10 times the number Harald sold, so she sold 10x copies.**\n* **The total number of copies sold is the sum of Harald's and Marilyn's sales:** x + 10x = 88,000\n* **Combine like terms:** 11x = 88,000\n* **Solve for x by dividing both sides by 11:** x = 8000\n\n**Therefore, Harald sold 8000 copies.** \n\n\n**Answer:** 8000 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Let's represent the number of copies Harald sold with the variable \"x\".** \n* **Marilyn sold 10 times the number Harald sold, so she sold 10x copies.**\n* **The total number of copies sold is the sum of Harald's and Marilyn's sales:** x + 10x = 88,000\n* **Combine like terms:** 11x = 88,000\n* **Solve for x by dividing both sides by 11:** x = 8000\n\n**Therefore, Harald sold 8000 copies.** \n\n\n**Answer:** 8000 \n",
+                "Here's how to solve the problem:\n\n* **Let's represent the number of copies Harald sold with the variable \"x\".** \n* **Marilyn sold 10 times the number Harald sold, so she sold 10x copies.**\n* **The total number of copies sold is the sum of Harald's and Marilyn's sales:** x + 10x = 88,000\n* **Combine like terms:** 11x = 88,000\n* **Solve for x by dividing both sides by 11:** x = 8000\n\n**Therefore, Harald sold 8000 copies.** \n\n\n**Answer:** 8000 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                157,
+                0
+            ]
+        },
+        {
+            "pred_answer": 35.0,
+            "correct_answer": 280.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n* **Children per school:** Each school has 7 rows of children.\n* **Total children from schools:**  7 rows/school * 5 schools = 35 children\n* **Total children in the drill:** 35 children \n\n**Answer:** There can be 35 children in the drill. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n* **Children per school:** Each school has 7 rows of children.\n* **Total children from schools:**  7 rows/school * 5 schools = 35 children\n* **Total children in the drill:** 35 children \n\n**Answer:** There can be 35 children in the drill. \n",
+                "Here's how to solve this problem:\n\n* **Children per school:** Each school has 7 rows of children.\n* **Total children from schools:**  7 rows/school * 5 schools = 35 children\n* **Total children in the drill:** 35 children \n\n**Answer:** There can be 35 children in the drill. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                80,
+                0
+            ]
+        },
+        {
+            "pred_answer": 30.0,
+            "correct_answer": 30.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Martha's age:** Martha is 4 years younger than Mike, who is 24. So, Martha is 24 - 4 = 20 years old.\n* **Jeff's age:** Jeff is 10 years older than Martha, who is 20. So, Jeff is 20 + 10 = 30 years old.\n\n**Answer:** Jeff is 30 years old. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Martha's age:** Martha is 4 years younger than Mike, who is 24. So, Martha is 24 - 4 = 20 years old.\n* **Jeff's age:** Jeff is 10 years older than Martha, who is 20. So, Jeff is 20 + 10 = 30 years old.\n\n**Answer:** Jeff is 30 years old. \n",
+                "Here's how to solve the problem:\n\n* **Martha's age:** Martha is 4 years younger than Mike, who is 24. So, Martha is 24 - 4 = 20 years old.\n* **Jeff's age:** Jeff is 10 years older than Martha, who is 20. So, Jeff is 20 + 10 = 30 years old.\n\n**Answer:** Jeff is 30 years old. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                107,
+                0
+            ]
+        },
+        {
+            "pred_answer": 8.0,
+            "correct_answer": 192.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Total cows:** Mr. Sylas has 40 cows.\n* **Cows per stall:** Each stall has 20 cows.\n* **Number of stalls:** He has 20 stalls.\n* **Cows per stall after dividing:**  He divides the 40 cows equally among the 20 stalls, so each stall gets 40 / 20 = 2 cows.\n* **Cows in 8 stalls:**  We need to find the number of cows in 8 stalls. \n\n**Answer:** 8 stalls have 2 cows each, so there are 8 * 2 = 16 cows in 8 stalls. \n\n**16** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Total cows:** Mr. Sylas has 40 cows.\n* **Cows per stall:** Each stall has 20 cows.\n* **Number of stalls:** He has 20 stalls.\n* **Cows per stall after dividing:**  He divides the 40 cows equally among the 20 stalls, so each stall gets 40 / 20 = 2 cows.\n* **Cows in 8 stalls:**  We need to find the number of cows in 8 stalls. \n\n**Answer:** 8 stalls have 2 cows each, so there are 8 * 2 = 16 cows in 8 stalls. \n\n**16** \n",
+                "Here's how to solve the problem:\n\n* **Total cows:** Mr. Sylas has 40 cows.\n* **Cows per stall:** Each stall has 20 cows.\n* **Number of stalls:** He has 20 stalls.\n* **Cows per stall after dividing:**  He divides the 40 cows equally among the 20 stalls, so each stall gets 40 / 20 = 2 cows.\n* **Cows in 8 stalls:**  We need to find the number of cows in 8 stalls. \n\n**Answer:** 8 stalls have 2 cows each, so there are 8 * 2 = 16 cows in 8 stalls. \n\n**16** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                163,
+                0
+            ]
+        },
+        {
+            "pred_answer": 276.0,
+            "correct_answer": 276.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the total wheels needed for the cars:**\n\n* Henry needs 4 wheels per car * 57 cars = 228 wheels for the cars.\n\n**2. Calculate the total wheels needed for the motorcycles:**\n\n* Henry needs 2 wheels per motorcycle * 73 motorcycles = 146 wheels for the motorcycles.\n\n**3. Calculate the total number of wheels needed:**\n\n* Total wheels needed = 228 wheels + 146 wheels = 374 wheels\n\n**4. Calculate the number of wheels left:**\n\n* Wheels left = Total wheels - Wheels needed \n* Wheels left = 650 wheels - 374 wheels = 276 wheels\n\n**Answer:** There will be **276** wheels left. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the total wheels needed for the cars:**\n\n* Henry needs 4 wheels per car * 57 cars = 228 wheels for the cars.\n\n**2. Calculate the total wheels needed for the motorcycles:**\n\n* Henry needs 2 wheels per motorcycle * 73 motorcycles = 146 wheels for the motorcycles.\n\n**3. Calculate the total number of wheels needed:**\n\n* Total wheels needed = 228 wheels + 146 wheels = 374 wheels\n\n**4. Calculate the number of wheels left:**\n\n* Wheels left = Total wheels - Wheels needed \n* Wheels left = 650 wheels - 374 wheels = 276 wheels\n\n**Answer:** There will be **276** wheels left. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the total wheels needed for the cars:**\n\n* Henry needs 4 wheels per car * 57 cars = 228 wheels for the cars.\n\n**2. Calculate the total wheels needed for the motorcycles:**\n\n* Henry needs 2 wheels per motorcycle * 73 motorcycles = 146 wheels for the motorcycles.\n\n**3. Calculate the total number of wheels needed:**\n\n* Total wheels needed = 228 wheels + 146 wheels = 374 wheels\n\n**4. Calculate the number of wheels left:**\n\n* Wheels left = Total wheels - Wheels needed \n* Wheels left = 650 wheels - 374 wheels = 276 wheels\n\n**Answer:** There will be **276** wheels left. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                181,
+                0
+            ]
+        },
+        {
+            "pred_answer": 32.0,
+            "correct_answer": 32.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Starfish:** Anakin caught 10 starfish, and Locsin caught 5 fewer, so Locsin caught 10 - 5 = 5 starfish.\n* **Sea Horses:** Anakin caught 6 sea horses, and Locsin caught 3 fewer, so Locsin caught 6 - 3 = 3 sea horses.\n* **Clownfish:** Anakin caught 3 clownfish, and Locsin caught 2 more, so Locsin caught 3 + 2 = 5 clownfish.\n\n**Total Fish:**  Anakin caught 10 + 6 + 3 = 19 fish. Locsin caught 5 + 3 + 5 = 13 fish.\n\n**Total Fish Caught:** 19 + 13 = 32 fish\n\n**Answer:** They were able to catch a total of 32 fish. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Starfish:** Anakin caught 10 starfish, and Locsin caught 5 fewer, so Locsin caught 10 - 5 = 5 starfish.\n* **Sea Horses:** Anakin caught 6 sea horses, and Locsin caught 3 fewer, so Locsin caught 6 - 3 = 3 sea horses.\n* **Clownfish:** Anakin caught 3 clownfish, and Locsin caught 2 more, so Locsin caught 3 + 2 = 5 clownfish.\n\n**Total Fish:**  Anakin caught 10 + 6 + 3 = 19 fish. Locsin caught 5 + 3 + 5 = 13 fish.\n\n**Total Fish Caught:** 19 + 13 = 32 fish\n\n**Answer:** They were able to catch a total of 32 fish. \n",
+                "Here's how to solve the problem:\n\n* **Starfish:** Anakin caught 10 starfish, and Locsin caught 5 fewer, so Locsin caught 10 - 5 = 5 starfish.\n* **Sea Horses:** Anakin caught 6 sea horses, and Locsin caught 3 fewer, so Locsin caught 6 - 3 = 3 sea horses.\n* **Clownfish:** Anakin caught 3 clownfish, and Locsin caught 2 more, so Locsin caught 3 + 2 = 5 clownfish.\n\n**Total Fish:**  Anakin caught 10 + 6 + 3 = 19 fish. Locsin caught 5 + 3 + 5 = 13 fish.\n\n**Total Fish Caught:** 19 + 13 = 32 fish\n\n**Answer:** They were able to catch a total of 32 fish. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                197,
+                0
+            ]
+        },
+        {
+            "pred_answer": 25.0,
+            "correct_answer": 25.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the number of boxes:**\n\n* Nik has 200 crayons / 8 crayons per box = 25 boxes\n\n**2. Calculate the total weight of the crayons:**\n\n* 200 crayons * 1 ounce/crayon = 200 ounces\n\n**3. Calculate the total weight of the boxes:**\n\n* 25 boxes * 8 ounces/box = 200 ounces\n\n**4. Calculate the total weight of the crayons and boxes:**\n\n* 200 ounces (crayons) + 200 ounces (boxes) = 400 ounces\n\n**5. Convert ounces to pounds:**\n\n* 400 ounces / 16 ounces/pound = 25 pounds\n\n**Answer:** The total weight of the crayons and boxes is **25 pounds**. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the number of boxes:**\n\n* Nik has 200 crayons / 8 crayons per box = 25 boxes\n\n**2. Calculate the total weight of the crayons:**\n\n* 200 crayons * 1 ounce/crayon = 200 ounces\n\n**3. Calculate the total weight of the boxes:**\n\n* 25 boxes * 8 ounces/box = 200 ounces\n\n**4. Calculate the total weight of the crayons and boxes:**\n\n* 200 ounces (crayons) + 200 ounces (boxes) = 400 ounces\n\n**5. Convert ounces to pounds:**\n\n* 400 ounces / 16 ounces/pound = 25 pounds\n\n**Answer:** The total weight of the crayons and boxes is **25 pounds**. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the number of boxes:**\n\n* Nik has 200 crayons / 8 crayons per box = 25 boxes\n\n**2. Calculate the total weight of the crayons:**\n\n* 200 crayons * 1 ounce/crayon = 200 ounces\n\n**3. Calculate the total weight of the boxes:**\n\n* 25 boxes * 8 ounces/box = 200 ounces\n\n**4. Calculate the total weight of the crayons and boxes:**\n\n* 200 ounces (crayons) + 200 ounces (boxes) = 400 ounces\n\n**5. Convert ounces to pounds:**\n\n* 400 ounces / 16 ounces/pound = 25 pounds\n\n**Answer:** The total weight of the crayons and boxes is **25 pounds**. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                191,
+                0
+            ]
+        },
+        {
+            "pred_answer": 10.0,
+            "correct_answer": 10.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n1. **Calculate the increase:** Jamaal increases the weight by 50%, so he adds 0.50 * 8 pounds = 4 pounds.\n\n2. **Calculate the new weight:** The new weight is the original weight plus the increase: 8 pounds + 4 pounds = 12 pounds.\n\n3. **Calculate the lighter weight:** He uses a weight two pounds lighter than the new weight, so he uses 12 pounds - 2 pounds = 10 pounds.\n\n**Answer:** Jamaal now uses 10 pounds. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n1. **Calculate the increase:** Jamaal increases the weight by 50%, so he adds 0.50 * 8 pounds = 4 pounds.\n\n2. **Calculate the new weight:** The new weight is the original weight plus the increase: 8 pounds + 4 pounds = 12 pounds.\n\n3. **Calculate the lighter weight:** He uses a weight two pounds lighter than the new weight, so he uses 12 pounds - 2 pounds = 10 pounds.\n\n**Answer:** Jamaal now uses 10 pounds. \n",
+                "Here's how to solve the problem step-by-step:\n\n1. **Calculate the increase:** Jamaal increases the weight by 50%, so he adds 0.50 * 8 pounds = 4 pounds.\n\n2. **Calculate the new weight:** The new weight is the original weight plus the increase: 8 pounds + 4 pounds = 12 pounds.\n\n3. **Calculate the lighter weight:** He uses a weight two pounds lighter than the new weight, so he uses 12 pounds - 2 pounds = 10 pounds.\n\n**Answer:** Jamaal now uses 10 pounds. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                137,
+                0
+            ]
+        },
+        {
+            "pred_answer": 147.0,
+            "correct_answer": 147.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **German Shepherds:** 3 dogs * 5 kg/dog = 15 kg\n* **Bulldogs:** 2 dogs * 3 kg/dog = 6 kg\n* **Total daily consumption:** 15 kg + 6 kg = 21 kg\n* **Weekly consumption:** 21 kg/day * 7 days/week = 147 kg\n\n**Answer:** They will need 147 kilograms of dog food in a week. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **German Shepherds:** 3 dogs * 5 kg/dog = 15 kg\n* **Bulldogs:** 2 dogs * 3 kg/dog = 6 kg\n* **Total daily consumption:** 15 kg + 6 kg = 21 kg\n* **Weekly consumption:** 21 kg/day * 7 days/week = 147 kg\n\n**Answer:** They will need 147 kilograms of dog food in a week. \n",
+                "Here's how to solve the problem:\n\n* **German Shepherds:** 3 dogs * 5 kg/dog = 15 kg\n* **Bulldogs:** 2 dogs * 3 kg/dog = 6 kg\n* **Total daily consumption:** 15 kg + 6 kg = 21 kg\n* **Weekly consumption:** 21 kg/day * 7 days/week = 147 kg\n\n**Answer:** They will need 147 kilograms of dog food in a week. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                115,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 25.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Find the number of students who like music:** The number of students who like music is twice the number who like basketball, so 5 students like music.\n* **Find the number of students who like both:**  The number of students who like both video games and music is the same as the number who like music.\n* **Find the total number of students who like video games:**  The total number of students who like video games is the number of students who like music plus the number who like both. \n\n**Solution:**\n\n* 5 students like music.\n* 5 students like basketball.\n* 5 students like both.\n* 5 students like video games.\n\n\n**Answer:** 5 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Find the number of students who like music:** The number of students who like music is twice the number who like basketball, so 5 students like music.\n* **Find the number of students who like both:**  The number of students who like both video games and music is the same as the number who like music.\n* **Find the total number of students who like video games:**  The total number of students who like video games is the number of students who like music plus the number who like both. \n\n**Solution:**\n\n* 5 students like music.\n* 5 students like basketball.\n* 5 students like both.\n* 5 students like video games.\n\n\n**Answer:** 5 \n",
+                "Here's how to solve the problem:\n\n* **Find the number of students who like music:** The number of students who like music is twice the number who like basketball, so 5 students like music.\n* **Find the number of students who like both:**  The number of students who like both video games and music is the same as the number who like music.\n* **Find the total number of students who like video games:**  The total number of students who like video games is the number of students who like music plus the number who like both. \n\n**Solution:**\n\n* 5 students like music.\n* 5 students like basketball.\n* 5 students like both.\n* 5 students like video games.\n\n\n**Answer:** 5 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                164,
+                0
+            ]
+        },
+        {
+            "pred_answer": 2.0,
+            "correct_answer": 1800.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the amount of money per school:**\n\n* Bob has $27000 total and wants to divide it among 3 schools.\n* Each school gets $27000 / 3 = $9000.\n\n**2. Calculate the number of books per school:**\n\n* Each school can buy 100 books for $500.\n* Each school can buy 100 books / $500 per 100 books = 2 books.\n\n**Answer:** Bob can buy **2** books per school. \n \n**Answer:** 2 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the amount of money per school:**\n\n* Bob has $27000 total and wants to divide it among 3 schools.\n* Each school gets $27000 / 3 = $9000.\n\n**2. Calculate the number of books per school:**\n\n* Each school can buy 100 books for $500.\n* Each school can buy 100 books / $500 per 100 books = 2 books.\n\n**Answer:** Bob can buy **2** books per school. \n \n**Answer:** 2 \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the amount of money per school:**\n\n* Bob has $27000 total and wants to divide it among 3 schools.\n* Each school gets $27000 / 3 = $9000.\n\n**2. Calculate the number of books per school:**\n\n* Each school can buy 100 books for $500.\n* Each school can buy 100 books / $500 per 100 books = 2 books.\n\n**Answer:** Bob can buy **2** books per school. \n \n**Answer:** 2 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                146,
+                0
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 20.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Recording time:** Carol spends half the time writing, so she records for 4 hours / 2 = 2 hours.\n* **Total time spent on writing and recording:**  She spends 4 hours + 2 hours = 6 hours.\n* **Percentage of time spent editing:** She spends 90 minutes / 6 hours = 15 minutes per hour. \n* **Percentage of time spent editing:** 15 minutes / 6 hours * 100% = 25%\n\n**Answer:** Carol spent 25% of her total work time editing. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Recording time:** Carol spends half the time writing, so she records for 4 hours / 2 = 2 hours.\n* **Total time spent on writing and recording:**  She spends 4 hours + 2 hours = 6 hours.\n* **Percentage of time spent editing:** She spends 90 minutes / 6 hours = 15 minutes per hour. \n* **Percentage of time spent editing:** 15 minutes / 6 hours * 100% = 25%\n\n**Answer:** Carol spent 25% of her total work time editing. \n",
+                "Here's how to solve the problem:\n\n* **Recording time:** Carol spends half the time writing, so she records for 4 hours / 2 = 2 hours.\n* **Total time spent on writing and recording:**  She spends 4 hours + 2 hours = 6 hours.\n* **Percentage of time spent editing:** She spends 90 minutes / 6 hours = 15 minutes per hour. \n* **Percentage of time spent editing:** 15 minutes / 6 hours * 100% = 25%\n\n**Answer:** Carol spent 25% of her total work time editing. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                140,
+                0
+            ]
+        },
+        {
+            "pred_answer": 140.0,
+            "correct_answer": 140.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this:\n\n* **Daily earnings:** Jordan earns $10/hour * 2 hours = $20 per day\n* **Weekly earnings:**  He earns $20/day * 7 days/week = $140 per week\n\n**Answer:** Jordan would earn $140 in one week. \n",
+            "every_model_output_text": [
+                "Here's how to solve this:\n\n* **Daily earnings:** Jordan earns $10/hour * 2 hours = $20 per day\n* **Weekly earnings:**  He earns $20/day * 7 days/week = $140 per week\n\n**Answer:** Jordan would earn $140 in one week. \n",
+                "Here's how to solve this:\n\n* **Daily earnings:** Jordan earns $10/hour * 2 hours = $20 per day\n* **Weekly earnings:**  He earns $20/day * 7 days/week = $140 per week\n\n**Answer:** Jordan would earn $140 in one week. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                77,
+                0
+            ]
+        },
+        {
+            "pred_answer": 44.0,
+            "correct_answer": 36.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n**1.  Find Gerald's original time:**\n\n* Lee's time is 38 seconds.\n* Lee runs 2 seconds faster than Gerald.\n* Gerald's original time: 38 seconds + 2 seconds = 40 seconds\n\n**2. Calculate Gerald's new time:**\n\n* Gerald's diet improved his speed by 10%.\n* Gerald's new speed is 110% of his original speed.\n* Gerald's new time: 40 seconds * 1.10 = 44 seconds\n\n**Answer:** Gerald can now run the 400-meter hurdles in **44** seconds. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n**1.  Find Gerald's original time:**\n\n* Lee's time is 38 seconds.\n* Lee runs 2 seconds faster than Gerald.\n* Gerald's original time: 38 seconds + 2 seconds = 40 seconds\n\n**2. Calculate Gerald's new time:**\n\n* Gerald's diet improved his speed by 10%.\n* Gerald's new speed is 110% of his original speed.\n* Gerald's new time: 40 seconds * 1.10 = 44 seconds\n\n**Answer:** Gerald can now run the 400-meter hurdles in **44** seconds. \n",
+                "Here's how to solve this problem:\n\n**1.  Find Gerald's original time:**\n\n* Lee's time is 38 seconds.\n* Lee runs 2 seconds faster than Gerald.\n* Gerald's original time: 38 seconds + 2 seconds = 40 seconds\n\n**2. Calculate Gerald's new time:**\n\n* Gerald's diet improved his speed by 10%.\n* Gerald's new speed is 110% of his original speed.\n* Gerald's new time: 40 seconds * 1.10 = 44 seconds\n\n**Answer:** Gerald can now run the 400-meter hurdles in **44** seconds. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                158,
+                0
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 1.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**Becky's cost:**\n\n* Cost per apple: $0.45\n* Number of apples: 20\n* Total cost: $0.45 * 20 = $9.00\n\n**Becky's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $9.00 - $1.00 = $8.00\n\n**Kelly's cost:**\n\n* Cost per apple: $0.50\n* Number of apples: 20\n* Total cost: $0.50 * 20 = $10.00\n\n**Kelly's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $10.00 - $1.00 = $9.00\n\n**Difference in price:**\n\n* Kelly's cost - Becky's cost = $9.00 - $8.00 = $1.00\n\n**Answer:** Kelly paid $1.00 more than Becky. \n \n**Therefore, the answer is 1.00** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**Becky's cost:**\n\n* Cost per apple: $0.45\n* Number of apples: 20\n* Total cost: $0.45 * 20 = $9.00\n\n**Becky's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $9.00 - $1.00 = $8.00\n\n**Kelly's cost:**\n\n* Cost per apple: $0.50\n* Number of apples: 20\n* Total cost: $0.50 * 20 = $10.00\n\n**Kelly's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $10.00 - $1.00 = $9.00\n\n**Difference in price:**\n\n* Kelly's cost - Becky's cost = $9.00 - $8.00 = $1.00\n\n**Answer:** Kelly paid $1.00 more than Becky. \n \n**Therefore, the answer is 1.00** \n",
+                "Here's how to solve the problem:\n\n**Becky's cost:**\n\n* Cost per apple: $0.45\n* Number of apples: 20\n* Total cost: $0.45 * 20 = $9.00\n\n**Becky's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $9.00 - $1.00 = $8.00\n\n**Kelly's cost:**\n\n* Cost per apple: $0.50\n* Number of apples: 20\n* Total cost: $0.50 * 20 = $10.00\n\n**Kelly's discount:**\n\n* Discount amount: $1.00\n* Total cost after discount: $10.00 - $1.00 = $9.00\n\n**Difference in price:**\n\n* Kelly's cost - Becky's cost = $9.00 - $8.00 = $1.00\n\n**Answer:** Kelly paid $1.00 more than Becky. \n \n**Therefore, the answer is 1.00** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                257,
+                0
+            ]
+        },
+        {
+            "pred_answer": 1.0,
+            "correct_answer": 1.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **eBay shipping cost:** Shipping on eBay is twice the price on Amazon, so it costs $4 * 2 = $8.\n* **Total cost on eBay:** The total cost on eBay is $13 (price) + $8 (shipping) = $21.\n* **Total cost on Amazon:** The total cost on Amazon is $16 (price) + $4 (shipping) = $20.\n* **Difference in price:** The boots are $21 (eBay) - $20 (Amazon) = $1 more expensive on eBay.\n\n\n**Answer:** The boots are $1 more expensive on eBay. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **eBay shipping cost:** Shipping on eBay is twice the price on Amazon, so it costs $4 * 2 = $8.\n* **Total cost on eBay:** The total cost on eBay is $13 (price) + $8 (shipping) = $21.\n* **Total cost on Amazon:** The total cost on Amazon is $16 (price) + $4 (shipping) = $20.\n* **Difference in price:** The boots are $21 (eBay) - $20 (Amazon) = $1 more expensive on eBay.\n\n\n**Answer:** The boots are $1 more expensive on eBay. \n",
+                "Here's how to solve the problem:\n\n* **eBay shipping cost:** Shipping on eBay is twice the price on Amazon, so it costs $4 * 2 = $8.\n* **Total cost on eBay:** The total cost on eBay is $13 (price) + $8 (shipping) = $21.\n* **Total cost on Amazon:** The total cost on Amazon is $16 (price) + $4 (shipping) = $20.\n* **Difference in price:** The boots are $21 (eBay) - $20 (Amazon) = $1 more expensive on eBay.\n\n\n**Answer:** The boots are $1 more expensive on eBay. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                149,
+                0
+            ]
+        },
+        {
+            "pred_answer": 50.0,
+            "correct_answer": 50.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Cost of a red car:** One red car costs $4.\n* **Cost of one action figure:** One action figure costs $5.\n* **Cost of three action figures:** Three action figures cost 3 * $5 = $15.\n* **Cost of the doll:** The doll costs the same as 3 action figures, so it costs $15.\n* **Total cost of all toys:** The total cost is 5 * $4 + 3 * $5 + $15 = $20 + $15 + $15 = $50.\n\n**Answer:** The total value of all the toys is $50. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Cost of a red car:** One red car costs $4.\n* **Cost of one action figure:** One action figure costs $5.\n* **Cost of three action figures:** Three action figures cost 3 * $5 = $15.\n* **Cost of the doll:** The doll costs the same as 3 action figures, so it costs $15.\n* **Total cost of all toys:** The total cost is 5 * $4 + 3 * $5 + $15 = $20 + $15 + $15 = $50.\n\n**Answer:** The total value of all the toys is $50. \n",
+                "Here's how to solve the problem:\n\n* **Cost of a red car:** One red car costs $4.\n* **Cost of one action figure:** One action figure costs $5.\n* **Cost of three action figures:** Three action figures cost 3 * $5 = $15.\n* **Cost of the doll:** The doll costs the same as 3 action figures, so it costs $15.\n* **Total cost of all toys:** The total cost is 5 * $4 + 3 * $5 + $15 = $20 + $15 + $15 = $50.\n\n**Answer:** The total value of all the toys is $50. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                155,
+                0
+            ]
+        },
+        {
+            "pred_answer": 72.0,
+            "correct_answer": 72.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate the value of the first half:** Matthew has 12 / 2 = 6 toys in the first half of his collection.\n* **Calculate the earnings from the first half:** He would earn 6 toys * $5/toy = $30.\n* **Calculate the value of the second half:** Matthew has 12 / 2 = 6 toys in the second half of his collection.\n* **Calculate the earnings from the second half:** He would earn 6 toys * $7/toy = $42.\n* **Calculate the total earnings:**  $30 + $42 = $72\n\n**Answer:** Matthew would earn $72. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate the value of the first half:** Matthew has 12 / 2 = 6 toys in the first half of his collection.\n* **Calculate the earnings from the first half:** He would earn 6 toys * $5/toy = $30.\n* **Calculate the value of the second half:** Matthew has 12 / 2 = 6 toys in the second half of his collection.\n* **Calculate the earnings from the second half:** He would earn 6 toys * $7/toy = $42.\n* **Calculate the total earnings:**  $30 + $42 = $72\n\n**Answer:** Matthew would earn $72. \n",
+                "Here's how to solve the problem:\n\n* **Calculate the value of the first half:** Matthew has 12 / 2 = 6 toys in the first half of his collection.\n* **Calculate the earnings from the first half:** He would earn 6 toys * $5/toy = $30.\n* **Calculate the value of the second half:** Matthew has 12 / 2 = 6 toys in the second half of his collection.\n* **Calculate the earnings from the second half:** He would earn 6 toys * $7/toy = $42.\n* **Calculate the total earnings:**  $30 + $42 = $72\n\n**Answer:** Matthew would earn $72. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                160,
+                0
+            ]
+        },
+        {
+            "pred_answer": 98.0,
+            "correct_answer": 860.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**Step 1: Calculate kilometers from the first four weeks**\n\n* Michael rode his bike 5 times a week for 4 weeks, so he rode 5 * 4 = 20 kilometers per week.\n* Total kilometers for the first four weeks: 20 * 4 = 80 kilometers\n\n**Step 2: Calculate kilometers from the next three weeks**\n\n* Michael rode his bike 2 times a week for 3 weeks, so he rode 2 * 3 = 6 kilometers per week.\n* Total kilometers for the next three weeks: 6 * 3 = 18 kilometers\n\n**Step 3: Calculate the total kilometers**\n\n* Total kilometers for all the riding: 80 + 18 = 98 kilometers\n\n**Answer:** Michael did a total of 98 kilometers. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**Step 1: Calculate kilometers from the first four weeks**\n\n* Michael rode his bike 5 times a week for 4 weeks, so he rode 5 * 4 = 20 kilometers per week.\n* Total kilometers for the first four weeks: 20 * 4 = 80 kilometers\n\n**Step 2: Calculate kilometers from the next three weeks**\n\n* Michael rode his bike 2 times a week for 3 weeks, so he rode 2 * 3 = 6 kilometers per week.\n* Total kilometers for the next three weeks: 6 * 3 = 18 kilometers\n\n**Step 3: Calculate the total kilometers**\n\n* Total kilometers for all the riding: 80 + 18 = 98 kilometers\n\n**Answer:** Michael did a total of 98 kilometers. \n",
+                "Here's how to solve the problem:\n\n**Step 1: Calculate kilometers from the first four weeks**\n\n* Michael rode his bike 5 times a week for 4 weeks, so he rode 5 * 4 = 20 kilometers per week.\n* Total kilometers for the first four weeks: 20 * 4 = 80 kilometers\n\n**Step 2: Calculate kilometers from the next three weeks**\n\n* Michael rode his bike 2 times a week for 3 weeks, so he rode 2 * 3 = 6 kilometers per week.\n* Total kilometers for the next three weeks: 6 * 3 = 18 kilometers\n\n**Step 3: Calculate the total kilometers**\n\n* Total kilometers for all the riding: 80 + 18 = 98 kilometers\n\n**Answer:** Michael did a total of 98 kilometers. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                191,
+                0
+            ]
+        },
+        {
+            "pred_answer": 7.0,
+            "correct_answer": 7.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Half of Steve's time:** 10 hours / 2 = 5 hours\n* **Anna's time:** 5 hours + 2 hours = 7 hours\n\n**Answer:** It took Anna 7 hours to finish the puzzle. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Half of Steve's time:** 10 hours / 2 = 5 hours\n* **Anna's time:** 5 hours + 2 hours = 7 hours\n\n**Answer:** It took Anna 7 hours to finish the puzzle. \n",
+                "Here's how to solve the problem:\n\n* **Half of Steve's time:** 10 hours / 2 = 5 hours\n* **Anna's time:** 5 hours + 2 hours = 7 hours\n\n**Answer:** It took Anna 7 hours to finish the puzzle. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                68,
+                0
+            ]
+        },
+        {
+            "pred_answer": 105.0,
+            "correct_answer": 105.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the total amount of change James has:\n\n* **Quarters:** 25 cents\n* **Nickels:** 2 nickels * 5 cents/nickel = 10 cents\n* **Dimes:** 7 dimes * 10 cents/dime = 70 cents\n\n**Total:** 25 cents + 10 cents + 70 cents = **105 cents** \n\n\n**Answer:** 105 cents \n",
+            "every_model_output_text": [
+                "Here's how to calculate the total amount of change James has:\n\n* **Quarters:** 25 cents\n* **Nickels:** 2 nickels * 5 cents/nickel = 10 cents\n* **Dimes:** 7 dimes * 10 cents/dime = 70 cents\n\n**Total:** 25 cents + 10 cents + 70 cents = **105 cents** \n\n\n**Answer:** 105 cents \n",
+                "Here's how to calculate the total amount of change James has:\n\n* **Quarters:** 25 cents\n* **Nickels:** 2 nickels * 5 cents/nickel = 10 cents\n* **Dimes:** 7 dimes * 10 cents/dime = 70 cents\n\n**Total:** 25 cents + 10 cents + 70 cents = **105 cents** \n\n\n**Answer:** 105 cents \n"
+            ],
+            "every_model_generate_token_num_list": [
+                106,
+                0
+            ]
+        },
+        {
+            "pred_answer": 38.4,
+            "correct_answer": 60.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Tuesday and Wednesday:** Rita removed twice the number on Monday, so she removed 39 * 2 = 78 Junebugs on Tuesday and Wednesday combined.\n* **Total for Tuesday and Wednesday:**  She removed 78 Junebugs in total on Tuesday and Wednesday.\n* **Total for the week:**  Rita removed 39 + 78 + 48 + 57 = 192 Junebugs in total.\n* **Average:** To find the average, we divide the total number of Junebugs removed by the number of days: 192 / 5 = 38.4\n\n**Answer:** The average number of Junebugs Rita removes per day is 38.4 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Tuesday and Wednesday:** Rita removed twice the number on Monday, so she removed 39 * 2 = 78 Junebugs on Tuesday and Wednesday combined.\n* **Total for Tuesday and Wednesday:**  She removed 78 Junebugs in total on Tuesday and Wednesday.\n* **Total for the week:**  Rita removed 39 + 78 + 48 + 57 = 192 Junebugs in total.\n* **Average:** To find the average, we divide the total number of Junebugs removed by the number of days: 192 / 5 = 38.4\n\n**Answer:** The average number of Junebugs Rita removes per day is 38.4 \n",
+                "Here's how to solve the problem:\n\n* **Tuesday and Wednesday:** Rita removed twice the number on Monday, so she removed 39 * 2 = 78 Junebugs on Tuesday and Wednesday combined.\n* **Total for Tuesday and Wednesday:**  She removed 78 Junebugs in total on Tuesday and Wednesday.\n* **Total for the week:**  Rita removed 39 + 78 + 48 + 57 = 192 Junebugs in total.\n* **Average:** To find the average, we divide the total number of Junebugs removed by the number of days: 192 / 5 = 38.4\n\n**Answer:** The average number of Junebugs Rita removes per day is 38.4 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                167,
+                0
+            ]
+        },
+        {
+            "pred_answer": 350.0,
+            "correct_answer": 350.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate the old cost per day:** 500 tomatoes * $0.50/tomato = $250.00\n* **Calculate the new cost per day:** 500 tomatoes * $0.40/tomato = $200.00\n* **Calculate the daily savings:** $250.00 - $200.00 = $50.00\n* **Calculate the weekly savings:** $50.00/day * 7 days/week = $350.00\n\n**Answer:** The tomato vendor saves $350.00 a week. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate the old cost per day:** 500 tomatoes * $0.50/tomato = $250.00\n* **Calculate the new cost per day:** 500 tomatoes * $0.40/tomato = $200.00\n* **Calculate the daily savings:** $250.00 - $200.00 = $50.00\n* **Calculate the weekly savings:** $50.00/day * 7 days/week = $350.00\n\n**Answer:** The tomato vendor saves $350.00 a week. \n",
+                "Here's how to solve the problem:\n\n* **Calculate the old cost per day:** 500 tomatoes * $0.50/tomato = $250.00\n* **Calculate the new cost per day:** 500 tomatoes * $0.40/tomato = $200.00\n* **Calculate the daily savings:** $250.00 - $200.00 = $50.00\n* **Calculate the weekly savings:** $50.00/day * 7 days/week = $350.00\n\n**Answer:** The tomato vendor saves $350.00 a week. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                153,
+                0
+            ]
+        },
+        {
+            "pred_answer": 100.0,
+            "correct_answer": 100.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the cost difference:\n\n**Furniture United:**\n\n* Total cost: $1,350 (advance) + ($350 x 6) = $1,350 + $2,100 = $3,450\n\n**Cozy Homes:**\n\n* Total cost: $1,100 (advance) + ($250 x 9) = $1,100 + $2,250 = $3,350\n\n**Cost Difference:**\n\n* $3,450 (Furniture United) - $3,350 (Cozy Homes) = $100\n\n**Answer:** The cost difference between the two offers is $100. \n",
+            "every_model_output_text": [
+                "Here's how to calculate the cost difference:\n\n**Furniture United:**\n\n* Total cost: $1,350 (advance) + ($350 x 6) = $1,350 + $2,100 = $3,450\n\n**Cozy Homes:**\n\n* Total cost: $1,100 (advance) + ($250 x 9) = $1,100 + $2,250 = $3,350\n\n**Cost Difference:**\n\n* $3,450 (Furniture United) - $3,350 (Cozy Homes) = $100\n\n**Answer:** The cost difference between the two offers is $100. \n",
+                "Here's how to calculate the cost difference:\n\n**Furniture United:**\n\n* Total cost: $1,350 (advance) + ($350 x 6) = $1,350 + $2,100 = $3,450\n\n**Cozy Homes:**\n\n* Total cost: $1,100 (advance) + ($250 x 9) = $1,100 + $2,250 = $3,350\n\n**Cost Difference:**\n\n* $3,450 (Furniture United) - $3,350 (Cozy Homes) = $100\n\n**Answer:** The cost difference between the two offers is $100. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                162,
+                0
+            ]
+        },
+        {
+            "pred_answer": 133.0,
+            "correct_answer": 133.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the price after the discount:\n\n1. **Calculate the discount amount:** 5% of $140 is (5/100) * $140 = $7.\n2. **Subtract the discount from the original price:** $140 - $7 = $133.\n\n**You will pay $133 after the discount.** \n",
+            "every_model_output_text": [
+                "Here's how to calculate the price after the discount:\n\n1. **Calculate the discount amount:** 5% of $140 is (5/100) * $140 = $7.\n2. **Subtract the discount from the original price:** $140 - $7 = $133.\n\n**You will pay $133 after the discount.** \n",
+                "Here's how to calculate the price after the discount:\n\n1. **Calculate the discount amount:** 5% of $140 is (5/100) * $140 = $7.\n2. **Subtract the discount from the original price:** $140 - $7 = $133.\n\n**You will pay $133 after the discount.** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                88,
+                0
+            ]
+        },
+        {
+            "pred_answer": 320.0,
+            "correct_answer": 112.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Students' cars:** 64 cars * 4 windows/car = 256 windows\n* **Teachers' cars:** 32 cars * 2 windows/car = 64 windows\n* **Total windows smashed:** 256 windows + 64 windows = 320 windows\n\n**Hannah smashes 320 windows.** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Students' cars:** 64 cars * 4 windows/car = 256 windows\n* **Teachers' cars:** 32 cars * 2 windows/car = 64 windows\n* **Total windows smashed:** 256 windows + 64 windows = 320 windows\n\n**Hannah smashes 320 windows.** \n",
+                "Here's how to solve the problem:\n\n* **Students' cars:** 64 cars * 4 windows/car = 256 windows\n* **Teachers' cars:** 32 cars * 2 windows/car = 64 windows\n* **Total windows smashed:** 256 windows + 64 windows = 320 windows\n\n**Hannah smashes 320 windows.** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                92,
+                0
+            ]
+        },
+        {
+            "pred_answer": 7.0,
+            "correct_answer": 13.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Half of Indras' name:** 6 letters / 2 = 3 letters\n* **4 more letters than half:** 3 letters + 4 letters = 7 letters\n* **Sister's name:** 7 letters\n\n**Indras' name:** 6 letters\n**Sister's name:** 7 letters\n\n**Answer:** 6 + 7 = **13** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Half of Indras' name:** 6 letters / 2 = 3 letters\n* **4 more letters than half:** 3 letters + 4 letters = 7 letters\n* **Sister's name:** 7 letters\n\n**Indras' name:** 6 letters\n**Sister's name:** 7 letters\n\n**Answer:** 6 + 7 = **13** \n",
+                "Here's how to solve the problem:\n\n* **Half of Indras' name:** 6 letters / 2 = 3 letters\n* **4 more letters than half:** 3 letters + 4 letters = 7 letters\n* **Sister's name:** 7 letters\n\n**Indras' name:** 6 letters\n**Sister's name:** 7 letters\n\n**Answer:** 6 + 7 = **13** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                98,
+                0
+            ]
+        },
+        {
+            "pred_answer": 65.0,
+            "correct_answer": 130.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Twice:** Elise writes the alphabet twice, so that's 26 letters * 2 = 52 letters.\n* **Once:** She writes half the alphabet once, which is 26 / 2 = 13 letters.\n* **Re-writing:** She rewrites everything she's written, so she's essentially writing the alphabet again.\n\n**Total:** 52 + 13 = 65 letters\n\n**Answer:** Elise has written a total of 65 letters. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Twice:** Elise writes the alphabet twice, so that's 26 letters * 2 = 52 letters.\n* **Once:** She writes half the alphabet once, which is 26 / 2 = 13 letters.\n* **Re-writing:** She rewrites everything she's written, so she's essentially writing the alphabet again.\n\n**Total:** 52 + 13 = 65 letters\n\n**Answer:** Elise has written a total of 65 letters. \n",
+                "Here's how to solve the problem:\n\n* **Twice:** Elise writes the alphabet twice, so that's 26 letters * 2 = 52 letters.\n* **Once:** She writes half the alphabet once, which is 26 / 2 = 13 letters.\n* **Re-writing:** She rewrites everything she's written, so she's essentially writing the alphabet again.\n\n**Total:** 52 + 13 = 65 letters\n\n**Answer:** Elise has written a total of 65 letters. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                124,
+                0
+            ]
+        },
+        {
+            "pred_answer": 2125.0,
+            "correct_answer": 2125.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **The bigger box:** The bigger box has 3 * 500 = 1500 pieces.\n* **The smaller box:** The smaller box has 1/4 * 500 = 125 pieces.\n* **Total pieces:** Johnny picks up 500 + 1500 + 125 = 2125 pieces.\n\n**Answer:** Johnny picks up 2125 pieces of Lego. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **The bigger box:** The bigger box has 3 * 500 = 1500 pieces.\n* **The smaller box:** The smaller box has 1/4 * 500 = 125 pieces.\n* **Total pieces:** Johnny picks up 500 + 1500 + 125 = 2125 pieces.\n\n**Answer:** Johnny picks up 2125 pieces of Lego. \n",
+                "Here's how to solve the problem:\n\n* **The bigger box:** The bigger box has 3 * 500 = 1500 pieces.\n* **The smaller box:** The smaller box has 1/4 * 500 = 125 pieces.\n* **Total pieces:** Johnny picks up 500 + 1500 + 125 = 2125 pieces.\n\n**Answer:** Johnny picks up 2125 pieces of Lego. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                114,
+                0
+            ]
+        },
+        {
+            "pred_answer": 8.0,
+            "correct_answer": 8.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the total time:\n\n* **Tuesday's cooking class:** 1 hour (yoga) * 3 = 3 hours\n* **Thursday's museum tour:** 3 hours (cooking) / 2 = 1.5 hours\n* **Total time:** 1 hour (yoga) + 3 hours (cooking) + 0.5 hours (cheese tasting) + 1.5 hours (museum) + 2 hours (errands) = **8 hours**\n\n**Answer:** 8 \n",
+            "every_model_output_text": [
+                "Here's how to calculate the total time:\n\n* **Tuesday's cooking class:** 1 hour (yoga) * 3 = 3 hours\n* **Thursday's museum tour:** 3 hours (cooking) / 2 = 1.5 hours\n* **Total time:** 1 hour (yoga) + 3 hours (cooking) + 0.5 hours (cheese tasting) + 1.5 hours (museum) + 2 hours (errands) = **8 hours**\n\n**Answer:** 8 \n",
+                "Here's how to calculate the total time:\n\n* **Tuesday's cooking class:** 1 hour (yoga) * 3 = 3 hours\n* **Thursday's museum tour:** 3 hours (cooking) / 2 = 1.5 hours\n* **Total time:** 1 hour (yoga) + 3 hours (cooking) + 0.5 hours (cheese tasting) + 1.5 hours (museum) + 2 hours (errands) = **8 hours**\n\n**Answer:** 8 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                117,
+                0
+            ]
+        },
+        {
+            "pred_answer": 72.0,
+            "correct_answer": 144.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the area of each wall:**\n\n* North and South: 10 ft * 8 ft = 80 square feet\n* East and West: 5 ft * 8 ft = 40 square feet\n\n**2. Calculate the total area of the walls:**\n\n* Total area: 80 sq ft + 40 sq ft = 120 square feet\n\n**3. Calculate the total gallons of paint needed:**\n\n* Gallons needed: 120 sq ft / 20 sq ft/gallon = 6 gallons\n\n**4. Calculate the total cost:**\n\n* Cost: 6 gallons * $12/gallon = $72\n\n**Answer:** It will cost $72 to paint the room. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the area of each wall:**\n\n* North and South: 10 ft * 8 ft = 80 square feet\n* East and West: 5 ft * 8 ft = 40 square feet\n\n**2. Calculate the total area of the walls:**\n\n* Total area: 80 sq ft + 40 sq ft = 120 square feet\n\n**3. Calculate the total gallons of paint needed:**\n\n* Gallons needed: 120 sq ft / 20 sq ft/gallon = 6 gallons\n\n**4. Calculate the total cost:**\n\n* Cost: 6 gallons * $12/gallon = $72\n\n**Answer:** It will cost $72 to paint the room. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the area of each wall:**\n\n* North and South: 10 ft * 8 ft = 80 square feet\n* East and West: 5 ft * 8 ft = 40 square feet\n\n**2. Calculate the total area of the walls:**\n\n* Total area: 80 sq ft + 40 sq ft = 120 square feet\n\n**3. Calculate the total gallons of paint needed:**\n\n* Gallons needed: 120 sq ft / 20 sq ft/gallon = 6 gallons\n\n**4. Calculate the total cost:**\n\n* Cost: 6 gallons * $12/gallon = $72\n\n**Answer:** It will cost $72 to paint the room. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                175,
+                0
+            ]
+        },
+        {
+            "pred_answer": 32.0,
+            "correct_answer": 8.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem:\n\n* **James's age:** James is twice Dora's age, and Dora will be 12 in 3 years, so in 3 years, she will be 12 + 3 = 15 years old. James is twice that age, so he is 15 * 2 = 30 years old.\n* **John's age:** John was 19 when James was born, so he is currently 32 + 32 - 19 = 45 years old.\n* **The youngest son's age:** The youngest son was born when John was 32, so he is currently 32 - 3 = 29 years old.\n* **The youngest son's age in 3 years:** In 3 years, the youngest son will be 29 + 3 = **32 years old**. \n\n\n**Answer:** 32 \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem:\n\n* **James's age:** James is twice Dora's age, and Dora will be 12 in 3 years, so in 3 years, she will be 12 + 3 = 15 years old. James is twice that age, so he is 15 * 2 = 30 years old.\n* **John's age:** John was 19 when James was born, so he is currently 32 + 32 - 19 = 45 years old.\n* **The youngest son's age:** The youngest son was born when John was 32, so he is currently 32 - 3 = 29 years old.\n* **The youngest son's age in 3 years:** In 3 years, the youngest son will be 29 + 3 = **32 years old**. \n\n\n**Answer:** 32 \n",
+                "Here's how to solve this problem:\n\n* **James's age:** James is twice Dora's age, and Dora will be 12 in 3 years, so in 3 years, she will be 12 + 3 = 15 years old. James is twice that age, so he is 15 * 2 = 30 years old.\n* **John's age:** John was 19 when James was born, so he is currently 32 + 32 - 19 = 45 years old.\n* **The youngest son's age:** The youngest son was born when John was 32, so he is currently 32 - 3 = 29 years old.\n* **The youngest son's age in 3 years:** In 3 years, the youngest son will be 29 + 3 = **32 years old**. \n\n\n**Answer:** 32 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                209,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 6.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Find the total number of guns:**\n\n* Nick: 10 guns\n* Richard: 5 guns\n* DJ: 8 guns\n* Jason:  We don't know, but we'll figure it out later.\n\n**2. Calculate the total number of guns:**\n\n* 10 + 5 + 8 + Jason = 23 guns\n\n**3. Divide the total number of guns by the number of people:**\n\n* 23 guns / 4 people = 5.75 guns\n\n**4. Since you can't have half a gun, we need to adjust.**\n\n**5.  The answer is:**  Each person would have 5 guns. \n\n\n**Answer:** 5 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Find the total number of guns:**\n\n* Nick: 10 guns\n* Richard: 5 guns\n* DJ: 8 guns\n* Jason:  We don't know, but we'll figure it out later.\n\n**2. Calculate the total number of guns:**\n\n* 10 + 5 + 8 + Jason = 23 guns\n\n**3. Divide the total number of guns by the number of people:**\n\n* 23 guns / 4 people = 5.75 guns\n\n**4. Since you can't have half a gun, we need to adjust.**\n\n**5.  The answer is:**  Each person would have 5 guns. \n\n\n**Answer:** 5 \n",
+                "Here's how to solve the problem:\n\n**1. Find the total number of guns:**\n\n* Nick: 10 guns\n* Richard: 5 guns\n* DJ: 8 guns\n* Jason:  We don't know, but we'll figure it out later.\n\n**2. Calculate the total number of guns:**\n\n* 10 + 5 + 8 + Jason = 23 guns\n\n**3. Divide the total number of guns by the number of people:**\n\n* 23 guns / 4 people = 5.75 guns\n\n**4. Since you can't have half a gun, we need to adjust.**\n\n**5.  The answer is:**  Each person would have 5 guns. \n\n\n**Answer:** 5 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                172,
+                0
+            ]
+        },
+        {
+            "pred_answer": 450.0,
+            "correct_answer": 450.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Seven times the number of loaves Sam had:** 7 * 70 = 490 loaves\n* **40 less than seven times Sam's loaves:** 490 - 40 = 450 loaves\n\n**Therefore, the bakery has 450 loaves of bread.** \n \n**Answer:** 450 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Seven times the number of loaves Sam had:** 7 * 70 = 490 loaves\n* **40 less than seven times Sam's loaves:** 490 - 40 = 450 loaves\n\n**Therefore, the bakery has 450 loaves of bread.** \n \n**Answer:** 450 \n",
+                "Here's how to solve the problem:\n\n* **Seven times the number of loaves Sam had:** 7 * 70 = 490 loaves\n* **40 less than seven times Sam's loaves:** 490 - 40 = 450 loaves\n\n**Therefore, the bakery has 450 loaves of bread.** \n \n**Answer:** 450 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                91,
+                0
+            ]
+        },
+        {
+            "pred_answer": 6000.0,
+            "correct_answer": 4400.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to break down the cost:\n\n**1. Series Movies:**\n\n* Mike has 600 movies / 3 = 200 movies in series.\n* The cost of the series movies is 200 movies * $6/movie = $1200.\n\n**2. Movies Not in Series:**\n\n* Mike has 600 movies - 200 movies = 400 movies that are not in series.\n\n**3. Older Movies:**\n\n* 40% of 400 movies = 0.40 * 400 movies = 160 movies are older movies.\n* The cost of the older movies is 160 movies * $5/movie = $800.\n\n**4. Total Cost:**\n\n* The total cost of replacing the movies is $1200 (series) + $800 (older) + 400 movies * $10/movie = $1200 + $800 + $4000 = $6000.\n\n**Answer:** The total cost of replacing Mike's movie collection is $6000. \n",
+            "every_model_output_text": [
+                "Here's how to break down the cost:\n\n**1. Series Movies:**\n\n* Mike has 600 movies / 3 = 200 movies in series.\n* The cost of the series movies is 200 movies * $6/movie = $1200.\n\n**2. Movies Not in Series:**\n\n* Mike has 600 movies - 200 movies = 400 movies that are not in series.\n\n**3. Older Movies:**\n\n* 40% of 400 movies = 0.40 * 400 movies = 160 movies are older movies.\n* The cost of the older movies is 160 movies * $5/movie = $800.\n\n**4. Total Cost:**\n\n* The total cost of replacing the movies is $1200 (series) + $800 (older) + 400 movies * $10/movie = $1200 + $800 + $4000 = $6000.\n\n**Answer:** The total cost of replacing Mike's movie collection is $6000. \n",
+                "Here's how to break down the cost:\n\n**1. Series Movies:**\n\n* Mike has 600 movies / 3 = 200 movies in series.\n* The cost of the series movies is 200 movies * $6/movie = $1200.\n\n**2. Movies Not in Series:**\n\n* Mike has 600 movies - 200 movies = 400 movies that are not in series.\n\n**3. Older Movies:**\n\n* 40% of 400 movies = 0.40 * 400 movies = 160 movies are older movies.\n* The cost of the older movies is 160 movies * $5/movie = $800.\n\n**4. Total Cost:**\n\n* The total cost of replacing the movies is $1200 (series) + $800 (older) + 400 movies * $10/movie = $1200 + $800 + $4000 = $6000.\n\n**Answer:** The total cost of replacing Mike's movie collection is $6000. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                260,
+                0
+            ]
+        },
+        {
+            "pred_answer": 450.0,
+            "correct_answer": 450.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate Antonella's earnings:\n\n* **Goods under $1000:**  She sold goods worth $1000, so her first tier commission is 30% of $1000 = $300.\n* **Goods over $1000:** She sold an additional $1500 worth of goods, so her second tier commission is 10% of $1500 = $150.\n* **Total Commission:** Her total commission is $300 + $150 = $450.\n\n**Therefore, Antonella earned $450 in commission.** \n\n\n**Answer:** $450 \n",
+            "every_model_output_text": [
+                "Here's how to calculate Antonella's earnings:\n\n* **Goods under $1000:**  She sold goods worth $1000, so her first tier commission is 30% of $1000 = $300.\n* **Goods over $1000:** She sold an additional $1500 worth of goods, so her second tier commission is 10% of $1500 = $150.\n* **Total Commission:** Her total commission is $300 + $150 = $450.\n\n**Therefore, Antonella earned $450 in commission.** \n\n\n**Answer:** $450 \n",
+                "Here's how to calculate Antonella's earnings:\n\n* **Goods under $1000:**  She sold goods worth $1000, so her first tier commission is 30% of $1000 = $300.\n* **Goods over $1000:** She sold an additional $1500 worth of goods, so her second tier commission is 10% of $1500 = $150.\n* **Total Commission:** Her total commission is $300 + $150 = $450.\n\n**Therefore, Antonella earned $450 in commission.** \n\n\n**Answer:** $450 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                154,
+                0
+            ]
+        },
+        {
+            "pred_answer": 54.0,
+            "correct_answer": 27.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem step-by-step:\n\n* **Step 1: Find out how many scoops Gomer ate:**\n   * Gomer ate 5 less than 23 scoops, so he ate 23 - 5 = 18 scoops.\n\n* **Step 2: Find out how many potatoes are needed for 1 less than 3 scoops:**\n   * It takes 3 less than 6 potatoes to make 1 less than 3 scoops.  This means it takes 6 - 3 = 3 potatoes.\n\n* **Step 3:  Find out how many potatoes are needed for 1 scoop:**\n   *  Since it takes 3 potatoes to make 1 less than 3 scoops, it takes 3 potatoes for 1 scoop.\n\n* **Step 4: Calculate the total number of potatoes Gomer ate:**\n   * Gomer ate 18 scoops, and each scoop requires 3 potatoes.  Therefore, he ate 18 * 3 = 54 potatoes.\n\n\n**Answer:** Gomer ate 54 potatoes. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem step-by-step:\n\n* **Step 1: Find out how many scoops Gomer ate:**\n   * Gomer ate 5 less than 23 scoops, so he ate 23 - 5 = 18 scoops.\n\n* **Step 2: Find out how many potatoes are needed for 1 less than 3 scoops:**\n   * It takes 3 less than 6 potatoes to make 1 less than 3 scoops.  This means it takes 6 - 3 = 3 potatoes.\n\n* **Step 3:  Find out how many potatoes are needed for 1 scoop:**\n   *  Since it takes 3 potatoes to make 1 less than 3 scoops, it takes 3 potatoes for 1 scoop.\n\n* **Step 4: Calculate the total number of potatoes Gomer ate:**\n   * Gomer ate 18 scoops, and each scoop requires 3 potatoes.  Therefore, he ate 18 * 3 = 54 potatoes.\n\n\n**Answer:** Gomer ate 54 potatoes. \n",
+                "Here's how to solve this problem step-by-step:\n\n* **Step 1: Find out how many scoops Gomer ate:**\n   * Gomer ate 5 less than 23 scoops, so he ate 23 - 5 = 18 scoops.\n\n* **Step 2: Find out how many potatoes are needed for 1 less than 3 scoops:**\n   * It takes 3 less than 6 potatoes to make 1 less than 3 scoops.  This means it takes 6 - 3 = 3 potatoes.\n\n* **Step 3:  Find out how many potatoes are needed for 1 scoop:**\n   *  Since it takes 3 potatoes to make 1 less than 3 scoops, it takes 3 potatoes for 1 scoop.\n\n* **Step 4: Calculate the total number of potatoes Gomer ate:**\n   * Gomer ate 18 scoops, and each scoop requires 3 potatoes.  Therefore, he ate 18 * 3 = 54 potatoes.\n\n\n**Answer:** Gomer ate 54 potatoes. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                239,
+                0
+            ]
+        },
+        {
+            "pred_answer": 112.0,
+            "correct_answer": 112.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate the colors from the first group:** 6 packets * 8 pieces/packet = 48 pieces\n* **Calculate the colors from the second group:** 4 packets * 16 pieces/packet = 64 pieces\n* **Calculate the total number of colors:** 48 pieces + 64 pieces = 112 pieces\n\n**Answer:** Beatrice bought a total of 112 colors of crayons. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate the colors from the first group:** 6 packets * 8 pieces/packet = 48 pieces\n* **Calculate the colors from the second group:** 4 packets * 16 pieces/packet = 64 pieces\n* **Calculate the total number of colors:** 48 pieces + 64 pieces = 112 pieces\n\n**Answer:** Beatrice bought a total of 112 colors of crayons. \n",
+                "Here's how to solve the problem:\n\n* **Calculate the colors from the first group:** 6 packets * 8 pieces/packet = 48 pieces\n* **Calculate the colors from the second group:** 4 packets * 16 pieces/packet = 64 pieces\n* **Calculate the total number of colors:** 48 pieces + 64 pieces = 112 pieces\n\n**Answer:** Beatrice bought a total of 112 colors of crayons. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                106,
+                0
+            ]
+        },
+        {
+            "pred_answer": 5.0,
+            "correct_answer": 32.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Total class time:** 4 classes * 2 hours/class = 8 hours\n* **Recipes learned:** 8 hours / 1.5 hours/recipe = 5.33 recipes\n\nSince you can't learn a fraction of a recipe, John learns **5** recipes. \n\n\n**Answer:** 5 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Total class time:** 4 classes * 2 hours/class = 8 hours\n* **Recipes learned:** 8 hours / 1.5 hours/recipe = 5.33 recipes\n\nSince you can't learn a fraction of a recipe, John learns **5** recipes. \n\n\n**Answer:** 5 \n",
+                "Here's how to solve the problem:\n\n* **Total class time:** 4 classes * 2 hours/class = 8 hours\n* **Recipes learned:** 8 hours / 1.5 hours/recipe = 5.33 recipes\n\nSince you can't learn a fraction of a recipe, John learns **5** recipes. \n\n\n**Answer:** 5 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                84,
+                0
+            ]
+        },
+        {
+            "pred_answer": 6.0,
+            "correct_answer": 6.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this problem step-by-step:\n\n**1. Find the number of photographs Brittany's phone can hold:**\n\n* Jamal's phone holds 6 times more photos than Brittany's, so Brittany's phone holds 1800 / 6 = 300 photographs.\n\n**2. Find the number of birds in Jamal's photograph:**\n\n* Brittany's phone can hold 50 times more photos than the number of birds in Jamal's photo.\n* Therefore, the number of birds in Jamal's photo is 300 / 50 = 6.\n\n**Answer:** There are **6** ducks in Jamal's photograph of ducks at the zoo. \n",
+            "every_model_output_text": [
+                "Here's how to solve this problem step-by-step:\n\n**1. Find the number of photographs Brittany's phone can hold:**\n\n* Jamal's phone holds 6 times more photos than Brittany's, so Brittany's phone holds 1800 / 6 = 300 photographs.\n\n**2. Find the number of birds in Jamal's photograph:**\n\n* Brittany's phone can hold 50 times more photos than the number of birds in Jamal's photo.\n* Therefore, the number of birds in Jamal's photo is 300 / 50 = 6.\n\n**Answer:** There are **6** ducks in Jamal's photograph of ducks at the zoo. \n",
+                "Here's how to solve this problem step-by-step:\n\n**1. Find the number of photographs Brittany's phone can hold:**\n\n* Jamal's phone holds 6 times more photos than Brittany's, so Brittany's phone holds 1800 / 6 = 300 photographs.\n\n**2. Find the number of birds in Jamal's photograph:**\n\n* Brittany's phone can hold 50 times more photos than the number of birds in Jamal's photo.\n* Therefore, the number of birds in Jamal's photo is 300 / 50 = 6.\n\n**Answer:** There are **6** ducks in Jamal's photograph of ducks at the zoo. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                159,
+                0
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 4.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate total cupcakes:** Mary has 6 jars of sprinkles, and each jar makes 8 cupcakes, so she has 6 * 8 = 48 cupcakes.\n* **Calculate pans needed:**  She needs to bake enough cupcakes to use up all her sprinkles, so she needs to bake enough to divide her total cupcakes by the number of cupcakes per pan: 48 cupcakes / 12 cupcakes/pan = 4 pans.\n\n**Answer:** Mary should bake 4 pans of cupcakes. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate total cupcakes:** Mary has 6 jars of sprinkles, and each jar makes 8 cupcakes, so she has 6 * 8 = 48 cupcakes.\n* **Calculate pans needed:**  She needs to bake enough cupcakes to use up all her sprinkles, so she needs to bake enough to divide her total cupcakes by the number of cupcakes per pan: 48 cupcakes / 12 cupcakes/pan = 4 pans.\n\n**Answer:** Mary should bake 4 pans of cupcakes. \n",
+                "Here's how to solve the problem:\n\n* **Calculate total cupcakes:** Mary has 6 jars of sprinkles, and each jar makes 8 cupcakes, so she has 6 * 8 = 48 cupcakes.\n* **Calculate pans needed:**  She needs to bake enough cupcakes to use up all her sprinkles, so she needs to bake enough to divide her total cupcakes by the number of cupcakes per pan: 48 cupcakes / 12 cupcakes/pan = 4 pans.\n\n**Answer:** Mary should bake 4 pans of cupcakes. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                119,
+                0
+            ]
+        },
+        {
+            "pred_answer": -24.0,
+            "correct_answer": 2.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how we can solve this problem:\n\n* **Let's use variables:**\n    * Let 't' represent the number of test tubes Igor actually gathered.\n    * Let 'p' represent the number of Petri dishes Igor gathered.\n\n* **Set up equations based on the given information:**\n    * We know Igor gathered half as many test tubes as requested: t = 16 / 2 = 8\n    * We know he gathered two more Petri dishes than requested: p = 14 + 2 = 16\n    * We know the total number of items is 29: t + p + b = 29  (where 'b' is the number of beakers)\n\n* **Solve for the number of beakers (b):**\n    * We know t = 8 and p = 16, so substitute these values into the equation: 8 + 16 + b = 29\n    * Simplify: 24 + b = 29\n    * Subtract 24 from both sides: b = 5\n\n* **Calculate the number of beakers Igor lost:**\n    * Igor had 5 beakers on the bench, and he lost some. \n    * Since he had 29 items total, he lost 5 - 29 = -24 beakers. \n\n**Important Note:**  We get a negative number for the number of beakers Igor lost. This is impossible, as you can't have a negative number of items. This means there's likely an error in the problem statement. \n\n\nLet me know if you'd like to try a different scenario! \n",
+            "every_model_output_text": [
+                "Here's how we can solve this problem:\n\n* **Let's use variables:**\n    * Let 't' represent the number of test tubes Igor actually gathered.\n    * Let 'p' represent the number of Petri dishes Igor gathered.\n\n* **Set up equations based on the given information:**\n    * We know Igor gathered half as many test tubes as requested: t = 16 / 2 = 8\n    * We know he gathered two more Petri dishes than requested: p = 14 + 2 = 16\n    * We know the total number of items is 29: t + p + b = 29  (where 'b' is the number of beakers)\n\n* **Solve for the number of beakers (b):**\n    * We know t = 8 and p = 16, so substitute these values into the equation: 8 + 16 + b = 29\n    * Simplify: 24 + b = 29\n    * Subtract 24 from both sides: b = 5\n\n* **Calculate the number of beakers Igor lost:**\n    * Igor had 5 beakers on the bench, and he lost some. \n    * Since he had 29 items total, he lost 5 - 29 = -24 beakers. \n\n**Important Note:**  We get a negative number for the number of beakers Igor lost. This is impossible, as you can't have a negative number of items. This means there's likely an error in the problem statement. \n\n\nLet me know if you'd like to try a different scenario! \n",
+                "Here's how we can solve this problem:\n\n* **Let's use variables:**\n    * Let 't' represent the number of test tubes Igor actually gathered.\n    * Let 'p' represent the number of Petri dishes Igor gathered.\n\n* **Set up equations based on the given information:**\n    * We know Igor gathered half as many test tubes as requested: t = 16 / 2 = 8\n    * We know he gathered two more Petri dishes than requested: p = 14 + 2 = 16\n    * We know the total number of items is 29: t + p + b = 29  (where 'b' is the number of beakers)\n\n* **Solve for the number of beakers (b):**\n    * We know t = 8 and p = 16, so substitute these values into the equation: 8 + 16 + b = 29\n    * Simplify: 24 + b = 29\n    * Subtract 24 from both sides: b = 5\n\n* **Calculate the number of beakers Igor lost:**\n    * Igor had 5 beakers on the bench, and he lost some. \n    * Since he had 29 items total, he lost 5 - 29 = -24 beakers. \n\n**Important Note:**  We get a negative number for the number of beakers Igor lost. This is impossible, as you can't have a negative number of items. This means there's likely an error in the problem statement. \n\n\nLet me know if you'd like to try a different scenario! \n"
+            ],
+            "every_model_generate_token_num_list": [
+                360,
+                0
+            ]
+        },
+        {
+            "pred_answer": 79.0,
+            "correct_answer": 79.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**Alisa's distance:**\n\n* Distance = Speed x Time\n* Distance = 12 miles/hour * 4.5 hours \n* Distance = 54 miles\n\n**Stanley's distance:**\n\n* Distance = Speed x Time\n* Distance = 10 miles/hour * 2.5 hours\n* Distance = 25 miles\n\n**Total distance:**\n\n* Total distance = Alisa's distance + Stanley's distance\n* Total distance = 54 miles + 25 miles\n* Total distance = 79 miles\n\n\n**Answer:** Alisa and Stanley biked a total of 79 miles. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**Alisa's distance:**\n\n* Distance = Speed x Time\n* Distance = 12 miles/hour * 4.5 hours \n* Distance = 54 miles\n\n**Stanley's distance:**\n\n* Distance = Speed x Time\n* Distance = 10 miles/hour * 2.5 hours\n* Distance = 25 miles\n\n**Total distance:**\n\n* Total distance = Alisa's distance + Stanley's distance\n* Total distance = 54 miles + 25 miles\n* Total distance = 79 miles\n\n\n**Answer:** Alisa and Stanley biked a total of 79 miles. \n",
+                "Here's how to solve the problem:\n\n**Alisa's distance:**\n\n* Distance = Speed x Time\n* Distance = 12 miles/hour * 4.5 hours \n* Distance = 54 miles\n\n**Stanley's distance:**\n\n* Distance = Speed x Time\n* Distance = 10 miles/hour * 2.5 hours\n* Distance = 25 miles\n\n**Total distance:**\n\n* Total distance = Alisa's distance + Stanley's distance\n* Total distance = 54 miles + 25 miles\n* Total distance = 79 miles\n\n\n**Answer:** Alisa and Stanley biked a total of 79 miles. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                152,
+                0
+            ]
+        },
+        {
+            "pred_answer": 35.0,
+            "correct_answer": 35.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **First break:** Hunter counted 50 + 20 = 70 cars.\n* **Lunch break:**  He counted 70 / 2 = 35 cars that left the parking lot.\n* **Total cars counted:** Hunter counted 70 - 35 = 35 cars during lunch break.\n\n**Answer:** 35 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **First break:** Hunter counted 50 + 20 = 70 cars.\n* **Lunch break:**  He counted 70 / 2 = 35 cars that left the parking lot.\n* **Total cars counted:** Hunter counted 70 - 35 = 35 cars during lunch break.\n\n**Answer:** 35 \n",
+                "Here's how to solve the problem step-by-step:\n\n* **First break:** Hunter counted 50 + 20 = 70 cars.\n* **Lunch break:**  He counted 70 / 2 = 35 cars that left the parking lot.\n* **Total cars counted:** Hunter counted 70 - 35 = 35 cars during lunch break.\n\n**Answer:** 35 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                97,
+                0
+            ]
+        },
+        {
+            "pred_answer": 100.0,
+            "correct_answer": 100.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate total weight loss:** Mark lost 3 months * 10 pounds/month = 30 pounds.\n* **Calculate initial weight:** His final weight was 70 pounds, and he lost 30 pounds, so his initial weight was 70 pounds + 30 pounds = 100 pounds.\n\n**Answer:** 100 pounds \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate total weight loss:** Mark lost 3 months * 10 pounds/month = 30 pounds.\n* **Calculate initial weight:** His final weight was 70 pounds, and he lost 30 pounds, so his initial weight was 70 pounds + 30 pounds = 100 pounds.\n\n**Answer:** 100 pounds \n",
+                "Here's how to solve the problem:\n\n* **Calculate total weight loss:** Mark lost 3 months * 10 pounds/month = 30 pounds.\n* **Calculate initial weight:** His final weight was 70 pounds, and he lost 30 pounds, so his initial weight was 70 pounds + 30 pounds = 100 pounds.\n\n**Answer:** 100 pounds \n"
+            ],
+            "every_model_generate_token_num_list": [
+                93,
+                0
+            ]
+        },
+        {
+            "pred_answer": 55.0,
+            "correct_answer": 40.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Calculate 3 times Brian's games:** 3 * 20 = 60\n* **Subtract 5 to find Bobby's starting amount:** 60 - 5 = 55\n* **Bobby has 55 video games.**\n\n\n**Answer:** Bobby has 55 video games. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Calculate 3 times Brian's games:** 3 * 20 = 60\n* **Subtract 5 to find Bobby's starting amount:** 60 - 5 = 55\n* **Bobby has 55 video games.**\n\n\n**Answer:** Bobby has 55 video games. \n",
+                "Here's how to solve the problem:\n\n* **Calculate 3 times Brian's games:** 3 * 20 = 60\n* **Subtract 5 to find Bobby's starting amount:** 60 - 5 = 55\n* **Bobby has 55 video games.**\n\n\n**Answer:** Bobby has 55 video games. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                82,
+                0
+            ]
+        },
+        {
+            "pred_answer": 30.0,
+            "correct_answer": 30.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Prince Arthur's dragons:** Prince Arthur slew three-quarters of Prince Thaddeus' 100 dragons, which is (3/4) * 100 = 75 dragons.\n* **Prince Walter's dragons:** Prince Walter slew twice as many dragons as Arthur, so he slew 2 * 75 = 150 dragons.\n* **Prince Bruce's dragons:** Prince Bruce slew one-fifth as many dragons as Walter, so he slew 1/5 * 150 = 30 dragons.\n\n**Answer:** Prince Bruce slain 30 dragons. \n \n**30** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Prince Arthur's dragons:** Prince Arthur slew three-quarters of Prince Thaddeus' 100 dragons, which is (3/4) * 100 = 75 dragons.\n* **Prince Walter's dragons:** Prince Walter slew twice as many dragons as Arthur, so he slew 2 * 75 = 150 dragons.\n* **Prince Bruce's dragons:** Prince Bruce slew one-fifth as many dragons as Walter, so he slew 1/5 * 150 = 30 dragons.\n\n**Answer:** Prince Bruce slain 30 dragons. \n \n**30** \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Prince Arthur's dragons:** Prince Arthur slew three-quarters of Prince Thaddeus' 100 dragons, which is (3/4) * 100 = 75 dragons.\n* **Prince Walter's dragons:** Prince Walter slew twice as many dragons as Arthur, so he slew 2 * 75 = 150 dragons.\n* **Prince Bruce's dragons:** Prince Bruce slew one-fifth as many dragons as Walter, so he slew 1/5 * 150 = 30 dragons.\n\n**Answer:** Prince Bruce slain 30 dragons. \n \n**30** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                156,
+                0
+            ]
+        },
+        {
+            "pred_answer": 140.0,
+            "correct_answer": 170.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem step-by-step:\n\n* **Step 1: Calculate the area sold first:**\n   - He sold half his land: 80 sq m / 2 = 40 sq m\n   - He sold 1/4 of the remaining land: 80 sq m * (1/4) = 20 sq m\n\n* **Step 2: Calculate the earnings from the first sale:**\n   - He sold 40 sq m for $50.\n\n* **Step 3: Calculate the earnings from the second sale:**\n   - He sold 20 sq m for $30.\n\n* **Step 4: Calculate the remaining land:**\n   - He has 80 sq m - 40 sq m - 20 sq m = 20 sq m left.\n\n* **Step 5: Calculate the earnings from the final sale:**\n   - He sells the remaining 20 sq m for $3 per sq m = $60.\n\n* **Step 6: Calculate the total earnings:**\n   - Total earnings: $50 + $30 + $60 = $140\n\n\n**Answer:** Abraham will be able to earn $140 after selling all his unused land. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem step-by-step:\n\n* **Step 1: Calculate the area sold first:**\n   - He sold half his land: 80 sq m / 2 = 40 sq m\n   - He sold 1/4 of the remaining land: 80 sq m * (1/4) = 20 sq m\n\n* **Step 2: Calculate the earnings from the first sale:**\n   - He sold 40 sq m for $50.\n\n* **Step 3: Calculate the earnings from the second sale:**\n   - He sold 20 sq m for $30.\n\n* **Step 4: Calculate the remaining land:**\n   - He has 80 sq m - 40 sq m - 20 sq m = 20 sq m left.\n\n* **Step 5: Calculate the earnings from the final sale:**\n   - He sells the remaining 20 sq m for $3 per sq m = $60.\n\n* **Step 6: Calculate the total earnings:**\n   - Total earnings: $50 + $30 + $60 = $140\n\n\n**Answer:** Abraham will be able to earn $140 after selling all his unused land. \n",
+                "Here's how to solve the problem step-by-step:\n\n* **Step 1: Calculate the area sold first:**\n   - He sold half his land: 80 sq m / 2 = 40 sq m\n   - He sold 1/4 of the remaining land: 80 sq m * (1/4) = 20 sq m\n\n* **Step 2: Calculate the earnings from the first sale:**\n   - He sold 40 sq m for $50.\n\n* **Step 3: Calculate the earnings from the second sale:**\n   - He sold 20 sq m for $30.\n\n* **Step 4: Calculate the remaining land:**\n   - He has 80 sq m - 40 sq m - 20 sq m = 20 sq m left.\n\n* **Step 5: Calculate the earnings from the final sale:**\n   - He sells the remaining 20 sq m for $3 per sq m = $60.\n\n* **Step 6: Calculate the total earnings:**\n   - Total earnings: $50 + $30 + $60 = $140\n\n\n**Answer:** Abraham will be able to earn $140 after selling all his unused land. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                280,
+                0
+            ]
+        },
+        {
+            "pred_answer": 29.0,
+            "correct_answer": 29.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Wife's age:** Steve's wife is 60 + 4 = 64 years old.\n* **Son's age:** Steve's son is 64 / 2 = 32 years old.\n* **Son's wife's age:** Steve's son's wife is 32 - 3 = 29 years old.\n\n**Answer:** 29 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Wife's age:** Steve's wife is 60 + 4 = 64 years old.\n* **Son's age:** Steve's son is 64 / 2 = 32 years old.\n* **Son's wife's age:** Steve's son's wife is 32 - 3 = 29 years old.\n\n**Answer:** 29 \n",
+                "Here's how to solve the problem:\n\n* **Wife's age:** Steve's wife is 60 + 4 = 64 years old.\n* **Son's age:** Steve's son is 64 / 2 = 32 years old.\n* **Son's wife's age:** Steve's son's wife is 32 - 3 = 29 years old.\n\n**Answer:** 29 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                104,
+                0
+            ]
+        },
+        {
+            "pred_answer": 4.0,
+            "correct_answer": 5.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Step 1: Find the number of lollipops shared.** Ray had 25 lollipops - 5 lollipops = 20 lollipops left.\n* **Step 2: Divide the lollipops shared equally among his friends.** 20 lollipops / 5 friends = 4 lollipops per friend.\n\n**Answer:** Each of his friends received 4 lollipops. \n \n**4** \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Step 1: Find the number of lollipops shared.** Ray had 25 lollipops - 5 lollipops = 20 lollipops left.\n* **Step 2: Divide the lollipops shared equally among his friends.** 20 lollipops / 5 friends = 4 lollipops per friend.\n\n**Answer:** Each of his friends received 4 lollipops. \n \n**4** \n",
+                "Here's how to solve the problem:\n\n* **Step 1: Find the number of lollipops shared.** Ray had 25 lollipops - 5 lollipops = 20 lollipops left.\n* **Step 2: Divide the lollipops shared equally among his friends.** 20 lollipops / 5 friends = 4 lollipops per friend.\n\n**Answer:** Each of his friends received 4 lollipops. \n \n**4** \n"
+            ],
+            "every_model_generate_token_num_list": [
+                111,
+                0
+            ]
+        },
+        {
+            "pred_answer": 120.0,
+            "correct_answer": 12.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Define variables:**\n\n* Let 'x' represent the number of large stuffed animals sold.\n* Since Teresa sold twice as many small stuffed animals as large ones, she sold 2x small stuffed animals.\n\n**2. Set up the equation:**\n\n* The price of large stuffed animals is 3 times the price of small stuffed animals, so the earnings from large stuffed animals are 3 * (4 * small stuffed animals) = 12 * small stuffed animals.\n* The earnings from small stuffed animals are 4 * small stuffed animals.\n* The total earnings are the sum of earnings from large and small stuffed animals: 12 * small stuffed animals + 4 * small stuffed animals = $120\n\n**3. Solve the equation:**\n\n* Combine the terms: 16 * small stuffed animals = $120\n* Divide both sides by 16: small stuffed animals = $120 / 16 = 7.5\n\n**4. Answer:**\n\nSince you can't sell half a stuffed animal, there must be an error in the problem. It's impossible to earn $120 with the given information. \n\n\n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Define variables:**\n\n* Let 'x' represent the number of large stuffed animals sold.\n* Since Teresa sold twice as many small stuffed animals as large ones, she sold 2x small stuffed animals.\n\n**2. Set up the equation:**\n\n* The price of large stuffed animals is 3 times the price of small stuffed animals, so the earnings from large stuffed animals are 3 * (4 * small stuffed animals) = 12 * small stuffed animals.\n* The earnings from small stuffed animals are 4 * small stuffed animals.\n* The total earnings are the sum of earnings from large and small stuffed animals: 12 * small stuffed animals + 4 * small stuffed animals = $120\n\n**3. Solve the equation:**\n\n* Combine the terms: 16 * small stuffed animals = $120\n* Divide both sides by 16: small stuffed animals = $120 / 16 = 7.5\n\n**4. Answer:**\n\nSince you can't sell half a stuffed animal, there must be an error in the problem. It's impossible to earn $120 with the given information. \n\n\n",
+                "Here's how to solve the problem:\n\n**1. Define variables:**\n\n* Let 'x' represent the number of large stuffed animals sold.\n* Since Teresa sold twice as many small stuffed animals as large ones, she sold 2x small stuffed animals.\n\n**2. Set up the equation:**\n\n* The price of large stuffed animals is 3 times the price of small stuffed animals, so the earnings from large stuffed animals are 3 * (4 * small stuffed animals) = 12 * small stuffed animals.\n* The earnings from small stuffed animals are 4 * small stuffed animals.\n* The total earnings are the sum of earnings from large and small stuffed animals: 12 * small stuffed animals + 4 * small stuffed animals = $120\n\n**3. Solve the equation:**\n\n* Combine the terms: 16 * small stuffed animals = $120\n* Divide both sides by 16: small stuffed animals = $120 / 16 = 7.5\n\n**4. Answer:**\n\nSince you can't sell half a stuffed animal, there must be an error in the problem. It's impossible to earn $120 with the given information. \n\n\n"
+            ],
+            "every_model_generate_token_num_list": [
+                261,
+                0
+            ]
+        },
+        {
+            "pred_answer": 310.0,
+            "correct_answer": 310.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate the number of students:\n\n* **January:** 10 students\n* **February:** 10 * 2 = 20 students\n* **March:** 20 * 2 = 40 students\n* **April:** 40 * 2 = 80 students\n* **May:** 80 * 2 = 160 students\n\n**Total students by the end of May:** 10 + 20 + 40 + 80 + 160 = **310 students**\n\n\n**Answer:** 310 \n",
+            "every_model_output_text": [
+                "Here's how to calculate the number of students:\n\n* **January:** 10 students\n* **February:** 10 * 2 = 20 students\n* **March:** 20 * 2 = 40 students\n* **April:** 40 * 2 = 80 students\n* **May:** 80 * 2 = 160 students\n\n**Total students by the end of May:** 10 + 20 + 40 + 80 + 160 = **310 students**\n\n\n**Answer:** 310 \n",
+                "Here's how to calculate the number of students:\n\n* **January:** 10 students\n* **February:** 10 * 2 = 20 students\n* **March:** 20 * 2 = 40 students\n* **April:** 40 * 2 = 80 students\n* **May:** 80 * 2 = 160 students\n\n**Total students by the end of May:** 10 + 20 + 40 + 80 + 160 = **310 students**\n\n\n**Answer:** 310 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                134,
+                0
+            ]
+        },
+        {
+            "pred_answer": 650.0,
+            "correct_answer": 650.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n* **Craig's words:** Craig spelled 20 words with 15 letters each, totaling 20 * 15 = 300 letters.\n* **Brother's words:** His brother spelled 300 + 50 = 350 letters.\n* **Total letters:** Together, they spelled 300 + 350 = 650 letters.\n\n**Answer:** 650 \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n* **Craig's words:** Craig spelled 20 words with 15 letters each, totaling 20 * 15 = 300 letters.\n* **Brother's words:** His brother spelled 300 + 50 = 350 letters.\n* **Total letters:** Together, they spelled 300 + 350 = 650 letters.\n\n**Answer:** 650 \n",
+                "Here's how to solve the problem:\n\n* **Craig's words:** Craig spelled 20 words with 15 letters each, totaling 20 * 15 = 300 letters.\n* **Brother's words:** His brother spelled 300 + 50 = 350 letters.\n* **Total letters:** Together, they spelled 300 + 350 = 650 letters.\n\n**Answer:** 650 \n"
+            ],
+            "every_model_generate_token_num_list": [
+                109,
+                0
+            ]
+        },
+        {
+            "pred_answer": 15.0,
+            "correct_answer": 75.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve this:\n\n**1. Calculate total time worked:**\n\n* Susan works from 8:00 a.m. to 11:00 a.m., which is 3 hours.\n* Convert hours to minutes: 3 hours * 60 minutes/hour = 180 minutes\n\n**2. Calculate time spent working without pauses:**\n\n* Susan works for 180 minutes - 30 minutes (half an hour) = 150 minutes\n\n**3. Calculate earnings:**\n\n* Susan earns $5 for every 10 minutes.\n* Earnings: 150 minutes / 10 minutes/dollar = 15 dollars\n\n**Answer:** Susan earns $15. \n",
+            "every_model_output_text": [
+                "Here's how to solve this:\n\n**1. Calculate total time worked:**\n\n* Susan works from 8:00 a.m. to 11:00 a.m., which is 3 hours.\n* Convert hours to minutes: 3 hours * 60 minutes/hour = 180 minutes\n\n**2. Calculate time spent working without pauses:**\n\n* Susan works for 180 minutes - 30 minutes (half an hour) = 150 minutes\n\n**3. Calculate earnings:**\n\n* Susan earns $5 for every 10 minutes.\n* Earnings: 150 minutes / 10 minutes/dollar = 15 dollars\n\n**Answer:** Susan earns $15. \n",
+                "Here's how to solve this:\n\n**1. Calculate total time worked:**\n\n* Susan works from 8:00 a.m. to 11:00 a.m., which is 3 hours.\n* Convert hours to minutes: 3 hours * 60 minutes/hour = 180 minutes\n\n**2. Calculate time spent working without pauses:**\n\n* Susan works for 180 minutes - 30 minutes (half an hour) = 150 minutes\n\n**3. Calculate earnings:**\n\n* Susan earns $5 for every 10 minutes.\n* Earnings: 150 minutes / 10 minutes/dollar = 15 dollars\n\n**Answer:** Susan earns $15. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                163,
+                0
+            ]
+        },
+        {
+            "pred_answer": 7.0,
+            "correct_answer": 7.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to solve the problem:\n\n**1. Calculate the cost of the apples:**\n\n* 3 apples * $1.50/apple = $4.50\n\n**2. Calculate the cost of the oranges:**\n\n* 5 oranges * $0.80/orange = $4.00\n\n**3. Calculate the cost of the peaches:**\n\n* 6 peaches * $0.75/peach = $4.50\n\n**4. Calculate the total cost of all the fruit:**\n\n* $4.50 + $4.00 + $4.50 = $13.00\n\n**5. Calculate the change:**\n\n* $20.00 - $13.00 = $7.00\n\n**Answer:** Verna received $7.00 in change. \n",
+            "every_model_output_text": [
+                "Here's how to solve the problem:\n\n**1. Calculate the cost of the apples:**\n\n* 3 apples * $1.50/apple = $4.50\n\n**2. Calculate the cost of the oranges:**\n\n* 5 oranges * $0.80/orange = $4.00\n\n**3. Calculate the cost of the peaches:**\n\n* 6 peaches * $0.75/peach = $4.50\n\n**4. Calculate the total cost of all the fruit:**\n\n* $4.50 + $4.00 + $4.50 = $13.00\n\n**5. Calculate the change:**\n\n* $20.00 - $13.00 = $7.00\n\n**Answer:** Verna received $7.00 in change. \n",
+                "Here's how to solve the problem:\n\n**1. Calculate the cost of the apples:**\n\n* 3 apples * $1.50/apple = $4.50\n\n**2. Calculate the cost of the oranges:**\n\n* 5 oranges * $0.80/orange = $4.00\n\n**3. Calculate the cost of the peaches:**\n\n* 6 peaches * $0.75/peach = $4.50\n\n**4. Calculate the total cost of all the fruit:**\n\n* $4.50 + $4.00 + $4.50 = $13.00\n\n**5. Calculate the change:**\n\n* $20.00 - $13.00 = $7.00\n\n**Answer:** Verna received $7.00 in change. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                186,
+                0
+            ]
+        },
+        {
+            "pred_answer": 60.0,
+            "correct_answer": 180.0,
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Here's how to calculate Tom's weekly earnings:\n\n* **Cost of meals:** 2 meals * $5/meal = $10\n* **Total cost per night:** $10 + $5 = $15\n* **Total cost for 2 days:** $15/night * 2 nights = $30\n* **Total weekly earnings:** $30/night * 2 nights = $60\n* **Total weekly earnings:** $60\n\n**Answer:** Tom's restaurant makes $60 a week. \n",
+            "every_model_output_text": [
+                "Here's how to calculate Tom's weekly earnings:\n\n* **Cost of meals:** 2 meals * $5/meal = $10\n* **Total cost per night:** $10 + $5 = $15\n* **Total cost for 2 days:** $15/night * 2 nights = $30\n* **Total weekly earnings:** $30/night * 2 nights = $60\n* **Total weekly earnings:** $60\n\n**Answer:** Tom's restaurant makes $60 a week. \n",
+                "Here's how to calculate Tom's weekly earnings:\n\n* **Cost of meals:** 2 meals * $5/meal = $10\n* **Total cost per night:** $10 + $5 = $15\n* **Total cost for 2 days:** $15/night * 2 nights = $30\n* **Total weekly earnings:** $30/night * 2 nights = $60\n* **Total weekly earnings:** $60\n\n**Answer:** Tom's restaurant makes $60 a week. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                121,
+                0
+            ]
+        }
+    ]
+}

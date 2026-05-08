@@ -166,7 +166,7 @@ def check_main_model_confidence(main_outputs, main_model, main_tokenizer, cfg):
 
     # 1.读取超参数
     alpha = cfg.get("alpha", 0.9) # 判断当前Token属于高置信度Token还是低置信度Token
-    rho = cfg.get("rho", 0.9) # 两个token_str的语义相似度的阈值
+    rho = cfg.get("rho", 0.5) # 两个token_str的语义相似度的阈值
     M = 5 # 获取后M层的隐藏状态
     perturb_eps = cfg.get("perturb_eps", 1)
     

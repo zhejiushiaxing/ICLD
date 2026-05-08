@@ -4,17 +4,16 @@ set -e  # 出错立即退出
 set -o pipefail
 
 echo "===== Start Multi-Dataset Experiments ====="
-# echo "测试多模型性能, Llama3.2-3B-Instruct+Gemma4-E2B-it, 100题"
 
 # ================= 数据集配置 =================
-datasets=("MMLU" "GSM8K" "MATH500" "PIQA")
-# datasets=("GSM8K" "MATH500" "PIQA")
+datasets=("MMLU" "GSM8K" "MATH500" "PIQA", "ARC-C")
 
 paths=(
 "/data3/zzc/projects/ZJX/code/ICLD/dataset/MMLU/test-00000-of-00001.parquet"
 "/data3/zzc/projects/ZJX/code/ICLD/dataset/GSM8K/test-00000-of-00001.parquet"
 "/data3/zzc/projects/ZJX/code/ICLD/dataset/MATH500/test_clean.parquet"
 "/data3/zzc/projects/ZJX/code/ICLD/dataset/PIQA/validation-00000-of-00001.parquet"
+"/data3/zzc/projects/ZJX/code/ICLD/dataset/ARC-C/test-00000-of-00001.parquet"
 )
 
 max_questions_num=100

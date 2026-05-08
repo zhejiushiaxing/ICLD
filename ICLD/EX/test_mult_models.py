@@ -54,37 +54,49 @@ def main():
 
     test_cfg['integrate_models_name'] = [
         # "Llama3.2-3B-Instruct",
-        "Gemma2-2B-it", 
-        "Qwen2.5-1.5B-Instruct"
+        "tencent/Hunyuan-4B-Instruct",
+        "Gemma3-4B-it",
+        # "Qwen2.5-3B-Instruct",
+        # "Phi3.5-mini-Instruct",
+        # "Gemma2-2B-it",
+        # "Qwen2.5-1.5B-Instruct",
+     
+        
     ]
 
     test_cfg['integrate_models_path'] = [
         # "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct",
-        "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it",
-        "Qwen/Qwen2.5-1.5B-Instruct"
+        "tencent/Hunyuan-4B-Instruct",
+        "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it",
+        # "Qwen/Qwen2.5-3B-Instruct",
+        # "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it",
+        # "Qwen/Qwen2.5-1.5B-Instruct",
+        # "/data3/zzc/projects/ZJX/models/models--Microsoft--Phi3.5-mini-Instruct",
+        
+        
     ]
 
     # 自动映射模型名
     for i, model_path in enumerate(test_cfg['integrate_models_path']):
-        if model_path == "openchat/openchat-3.6-8b-20240522":
-            test_cfg['integrate_models_name'][i] = "openchat-3.6-8b-20240522"
-        elif model_path in [
-            "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.1-8B-Instruct",
-            "/mnt/Data/ZJX/models/huggingface_cache/models--Meta-Llama-3-8B-Instruct"
-        ]:
-            test_cfg['integrate_models_name'][i] = "Llama3.1-8B-Instruct"
-        elif model_path == "tencent/Hunyuan-7B-Instruct":
-            test_cfg['integrate_models_name'][i] = "Hunyuan-7B-Instruct"
-        elif model_path == "/data3/zzc/projects/ZJX/models/models--Qwen--Qwen2.5-7B-Instruct":
-            test_cfg['integrate_models_name'][i] = "Qwen2.5-7B-Instruct"
-        elif model_path == "/data3/zzc/projects/ZJX/models/ models--Google-Gemma2-2B-it":
+        if model_path == "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it":
             test_cfg['integrate_models_name'][i] = "Gemma2-2B-it"
+        elif model_path == "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it":
+            test_cfg['integrate_models_name'][i] = "Gemma3-4B-it"
         elif model_path == "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct":
             test_cfg['integrate_models_name'][i] = "Llama3.2-3B-Instruct"
-        elif model_path == "Qwen/Qwen3-4B-Instruct-2507":
-            test_cfg['integrate_models_name'][i] = "Qwen3-4B-Instruct-2507"
         elif model_path == "tencent/Hunyuan-4B-Instruct":
             test_cfg['integrate_models_name'][i] = "Hunyuan-4B-Instruct"
+        elif model_path == "Qwen/Qwen2.5-1.5B-Instruct":
+            test_cfg['integrate_models_name'][i] = "Qwen2.5-1.5B-Instruct"
+        elif model_path == "Qwen/Qwen2.5-3B-Instruct":
+            test_cfg['integrate_models_name'][i] = "Qwen2.5-3B-Instruct"
+        elif model_path == "/data3/zzc/projects/ZJX/models/models--Microsoft--Phi3.5-mini-Instruct":
+            test_cfg['integrate_models_name'][i] = "Phi3.5-mini-Instruct"
+        elif model_path == "/data3/zzc/projects/ZJX/models/models--Microsoft--Phi4-mini-Instruct":
+            test_cfg['integrate_models_name'][i] = "Phi4-mini-Instruct"
+        elif model_path == "/data3/zzc/projects/ZJX/models/models--MinistralAI-Ministral3-3B-Instruct-2512":
+            test_cfg['integrate_models_name'][i] = "Ministral3-3B-Instruct-2512"
+        
         
 
         
@@ -95,11 +107,11 @@ def main():
     test_cfg['max_questions'] = args.max_questions
     # ============================================
 
-    test_cfg['device'] = "cuda:2"
-    test_cfg['integrate_models_device'] = [2, 2]
+    test_cfg['device'] = "cuda:1"
+    test_cfg['integrate_models_device'] = [1, 1]
     test_cfg['integrate_models_weights'] = [0.5, 0.5]
 
-    test_cfg['comment'] = f"测试Gemma2-2B-it，数据集：{args.dataset_name}"
+    test_cfg['comment'] = f"测试Hunyuan-4B-Instruct + Gemma-3-4b-it(OURS)，数据集：{args.dataset_name}"
     test_cfg['integrate_method'] = "ICLD"
 
     # 3.执行入口
@@ -113,3 +125,4 @@ if __name__ == "__main__":
     # python -m EX.test_mult_models --dataset_name GSM8K --dataset_path /data3/zzc/projects/ZJX/code/ICLD/dataset/GSM8K/test-00000-of-00001.parquet --max_questions 1
     # python -m EX.test_mult_models --dataset_name MATH500 --dataset_path /data3/zzc/projects/ZJX/code/ICLD/dataset/MATH500/test_clean.parquet --max_questions 1
     # python -m EX.test_mult_models --dataset_name PIQA --dataset_path /data3/zzc/projects/ZJX/code/ICLD/dataset/PIQA/validation-00000-of-00001.parquet --max_questions 1
+    # python -m EX.test_mult_models --dataset_name ARC-C --dataset_path /data3/zzc/projects/ZJX/code/ICLD/dataset/ARC-C/test-00000-of-00001.parquet --max_questions 1

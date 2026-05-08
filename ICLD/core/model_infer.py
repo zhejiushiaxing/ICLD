@@ -140,6 +140,7 @@ class ModelInfer:
             'integrate_models_name': integrate_models_name,
             'integrate_method': integrate_method,
             'dataset_name': dataset_name,
+            'integrate_models_path': integrate_models_path,
 
             'avg_cal_time': round(all_cal_time / max_questions, 2) if max_questions > 0 else 0,
             'avg_correct_num': round(all_correct_num / max_questions, 2) if max_questions > 0 else 0,

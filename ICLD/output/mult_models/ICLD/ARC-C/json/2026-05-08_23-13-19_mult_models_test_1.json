@@ -1,0 +1,77 @@
+{
+    "comment": "测试Hunyuan-4B-Instruct + Gemma-3-4b-it(OURS)，数据集：ARC-C",
+    "finish_date": "2026-05-08_23-13-19",
+    "integrate_models_name": [
+        "Hunyuan-4B-Instruct",
+        "Gemma3-4B-it"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "ARC-C",
+    "integrate_models_path": [
+        "tencent/Hunyuan-4B-Instruct",
+        "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it"
+    ],
+    "avg_cal_time": 54.89,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        443.0,
+        267.0
+    ],
+    "avg_ensemble_num": 267.0,
+    "high_confidence_ensemble_ratio": 0.2446,
+    "low_confidence_ensemble_ratio": 0.76645,
+    "all_ensemble_ratio": 0.60271,
+    "bunk_list": [
+        0,
+        1,
+        4,
+        9,
+        15,
+        14,
+        10,
+        11,
+        7,
+        105
+    ],
+    "all_cal_time": 54.88812208175659,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        443,
+        267
+    ],
+    "all_ensemble_num": 267,
+    "all_high_confidence_token_num": 139,
+    "all_high_confidence_ensemble_num": 34,
+    "all_low_confidence_token_num": 304,
+    "all_low_confidence_ensemble_num": 233,
+    "models_pred_answer_list": [
+        "B"
+    ],
+    "question_correct_answer_list": [
+        "C"
+    ],
+    "avg_high_confidence_token_num": 139.0,
+    "avg_high_confidence_ensemble_num": 34.0,
+    "avg_low_confidence_token_num": 304.0,
+    "avg_low_confidence_ensemble_num": 233.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "B",
+            "correct_answer": "C",
+            "ensemble_num": 267,
+            "high_confidence_token_num": 139,
+            "high_confidence_ensemble_num": 34,
+            "low_confidence_token_num": 304,
+            "low_confidence_ensemble_num": 233,
+            "final_output_text": "Here's a step-by-step explanation of why the best answer is B:\n\n1. **Understanding the Rock Cycle:** The Earth's surface is constantly changing due to the rock cycle, a continuous process involving weathering, erosion, deposition, and uplift.  \n2. **Mountain Formation:** Mountains are formed through tectonic plate collisions (e.g., the Himalayas) or volcanic activity, which creates immense uplift.  \n3. **Weathering and Erosion:** Once formed, mountains are subjected to weathering (wind, water, ice) and erosion (the breaking down of rock), which gradually wears them down.  \n4. **Sediment Transport:** Eroded material (silt, sand, clay) is transported by rivers, glaciers, or wind and deposited in lower-lying areas, often forming plains and eventually, new sedimentary rock layers.  \n5. **Sea Level Changes:** Over billions of years, sea levels have fluctuated due to factors like glacial ice accumulation and melting, and the volume of sediment deposited. This means that areas that were once mountainous are now submerged, and vice versa.  \n6. **The Dominance of Erosion:** Erosion is a *much* faster process than mountain formation, especially over geological time scales. While new mountains are occasionally formed, the cumulative effect of erosion is far greater.  \n7. **Considering the Options:**  \n   - **A** is incorrect because the Earth is not gradually becoming covered in mountains; it’s constantly losing height.  \n    - **B** accurately describes the long-term trend: mountains erode, and the Earth’s surface generally trends toward lower elevations.  \n    - **C** is incorrect because continuous mountain formation is rare and doesn’t account for the overwhelming effect of erosion.  \n    - **D** is incorrect because the Earth’s surface is dynamic, not static.  \n8. **Conclusion:** The Earth’s surface is shaped by a balance between uplift and erosion, with erosion dominating over billions of years. This leads to a general lowering of the Earth’s surface, with mountains wearing down and sea levels rising.  \n\nThe answer is B",
+            "every_model_output_text": [
+                "Here's a step-by-step explanation of why the best answer is B:\n\n1. **Understanding the Rock Cycle:** The Earth's surface is constantly changing due to the rock cycle, a continuous process involving weathering, erosion, deposition, and uplift.  \n2. **Mountain Formation:** Mountains are formed through tectonic plate collisions (e.g., the Himalayas) or volcanic activity, which creates immense uplift.  \n3. **Weathering and Erosion:** Once formed, mountains are subjected to weathering (wind, water, ice) and erosion (the breaking down of rock), which gradually wears them down.  \n4. **Sediment Transport:** Eroded material (silt, sand, clay) is transported by rivers, glaciers, or wind and deposited in lower-lying areas, often forming plains and eventually, new sedimentary rock layers.  \n5. **Sea Level Changes:** Over billions of years, sea levels have fluctuated due to factors like glacial ice accumulation and melting, and the volume of sediment deposited. This means that areas that were once mountainous are now submerged, and vice versa.  \n6. **The Dominance of Erosion:** Erosion is a *much* faster process than mountain formation, especially over geological time scales. While new mountains are occasionally formed, the cumulative effect of erosion is far greater.  \n7. **Considering the Options:**  \n   - **A** is incorrect because the Earth is not gradually becoming covered in mountains; it’s constantly losing height.  \n    - **B** accurately describes the long-term trend: mountains erode, and the Earth’s surface generally trends toward lower elevations.  \n    - **C** is incorrect because continuous mountain formation is rare and doesn’t account for the overwhelming effect of erosion.  \n    - **D** is incorrect because the Earth’s surface is dynamic, not static.  \n8. **Conclusion:** The Earth’s surface is shaped by a balance between uplift and erosion, with erosion dominating over billions of years. This leads to a general lowering of the Earth’s surface, with mountains wearing down and sea levels rising.  \n\nThe answer is B",
+                "Here's a step-by-step explanation of why the best answer is B:\n\n1. **Understanding the Rock Cycle:** The Earth's surface is constantly changing due to the rock cycle, a continuous process involving weathering, erosion, deposition, and uplift.  \n2. **Mountain Formation:** Mountains are formed through tectonic plate collisions (e.g., the Himalayas) or volcanic activity, which creates immense uplift.  \n3. **Weathering and Erosion:** Once formed, mountains are subjected to weathering (wind, water, ice) and erosion (the breaking down of rock), which gradually wears them down.  \n4. **Sediment Transport:** Eroded material (silt, sand, clay) is transported by rivers, glaciers, or wind and deposited in lower-lying areas, often forming plains and eventually, new sedimentary rock layers.  \n5. **Sea Level Changes:** Over billions of years, sea levels have fluctuated due to factors like glacial ice accumulation and melting, and the volume of sediment deposited. This means that areas that were once mountainous are now submerged, and vice versa.  \n6. **The Dominance of Erosion:** Erosion is a *much* faster process than mountain formation, especially over geological time scales. While new mountains are occasionally formed, the cumulative effect of erosion is far greater.  \n7. **Considering the Options:**  \n   - **A** is incorrect because the Earth is not gradually becoming covered in mountains; it’s constantly losing height.  \n    - **B** accurately describes the long-term trend: mountains erode, and the Earth’s surface generally trends toward lower elevations.  \n    - **C** is incorrect because continuous mountain formation is rare and doesn’t account for the overwhelming effect of erosion.  \n    - **D** is incorrect because the Earth’s surface is dynamic, not static.  \n8. **Conclusion:** The Earth’s surface is shaped by a balance between uplift and erosion, with erosion dominating over billions of years. This leads to a general lowering of the Earth’s surface, with mountains wearing down and sea levels rising.  \n\nThe answer is B"
+            ],
+            "every_model_generate_token_num_list": [
+                443,
+                267
+            ]
+        }
+    ]
+}
