@@ -1,0 +1,77 @@
+{
+    "comment": "测试Qwen2.5-3B-Instruct单模型，数据集：MMLU",
+    "finish_date": "2026-05-09_18-14-10",
+    "integrate_models_name": [
+        "Qwen3.5-4B",
+        "Qwen2.5-1.5B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MMLU",
+    "integrate_models_path": [
+        "Qwen/Qwen3.5-4B",
+        "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "avg_cal_time": 80.59,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        1024.0,
+        0.0
+    ],
+    "avg_ensemble_num": 0.0,
+    "high_confidence_ensemble_ratio": 0,
+    "low_confidence_ensemble_ratio": 0,
+    "all_ensemble_ratio": 0.0,
+    "bunk_list": [
+        0,
+        0,
+        0,
+        3,
+        10,
+        12,
+        18,
+        22,
+        31,
+        928
+    ],
+    "all_cal_time": 80.58648085594177,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        1024,
+        0
+    ],
+    "all_ensemble_num": 0,
+    "all_high_confidence_token_num": 0,
+    "all_high_confidence_ensemble_num": 0,
+    "all_low_confidence_token_num": 0,
+    "all_low_confidence_ensemble_num": 0,
+    "models_pred_answer_list": [
+        "C"
+    ],
+    "question_correct_answer_list": [
+        "B"
+    ],
+    "avg_high_confidence_token_num": 0.0,
+    "avg_high_confidence_ensemble_num": 0.0,
+    "avg_low_confidence_token_num": 0.0,
+    "avg_low_confidence_ensemble_num": 0.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "C",
+            "correct_answer": "B",
+            "ensemble_num": 0,
+            "high_confidence_token_num": 0,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 0,
+            "low_confidence_ensemble_num": 0,
+            "final_output_text": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Identify which of the given options is NOT a group.\n    *   Options:\n        *   A. The integers under addition.\n        *   B. The nonzero integers under multiplication.\n        *   C. The nonzero real numbers under multiplication.\n        *   D. The complex numbers under addition.\n    *   Constraints:\n        *   Provide a step-by-step explanation of reasoning.\n        *   The very last line must be exactly: \"The answer is X.\" (where X is A, B, C, or D).\n        *   Begin the explanation below.\n\n2.  **Define a Group:**\n    *   A set $G$ equipped with a binary operation $*$ is a group if it satisfies four axioms:\n        1.  **Closure:** For all $a, b \\in G$, $a * b \\in G$.\n        2.  **Associativity:** For all $a, b, c \\in G$, $(a * b) * c = a * (b * c)$.\n        3.  **Identity Element:** There exists an element $e \\in G$ such that for all $a \\in G$, $a * e = e * a = a$.\n        4.  **Inverse Element:** For every $a \\in G$, there exists an element $a^{-1} \\in G$ such that $a * a^{-1} = a^{-1} * a = e$.\n\n3.  **Evaluate Option A: The integers under addition ($\\mathbb{Z}, +$).**\n    *   Set: $\\mathbb{Z} = \\{..., -2, -1, 0, 1, 2, ...\\}$.\n    *   Operation: Addition ($+$).\n    *   Closure: Sum of any two integers is an integer. (Yes)\n    *   Associativity: Addition is associative. (Yes)\n    *   Identity: $0$ is the additive identity ($a + 0 = a$). $0 \\in \\mathbb{Z}$. (Yes)\n    *   Inverse: For every integer $a$, $-a$ is an integer and $a + (-a) = 0$. (Yes)\n    *   Conclusion: This is a group.\n\n4.  **Evaluate Option B: The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{Z}^* = \\{..., -2, -1, 1, 2, ...\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of any two nonzero integers is a nonzero integer. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity ($a \\cdot 1 = a$). $1 \\in \\mathbb{Z}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{Z}^*$, does there exist $b \\in \\mathbb{Z}^*$ such that $a \\cdot b = 1$?\n        *   Consider $a = 2$. We need $2 \\cdot b = 1 \\implies b = 1/2$.\n        *   $1/2$ is not an integer.\n        *   Therefore, integers do not have multiplicative inverses within the set of integers.\n    *   Conclusion: This is **NOT** a group.\n\n5.  **Evaluate Option C: The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{R}^* = \\{x \\in \\mathbb{R} \\mid x \\neq 0\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of nonzero reals is a nonzero real. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity. $1 \\in \\mathbb{R}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{R}^*$, $1/a$ is a real number and $a \\cdot (1/a) = 1$. (Yes)\n    *   Conclusion: This is a group.\n\n6.  **Evaluate Option D: The complex numbers under addition ($\\mathbb{C}, +",
+            "every_model_output_text": [
+                "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Identify which of the given options is NOT a group.\n    *   Options:\n        *   A. The integers under addition.\n        *   B. The nonzero integers under multiplication.\n        *   C. The nonzero real numbers under multiplication.\n        *   D. The complex numbers under addition.\n    *   Constraints:\n        *   Provide a step-by-step explanation of reasoning.\n        *   The very last line must be exactly: \"The answer is X.\" (where X is A, B, C, or D).\n        *   Begin the explanation below.\n\n2.  **Define a Group:**\n    *   A set $G$ equipped with a binary operation $*$ is a group if it satisfies four axioms:\n        1.  **Closure:** For all $a, b \\in G$, $a * b \\in G$.\n        2.  **Associativity:** For all $a, b, c \\in G$, $(a * b) * c = a * (b * c)$.\n        3.  **Identity Element:** There exists an element $e \\in G$ such that for all $a \\in G$, $a * e = e * a = a$.\n        4.  **Inverse Element:** For every $a \\in G$, there exists an element $a^{-1} \\in G$ such that $a * a^{-1} = a^{-1} * a = e$.\n\n3.  **Evaluate Option A: The integers under addition ($\\mathbb{Z}, +$).**\n    *   Set: $\\mathbb{Z} = \\{..., -2, -1, 0, 1, 2, ...\\}$.\n    *   Operation: Addition ($+$).\n    *   Closure: Sum of any two integers is an integer. (Yes)\n    *   Associativity: Addition is associative. (Yes)\n    *   Identity: $0$ is the additive identity ($a + 0 = a$). $0 \\in \\mathbb{Z}$. (Yes)\n    *   Inverse: For every integer $a$, $-a$ is an integer and $a + (-a) = 0$. (Yes)\n    *   Conclusion: This is a group.\n\n4.  **Evaluate Option B: The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{Z}^* = \\{..., -2, -1, 1, 2, ...\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of any two nonzero integers is a nonzero integer. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity ($a \\cdot 1 = a$). $1 \\in \\mathbb{Z}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{Z}^*$, does there exist $b \\in \\mathbb{Z}^*$ such that $a \\cdot b = 1$?\n        *   Consider $a = 2$. We need $2 \\cdot b = 1 \\implies b = 1/2$.\n        *   $1/2$ is not an integer.\n        *   Therefore, integers do not have multiplicative inverses within the set of integers.\n    *   Conclusion: This is **NOT** a group.\n\n5.  **Evaluate Option C: The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{R}^* = \\{x \\in \\mathbb{R} \\mid x \\neq 0\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of nonzero reals is a nonzero real. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity. $1 \\in \\mathbb{R}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{R}^*$, $1/a$ is a real number and $a \\cdot (1/a) = 1$. (Yes)\n    *   Conclusion: This is a group.\n\n6.  **Evaluate Option D: The complex numbers under addition ($\\mathbb{C}, +",
+                "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Identify which of the given options is NOT a group.\n    *   Options:\n        *   A. The integers under addition.\n        *   B. The nonzero integers under multiplication.\n        *   C. The nonzero real numbers under multiplication.\n        *   D. The complex numbers under addition.\n    *   Constraints:\n        *   Provide a step-by-step explanation of reasoning.\n        *   The very last line must be exactly: \"The answer is X.\" (where X is A, B, C, or D).\n        *   Begin the explanation below.\n\n2.  **Define a Group:**\n    *   A set $G$ equipped with a binary operation $*$ is a group if it satisfies four axioms:\n        1.  **Closure:** For all $a, b \\in G$, $a * b \\in G$.\n        2.  **Associativity:** For all $a, b, c \\in G$, $(a * b) * c = a * (b * c)$.\n        3.  **Identity Element:** There exists an element $e \\in G$ such that for all $a \\in G$, $a * e = e * a = a$.\n        4.  **Inverse Element:** For every $a \\in G$, there exists an element $a^{-1} \\in G$ such that $a * a^{-1} = a^{-1} * a = e$.\n\n3.  **Evaluate Option A: The integers under addition ($\\mathbb{Z}, +$).**\n    *   Set: $\\mathbb{Z} = \\{..., -2, -1, 0, 1, 2, ...\\}$.\n    *   Operation: Addition ($+$).\n    *   Closure: Sum of any two integers is an integer. (Yes)\n    *   Associativity: Addition is associative. (Yes)\n    *   Identity: $0$ is the additive identity ($a + 0 = a$). $0 \\in \\mathbb{Z}$. (Yes)\n    *   Inverse: For every integer $a$, $-a$ is an integer and $a + (-a) = 0$. (Yes)\n    *   Conclusion: This is a group.\n\n4.  **Evaluate Option B: The nonzero integers under multiplication ($\\mathbb{Z} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{Z}^* = \\{..., -2, -1, 1, 2, ...\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of any two nonzero integers is a nonzero integer. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity ($a \\cdot 1 = a$). $1 \\in \\mathbb{Z}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{Z}^*$, does there exist $b \\in \\mathbb{Z}^*$ such that $a \\cdot b = 1$?\n        *   Consider $a = 2$. We need $2 \\cdot b = 1 \\implies b = 1/2$.\n        *   $1/2$ is not an integer.\n        *   Therefore, integers do not have multiplicative inverses within the set of integers.\n    *   Conclusion: This is **NOT** a group.\n\n5.  **Evaluate Option C: The nonzero real numbers under multiplication ($\\mathbb{R} \\setminus \\{0\\}, \\cdot$).**\n    *   Set: $\\mathbb{R}^* = \\{x \\in \\mathbb{R} \\mid x \\neq 0\\}$.\n    *   Operation: Multiplication ($\\cdot$).\n    *   Closure: Product of nonzero reals is a nonzero real. (Yes)\n    *   Associativity: Multiplication is associative. (Yes)\n    *   Identity: $1$ is the multiplicative identity. $1 \\in \\mathbb{R}^*$. (Yes)\n    *   Inverse: For every $a \\in \\mathbb{R}^*$, $1/a$ is a real number and $a \\cdot (1/a) = 1$. (Yes)\n    *   Conclusion: This is a group.\n\n6.  **Evaluate Option D: The complex numbers under addition ($\\mathbb{C}, +"
+            ],
+            "every_model_generate_token_num_list": [
+                1024,
+                0
+            ]
+        }
+    ]
+}

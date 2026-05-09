@@ -1,0 +1,5 @@
+usage: test_mult_models.py [-h] --dataset_name
+                           {MMLU,GSM8K,MATH500,NQ,BOOLQ,ARC-C,PIQA}
+                           --dataset_path DATASET_PATH
+                           [--max_questions MAX_QUESTIONS]
+test_mult_models.py: error: argument --dataset_name: invalid choice: 'PIQA,' (choose from MMLU, GSM8K, MATH500, NQ, BOOLQ, ARC-C, PIQA)

@@ -505,15 +505,15 @@ class ModelHandle:
                 # 2) 先基于主模型判断是否需要集成
                 # =========================
 
-                is_ensemble, x, y, p, q = check_main_model_confidence(
-                    main_outputs, main_model, main_tokenizer, cfg
-                )
-                high_confidence_token_num += x
-                high_confidence_ensemble_num += y
-                low_confidence_token_num += p
-                low_confidence_ensemble_num += q
+                # is_ensemble, x, y, p, q = check_main_model_confidence(
+                #     main_outputs, main_model, main_tokenizer, cfg
+                # )
+                # high_confidence_token_num += x
+                # high_confidence_ensemble_num += y
+                # low_confidence_token_num += p
+                # low_confidence_ensemble_num += q
 
-                # is_ensemble = True
+                is_ensemble = True
 
                 # =========================
                 # 3) 如果需要集成，再运行辅助模型

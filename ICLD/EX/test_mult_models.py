@@ -53,41 +53,52 @@ def main():
     """
 
     test_cfg['integrate_models_name'] = [
-        # "Llama3.2-3B-Instruct",
-        "tencent/Hunyuan-4B-Instruct",
-        "Gemma3-4B-it",
+        "Llama3.2-3B-Instruct",
+        # "Gemma3-4B-it",
+        # "tencent/Hunyuan-4B-Instruct",
+        # "Gemma3-4B-it",
         # "Qwen2.5-3B-Instruct",
+        # "Qwen3.5-4B",
         # "Phi3.5-mini-Instruct",
         # "Gemma2-2B-it",
-        # "Qwen2.5-1.5B-Instruct",
+        # "Gemma4-E2B-it",
+        "Qwen2.5-1.5B-Instruct",
      
         
     ]
 
     test_cfg['integrate_models_path'] = [
-        # "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct",
-        "tencent/Hunyuan-4B-Instruct",
-        "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it",
+        "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct",
+        # "tencent/Hunyuan-4B-Instruct",
+        # "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it",
+        # "tencent/Hunyuan-4B-Instruct",
         # "Qwen/Qwen2.5-3B-Instruct",
+        # "Qwen/Qwen3.5-4B",
+        # "/data3/zzc/projects/ZJX/models/models--Google-Gemma4-E2B-it",
         # "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it",
-        # "Qwen/Qwen2.5-1.5B-Instruct",
+        "Qwen/Qwen2.5-1.5B-Instruct",
         # "/data3/zzc/projects/ZJX/models/models--Microsoft--Phi3.5-mini-Instruct",
         
         
     ]
 
+    
     # 自动映射模型名
     for i, model_path in enumerate(test_cfg['integrate_models_path']):
         if model_path == "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it":
             test_cfg['integrate_models_name'][i] = "Gemma2-2B-it"
         elif model_path == "/data3/zzc/projects/ZJX/models/models--Google-Gemma3-4B-it":
             test_cfg['integrate_models_name'][i] = "Gemma3-4B-it"
+        elif model_path == "/data3/zzc/projects/ZJX/models/models--Google-Gemma4-E2B-it":
+            test_cfg['integrate_models_name'][i] = "Gemma4-E2B-it"
         elif model_path == "/data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct":
             test_cfg['integrate_models_name'][i] = "Llama3.2-3B-Instruct"
         elif model_path == "tencent/Hunyuan-4B-Instruct":
             test_cfg['integrate_models_name'][i] = "Hunyuan-4B-Instruct"
         elif model_path == "Qwen/Qwen2.5-1.5B-Instruct":
             test_cfg['integrate_models_name'][i] = "Qwen2.5-1.5B-Instruct"
+        elif model_path == "Qwen/Qwen3.5-4B":
+            test_cfg['integrate_models_name'][i] = "Qwen3.5-4B"
         elif model_path == "Qwen/Qwen2.5-3B-Instruct":
             test_cfg['integrate_models_name'][i] = "Qwen2.5-3B-Instruct"
         elif model_path == "/data3/zzc/projects/ZJX/models/models--Microsoft--Phi3.5-mini-Instruct":
@@ -111,7 +122,7 @@ def main():
     test_cfg['integrate_models_device'] = [1, 1]
     test_cfg['integrate_models_weights'] = [0.5, 0.5]
 
-    test_cfg['comment'] = f"测试Hunyuan-4B-Instruct + Gemma-3-4b-it(OURS)，数据集：{args.dataset_name}"
+    test_cfg['comment'] = f"测试Llama3.2-3B-Instruct +Qwen2.5-1.5B-Instruct(Unite)，数据集：{args.dataset_name}"
     test_cfg['integrate_method'] = "ICLD"
 
     # 3.执行入口

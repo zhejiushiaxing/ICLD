@@ -1,69 +1,0 @@
-初始化ModelInfer
-1
-Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<00:25,  9.92it/s]Loading weights:   7%|▋         | 17/254 [00:00<00:02, 97.07it/s]Loading weights:  13%|█▎        | 32/254 [00:00<00:01, 116.70it/s]Loading weights:  20%|█▉        | 50/254 [00:00<00:01, 133.87it/s]Loading weights:  27%|██▋       | 68/254 [00:00<00:01, 144.11it/s]Loading weights:  33%|███▎      | 85/254 [00:00<00:01, 152.37it/s]Loading weights:  41%|████      | 103/254 [00:00<00:00, 154.62it/s]Loading weights:  48%|████▊     | 121/254 [00:00<00:00, 156.23it/s]Loading weights:  55%|█████▍    | 139/254 [00:00<00:00, 156.87it/s]Loading weights:  62%|██████▏   | 157/254 [00:01<00:00, 158.68it/s]Loading weights:  69%|██████▉   | 175/254 [00:01<00:00, 158.66it/s]Loading weights:  76%|███████▌  | 193/254 [00:01<00:00, 158.84it/s]Loading weights:  83%|████████▎ | 211/254 [00:01<00:00, 160.52it/s]Loading weights:  90%|█████████ | 229/254 [00:01<00:00, 159.67it/s]Loading weights:  97%|█████████▋| 247/254 [00:01<00:00, 160.11it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 151.55it/s]
-Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 253/1951 [00:00<00:00, 2529.04it/s]Loading weights:  26%|██▌       | 506/1951 [00:00<00:00, 2178.94it/s]Loading weights:  37%|███▋      | 727/1951 [00:00<00:00, 2130.51it/s]Loading weights:  48%|████▊     | 942/1951 [00:01<00:02, 469.43it/s] Loading weights:  55%|█████▌    | 1080/1951 [00:01<00:01, 474.00it/s]Loading weights:  61%|██████    | 1186/1951 [00:01<00:01, 436.08it/s]Loading weights:  65%|██████▍   | 1268/1951 [00:02<00:01, 418.95it/s]Loading weights:  72%|███████▏  | 1405/1951 [00:02<00:01, 536.74it/s]Loading weights:  85%|████████▍ | 1651/1951 [00:02<00:00, 826.04it/s]Loading weights:  96%|█████████▌| 1875/1951 [00:02<00:00, 1075.05it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 760.95it/s] 
-开始推理，共 1 条样本...
-处理样本:   0%|          | 0/1 [00:00<?, ?it/s]处理样本: 100%|██████████| 1/1 [00:34<00:00, 34.69s/it]处理样本: 100%|██████████| 1/1 [00:34<00:00, 34.69s/it]
-#############################################################
-final_output_text: To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.
-
-Alexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).
-
-Kim raised $43 + $320 = $363.
-
-Maryam raised $300 + $400 = $700.
-
-Sarah raised $300.
-
-Now, let's add the amounts together: 
-$43 + $3,63 + $700 + $300 = $1,106.
-
-The total amount of money raised is $1,106.
-
-The total amount of money raised is $1,106.<turn|>
-#############################################################
-#############################################################
-every_model_output_text[0]: To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.
-
-Alexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).
-
-Kim raised $43 + $320 = $363.
-
-Maryam raised $300 + $400 = $700.
-
-Sarah raised $300.
-
-Now, let's add the amounts together: 
-$43 + $3,63 + $700 + $300 = $1,106.
-
-The total amount of money raised is $1,106.
-
-The total amount of money raised is $1,106.<turn|>
-#############################################################
-#############################################################
-every_model_output_text[1]: To find the total amount of money raised, we need to calculate the amount each girl raised and then add them together.
-
-Alexandra raised $43 (since she raised $4 less than $430, but the problem states she raised $4 less than Kim, not Alexandra).
-
-Kim raised $43 + $320 = $363.
-
-Maryam raised $300 + $400 = $700.
-
-Sarah raised $300.
-
-Now, let's add the amounts together: 
-$43 + $3,63 + $700 + $300 = $1,106.
-
-The total amount of money raised is $1,106.
-
-The total amount of money raised is $1,106.
-#############################################################
-#############################################################
-gold_text_raw: Kim raises 320+430=<<320+430=750>>750 dollars.
-Maryam raises 400+300=<<400+300=700>>700 dollars.
-They raise 750+430+400+700=<<750+430+400+700=2280>>2280 dollars.
-#### 2280
-pred_answer: 1106.0
-correct_answer: 2280.0
-总共1条样本，已回答1条样本，回答正确的样本数量为0.
-结果保存到： output/mult_models/ICLD/GSM8K/json/2026-04-22_00-08-39_mult_models_test_1.json

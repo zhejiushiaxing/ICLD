@@ -6,7 +6,7 @@ set -o pipefail
 echo "===== Start Multi-Dataset Experiments ====="
 
 # ================= 数据集配置 =================
-datasets=("MMLU" "GSM8K" "MATH500" "PIQA", "ARC-C")
+datasets=("MMLU" "GSM8K" "MATH500" "PIQA" "ARC-C")
 
 paths=(
 "/data3/zzc/projects/ZJX/code/ICLD/dataset/MMLU/test-00000-of-00001.parquet"

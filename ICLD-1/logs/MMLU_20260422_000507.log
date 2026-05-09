@@ -1,99 +1,0 @@
-初始化ModelInfer
-1
-Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   1%|          | 3/254 [00:00<00:10, 23.66it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:02, 104.26it/s]Loading weights:  18%|█▊        | 45/254 [00:00<00:01, 155.09it/s]Loading weights:  27%|██▋       | 68/254 [00:00<00:01, 182.64it/s]Loading weights:  37%|███▋      | 94/254 [00:00<00:00, 203.59it/s]Loading weights:  45%|████▌     | 115/254 [00:00<00:00, 189.71it/s]Loading weights:  53%|█████▎    | 135/254 [00:00<00:00, 178.72it/s]Loading weights:  61%|██████    | 154/254 [00:00<00:00, 172.63it/s]Loading weights:  68%|██████▊   | 172/254 [00:01<00:00, 169.47it/s]Loading weights:  75%|███████▍  | 190/254 [00:01<00:00, 165.19it/s]Loading weights:  81%|████████▏ | 207/254 [00:01<00:00, 151.98it/s]Loading weights:  88%|████████▊ | 223/254 [00:01<00:00, 152.41it/s]Loading weights:  94%|█████████▍| 239/254 [00:01<00:00, 148.22it/s]Loading weights: 100%|██████████| 254/254 [00:01<00:00, 161.69it/s]
-Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 251/1951 [00:00<00:00, 2482.39it/s]Loading weights:  26%|██▌       | 500/1951 [00:00<00:00, 2117.79it/s]Loading weights:  37%|███▋      | 716/1951 [00:00<00:00, 2024.20it/s]Loading weights:  47%|████▋     | 921/1951 [00:01<00:02, 431.01it/s] Loading weights:  54%|█████▍    | 1052/1951 [00:01<00:01, 455.79it/s]Loading weights:  59%|█████▉    | 1156/1951 [00:02<00:01, 419.70it/s]Loading weights:  63%|██████▎   | 1236/1951 [00:02<00:01, 414.20it/s]Loading weights:  67%|██████▋   | 1303/1951 [00:02<00:01, 413.59it/s]Loading weights:  80%|███████▉  | 1556/1951 [00:02<00:00, 715.92it/s]Loading weights:  92%|█████████▏| 1800/1951 [00:02<00:00, 1007.98it/s]Loading weights: 100%|██████████| 1951/1951 [00:02<00:00, 732.56it/s] 
-开始推理，共 1 条样本...
-处理样本:   0%|          | 0/1 [00:00<?, ?it/s]处理样本: 100%|██████████| 1/1 [02:25<00:00, 145.06s/it]处理样本: 100%|██████████| 1/1 [02:25<00:00, 145.06s/it]
-#############################################################
-final_output_text: To determine which of the given options is NOT a group, we need to check if each option satisfies the four properties of a group: closure, associativity, identity element, and inverse element.
-
-A. The integers under addition:
-- Closure: The sum of two integers is always an integer, so this property holds.
-- Associativity: The order in which we add integers does not change the result, so this property holds.
-- Identity element: The number 0 serves as the identity element for addition.
-- Inverse element: For each integer $a$, there exists an integer $-a$ such that $a + (-a) = 0$, so this property holds.
-
-B. The nonzero integers under multiplication:
-- Closure: The product of two nonzero integers is always a nonzero integer, so this property holds.
-- Associativity: The order in which we multiply nonzero integers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero integer $a$, there exists a nonzero integer $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-C. The nonzero real numbers under multiplication:
-- Closure: The product of two nonzero real numbers is always a nonzero real number, so this property holds.
-- Associativity: The order in which we multiply nonzero real numbers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero real number $a$, there exists a nonzero real number $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-D. The complex numbers under addition:
-- Closure: The sum of two complex numbers is always a complex number, so this property holds.
-- Associativity: The order in which we add complex numbers does not change the result, so this property holds.
-- Identity element: The number $0 + 0i$ serves as the identity element for addition.
-- Inverse element: For each complex number $a + bi$, there exists a complex number $-a - bi$ such that $(a + bi) + (-a - bi) = 0$, so this property holds.
-
-However, we notice that the complex numbers under addition do not have an inverse element for every element. For example, the complex number $i$ does not have an inverse element
-#############################################################
-#############################################################
-every_model_output_text[0]: To determine which of the given options is NOT a group, we need to check if each option satisfies the four properties of a group: closure, associativity, identity element, and inverse element.
-
-A. The integers under addition:
-- Closure: The sum of two integers is always an integer, so this property holds.
-- Associativity: The order in which we add integers does not change the result, so this property holds.
-- Identity element: The number 0 serves as the identity element for addition.
-- Inverse element: For each integer $a$, there exists an integer $-a$ such that $a + (-a) = 0$, so this property holds.
-
-B. The nonzero integers under multiplication:
-- Closure: The product of two nonzero integers is always a nonzero integer, so this property holds.
-- Associativity: The order in which we multiply nonzero integers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero integer $a$, there exists a nonzero integer $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-C. The nonzero real numbers under multiplication:
-- Closure: The product of two nonzero real numbers is always a nonzero real number, so this property holds.
-- Associativity: The order in which we multiply nonzero real numbers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero real number $a$, there exists a nonzero real number $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-D. The complex numbers under addition:
-- Closure: The sum of two complex numbers is always a complex number, so this property holds.
-- Associativity: The order in which we add complex numbers does not change the result, so this property holds.
-- Identity element: The number $0 + 0i$ serves as the identity element for addition.
-- Inverse element: For each complex number $a + bi$, there exists a complex number $-a - bi$ such that $(a + bi) + (-a - bi) = 0$, so this property holds.
-
-However, we notice that the complex numbers under addition do not have an inverse element for every element. For example, the complex number $i$ does not have an inverse element
-#############################################################
-#############################################################
-every_model_output_text[1]: To determine which of the given options is NOT a group, we need to check if each option satisfies the four properties of a group: closure, associativity, identity element, and inverse element.
-
-A. The integers under addition:
-- Closure: The sum of two integers is always an integer, so this property holds.
-- Associativity: The order in which we add integers does not change the result, so this property holds.
-- Identity element: The number 0 serves as the identity element for addition.
-- Inverse element: For each integer $a$, there exists an integer $-a$ such that $a + (-a) = 0$, so this property holds.
-
-B. The nonzero integers under multiplication:
-- Closure: The product of two nonzero integers is always a nonzero integer, so this property holds.
-- Associativity: The order in which we multiply nonzero integers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero integer $a$, there exists a nonzero integer $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-C. The nonzero real numbers under multiplication:
-- Closure: The product of two nonzero real numbers is always a nonzero real number, so this property holds.
-- Associativity: The order in which we multiply nonzero real numbers does not change the result, so this property holds.
-- Identity element: The number 1 serves as the identity element for multiplication.
-- Inverse element: For each nonzero real number $a$, there exists a nonzero real number $1/ a$ such that $a \cdot (1/a) = 1$, so this property holds.
-
-D. The complex numbers under addition:
-- Closure: The sum of two complex numbers is always a complex number, so this property holds.
-- Associativity: The order in which we add complex numbers does not change the result, so this property holds.
-- Identity element: The number $0 + 0i$ serves as the identity element for addition.
-- Inverse element: For each complex number $a + bi$, there exists a complex number $-a - bi$ such that $(a + bi) + (-a - bi) = 0$, so this property holds.
-
-However, we notice that the complex numbers under addition do not have an inverse element for every element. For example, the complex number $i$ does not have an inverse element
-#############################################################
-#############################################################
-pred_answer: A
-correct_answer: B
-总共1条样本，已回答1条样本，回答正确的样本数量为0.
-✅ 已保存到：all_question_token_prob_record_list.pkl
-结果保存到： output/mult_models/ICLD/MMLU/json/2026-04-22_00-07-48_mult_models_test_1.json
