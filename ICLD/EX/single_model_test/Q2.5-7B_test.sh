@@ -18,10 +18,10 @@ do
 
     python -m EX.test_mult_models \
         --dataset_name "${DATASET_NAME}" \
-        --integrate_models_path /data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it Qwen/Qwen2.5-1.5B-Instruct /data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct \
-        --device cuda:2 \
-        --integrate_models_device 2 2 2 \
-        --comment G+Q+L-Unite
+        --integrate_models_path Qwen/Qwen2.5-7B-Instruct Qwen/Qwen2.5-1.5B-Instruct \
+        --device cuda:0 \
+        --integrate_models_device 0 0 \
+        --comment qwen2.5-7B-Instruct-test
 
     echo "Finished dataset: ${DATASET_NAME}"
     echo

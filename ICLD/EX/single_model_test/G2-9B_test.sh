@@ -3,6 +3,7 @@
 set -e
 
 DATASETS=(
+  MMLU
   GSM8K
   MATH500
   PIQA
@@ -17,10 +18,10 @@ do
 
     python -m EX.test_mult_models \
         --dataset_name "${DATASET_NAME}" \
-        --integrate_models_path Qwen/Qwen2.5-1.5B-Instruct /data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct \
+        --integrate_models_path /data3/zzc/projects/ZJX/models/models--gemma-2-9b-it Qwen/Qwen2.5-1.5B-Instruct \
         --device cuda:2 \
         --integrate_models_device 2 2 \
-        --comment Q1.5B+L3B-Unite
+        --comment gemma-2-9b-it-test
 
     echo "Finished dataset: ${DATASET_NAME}"
     echo

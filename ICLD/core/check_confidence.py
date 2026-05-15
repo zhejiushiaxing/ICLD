@@ -56,9 +56,9 @@ def get_selected_token_probs_last_M(outputs, selected_token_id, model, M=5):
     return probs
 
 # 1.计算方差
-def judge_model_high_confidence_v1(probs):
+def judge_model_high_confidence_v1(probs, var_threshold):
 
-    var_threshold = 0.1
+    threshold = var_threshold
 
     probs_tensor = torch.tensor(probs, dtype=torch.float32)
 
@@ -67,7 +67,7 @@ def judge_model_high_confidence_v1(probs):
 
     # print("当前token的总体方差为：", round(var, 6), "，概率列表为：", [round(p, 6) for p in probs])
 
-    return var > var_threshold
+    return var > threshold
 
 
 # 2.施加随机扰动
@@ -166,9 +166,10 @@ def check_main_model_confidence(main_outputs, main_model, main_tokenizer, cfg):
 
     # 1.读取超参数
     alpha = cfg.get("alpha", 0.9) # 判断当前Token属于高置信度Token还是低置信度Token
-    rho = cfg.get("rho", 0.5) # 两个token_str的语义相似度的阈值
+    var_threshold = cfg.get("var_threshold", 0.1) # 方差阈值
+    rho = cfg.get("sim_threshold", 0.5) # 两个token_str的语义相似度的阈值
     M = 5 # 获取后M层的隐藏状态
-    perturb_eps = cfg.get("perturb_eps", 1)
+    # perturb_eps = cfg.get("perturb_eps", 1)
     
 
     # 2.获取模型最后一层的Logits和概率分布
@@ -192,7 +193,7 @@ def check_main_model_confidence(main_outputs, main_model, main_tokenizer, cfg):
 
         # 计算后 M 层概率值的方差
         probs = get_selected_token_probs_last_M(main_outputs, top1_id, main_model, M)
-        is_ensemble = judge_model_high_confidence_v1(probs)
+        is_ensemble = judge_model_high_confidence_v1(probs, var_threshold)
         if is_ensemble == True:
 
             return is_ensemble, 1, 1, 0, 0

@@ -1,0 +1,77 @@
+{
+    "comment": "H+Q-Unite-MMLU-var1-sim0.4",
+    "finish_date": "2026-05-14_11-47-51",
+    "integrate_models_name": [
+        "Gemma2-2B-it",
+        "Qwen2.5-1.5B-Instruct"
+    ],
+    "integrate_method": "ICLD",
+    "dataset_name": "MMLU",
+    "integrate_models_path": [
+        "/data3/zzc/projects/ZJX/models/models--Google-Gemma2-2B-it",
+        "Qwen/Qwen2.5-1.5B-Instruct"
+    ],
+    "avg_cal_time": 21.78,
+    "avg_correct_num": 0.0,
+    "avg_generated_tokens_num_list": [
+        343.0,
+        59.0
+    ],
+    "avg_ensemble_num": 59.0,
+    "high_confidence_ensemble_ratio": 0.0,
+    "low_confidence_ensemble_ratio": 0.47967,
+    "all_ensemble_ratio": 0.17201,
+    "bunk_list": [
+        0,
+        0,
+        3,
+        7,
+        9,
+        5,
+        12,
+        14,
+        14,
+        220
+    ],
+    "all_cal_time": 21.77655267715454,
+    "all_correct_num": 0,
+    "all_generated_tokens_num_list": [
+        343,
+        59
+    ],
+    "all_ensemble_num": 59,
+    "all_high_confidence_token_num": 220,
+    "all_high_confidence_ensemble_num": 0,
+    "all_low_confidence_token_num": 123,
+    "all_low_confidence_ensemble_num": 59,
+    "models_pred_answer_list": [
+        "D"
+    ],
+    "question_correct_answer_list": [
+        "B"
+    ],
+    "avg_high_confidence_token_num": 220.0,
+    "avg_high_confidence_ensemble_num": 0.0,
+    "avg_low_confidence_token_num": 123.0,
+    "avg_low_confidence_ensemble_num": 59.0,
+    "all_question_response_list": [
+        {
+            "pred_answer": "D",
+            "correct_answer": "B",
+            "ensemble_num": 59,
+            "high_confidence_token_num": 220,
+            "high_confidence_ensemble_num": 0,
+            "low_confidence_token_num": 123,
+            "low_confidence_ensemble_num": 59,
+            "final_output_text": "Here's the step-by-step reasoning:\n\n1. **Understanding Groups:** A group is a set with a binary operation that satisfies four properties:\n    * **Closure:**  For any two elements in the set, the result of the operation is also in the set.\n    * **Associativity:** The operation is associative, meaning (a * b) * c = a * (b * c) for all elements a, b, and c in the set.\n    * **Identity Element:** There exists an element 'e' in the set such that for any element 'a', a * e = e * a = a.\n    * **Inverse Element:** For every element 'a' in the set, there exists an element 'b' such that a * b = b * a = e.\n\n2. **Analyzing Each Option:**\n    * **A. The integers under addition:** This forms a group because it satisfies all the group properties.  \n    * **B. The nonzero integers under multiplication:** This also forms a group because it satisfies all the group properties.\n    * **C. The nonzero real numbers under multiplication:** This forms a group because it satisfies all the group properties.\n    * **D. The complex numbers under addition:** This does not form a group because it does not satisfy the closure property.  For example, the sum of two complex numbers can be a complex number with a real part and an imaginary part, which may not be a complex number.\n\n3. **Conclusion:**   The only option that does not form a group is D. \n\nThe answer is **D**. \n",
+            "every_model_output_text": [
+                "Here's the step-by-step reasoning:\n\n1. **Understanding Groups:** A group is a set with a binary operation that satisfies four properties:\n    * **Closure:**  For any two elements in the set, the result of the operation is also in the set.\n    * **Associativity:** The operation is associative, meaning (a * b) * c = a * (b * c) for all elements a, b, and c in the set.\n    * **Identity Element:** There exists an element 'e' in the set such that for any element 'a', a * e = e * a = a.\n    * **Inverse Element:** For every element 'a' in the set, there exists an element 'b' such that a * b = b * a = e.\n\n2. **Analyzing Each Option:**\n    * **A. The integers under addition:** This forms a group because it satisfies all the group properties.  \n    * **B. The nonzero integers under multiplication:** This also forms a group because it satisfies all the group properties.\n    * **C. The nonzero real numbers under multiplication:** This forms a group because it satisfies all the group properties.\n    * **D. The complex numbers under addition:** This does not form a group because it does not satisfy the closure property.  For example, the sum of two complex numbers can be a complex number with a real part and an imaginary part, which may not be a complex number.\n\n3. **Conclusion:**   The only option that does not form a group is D. \n\nThe answer is **D**. \n",
+                "Here's the step-by-step reasoning:\n\n1. **Understanding Groups:** A group is a set with a binary operation that satisfies four properties:\n    * **Closure:**  For any two elements in the set, the result of the operation is also in the set.\n    * **Associativity:** The operation is associative, meaning (a * b) * c = a * (b * c) for all elements a, b, and c in the set.\n    * **Identity Element:** There exists an element 'e' in the set such that for any element 'a', a * e = e * a = a.\n    * **Inverse Element:** For every element 'a' in the set, there exists an element 'b' such that a * b = b * a = e.\n\n2. **Analyzing Each Option:**\n    * **A. The integers under addition:** This forms a group because it satisfies all the group properties.  \n    * **B. The nonzero integers under multiplication:** This also forms a group because it satisfies all the group properties.\n    * **C. The nonzero real numbers under multiplication:** This forms a group because it satisfies all the group properties.\n    * **D. The complex numbers under addition:** This does not form a group because it does not satisfy the closure property.  For example, the sum of two complex numbers can be a complex number with a real part and an imaginary part, which may not be a complex number.\n\n3. **Conclusion:**   The only option that does not form a group is D. \n\nThe answer is **D**. \n"
+            ],
+            "every_model_generate_token_num_list": [
+                343,
+                59
+            ]
+        }
+    ]
+}

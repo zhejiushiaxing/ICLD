@@ -505,15 +505,15 @@ class ModelHandle:
                 # 2) 先基于主模型判断是否需要集成
                 # =========================
 
-                # is_ensemble, x, y, p, q = check_main_model_confidence(
-                #     main_outputs, main_model, main_tokenizer, cfg
-                # )
-                # high_confidence_token_num += x
-                # high_confidence_ensemble_num += y
-                # low_confidence_token_num += p
-                # low_confidence_ensemble_num += q
+                is_ensemble, x, y, p, q = check_main_model_confidence(
+                    main_outputs, main_model, main_tokenizer, cfg
+                )
+                high_confidence_token_num += x
+                high_confidence_ensemble_num += y
+                low_confidence_token_num += p
+                low_confidence_ensemble_num += q
 
-                is_ensemble = True
+                # is_ensemble = True
 
                 # =========================
                 # 3) 如果需要集成，再运行辅助模型
@@ -572,7 +572,6 @@ class ModelHandle:
 
                     best_token_ids = [None] * models_num
                     best_token_ids[0] = main_token_id
-
                 # =========================
                 # 4.5) 生成 token 数统计
                 # =========================
