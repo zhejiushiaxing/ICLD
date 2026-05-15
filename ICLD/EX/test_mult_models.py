@@ -236,12 +236,11 @@ if __name__ == "__main__":
 
     """
     python -m EX.test_mult_models \
-    --dataset_name MMLU \
-    --integrate_models_path Qwen/Qwen2.5-1.5B-Instruct /data3/zzc/projects/ZJX/models/models--Meta--Llama3.2-3B-Instruct \
+    --dataset_name PIQA \
+    --integrate_models_path /data3/zzc/projects/ZJX/models/models--Qwen--Qwen2.5-7B-Instruct /data3/zzc/projects/ZJX/models/models--Meta--Llama3.1-8B-Instruct \
     --device cuda:2 \
     --integrate_models_device 2 2 \
-    --comment Q1.5B+L3B-Unite \
-    --var_threshold 0.8 \
-    --sim_threshold 0.5
-    --max_questions 1
+    --comment Q7B+L8B-Unite_0.001_0.6 \
+    --var_threshold 0.001 \
+    --sim_threshold 0.6
     """

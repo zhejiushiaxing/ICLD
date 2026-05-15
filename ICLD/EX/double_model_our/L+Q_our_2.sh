@@ -7,6 +7,8 @@ set -o pipefail
 DATASETS=(
   MMLU
   GSM8K
+  PIQA
+  ARC-C
 )
 
 # ================= 参数搜索空间 =================
@@ -24,8 +26,8 @@ SIM_THRESHOLDS=(
 )
 
 # ================= 模型配置 =================
-MODEL_1="/data3/zzc/projects/ZJX/models/models--Qwen--Qwen2.5-7B-Instruct"
-MODEL_2="/data3/zzc/projects/ZJX/models/models--Meta--Llama3.1-8B-Instruct"
+MODEL_1="/data3/zzc/projects/ZJX/models/models--Meta--Llama3.1-8B-Instruct"
+MODEL_2="/data3/zzc/projects/ZJX/models/models--Qwen--Qwen2.5-7B-Instruct"
 
 DEVICE="cuda:2"
 INTEGRATE_DEVICES="2 2"
